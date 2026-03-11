@@ -1,0 +1,53 @@
+
+
+.about-us-section {
+  background-color: #fff;  /* Plain white background */
+}
+
+.team-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.team-image-wrapper .blur-bg {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  z-index: 0;
+}
+
+.team-image-wrapper img {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  top: 30px;
+  left: 0;
+  height: auto;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.team-image-wrapper img:hover {
+  transform: scale(1.02);
+}
+
+.about-us-section h1 {
+  font-weight: 700;
+  color: #141413;   /* Brand yellow */
+}
+
+.about-us-section p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+}
+.animated-image-section-wrapper {
+ 
+  display: flex;
+  justify-content: center;
+}

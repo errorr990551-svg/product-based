@@ -1,0 +1,65 @@
+/* =======================
+   ProductCardd.css
+======================= */
+
+/* Default (Desktop / Large screens) */
+.product-cardd img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.product-cardd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.iconn-box {
+  margin: 15px;
+}
+
+/* Force all 8 in a row on desktops */
+.emoticon-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;  /* stay in one line */
+  gap: 40px;          /* spacing between icons */
+}
+
+/* =======================
+   Responsive adjustments
+======================= */
+
+/* Large tablets */
+@media (max-width: 1200px) {
+  .product-cardd img {
+    width: 120px;
+    height: 120px;
+  }
+  .emoticon-row {
+    flex-wrap: wrap;  /* allow wrap if space tight */
+    gap: 30px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .product-cardd img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 576px) {
+  .product-cardd img {
+    width: 80px;
+    height: 80px;
+  }
+  .iconn-box {
+    margin: 10px;
+  }
+}

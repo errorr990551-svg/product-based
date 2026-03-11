@@ -1,0 +1,208 @@
+/* ---------------------- */
+/* Page wrapper */
+/* ---------------------- */
+.lean-page {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ---------------------- */
+/* Hero Banner */
+/* ---------------------- */
+.hero-wrapper {
+  width: 100%;
+  margin: 20px 0 0;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* ---------------------- */
+/* Generic Sections */
+/* ---------------------- */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ---------------------- */
+/* Lean Journey Image/GIF */
+/* ---------------------- */
+.journey {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.hero-wrapperr {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.lean-journey {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+.lead {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ---------------------- */
+/* Videos */
+/* ---------------------- */
+.video-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.video-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-info {
+  padding: 12px;
+  text-align: center;
+}
+
+.video-info h5 {
+  font-size: 1rem;
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+/* ---------------------- */
+/* Emoticon Section */
+/* ---------------------- */
+.emoticon-col {
+  display: flex;
+  justify-content: center;
+}
+
+.emoticon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.emoticon-card {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emoticon-img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.emoticon-title {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 8px;
+  line-height: 1.2;
+  min-height: 2.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------------------- */
+/* Responsive Media Queries */
+/* ---------------------- */
+@media (max-width: 992px) {
+  .section {
+    padding: 40px 15px;
+  }
+
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .section-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 30px 15px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .emoticon-card {
+    width: 80px;
+    height: 80px;
+  }
+
+  .emoticon-title {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 20px 10px;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .section-text {
+    font-size: 0.9rem;
+  }
+
+  .emoticon-card {
+    width: 70px;
+    height: 70px;
+  }
+
+  .emoticon-title {
+    font-size: 11px;
+  }
+}

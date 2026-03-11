@@ -1,0 +1,801 @@
+/* =========================================
+   1. GLOBAL NAVBAR STYLES
+   ========================================= */
+
+
+.top-bar-link {
+  color: inherit;          /* Keeps original text color */
+  text-decoration: none;   /* Removes underline */
+}
+
+.top-bar-link:hover {
+  color: inherit;          /* Prevents hover blue color */
+  text-decoration: none;
+}
+
+.top-bar-link:visited {
+  color: inherit;          /* Prevents purple visited color */
+}
+
+.top-bar {
+  background: #1a1a1a;
+  color: white;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.custom-navbar {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  
+  /* FIX: Ensure no global borders causing the "permanent line" */
+  border: none !important;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* Logo */
+.nav-logo img {
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Menu Items (Desktop) */
+.nav-menu {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 0 20px;
+  
+  /* FIX: Ensure the menu itself doesn't have borders */
+  border: none !important;
+}
+
+/* FIX: nav-item should only be as wide as its content */
+.nav-item {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  padding: 10px 0;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  display: inline-flex; /* Prevents stretching to 100% width */
+  align-items: center;
+  width: auto; 
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block; /* Ensures underline matches text width */
+}
+
+/* --- FIXED YELLOW UNDERLINE HOVER EFFECT --- */
+/* We apply the line strictly to:
+   1. Nav items that are simple links (not dropdowns)
+   2. The .nav-link text SPAN inside dropdowns
+   This prevents double lines and full-width lines.
+*/
+.nav-menu > .nav-item:not(.dropdown)::after,
+.nav-menu > .dropdown > .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background: #ffcc00;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: right;
+}
+
+/* Active/Hover States */
+.nav-menu > .nav-item:not(.dropdown):hover::after,
+.nav-menu > .nav-item:not(.dropdown).active::after,
+.nav-menu > .dropdown:hover > .nav-link::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Force remove any border-bottom on nav-link to avoid conflicts */
+.nav-link {
+  border-bottom: none !important;
+}
+
+/* Prevent underline on items INSIDE the dropdown menu */
+.dropdown-menu .nav-item::after,
+.dropdown-menu a::after,
+.dropdown-menu .nav-link::after {
+  display: none !important;
+}
+
+/* =========================================
+   2. DESKTOP DROPDOWN STYLES
+   ========================================= */
+.dropdown {
+  position: relative;
+}
+
+/* Hide mobile arrow on desktop */
+.mobile-arrow {
+  display: none;
+}
+
+/* Desktop-only hover for all dropdowns */
+@media (min-width: 769px) {
+  .mobile-arrow {
+    display: none !important;
+  }
+  
+  .dropdown:hover > .dropdown-menu:not(.mobile-open) {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  .dropdown:hover > .dropdown-menu.regular:not(.mobile-open) {
+    display: flex !important;
+  }
+  
+  .dropdown-menu.mobile-open {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  .dropdown-menu.regular.mobile-open {
+    display: flex !important;
+  }
+}
+
+/* Main Mega Menu Dropdown */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-35%);
+  margin-top: 10px;
+  
+  width: 90vw;
+  max-width: 1100px;
+  max-height: 80vh;
+  
+  display: none;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  background: white;
+  overflow: hidden; 
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown.force-close-dropdown .dropdown-menu {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Small "Regular" Dropdowns (e.g. About Us) */
+.dropdown-menu.regular {
+  left: 0;
+  transform: none;
+  min-width: 200px;
+  width: auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  overflow-y: auto; 
+}
+
+.dropdown-menu.regular a {
+  padding: 12px 20px;
+  display: block;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.dropdown-menu.regular a:hover {
+  background: #ffcc00;
+  color: black;
+}
+
+/* --- PRODUCT GRID (DESKTOP) --- */
+.products-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 30px;
+  width: 100%;
+  height: 550px;
+}
+
+/* Categories Sidebar */
+.product-categories {
+  border-right: 3px solid #ffcc00;
+  padding-right: 15px;
+  margin-right: 5px;
+  overflow-y: auto; 
+  height: 100%;
+  padding-bottom: 20px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.product-categories::-webkit-scrollbar {
+  display: none; 
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Category Wrapping Fix */
+.category-item {
+  cursor: pointer;
+  padding: 14px 15px 14px 20px; 
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  position: relative;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: block;            
+  width: 100%;               
+  box-sizing: border-box;    
+  white-space: normal;       
+  word-wrap: break-word;     
+  line-height: 1.5;          
+}
+
+.category-item:hover {
+  background: #f5f5f5;
+  color: #000;
+}
+
+.category-item.active {
+  background: #fff9e6;
+  color: #000;
+  font-weight: 600;
+}
+
+.category-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 0;
+  background: #ffcc00;
+  transition: height 0.3s ease;
+}
+
+.category-item.active::before {
+  height: 70%;
+}
+
+/* --- PRODUCT ITEMS (RIGHT SIDE) --- */
+.product-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+  height: 100%;
+  overflow-y: auto; 
+  padding-right: 10px;
+  align-content: start; 
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.product-items::-webkit-scrollbar {
+  display: none;
+}
+
+/* --- PRODUCT CARD WRAPPING FIX --- */
+.product-card {
+  display: flex;
+  align-items: flex-start; /* Ensures icon stays at top */
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #333;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  position: relative;
+  height: auto; /* Grows with text */
+  min-height: 60px;
+}
+
+.product-card::after {
+  display: none !important;
+}
+
+.product-card:hover {
+  background-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #ffcc00;
+}
+
+.product-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid #e0e0e0;
+  flex-shrink: 0; /* Prevents icon squashing */
+  margin-top: 2px; 
+}
+
+.product-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Wrapper for text to ensure it shrinks/wraps */
+.product-info {
+  flex: 1;
+  min-width: 0; /* CRITICAL: Allows flex child to shrink below content size */
+  width: 100%;
+}
+
+/* Force wrapping for long product names like Vortex */
+.product-info h5.product-name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.4;
+  white-space: normal !important;      /* Forces wrap */
+  word-wrap: break-word !important;    /* Breaks long words */
+  overflow-wrap: anywhere !important;  /* Modern break */
+  display: block;
+}
+
+/* =========================================
+   3. BUTTONS & UTILITIES
+   ========================================= */
+.contact-btn {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  font-weight: 600;
+  padding: 0 25px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.contact-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease;
+  z-index: 1;
+}
+
+.contact-btn:hover::before {
+  transform: translateX(0);
+}
+
+.contact-btn span {
+  position: relative;
+  z-index: 2;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-btn:hover span {
+  color: white;
+}
+
+.contact-btn img.icon-btn {
+  height: 14px;
+  width: auto;
+  filter: brightness(0);
+  transition: filter 0.3s ease;
+}
+
+.contact-btn:hover img.icon-btn {
+  filter: brightness(0) invert(1);
+}
+
+.mobile-contact-link {
+  display: none;
+}
+
+.desktop-contact-link {
+  display: block;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: black;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translateY(8px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+/* =========================================
+   4. MOBILE & RESPONSIVE STYLES
+   ========================================= */
+
+/* --- TABLET (768px - 992px) --- */
+@media (max-width: 992px) and (min-width: 769px) {
+  .nav-menu {
+    gap: 20px;
+  }
+  
+  .nav-item {
+    font-size: 14px;
+  }
+  
+  .products-grid {
+    grid-template-columns: 250px 1fr;
+  }
+  
+  .product-items {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* --- MOBILE (< 768px) --- */
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 8px 15px;
+    font-size: 12px;
+    gap: 15px;
+  }
+
+  .custom-navbar {
+    height: 60px;
+    /* Ensure no borders on mobile either unless specified */
+    border: none !important;
+  }
+
+  .nav-container {
+    padding: 0 15px;
+  }
+
+  .nav-logo img {
+    height: 40px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .desktop-contact-link {
+    display: none;
+  }
+
+  .mobile-contact-link {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .mobile-contact {
+    width: 100%;
+    height: 50px;
+  }
+
+  /* Mobile Menu Drawer */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 85%;
+    max-width: 350px;
+    background: white;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 80px 0 20px 0;
+    gap: 0;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    overflow-y: auto;
+    z-index: 9999;
+    border: none !important;
+  }
+
+  .nav-menu.open {
+    right: 0;
+  }
+
+  .nav-menu > .nav-item,
+  .nav-menu > .dropdown {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-menu > .nav-item,
+  .nav-menu .nav-link {
+    padding: 15px 20px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .nav-menu .dropdown > .nav-link {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .nav-menu > .nav-item::after,
+  .nav-menu > .dropdown > .nav-link::after {
+    display: none;
+  }
+
+  .mobile-arrow {
+    display: inline;
+    float: right;
+    font-size: 12px;
+  }
+
+  /* Mobile Dropdowns */
+  .dropdown-menu {
+    position: static !important;
+    transform: none !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: #f8f8f8 !important;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    overflow-y: visible;
+  }
+
+  .dropdown-menu.mobile-open {
+    display: block !important;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: none;
+  }
+
+  .dropdown-menu.mobile-open.mobile-open {
+    display: block !important;
+  }
+
+  .dropdown-menu.regular {
+    padding: 0 !important;
+    background: #f8f8f8 !important;
+  }
+
+  .dropdown-menu.regular a {
+    padding: 15px 20px 15px 40px !important;
+    border-bottom: 1px solid #e0e0e0;
+    display: block !important;
+    width: 100% !important;
+    text-decoration: none !important;
+    color: #333 !important;
+    cursor: pointer !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+    touch-action: manipulation;
+  }
+  
+  .dropdown-menu.regular a:active {
+    background: #e0e0e0 !important;
+  }
+
+  .products-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    height: auto !important;
+  }
+
+  .product-categories {
+    border-right: none !important;
+    border-bottom: 2px solid #ffcc00;
+    padding: 15px 10px !important;
+    height: auto !important;
+    display: flex !important;
+    overflow-x: auto !important;
+    gap: 10px !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  
+  .product-categories::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-list {
+    display: flex !important;
+    gap: 10px !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .category-item {
+    flex: 0 0 auto;
+    white-space: nowrap; 
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 8px 16px !important;
+    margin: 0 !important;
+    font-size: 13px !important;
+    transition: all 0.2s ease;
+    line-height: normal;
+    display: block; 
+    width: auto;
+  }
+
+  .category-item:hover {
+    background: white;
+  }
+
+  .category-item.active {
+    background: #ffcc00 !important;
+    border-color: #ffcc00 !important;
+    color: black;
+    font-weight: 700;
+  }
+
+  .category-item::before {
+    display: none;
+  }
+
+  .product-items {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    padding: 0 !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+  .product-items::-webkit-scrollbar {
+    display: none;
+  }
+
+  .product-card {
+    padding: 15px 20px !important;
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    background: white !important;
+    margin: 0 !important;
+    height: auto !important;
+    align-items: center; 
+  }
+
+  .product-card:hover {
+    transform: none;
+    background: #f5f5f5 !important;
+  }
+
+  .product-icon {
+    width: 35px;
+    height: 35px;
+    margin-top: 0;
+  }
+
+  .product-icon img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .product-info h5 {
+    font-size: 13px !important;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    padding: 8px 10px;
+  }
+
+  .nav-logo img {
+    height: 35px;
+  }
+
+  .nav-menu {
+    width: 90%;
+  }
+
+  .category-item {
+    font-size: 12px !important;
+    padding: 6px 12px !important;
+  }
+}
+
+body {
+  min-width: 320px;
+}

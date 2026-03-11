@@ -1,0 +1,30 @@
+/* ProductDetailCustom.css */
+
+/* Right-side copy section spacing */
+.product-detail-right {
+  margin-top: 2.3rem !important;
+}
+
+@media (max-width: 991px) {
+  .product-detail-right {
+    margin-top: 1.2rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-detail-right {
+    margin-top: 1rem !important;
+  }
+}
+
+/* Remove border and shadow from the main image wrapper */
+div.main-image-wrapper {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Also ensure child images have no border */
+div.main-image-wrapper img {
+  border: none !important;
+  box-shadow: none !important;
+}

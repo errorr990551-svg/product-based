@@ -1,0 +1,317 @@
+/* ---------------- Root Colors ---------------- */
+:root {
+  --brand-yellow: #ffd200;
+  --dark-900: #1f1f1f;
+  --gray-200: #e9ecef;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+}
+
+/* ---------------- Services Page Cards ---------------- */
+.services-page .stat-card {
+  border: 4px solid var(--brand-yellow);
+  min-height: 420px;
+}
+
+.services-page .stat-card h2 {
+  line-height: 1.1;
+}
+
+.services-page .stat-year {
+  color: var(--brand-yellow);
+}
+
+.open-positions-card {
+  background: var(--brand-yellow);
+  min-height: 420px;
+  background-image: url("data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Crect fill='none'/%3E%3C/svg%3E");
+}
+
+/* ---------------- Feature List Icon ---------------- */
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  border: 4px solid var(--brand-yellow);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: #000;
+  flex: 0 0 auto;
+}
+
+/* ---------------- Custom Progress Bar ---------------- */
+.custom-progress {
+  height: 6px;
+  background: #eee;
+  position: relative;
+}
+
+.custom-progress-bar {
+  height: 100%;
+  background: var(--brand-yellow);
+}
+
+/* ---------------- Footer ---------------- */
+.footer-mega {
+  background: var(--dark-900);
+  position: relative;
+}
+
+/* Footer logo wrapper */
+.footer-mega .logo {
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+/* Make logo image responsive */
+.footer-mega .logo img {
+  width: 100px;
+  max-width: 100%;
+  height: 100px;
+  display: block;
+}
+
+/* Footer column title underline */
+.footer-col-title {
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+
+.footer-col-underline {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 36px;
+  height: 2px;
+  background: var(--brand-yellow);
+}
+
+/* Links */
+.text-light-50 {
+  color: rgba(255, 255, 255, 0.7);
+}
+.text-light-50:hover {
+  color: #fff;
+}
+
+/* Footer bottom area */
+.footer-bottom {
+  background: #161616;
+}
+
+/* Scroll to top button */
+.scroll-top {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: 56px;
+  height: 56px;
+  background: #fff;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.scroll-top i {
+  font-size: 1.25rem;
+}
+
+/* ---------------- Enquiry Button ---------------- */
+.btn-enquiry {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  color: #eee;
+}
+
+.btn-enquiry::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transform: translateX(-100%);
+  z-index: 1;
+}
+
+.btn-enquiry:hover::before {
+  animation: slideInLeft 0.4s ease forwards;
+}
+
+.btn-enquiry:not(:hover)::before {
+  animation: slideOutRight 0.4s ease forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.btn-enquiry span {
+  position: relative;
+  z-index: 2;
+  transition: color 0.4s ease;
+}
+
+.btn-enquiry:hover span {
+  color: black;
+}
+
+/* ---------------- Responsive Adjustments ---------------- */
+
+/* Tablets and below */
+@media (max-width: 992px) {
+  /* Logo responsiveness */
+  .footer-mega .logo img {
+    width: 150px;
+  }
+
+  .footer-mega p {
+    text-align: center;
+  }
+
+  .btn-enquiry {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footer-col {
+    text-align: center;
+  }
+
+  .footer-col-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footer-bottom .d-flex {
+    justify-content: center !important;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  /* Logo responsiveness */
+  .footer-mega .logo img {
+    width: 120px;
+  }
+
+  .footer-mega p {
+    font-size: 0.9rem;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .footer-col-title {
+    font-size: 1rem;
+  }
+
+  .footer-bottom {
+    font-size: 0.85rem;
+  }
+
+  .scroll-top {
+    width: 44px;
+    height: 44px;
+    right: 0.75rem;
+    bottom: 0.75rem;
+  }
+}
+
+/* ---------------- Responsive adjustments for ServicesPage ---------------- */
+
+/* Tablets and below */
+@media (max-width: 992px) {
+  .services-page .stat-card,
+  .services-page .open-positions-card {
+    min-height: auto;
+    padding: 3rem 2rem;
+  }
+
+  .services-page .display-4 {
+    font-size: 2.2rem;
+  }
+
+  .services-page .lead {
+    font-size: 1rem;
+  }
+
+  .services-page h1.display-4 {
+    font-size: 2rem;
+  }
+
+  .services-page h2.h3 {
+    font-size: 1.5rem;
+  }
+
+  /* Features grid */
+  .services-page .gy-4 > .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .services-page .stat-card,
+  .services-page .open-positions-card {
+    padding: 2rem 1rem;
+  }
+
+  .services-page h1.display-4 {
+    font-size: 1.6rem;
+  }
+
+  .services-page .lead {
+    font-size: 0.95rem;
+  }
+
+  .services-page h2.h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Table responsiveness */
+  .services-page .table-responsive {
+    overflow-x: auto;
+  }
+
+  /* Progress bars */
+  .services-page .custom-progress {
+    height: 5px;
+  }
+
+  /* Feature item spacing */
+  .services-page .feature-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}

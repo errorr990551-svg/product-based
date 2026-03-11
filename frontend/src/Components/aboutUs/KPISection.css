@@ -1,0 +1,76 @@
+.kpi-section {
+  background-color: #f9f9f9; /* Light grey background */
+}
+
+.kpi-line {
+  width: 3px;
+  height: 20px;
+  background-color: #f7c600;
+  display: inline-block;
+}
+
+.kpi-item {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #f9f9f9;
+  border: 1px dashed #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure ::before stays within */
+}
+
+.circle-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  border-top-color: #f7c600;
+  animation: spin-border 25s linear infinite;
+  box-sizing: border-box;
+  z-index: 0; /* Behind the text */
+}
+
+.circle-number,
+.circle-text {
+  position: relative; /* On top of rotating border */
+  z-index: 1;
+}
+
+.circle-number {
+  font-size: 2.5rem;
+  color: #f7c600;
+  font-weight: bold;
+}
+
+.circle-text {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+@keyframes spin-border {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

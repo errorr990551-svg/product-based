@@ -1,0 +1,70 @@
+.clients-section {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* Title */
+.section-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #111;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.section-title span {
+  display: inline-block;
+  width: 3px;
+  height: 20px;
+  background-color: #f5c518;
+  margin-right: 10px;
+}
+
+/* Slider */
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  width: max-content;   /* Important for infinite scroll */
+  animation: scrollLogos 40s linear infinite;
+}
+
+/* Each logo */
+.client-logo {
+  flex: 0 0 220px;      /* Fixed width so animation math works */
+  width: 220px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-logo img {
+  height: 150px;        /* Control logo height */
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  filter: grayscale(30%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.client-logo img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+/* Infinite scrolling animation */
+@keyframes scrollLogos {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
