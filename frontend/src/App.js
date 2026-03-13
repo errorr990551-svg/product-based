@@ -142,7 +142,7 @@ function App() {
           <Route path="/about-us/certification" element={<Certification/>} />
           <Route path="/product" element={<Product />} />
           <Route path="/services" element={<ServicesPage />} />
-          <Route path="/resources" element={<LeanResourcesPage />} />
+          <Route path="/lean-manufacturing" element={<LeanResourcesPage />} />
           <Route path="/:city" element={<SeoPage />} />
           <Route path="/iotsense" element={<IOTsensePage />} />
           <Route path="/accessories" element={<Accessories />} />

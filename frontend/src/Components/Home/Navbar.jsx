@@ -230,7 +230,7 @@ function CustomNavbar() {
               </span>
               {resourcesDropdownOpen && (
                 <div className="dropdown-menu regular mobile-open">
-                  <NavLink to="/resources" onClick={closeMenu}>
+                  <NavLink to="/lean-manufacturing" onClick={closeMenu}>
                     Lean Journey
                   </NavLink>
                   <NavLink to="/casestudies" onClick={closeMenu}>

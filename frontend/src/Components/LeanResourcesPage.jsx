@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Accordion } from "react-bootstrap";
 import "./lean-resources.css";
 import ProductCard from "./ProductCard";
 
-import img1 from "../images/Lean resource 2 Png.png"; // Hero banner
+import img1 from "../images/pankaj-malik-lean-transformation-iotaflow.png"; // Hero banner
 import img2 from "../images/gifgif.gif";
-import img3 from "../images/Lean_resource_1.jpg";
+import img3 from "../images/iotaflow-lean-management-team.jpg";
 
 // Emoticon icons
 import oilIcon from "../images/Emoticon 1.png";
@@ -19,11 +20,61 @@ import waste7 from "../images/Emoticon 7.png";
 import waste8 from "../images/Emoticon 8.png";
 
 function LeanResourcesPage() {
+  const [activeKey, setActiveKey] = useState("-1");
+
+  const leanFaqs = [
+    {
+      q: "What is Lean manufacturing?",
+      a: <p>Lean manufacturing is a production methodology focused on eliminating waste, improving efficiency, and continuously improving processes.</p>,
+    },
+    {
+      q: "What are the 8 wastes in Lean manufacturing?",
+      a: <p>The eight wastes include defects, waiting, extra motion, extra inventory, extra processing, extra transportation, non-utilized talent, and overproduction.</p>,
+    },
+    {
+      q: "What is 2 Second Lean?",
+      a: <p>2 Second Lean is a continuous improvement philosophy where small daily improvements are made to eliminate waste and improve processes.</p>,
+    },
+    {
+      q: "How does Lean manufacturing improve efficiency?",
+      a: <p>Lean improves efficiency by reducing unnecessary steps, improving workflow, and empowering employees to identify and solve problems.</p>,
+    },
+  ];
+
   return (
     <>
+      {/* SEO Meta Tags */}
+      <Helmet>
+        <title>Lean Manufacturing Culture at IOTAFLOW | 2 Second Lean Implementation</title>
+        <meta 
+          name="description" 
+          content="Discover how IOTAFLOW implements Lean manufacturing using 2 Second Lean, Kanban, One-Piece Flow, and continuous improvement to improve efficiency, product quality, and employee well-being." 
+        />
+        <meta 
+          name="keywords" 
+          content="lean manufacturing, lean manufacturing culture, 2 second lean, lean manufacturing implementation, continuous improvement manufacturing" 
+        />
+        <link rel="canonical" href="https://iotaflow.com/lean-manufacturing" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Lean Manufacturing Culture at IOTAFLOW",
+            "author": {
+              "@type": "Organization",
+              "name": "IOTAFLOW"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "IOTAFLOW"
+            }
+          })}
+        </script>
+      </Helmet>
+
       {/* 🔹 Hero Banner */}
       <section className="hero-wrapper">
-        <img src={img1} alt="Lean Banner" className="hero-image" />
+        <img src={img1} alt="Iotaflow Systems team practicing Lean management and continuous improvement culture." className="hero-image" />
       </section>
 
       <div className="lean-page">
@@ -71,14 +122,14 @@ function LeanResourcesPage() {
 
         {/* Empty section background */}
         <section>
-          <img src={img3} alt="Lean Journey" className="journey" />
+          <img src={img3} alt="Iotaflow Systems team implementing Lean management and continuous improvement culture." className="journey" />
         </section>
 
         {/* Emoticon Section */}
         <Container className="py-5">
-          <h3 className="fw-bold mb-4 text-center">
+          <h2 className="fw-bold mb-4 text-center">
             <span style={{ paddingLeft: "10px" }}>8 Wastes In Lean </span>
-          </h3>
+          </h2>
 
           <Row className="g-3 justify-content-center row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-8">
             {[
@@ -159,6 +210,38 @@ function LeanResourcesPage() {
           </Row>
         </Container>
       </div>
+
+      {/* 🔹 FAQ Section */}
+      <section className="faq-section" id="lean-faq">
+        <Container>
+          <h3 className="section-heading">
+            <span className="heading-bar" /> FAQ'S
+          </h3>
+
+          <Accordion
+            activeKey={activeKey}
+            onSelect={(k) => setActiveKey(k ?? "")}
+            className="faq-accordion"
+          >
+            {leanFaqs.map((f, idx) => {
+              const key = String(idx);
+              const isOpen = activeKey === key;
+              return (
+                <Accordion.Item
+                  eventKey={key}
+                  key={f.q}
+                  className={`faq-item ${isOpen ? "is-open" : ""}`}
+                >
+                  <Accordion.Header>
+                    <span className="sign">{isOpen ? "–" : "+"}</span> {f.q}
+                  </Accordion.Header>
+                  <Accordion.Body>{f.a}</Accordion.Body>
+                </Accordion.Item>
+              );
+            })}
+          </Accordion>
+        </Container>
+      </section>
     </>
   );
 }
