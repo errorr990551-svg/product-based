@@ -30,19 +30,35 @@ const Contact = () => {
     setError("");
 
     try {
-      await api.post("/contact", formData);
-
-      setSuccess("Your message has been sent successfully!");
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        company: "",
-        message: "",
-      });
+      const response = await api.post("/contact", formData);
+      
+      if (response.data.success) {
+        setSuccess(response.data.message || "Your message has been sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          company: "",
+          message: "",
+        });
+      } else {
+        setError(response.data.message || "Failed to send message. Please try again.");
+      }
     } catch (err) {
-      console.error(err);
-      setError("Failed to send message. Please try again.");
+      console.error("Submission error:", err);
+      
+      // Handle specific error types
+      if (err.code === "ECONNABORTED") {
+        setError("Request timed out. Please check your connection and try again.");
+      } else if (err.response?.data?.message) {
+        setError(err.response.data.message);
+      } else if (err.message?.includes("timeout")) {
+        setError("Request timed out. Please check your connection and try again.");
+      } else if (!err.response) {
+        setError("Network error. Please check your internet connection.");
+      } else {
+        setError("Failed to send message. Please try again.");
+      }
     } finally {
       setLoading(false);
     }
