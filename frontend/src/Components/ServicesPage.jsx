@@ -1,22 +1,20 @@
 import React, { useEffect } from 'react';
 
-// --- Placeholder Images for "On-site service support" section ---
-// Replace these with your actual image imports later
-const serviceImg1 = "https://placehold.co/600x400/1a202c/ffd700?text=Service+Image+1";
-const serviceImg2 = "https://placehold.co/600x800/1a202c/ffd700?text=Service+Image+2";
-const serviceImg3 = "https://placehold.co/600x400/1a202c/ffd700?text=Service+Image+3";
+// --- Actual Images for "On-site service support" section ---
+import serviceImg1 from '../images/Service_1.jpg';
+import serviceImg2 from '../images/Service_2.jpg';
+import serviceImg3 from '../images/Service_3.png';
 
+// --- Actual Images for "Inhouse Calibration Lab" section ---
+import calibImg1 from '../images/Calibration_water.jpg';
+import calibImg2 from '../images/Calibration_water.jpg'; // Using same image - replace if you have different oil calibration image
 
-// --- Placeholder Images for "Inhouse Calibration Lab" section ---
-const calibImg1 = "https://placehold.co/800x600/1a202c/ffd700?text=Calibration+Bench";
-const calibImg2 = "https://placehold.co/800x600/1a202c/ffd700?text=Flow+Meter+Repair";
+// --- Actual Images for "Service Cases Graph" section ---
+import graphImg1 from '../images/Service_case_graph.jpg';
+import graphImg2 from '../images/Service_case_graph.jpg'; // Using same image - replace if you have different graph
 
-// --- Placeholder Images for "Service Cases Graph" section ---
-const graphImg1 = "https://placehold.co/800x500/1a202c/ffd700?text=Service+Cases+Graph+1";
-const graphImg2 = "https://placehold.co/800x500/1a202c/ffd700?text=Service+Cases+Graph+2";
-
-// --- Placeholder Image for "Automation Services" section ---
-const automationImg = "https://placehold.co/800x600/1a202c/ffd700?text=Automation+Services";
+// --- Actual Image for "Automation Services" section ---
+import automationImg from '../images/Automation_service.png';
 
 // --- Placeholder Logos for Testimonials ---
 const logoAmbuja = "https://placehold.co/100x100/f3f4f6/1a202c?text=Ambuja";

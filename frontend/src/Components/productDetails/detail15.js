@@ -7,6 +7,21 @@ import model20250Img from '../../images/SS_20.250.png';
 import model20261Img from '../../images/SS_20.261.png';
 import model20415Img from '../../images/SS_20.415.png';
 import model20600Img from '../../images/SS_20.600.png';
+import model20651Img from '../../images/Flow-Sensor-SS-20-651-1-564x686.jpg';
+import model20700Img from '../../images/Flow-Sensor-SS-20-700-564x686.jpg';
+import model20450Img from '../../images/Flow-Sensor-Verification-Probe-564x686.png';
+import hvac100Img from '../../images/HVAC-100-564x686.jpg';
+import model20260Img from '../../images/Flow-Sensor-SS-20-260-1-564x686.jpg';
+import model20200Img from '../../images/Flow-Sensor-SS-20-200-1-564x686.jpg';
+import model20500Img from '../../images/Flow-Sensor-SS-20-500-564x686.jpg';
+import model20225Img from '../../images/Flow-Sensor-SS-20-225-lang-564x686.jpg';
+import model20420Img from '../../images/Flow-Sensor-SS-20-420-564x686.jpg';
+import model23700ExImg from '../../images/Flow-Sensor-SS-23-700-EX-Spitze-564x686.jpg';
+import model20600DetailImg from '../../images/Flow-Sensor-SS-20-600-1-564x686.jpg';
+import model30010Img from '../../images/InLine-Sensor-IL-30-010-564x686.jpg';
+import md10010Img from '../../images/MD-10.010-015-564x686.jpg';
+import md10020Img from '../../images/MD-10-020-564x686.jpg';
+import bt10010Img from '../../images/BT-10-010-564x686.jpg';
 import model23400Img from '../../images/SS_23.400.png';
 import model30300Img from '../../images/SS_30.300.png';
 
@@ -259,13 +274,13 @@ const handleSubmit = async (e) => {
             <ModelRow 
               title="SS 20.651"
               description="Chamber head sensor for drying processes and air compressors, up to 350 °C and 16 bar."
-              imagePlaceholder={model20600Img} // Reusing image
+              imagePlaceholder={model20651Img}
               link="https://www.schmidttechnology.de/en/produkt/schmidt-flow-sensor-ss-20-651/"
             />
              <ModelRow 
               title="SS 20.700 / SS 23.700 Ex"
               description="Double pin “heavy-duty” sensors for biogas, natural gas, and harsh gas media. Stainless-steel encapsulation for contamination resistance."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=SS+20.700"
+              imagePlaceholder={model23700ExImg}
               link="https://www.schmidttechnology.de/en/produkt/schmidt-flow-sensor-ss-20-700/"
             />
             <ModelRow 
@@ -322,8 +337,8 @@ const handleSubmit = async (e) => {
              <ModelRow 
               title="SS 20.450"
               description="Verification probe for on-site validation of other sensors; Bluetooth-enabled."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=SS+20.450"
-              link="#"
+              imagePlaceholder={model20450Img}
+              link="https://www.schmidttechnology.de/en/produkt/schmidt-bluetooth-verification-probe-ss-20-450/"
             />
             <ModelRow 
               title="SS 20.420"
@@ -349,25 +364,25 @@ const handleSubmit = async (e) => {
              <ModelRow 
               title="HVAC 100"
               description="Compact immersion-type sensor for building ventilation systems; 0.2–20 m/s; dust-resistant."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=HVAC+100"
+              imagePlaceholder={hvac100Img}
               link="https://www.schmidttechnology.de/en/produkt/schmidt-flow-sensor-hvac-100/"
             />
             <ModelRow 
               title="SS 20.260"
               description="Chamber head sensor for AHU and duct flow measurement up to 60 m/s."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=SS+20.260"
+              imagePlaceholder={model20260Img}
               link="https://www.schmidttechnology.de/en/produkt/schmidt-flow-sensor-ss-20-260/"
             />
              <ModelRow 
               title="SS 20.200"
               description="Flow switch for airflow monitoring with switching output and LED indication."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=SS+20.200"
+              imagePlaceholder={model20200Img}
               link="https://www.schmidttechnology.de/en/produkt/schmidt-flow-switch-ss-20-200/"
             />
             <ModelRow 
               title="SS 20.500 / SS 20.500 Ex"
               description="Dumb-bell head sensor for air conditioning and ventilation systems, up to 50 m/s and ATEX zones 2 & 22."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=SS+20.500"
+              imagePlaceholder={model20500Img}
               link="https://www.schmidttechnology.de/en/produkt/schmidt-flow-sensor-ss-20-500/"
             />
             <ModelRow 
@@ -379,13 +394,13 @@ const handleSubmit = async (e) => {
             <ModelRow 
               title="SS 20.225"
               description="Compact dumb-bell head flow sensor (0–20 m/s) with robust stainless steel probe and coated option."
-              imagePlaceholder={model20250Img}
+              imagePlaceholder={model20225Img}
               link="#"
             />
             <ModelRow 
               title="SS 20.420"
               description="Ultra‑compact stainless‑steel thermopile flow sensor (±0–10 m/s) with fast 0.2 s response."
-              imagePlaceholder={model20250Img}
+              imagePlaceholder={model20420Img}
               link="#"
             />
           </div>
@@ -406,19 +421,19 @@ const handleSubmit = async (e) => {
             <ModelRow 
               title="SS 20.700 / SS 23.700 Ex"
               description="Double pin stainless steel sensors for biogas and process exhaust gases; resistant to humidity and aggressive media."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=SS+20.700"
-              link="https://www.schmidttechnology.de/en/produkt/schmidt-flow-sensor-ss-23-700-ex/"
+              imagePlaceholder={model23700ExImg}
+              link="https://www.schmidttechnology.de/en/produkt/schmidt-flow-sensor-ss-20-700/"
             />
             <ModelRow 
               title="SS 20.600 Ex / SS 20.651"
               description="Chamber head sensors for energy audits and emission monitoring in high-pressure and high-temperature systems."
-              imagePlaceholder={model20600Img}
+              imagePlaceholder={model20600DetailImg}
               link="https://www.schmidttechnology.de/en/produkt/schmidt-flow-sensor-ss-20-600/"
             />
              <ModelRow 
               title="IL 30.0xx MPM"
               description="Inline version for compressed air energy monitoring with wireless data transfer (Bluetooth)."
-              imagePlaceholder={model30300Img}
+              imagePlaceholder={model30010Img}
               link="https://www.schmidttechnology.de/en/produkt/schmidt-mass-flow-sensor-il-30-005-il-30-010-mpm-il-30-015-mpm-il-30-020-mpm/"
             />
           </div>
@@ -439,20 +454,20 @@ const handleSubmit = async (e) => {
             <ModelRow 
               title="MD 10.010 / MD 10.015"
               description="LED measured-value displays for flow, volume, or temperature; wall or panel mounting."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=MD+10.010"
-              link="#"
+              imagePlaceholder={md10010Img}
+              link="https://www.schmidttechnology.de/en/produkt/schmidt-led-measured-value-display-md-10-010-md-10-015/"
             />
              <ModelRow 
               title="MD 10.020"
               description="Remote display module for IL 30.0xx MPM sensors; plug-and-play with dual-line readout."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=MD+10.020"
-              link="#"
+              imagePlaceholder={md10020Img}
+              link="https://www.schmidttechnology.de/en/produkt/schmidt-measuring-value-module-md-10-020/"
             />
             <ModelRow 
               title="BT 10.010"
               description="Bluetooth® module for wireless data transmission and sensor configuration via the SCHMIDT® Sensor App."
-              imagePlaceholder="https://placehold.co/600x400/f3f4f6/1a202c?text=BT+10.010"
-              link="#"
+              imagePlaceholder={bt10010Img}
+              link="https://www.schmidttechnology.de/en/produkt/schmidt-bluetooth-module-bt-10-010/"
             />
           </div>
         </section>
