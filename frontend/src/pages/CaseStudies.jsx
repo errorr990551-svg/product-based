@@ -167,7 +167,7 @@ function CaseStudies() {
       <div className="tw-flex tw-flex-col lg:tw-flex-row">
         
         {/* --- Sidebar Filter --- */}
-        <div className="tw-w-full lg:tw-w-80 tw-bg-black tw-text-white tw-p-6 lg:tw-min-h-screen lg:tw-sticky lg:tw-top-0 tw-flex-shrink-0">
+        <div className="tw-w-full lg:tw-w-80 tw-bg-black tw-text-white tw-p-4 md:tw-p-6 lg:tw-min-h-screen lg:tw-sticky lg:tw-top-0 tw-flex-shrink-0">
           <h2 className="tw-text-2xl tw-font-bold tw-text-[#ffd700] tw-mb-6">
             Filter by Industry
           </h2>
@@ -202,12 +202,12 @@ function CaseStudies() {
         </div>
 
         {/* --- Main Content --- */}
-        <div className="tw-flex-1 tw-p-4 md:tw-p-8">
+        <div className="tw-flex-1 tw-p-4 md:tw-p-6 lg:tw-p-8">
           
           <div className="tw-max-w-6xl tw-mx-auto">
             {/* New Header Section - Compact Layout */}
-            <div className="tw-mb-6">
-              <h1 className="tw-text-3xl md:tw-text-4xl tw-font-bold tw-text-black tw-mb-2 tw-text-center">
+            <div className="tw-mb-8 md:tw-mb-12">
+              <h1 className="tw-text-2xl md:tw-text-3xl lg:tw-text-4xl tw-font-bold tw-text-black tw-mb-2 tw-text-center">
                 Case Studies
                 <span className="tw-block tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-mt-2 tw-mx-auto"></span>
               </h1>

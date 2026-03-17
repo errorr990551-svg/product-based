@@ -163,7 +163,7 @@ const accessoriesData = [
 const AccessoryItem = ({ item, isReversed }) => {
   return (
     // ADDED: id attribute to allow navigation to this specific section
-    <div id={`accessory-${item.id}`} className={`tw-flex tw-flex-col ${isReversed ? 'md:tw-flex-row-reverse' : 'md:tw-flex-row'} tw-items-center tw-gap-8 md:tw-gap-16 tw-py-12 md:tw-py-20 tw-scroll-mt-24`}>
+    <div id={`accessory-${item.id}`} className={`tw-flex tw-flex-col ${isReversed ? 'md:tw-flex-row-reverse' : 'md:tw-flex-row'} tw-items-center tw-gap-4 md:tw-gap-8 lg:tw-gap-16 tw-py-8 md:tw-py-12 lg:tw-py-20 tw-scroll-mt-24`}>
       
       {/* Image Side with Background Design */}
       <div className="tw-w-full md:tw-w-1/2 tw-relative tw-flex tw-items-center tw-justify-center">
@@ -192,17 +192,17 @@ const AccessoryItem = ({ item, isReversed }) => {
 
       {/* Content Side */}
       <div className="tw-w-full md:tw-w-1/2 tw-text-left">
-        <h3 className="tw-text-2xl lg:tw-text-3xl tw-font-bold tw-text-gray-900 tw-mb-6">
+        <h3 className="tw-text-xl md:tw-text-2xl lg:tw-text-3xl tw-font-bold tw-text-gray-900 tw-mb-4 md:tw-mb-6">
           {item.title}
         </h3>
         
-        <div className="tw-text-base tw-text-gray-600 tw-leading-relaxed tw-mb-8">
+        <div className="tw-text-sm md:tw-text-base tw-text-gray-600 tw-leading-relaxed tw-mb-6 md:tw-mb-8">
           {item.description}
         </div>
 
         <a 
           href="#contact" 
-          className="tw-inline-flex tw-items-center tw-justify-center tw-px-8 tw-py-3 tw-text-base tw-font-bold tw-text-black tw-bg-[#ffd700] tw-rounded-full tw-shadow-md tw-transition-all tw-duration-300 hover:tw-bg-yellow-400 hover:tw-shadow-lg hover:-tw-translate-y-1 tw-no-underline"
+          className="tw-inline-flex tw-items-center tw-justify-center tw-px-6 md:tw-px-8 tw-py-2 md:tw-py-3 tw-text-sm md:tw-text-base tw-font-bold tw-text-black tw-bg-[#ffd700] tw-rounded-full tw-shadow-md tw-transition-all tw-duration-300 hover:tw-bg-yellow-400 hover:tw-shadow-lg hover:-tw-translate-y-1 tw-no-underline"
         >
           Contact Us <span className="tw-ml-2">→</span>
         </a>
@@ -230,25 +230,25 @@ function Accessories() {
 
   return (
     <div className="tw-bg-white tw-overflow-hidden">
-      <div className="tw-container tw-mx-auto tw-px-4 tw-py-16">
+      <div className="tw-container tw-mx-auto tw-px-4 tw-py-8 md:tw-py-16">
         
         {/* Optional Header - Updated Content */}
-        <div className="tw-text-center tw-max-w-4xl tw-mx-auto tw-mb-16">
-          <h2 className="tw-text-3xl lg:tw-text-5xl tw-font-bold tw-text-black tw-leading-tight">
+        <div className="tw-text-center tw-max-w-4xl tw-mx-auto tw-mb-12 md:tw-mb-16">
+          <h2 className="tw-text-2xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black tw-leading-tight">
             Flow Meter Accessories – The Complete Ecosystem for Reliable Flow Measurement
           </h2>
-          <div className="tw-mt-6 tw-space-y-4">
-            <h3 className="tw-text-xl tw-font-bold tw-text-[#ffd700] tw-tracking-wide">
+          <div className="tw-mt-4 md:tw-mt-6 tw-space-y-4">
+            <h3 className="tw-text-lg md:tw-text-xl tw-font-bold tw-text-[#ffd700] tw-tracking-wide">
               Beyond Flow Meters — Building a Complete Measurement System
             </h3>
-            <p className="tw-text-lg tw-text-gray-600 tw-leading-relaxed">
+            <p className="tw-text-base md:tw-text-lg tw-text-gray-600 tw-leading-relaxed">
               Flow meters perform best when installed with the right accessories. IOTAFLOW ensures that every meter you deploy runs at peak efficiency, stays protected, and remains compliant. From filtration to telemetry, every accessory in our catalog is built to keep your operations precise, compliant, and maintenance-free.
             </p>
           </div>
         </div>
 
         {/* Accessories List */}
-        <div className="tw-space-y-8">
+        <div className="tw-space-y-6 md:tw-space-y-8">
           {accessoriesData.map((item, index) => (
             <AccessoryItem 
               key={item.id} 
@@ -263,9 +263,9 @@ function Accessories() {
       </div>
 
        {/* --- Call to Action --- */}
-      <div className="tw-bg-[#ffd700] tw-py-20">
+      <div className="tw-bg-[#ffd700] tw-py-12 md:tw-py-20">
         <div className="tw-container tw-mx-auto tw-px-4 tw-text-center">
-          <h2 className="tw-text-3xl md:tw-text-4xl tw-font-bold tw-text-black tw-mb-6">
+          <h2 className="tw-text-2xl md:tw-text-3xl lg:tw-text-4xl tw-font-bold tw-text-black tw-mb-6">
             “Precision isn’t purchased — it’s built.”
           </h2>
           
