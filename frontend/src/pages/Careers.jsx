@@ -53,7 +53,7 @@ const Careers = () => {
       
       {/* ==================== HERO SECTION ==================== */}
       {/* Updated: Reduced min-height from 85vh to 60vh */}
-      <div className="tw-relative tw-w-full tw-min-h-[60vh] tw-flex tw-items-center tw-justify-center tw-overflow-hidden">
+      <div className="tw-relative tw-w-full tw-min-h-[50vh] md:tw-min-h-[60vh] tw-flex tw-items-center tw-justify-center tw-overflow-hidden">
         
         {/* Background Image with Parallax-like fixed attachment if desired, or simple cover */}
         <div 
@@ -69,11 +69,11 @@ const Careers = () => {
 
         {/* Content Container */}
         {/* Updated: Reduced padding from py-20 to py-16 */}
-        <div className="tw-relative tw-z-10 tw-container tw-mx-auto tw-px-4 tw-text-center tw-py-16">
+        <div className="tw-relative tw-z-10 tw-container tw-mx-auto tw-px-4 tw-text-center tw-py-12 md:tw-py-16">
           
           {/* Main Title */}
           {/* Updated: Reduced margin-bottom */}
-          <h1 className="tw-text-3xl md:tw-text-5xl tw-font-bold tw-text-white tw-mb-4 tw-tracking-tight">
+          <h1 className="tw-text-3xl sm:tw-text-4xl md:tw-text-5xl tw-font-bold tw-text-white tw-mb-4 tw-tracking-tight">
             Life at <span className="tw-text-[#ffd700]">IOTAFLOW</span>
           </h1>
 

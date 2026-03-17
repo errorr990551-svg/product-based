@@ -22,15 +22,15 @@ function Certification() {
     <div className="tw-bg-white tw-min-h-screen tw-font-sans">
       
       {/* --- Main Content Section --- */}
-      <div className="tw-container tw-mx-auto tw-px-4 tw-py-12 md:tw-py-20">
+      <div className="tw-container tw-mx-auto tw-px-4 tw-py-8 md:tw-py-12 lg:tw-py-20">
         
         {/* Header */}
-        <div className="tw-text-center tw-mb-16">
-          <h1 className="tw-text-3xl md:tw-text-5xl tw-font-bold tw-text-black tw-mb-4">
+        <div className="tw-text-center tw-mb-12 md:tw-mb-16">
+          <h1 className="tw-text-3xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black tw-mb-4">
             Certifications
           </h1>
           <div className="tw-w-24 tw-h-1.5 tw-bg-[#ffd700] tw-mx-auto tw-rounded-full"></div>
-          <p className="tw-text-gray-600 tw-mt-4 tw-text-lg md:tw-text-xl">
+          <p className="tw-text-gray-600 tw-mt-4 tw-text-base md:tw-text-lg">
              Commitment to Quality & Compliance
           </p>
         </div>
@@ -38,7 +38,7 @@ function Certification() {
         {/* Certificates Grid */}
         <div className="tw-max-w-6xl tw-mx-auto">
           {/* Using Flexbox with wrap and center justification for a balanced arrangement */}
-          <div className="tw-flex tw-flex-wrap tw-justify-center tw-gap-8 lg:tw-gap-12">
+          <div className="tw-flex tw-flex-wrap tw-justify-center tw-gap-4 md:tw-gap-6 lg:tw-gap-12">
             {certificates.map((cert) => (
               <div 
                 key={cert.id} 
