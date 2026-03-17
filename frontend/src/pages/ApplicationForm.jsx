@@ -74,10 +74,10 @@ const ApplicationForm = () => {
 
 
   return (
-    <div className="tw-min-h-screen tw-bg-gradient-to-br tw-from-black tw-to-yellow-600 tw-py-12">
-      <div className="tw-max-w-3xl tw-mx-auto tw-bg-black/70 tw-rounded-xl tw-shadow-2xl tw-p-8">
+    <div className="tw-min-h-screen tw-bg-gradient-to-br tw-from-black tw-to-yellow-600 tw-py-6 md:tw-py-12">
+      <div className="tw-max-w-3xl tw-mx-auto tw-bg-black/70 tw-rounded-xl tw-shadow-2xl tw-p-4 md:tw-p-8">
         
-        <h2 className="tw-text-3xl tw-font-extrabold tw-text-yellow-400 tw-text-center tw-mb-2">
+        <h2 className="tw-text-2xl md:tw-text-3xl tw-font-extrabold tw-text-yellow-400 tw-text-center tw-mb-2">
           IOTAFLOW Careers
         </h2>
         <p className="tw-text-center tw-text-gray-300 tw-mb-8">
