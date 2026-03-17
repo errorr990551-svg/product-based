@@ -98,11 +98,11 @@ const ServicesPage = () => {
     <div className="tw-bg-white tw-min-h-screen tw-font-sans">
 
       {/* ==================== SECTION 1: On-site Service Support ==================== */}
-      <section className="tw-py-16 md:tw-py-24">
+      <section className="tw-py-12 md:tw-py-16 lg:tw-py-24">
         <div className="tw-container tw-mx-auto tw-px-4">
           
           {/* Grid Layout: Adjusted columns to make image section smaller (7 cols text / 5 cols images) */}
-          <div className="tw-grid lg:tw-grid-cols-12 tw-gap-12 lg:tw-gap-16 tw-items-stretch">
+          <div className="tw-grid lg:tw-grid-cols-12 tw-gap-6 md:tw-gap-12 lg:tw-gap-16 tw-items-stretch">
             
             {/* --- Left Column: Text Content (Span 7) --- */}
             <div className="lg:tw-col-span-7 tw-flex tw-flex-col">
@@ -111,7 +111,7 @@ const ServicesPage = () => {
                 <h5 className="tw-text-[#ffd700] tw-font-bold tw-uppercase tw-tracking-widest tw-mb-2">
                   Our Expertise
                 </h5>
-                <h1 className="tw-text-3xl md:tw-text-5xl tw-font-bold tw-text-black">
+                <h1 className="tw-text-2xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black">
                   On-site service support
                 </h1>
                 <div className="tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-mt-4 tw-rounded-full"></div>
@@ -176,19 +176,19 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className="tw-py-16 md:tw-py-24 tw-bg-gray-50">
+      <section className="tw-py-12 md:tw-py-16 lg:tw-py-24 tw-bg-gray-50">
         <div className="tw-container tw-mx-auto tw-px-4">
-          <div className="tw-text-center tw-mb-12">
-            <h2 className="tw-text-3xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black tw-mb-4 tw-max-w-5xl tw-mx-auto tw-leading-tight">
+          <div className="tw-text-center tw-mb-8 md:tw-mb-12">
+            <h2 className="tw-text-2xl md:tw-text-3xl lg:tw-text-4xl xl:tw-text-5xl tw-font-bold tw-text-black tw-mb-4 tw-max-w-5xl tw-mx-auto tw-leading-tight">
               NABL Traceable Calibration Lab for Water & Oil Flow Meters (ISO 17025 Compliant)
             </h2>
             <div className="tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-mx-auto tw-rounded-full"></div>
-            <p className="tw-text-gray-600 tw-text-base md:tw-text-lg tw-leading-relaxed tw-mt-4 tw-max-w-3xl tw-mx-auto">
+            <p className="tw-text-gray-600 tw-text-sm md:tw-text-base lg:tw-text-lg tw-leading-relaxed tw-mt-3 md:tw-mt-4 tw-max-w-3xl tw-mx-auto">
               Our in-house calibration lab is ISO 17025 accredited, ensuring precise and reliable calibration services.
             </p>
           </div>
 
-          <div className="tw-grid md:tw-grid-cols-2 tw-gap-8 lg:tw-gap-12">
+          <div className="tw-grid md:tw-grid-cols-2 tw-gap-4 md:tw-gap-6 lg:tw-gap-12">
             {/* Item 1 - Water */}
             <div className="tw-group tw-flex tw-flex-col">
               <div className="tw-rounded-2xl tw-overflow-hidden tw-shadow-xl tw-bg-white tw-aspect-video tw-mb-6">
@@ -219,42 +219,41 @@ const ServicesPage = () => {
       </section>
 
       {/* ==================== SECTION 3: Service Cases Graph ==================== */}
-      <section className="tw-py-16 md:tw-py-24 tw-bg-gray-50">
+      <section className="tw-py-12 md:tw-py-16 lg:tw-py-24 tw-bg-gray-50">
         <div className="tw-container tw-mx-auto tw-px-4">
-            <div className="tw-text-center tw-mb-12">
-                 <h2 className="tw-text-3xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black tw-mb-4 tw-max-w-5xl tw-mx-auto tw-leading-tight">
-                    How Lean Practices Helped Us Reduce Service Cases Over the Last 4 Years?
-                 </h2>
-                 <div className="tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-mx-auto tw-rounded-full"></div>
-            </div>
-
-            <div className="tw-grid md:tw-grid-cols-2 tw-gap-8 lg:tw-gap-12">
+            <div className="tw-grid md:tw-grid-cols-2 tw-gap-4 md:tw-gap-6 lg:tw-gap-8 lg:tw-gap-12 tw-items-center">
+                {/* Left: Graph Image */}
                 <div className="tw-rounded-2xl tw-overflow-hidden tw-shadow-xl tw-bg-white tw-aspect-video">
-                    <img src={graphImg1} alt="Service Cases Graph 1" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 hover:tw-scale-105" />
+                    <img src={graphImg1} alt="Service Cases Graph" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 hover:tw-scale-105" />
                 </div>
-                <div className="tw-rounded-2xl tw-overflow-hidden tw-shadow-xl tw-bg-white tw-aspect-video">
-                    <img src={graphImg2} alt="Service Cases Graph 2" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 hover:tw-scale-105" />
+
+                {/* Right: Heading */}
+                <div>
+                    <h2 className="tw-text-2xl md:tw-text-3xl lg:tw-text-4xl xl:tw-text-5xl tw-font-bold tw-text-black tw-mb-4 md:tw-mb-6 tw-leading-tight">
+                        How Lean Practices Helped Us Reduce Service Cases Over the Last 4 Years?
+                    </h2>
+                    <div className="tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-rounded-full"></div>
                 </div>
             </div>
         </div>
       </section>
 
       {/* ==================== SECTION 5: Testimonials / Service Feedback ==================== */}
-      <section className="tw-py-16 md:tw-py-24 tw-bg-white">
+      <section className="tw-py-12 md:tw-py-16 lg:tw-py-24 tw-bg-white">
         <div className="tw-container tw-mx-auto tw-px-4">
           {/* Section Heading */}
-          <div className="tw-text-center tw-mb-16">
-            <h2 className="tw-text-3xl md:tw-text-5xl tw-font-bold tw-text-black tw-mb-4">
+          <div className="tw-text-center tw-mb-12 md:tw-mb-16">
+            <h2 className="tw-text-2xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black tw-mb-4">
               Testimonials / Service Feedback
             </h2>
             <div className="tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-mx-auto tw-rounded-full"></div>
-            <p className="tw-text-gray-600 tw-mt-4 tw-text-lg">
+            <p className="tw-text-gray-600 tw-mt-4 tw-text-sm md:tw-text-base lg:tw-text-lg">
               Hear what our partners have to say about our service excellence.
             </p>
           </div>
 
           {/* Testimonial Cards Grid */}
-          <div className="tw-grid grid-cols-1 md:tw-grid-cols-2 lg:tw-grid-cols-4 tw-gap-8">
+          <div className="tw-grid grid-cols-1 md:tw-grid-cols-2 lg:tw-grid-cols-4 tw-gap-4 md:tw-gap-6 lg:tw-gap-8">
             {testimonials.map((testimonial, index) => (
               <div 
                 key={index} 
@@ -309,9 +308,9 @@ const ServicesPage = () => {
 
 
       {/* ==================== SECTION 4: Automation Services ==================== */}
-      <section className="tw-py-16 md:tw-py-24 tw-bg-white">
+      <section className="tw-py-12 md:tw-py-16 lg:tw-py-24 tw-bg-white">
         <div className="tw-container tw-mx-auto tw-px-4">
-          <div className="tw-grid lg:tw-grid-cols-2 tw-gap-12 lg:tw-gap-20 tw-items-center">
+          <div className="tw-grid lg:tw-grid-cols-2 tw-gap-6 md:tw-gap-12 lg:tw-gap-20 tw-items-center">
             
             {/* Left: Text Content */}
             <div>
@@ -331,11 +330,11 @@ const ServicesPage = () => {
             </div>
 
             {/* Right: Image */}
-            <div className="tw-relative tw-h-[300px] md:tw-h-[450px] tw-w-full tw-rounded-2xl tw-overflow-hidden tw-shadow-2xl">
+            <div className="tw-relative tw-h-[250px] md:tw-h-[350px] lg:tw-h-[450px] tw-w-full tw-rounded-2xl tw-overflow-hidden tw-shadow-2xl tw-bg-gray-50 tw-flex tw-items-center tw-justify-center">
                <img 
                  src={automationImg} 
                  alt="Automation Services and Control Solutions" 
-                 className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-700 hover:tw-scale-105" 
+                 className="tw-w-full tw-h-full tw-object-contain tw-transition-transform tw-duration-700 hover:tw-scale-105" 
                />
                {/* Decorative Element */}
                <div className="tw-absolute tw-bottom-0 tw-right-0 tw-w-24 tw-h-24 tw-bg-[#ffd700] tw-rounded-tl-full tw-opacity-80"></div>
