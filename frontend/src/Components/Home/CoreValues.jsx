@@ -72,7 +72,7 @@ function CoreValues() {
       <div className="right-section col-lg-6 col-md-12 p-0">
         <img
           src={coreValuesImg}
-          alt="Core Values"
+          alt="IOTAFLOW Core Values representing Empowering Ownership, Thrust for Learning, and Innovative Problem Solving in engineering"
           className="img-fluid w-100 h-100 object-fit-cover"
         />
       </div>

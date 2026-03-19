@@ -31,7 +31,7 @@ function WhyChooseUs() {
       
       <div className="why-container">
         <div className="why-left">
-          <img src={imgWhyChoose} alt="Why Choose IOTAFlow" />
+          <img src={imgWhyChoose} alt="Why Choose IOTAFLOW infographic highlighting 7-day fast delivery, Lean Manufacturing, and flexible industrial flow solutions" />
         </div>
 
         <div className="why-right">

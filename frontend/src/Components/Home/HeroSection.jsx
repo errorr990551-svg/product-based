@@ -7,6 +7,7 @@ export default function HeroSection() {
     <section
       className="hero-section"
       style={{ backgroundImage: `url(${bgImage})` }}
+      aria-label="IOTAFLOW Systems integrated solutions for Industrial Flow Meters, IoT AMR data logging, and professional calibration services"
     >
       <div className="yellow-overlay">
         <div className="hero-content">

@@ -119,22 +119,31 @@ import EnquiryButton from "../common/EnquiryButton";
 
 const slides = [
   {
-    img: slide2,
-    heading: "UTILITIES are most Valuable,",
-    subHeading: "When they stay INVISIBLE.",
-    text: "Un-regulated / Un-Monitored utility expenses are draining your Money.",
+    img: slide1,
+    heading: "High-Precision Flow Measurement Powered by European Technology",
+    subHeading: "",
+    text: "Designed with German precision and manufactured in India. Delivering ±0.5% accuracy for critical industrial utilities.",
+    ctaText: "View Product Range →",
+    ctaLink: "/product",
+    alt: "IOTAFLOW High Precision Electromagnetic Flow Meter with Digital Display for Industrial Water Measurement"
   },
   {
-    img: slide1,
-    heading: "Protecting Your Reputation,",
-    subHeading: "Always.",
-    text: "With IOTAFLOW, you gain a lean, reliable partner ensuring accuracy, efficiency, and peace of mind in flow measurement — year after year.",
+    img: slide2,
+    heading: "",
+    subHeading: "Industrial Flow Meters Delivered in Just 7 Days",
+    text: "Eliminate downtime. Our Lean Manufacturing process ensures ISO-certified, factory-calibrated meters reach your site in record time.",
+    ctaText: "Request a Quote →",
+    ctaLink: "/contact",
+    alt: "Industrial Flow Meter ready for 7-day fast delivery from IOTAFLOW Systems manufacturing unit"
   },
   {
     img: slide3,
     heading: "Your Process is Unique,",
     subHeading: "So Are Our Solutions.",
     text: "We don't believe in one-size-fits-all. At IOTAFLOW, every customer gets custom flow measurement solutions designed to fit their unique needs — without compromise.",
+    ctaText: "Explore IOT Sense →",
+    ctaLink: "/product",
+    alt: "IOT Sense Automation Dashboard showing real-time industrial utility and flow measurement data"
   },
 ];
 
@@ -176,7 +185,7 @@ function BannerSlider() {
           {/* Image with zoom effect */}
           <motion.img
             src={slides[index].img}
-            alt={`Slide ${index + 1}`}
+            alt={slides[index].alt || `Slide ${index + 1}`}
             initial={{ scale: 1 }}
             animate={{ scale: 1.05 }}
             transition={{ duration: 4, ease: "easeInOut" }}
@@ -197,8 +206,8 @@ function BannerSlider() {
               </p>
 
               {/* Button — hidden on mobile (<576px / below sm breakpoint) */}
-              <button onClick={() => navigate("/product")} className="btnClass tw-hidden sm:tw-inline-block tw-bg-yellow-400 tw-text-black tw-font-semibold tw-text-[1.1rem] tw-px-5 tw-py-[10px] tw-rounded-md tw-border-none tw-cursor-pointer tw-overflow-hidden tw-relative">
-                <span>Our Products</span>
+              <button onClick={() => navigate(slides[index].ctaLink || "/product")} className="btnClass tw-hidden sm:tw-inline-block tw-bg-yellow-400 tw-text-black tw-font-semibold tw-text-[1.1rem] tw-px-5 tw-py-[10px] tw-rounded-md tw-border-none tw-cursor-pointer tw-overflow-hidden tw-relative">
+                <span>{slides[index].ctaText || "Our Products"}</span>
               </button>
             </div>
           </div>
