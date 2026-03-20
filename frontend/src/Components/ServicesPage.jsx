@@ -7,7 +7,7 @@ import serviceImg3 from '../images/Service_3.png';
 
 // --- Actual Images for "Inhouse Calibration Lab" section ---
 import calibImg1 from '../images/Calibration_water.jpg';
-import calibImg2 from '../images/Calibration_water.jpg'; // Using same image - replace if you have different oil calibration image
+import calibImg2 from '../images/Oil Calibration Bench.png'; // Using same image - replace if you have different oil calibration image
 
 // --- Actual Images for "Service Cases Graph" section ---
 import graphImg1 from '../images/Service_case_graph.jpg';
