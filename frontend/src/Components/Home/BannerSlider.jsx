@@ -142,7 +142,7 @@ const slides = [
     subHeading: "So Are Our Solutions.",
     text: "We don't believe in one-size-fits-all. At IOTAFLOW, every customer gets custom flow measurement solutions designed to fit their unique needs — without compromise.",
     ctaText: "Explore IOT Sense →",
-    ctaLink: "/product",
+    ctaLink: "/iotsense",
     alt: "IOT Sense Automation Dashboard showing real-time industrial utility and flow measurement data"
   },
 ];
