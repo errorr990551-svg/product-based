@@ -83,6 +83,7 @@ import Careers from "./pages/Careers";
 import ComplaintForm from "./pages/ComplaintForm";
 import ApplicationForm from "./pages/ApplicationForm";
 import Certification from "./pages/Certification";
+import Approval from "./pages/Approval";
 import HomePopupForm from "./Components/Home/HomePopupForm";
 import { usePopup } from "./context/PopupContext";
 
@@ -140,6 +141,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutUsSection />} />
           <Route path="/about-us/certification" element={<Certification/>} />
+          <Route path="/about-us/approval" element={<Approval />} />
           <Route path="/product" element={<Product />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/lean-manufacturing" element={<LeanResourcesPage />} />

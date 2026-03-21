@@ -161,6 +161,9 @@ function CustomNavbar() {
                   <NavLink to="/about-us/certification" onClick={closeMenu}>
                     Certification
                   </NavLink>
+                  <NavLink to="/about-us/approval" onClick={closeMenu}>
+                    Approval
+                  </NavLink>
                 </div>
               )}
             </div>
