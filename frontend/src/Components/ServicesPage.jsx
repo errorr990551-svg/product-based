@@ -17,11 +17,11 @@ import graphImg1 from '../images/Service_case_graph.jpg';
 // --- Actual Image for "Automation Services" section ---
 import automationImg from '../images/Automation_service.png';
 
-// --- Placeholder Logos for Testimonials ---
-const logoAmbuja = "https://placehold.co/100x100/f3f4f6/1a202c?text=Ambuja";
-const logoMangalore = "https://placehold.co/100x100/f3f4f6/1a202c?text=MSEZ";
-const logoUltraTech = "https://placehold.co/100x100/f3f4f6/1a202c?text=UltraTech";
-const logoAdani = "https://placehold.co/100x100/f3f4f6/1a202c?text=Adani";
+// --- Actual Logos for Testimonials ---
+import logoAmbuja from '../images/Ambuja_cement.png';
+import logoMangalore from '../images/Mangalore_SEZ _Limited.png';
+import logoUltraTech from '../images/UltraTech_Cement – Dalla.png';
+import logoAdani from '../images/Adani_Natural _Resources.png';
 
 const servicesList = [
   {
