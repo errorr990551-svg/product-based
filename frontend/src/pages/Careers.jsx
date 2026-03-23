@@ -1,8 +1,16 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 import visionImg from "../images/Vission.png";
 import missionImg from "../images/Mission.png";
+
+import icon1 from "../images/icon1.png";
+import icon2 from "../images/icon2.png";
+import icon3 from "../images/icon3.png";
+import icon4 from "../images/icon4.png";
+import icon5 from "../images/icon5 (2).png";
+import icon6 from "../images/icon6.png";
 
 // Placeholder for the banner image
 // You can replace this with your actual local image import later
@@ -19,26 +27,38 @@ const jobRoles = [
   {
     title: "Sales & Application Engineers",
     description: "Promote flow meters and IoT telemetry systems for industrial water, air, oil, gases & chemical applications. Ideal for engineers in instrumentation and automation sales.",
+    icon: icon1,
+    alt: "Industrial flow meter sales and application engineering career icon"
   },
   {
     title: "Business Development Managers / Public Sector Liaisoning",
     description: "Handle government and PSU projects in smart metering and automation.",
+    icon: icon2,
+    alt: "Business development and government liaisoning career icon"
   },
   {
     title: "Mechanical Design Engineers",
     description: "Design and develop flow meter components, strainers, and assemblies using CAD and 3D modeling. Support lean manufacturing and R&D innovations.",
+    icon: icon3,
+    alt: "Mechanical design engineer using CAD for flow meter component development"
   },
   {
     title: "Field Service & Commissioning Engineers",
     description: "Install, calibrate, and commission flow meters and telemetry systems on-site. Ensure data accuracy and compliance reporting for CGWA/CPCB projects.",
+    icon: icon4,
+    alt: "Field service and commissioning engineer icon"
   },
   {
     title: "Automation / IoT Engineers",
     description: "Develop and integrate RTUs, 4G gateways, LoraWan, PLC/SCADA systems for industrial telemetry. Enable real-time IoT-based monitoring and Industry 5.0 automation.",
+    icon: icon5,
+    alt: "Automation and IoT engineering career icon"
   },
   {
     title: "Production & Quality Control Engineers",
     description: "Manage assembly, testing, and process optimization for flow meters and accessories. Maintain quality, safety, and ISO/CGWA standards across production lines.",
+    icon: icon6,
+    alt: "Production and quality control engineer icon"
   }
 ];
 
@@ -50,6 +70,11 @@ const Careers = () => {
 
   return (
     <div className="tw-bg-white tw-min-h-screen tw-font-sans">
+      <Helmet>
+        <title>Engineering Careers in Industrial IoT & Flow Meters | IOTAFLOW</title>
+        <meta name="description" content="Join IOTAFLOW Systems. Explore career opportunities in Industrial IoT, Flow Meter Design, and Automation Engineering. Build the future of smart metering. Apply now!" />
+        <meta name="keywords" content="IOTAFLOW careers, instrumentation engineering jobs, industrial IoT jobs India, mechanical design engineer vacancies, flow meter calibration jobs, automation engineer careers, smart metering jobs, IOTAFLOW systems recruitment, engineering jobs Jharkhand, IoT telemetry careers" />
+      </Helmet>
       
       {/* ==================== HERO SECTION ==================== */}
       {/* Updated: Reduced min-height from 85vh to 60vh */}
@@ -67,6 +92,13 @@ const Careers = () => {
         {/* Dark Gradient Overlay for Text Readability */}
         <div className="tw-absolute tw-inset-0 tw-bg-gradient-to-b tw-from-black/80 tw-via-black/70 tw-to-black/90"></div>
 
+        {/* Hidden SEO Image for alt text */}
+        <img 
+          src={careersBanner} 
+          alt="IOTAFLOW Systems engineering team collaborating on industrial flow meter design" 
+          className="tw-hidden" 
+        />
+
         {/* Content Container */}
         {/* Updated: Reduced padding from py-20 to py-16 */}
         <div className="tw-relative tw-z-10 tw-container tw-mx-auto tw-px-4 tw-text-center tw-py-12 md:tw-py-16">
@@ -74,7 +106,7 @@ const Careers = () => {
           {/* Main Title */}
           {/* Updated: Reduced margin-bottom */}
           <h1 className="tw-text-3xl sm:tw-text-4xl md:tw-text-5xl tw-font-bold tw-text-white tw-mb-4 tw-tracking-tight">
-            Life at <span className="tw-text-[#ffd700]">IOTAFLOW</span>
+            Engineering Careers & Life at <span className="tw-text-[#ffd700]">IOTAFLOW</span> Systems
           </h1>
 
           {/* Yellow Divider Line */}
@@ -112,7 +144,7 @@ const Careers = () => {
           {/* Section Header */}
           <div className="tw-text-center tw-mb-16 tw-max-w-4xl tw-mx-auto">
             <h2 className="tw-text-3xl md:tw-text-5xl tw-font-bold tw-text-black tw-mb-6">
-              Grow with Us
+              Current Job Openings in Instrumentation & IoT
               <span className="tw-block tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-mt-3 tw-mx-auto tw-rounded-full"></span>
             </h2>
             <p className="tw-text-gray-700 tw-text-lg md:tw-text-xl tw-leading-relaxed">
@@ -129,8 +161,8 @@ const Careers = () => {
               >
                 {/* Content - Increased Padding */}
                 <div className="tw-p-8">
-                  <div className="tw-mb-4 tw-w-10 tw-h-10 tw-bg-gray-600 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-text-lg tw-font-bold tw-text-[#ffd700] group-hover:tw-bg-black group-hover:tw-text-[#ffd700] tw-transition-colors">
-                    {index + 1}
+                  <div className="tw-mb-4 tw-w-16 tw-h-16 tw-bg-white tw-rounded-full tw-flex tw-items-center tw-justify-center tw-shadow-sm group-hover:tw-shadow-md tw-transition-all">
+                    <img src={role.icon} alt={role.alt} className="tw-w-10 tw-h-10 tw-object-contain" />
                   </div>
                   <h3 className="tw-text-xl tw-font-bold tw-text-black tw-mb-4 group-hover:tw-text-[#e6c200] tw-transition-colors">
                     {role.title}

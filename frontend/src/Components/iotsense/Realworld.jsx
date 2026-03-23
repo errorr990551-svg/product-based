@@ -20,9 +20,9 @@ function Realworld() {
             {/* Text Content */}
             <div className="tw-py-1">
               {/* Reduced heading size and margin */}
-              <h2 className="tw-text-xl sm:tw-text-2xl tw-font-bold tw-text-gray-900 tw-mb-4">
+              <h3 className="tw-text-xl sm:tw-text-2xl tw-font-bold tw-text-gray-900 tw-mb-4">
                 Real-World Application: Enhancing Compressor Efficiency with TRX Ultrasonic Air Flow Meter
-              </h2>
+              </h3>
 
               {/* Reduced text size and spacing */}
               <div className="tw-space-y-3 tw-text-sm sm:tw-text-base tw-text-gray-700 tw-leading-relaxed">
@@ -58,7 +58,7 @@ function Realworld() {
             <img 
               // Replace placeholder with 'realWorldImg' variable in your project
               src={realWorldImg} 
-              alt="Real World Use Case Visual" 
+              alt="Real-world application showing TRX Ultrasonic Air Flow Meter integration with IOT Sense" 
               className="tw-w-full tw-h-full tw-object-contain"
             />
           </div>

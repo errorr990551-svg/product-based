@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 // --- Actual Images for "On-site service support" section ---
 import serviceImg1 from '../images/Service_1.jpg';
@@ -11,7 +12,7 @@ import calibImg2 from '../images/Oil Calibration Bench.png'; // Using same image
 
 // --- Actual Images for "Service Cases Graph" section ---
 import graphImg1 from '../images/Service_case_graph.jpg';
-import graphImg2 from '../images/Service_case_graph.jpg'; // Using same image - replace if you have different graph
+// import graphImg2 from '../images/Service_case_graph.jpg'; // Unused
 
 // --- Actual Image for "Automation Services" section ---
 import automationImg from '../images/Automation_service.png';
@@ -96,6 +97,10 @@ const ServicesPage = () => {
 
   return (
     <div className="tw-bg-white tw-min-h-screen tw-font-sans">
+      <Helmet>
+        <title>Flow Meter Calibration & On-Site Services India | IOTAFLOW</title>
+        <meta name="description" content="Expert on-site flow meter calibration (NABL/ISO 17025), installation, and AMC services. IoT telemetry integration for CGWA & CPCB compliance. Book a site survey today!" />
+      </Helmet>
 
       {/* ==================== SECTION 1: On-site Service Support ==================== */}
       <section className="tw-py-12 md:tw-py-16 lg:tw-py-24">
@@ -112,7 +117,7 @@ const ServicesPage = () => {
                   Our Expertise
                 </h5>
                 <h1 className="tw-text-2xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black">
-                  On-site service support
+                  Industrial Flow Meter Calibration & On-Site Engineering Services
                 </h1>
                 <div className="tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-mt-4 tw-rounded-full"></div>
               </div>
@@ -121,9 +126,9 @@ const ServicesPage = () => {
               <div className="tw-space-y-8 tw-flex-1">
                 {servicesList.map((service, index) => (
                   <div key={index} className="tw-group">
-                    <h3 className="tw-text-xl md:tw-text-2xl tw-font-bold tw-text-black tw-mb-2 group-hover:tw-text-[#e6c200] tw-transition-colors">
+                    <h2 className="tw-text-xl md:tw-text-2xl tw-font-bold tw-text-black tw-mb-2 group-hover:tw-text-[#e6c200] tw-transition-colors">
                       {service.title}
-                    </h3>
+                    </h2>
                     <p className="tw-text-gray-600 tw-text-base md:tw-text-lg tw-leading-relaxed">
                       {service.description}
                     </p>
@@ -145,7 +150,7 @@ const ServicesPage = () => {
                 <div className="tw-flex-1 tw-rounded-2xl tw-overflow-hidden tw-shadow-xl">
                   <img 
                     src={serviceImg1} 
-                    alt="Installation and commissioning" 
+                    alt="Technician performing professional installation and commissioning of industrial flow meters" 
                     className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-700 hover:tw-scale-105"
                   />
                 </div>
@@ -163,7 +168,7 @@ const ServicesPage = () => {
                 <div className="tw-flex-1 tw-rounded-2xl tw-overflow-hidden tw-shadow-xl">
                   <img 
                     src={serviceImg3} 
-                    alt="Calibration and testing" 
+                    alt="On-site NABL accredited water flow calibration using portable ultrasonic flow meter" 
                     className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-700 hover:tw-scale-105"
                   />
                 </div>
@@ -180,7 +185,7 @@ const ServicesPage = () => {
         <div className="tw-container tw-mx-auto tw-px-4">
           <div className="tw-text-center tw-mb-8 md:tw-mb-12">
             <h2 className="tw-text-2xl md:tw-text-3xl lg:tw-text-4xl xl:tw-text-5xl tw-font-bold tw-text-black tw-mb-4 tw-max-w-5xl tw-mx-auto tw-leading-tight">
-              NABL Traceable Calibration Lab for Water & Oil Flow Meters (ISO 17025 Compliant)
+              NABL Traceable Calibration Lab for Water & Oil (ISO 17025)
             </h2>
             <div className="tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-mx-auto tw-rounded-full"></div>
             <p className="tw-text-gray-600 tw-text-sm md:tw-text-base lg:tw-text-lg tw-leading-relaxed tw-mt-3 md:tw-mt-4 tw-max-w-3xl tw-mx-auto">
@@ -192,7 +197,7 @@ const ServicesPage = () => {
             {/* Item 1 - Water */}
             <div className="tw-group tw-flex tw-flex-col">
               <div className="tw-rounded-2xl tw-overflow-hidden tw-shadow-xl tw-bg-white tw-aspect-video tw-mb-6">
-                <img src={calibImg1} alt="Water Calibration Bench" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 group-hover:tw-scale-105" />
+                <img src={calibImg1} alt="ISO 17025 compliant NABL traceable water calibration bench for electromagnetic meters" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 group-hover:tw-scale-105" />
               </div>
               <h3 className="tw-text-xl md:tw-text-2xl tw-font-bold tw-text-black tw-text-center tw-mb-3">
                   Water Calibration Bench
@@ -205,7 +210,7 @@ const ServicesPage = () => {
             {/* Item 2 - Oil */}
             <div className="tw-group tw-flex tw-flex-col">
               <div className="tw-rounded-2xl tw-overflow-hidden tw-shadow-xl tw-bg-white tw-aspect-video tw-mb-6">
-                <img src={calibImg2} alt="Oil Calibration Bench" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 group-hover:tw-scale-105" />
+                <img src={calibImg2} alt="Dedicated oil flow calibration setup for positive displacement and turbine meters" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 group-hover:tw-scale-105" />
               </div>
               <h3 className="tw-text-xl md:tw-text-2xl tw-font-bold tw-text-black tw-text-center tw-mb-3">
                   Oil Calibration Bench
@@ -221,10 +226,10 @@ const ServicesPage = () => {
       {/* ==================== SECTION 3: Service Cases Graph ==================== */}
       <section className="tw-py-12 md:tw-py-16 lg:tw-py-24 tw-bg-gray-50">
         <div className="tw-container tw-mx-auto tw-px-4">
-            <div className="tw-grid md:tw-grid-cols-2 tw-gap-4 md:tw-gap-6 lg:tw-gap-8 lg:tw-gap-12 tw-items-center">
+            <div className="tw-grid md:tw-grid-cols-2 tw-gap-4 md:tw-gap-6 lg:tw-gap-12 tw-items-center">
                 {/* Left: Graph Image */}
                 <div className="tw-rounded-2xl tw-overflow-hidden tw-shadow-xl tw-bg-white tw-aspect-video">
-                    <img src={graphImg1} alt="Service Cases Graph" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 hover:tw-scale-105" />
+                    <img src={graphImg1} alt="Data chart showing reduction in service cases through IOTAFLOW Lean manufacturing practices" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 hover:tw-scale-105" />
                 </div>
 
                 {/* Right: Heading */}
@@ -244,7 +249,7 @@ const ServicesPage = () => {
           {/* Section Heading */}
           <div className="tw-text-center tw-mb-12 md:tw-mb-16">
             <h2 className="tw-text-2xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black tw-mb-4">
-              Testimonials / Service Feedback
+              Client Success Stories & Service Impact
             </h2>
             <div className="tw-h-1.5 tw-w-24 tw-bg-[#ffd700] tw-mx-auto tw-rounded-full"></div>
             <p className="tw-text-gray-600 tw-mt-4 tw-text-sm md:tw-text-base lg:tw-text-lg">
@@ -333,7 +338,7 @@ const ServicesPage = () => {
             <div className="tw-relative tw-h-[250px] md:tw-h-[350px] lg:tw-h-[450px] tw-w-full tw-rounded-2xl tw-overflow-hidden tw-shadow-2xl tw-bg-gray-50 tw-flex tw-items-center tw-justify-center">
                <img 
                  src={automationImg} 
-                 alt="Automation Services and Control Solutions" 
+                 alt="Industrial automation services for fuel ratio control and dosing system optimization" 
                  className="tw-w-full tw-h-full tw-object-contain tw-transition-transform tw-duration-700 hover:tw-scale-105" 
                />
                {/* Decorative Element */}

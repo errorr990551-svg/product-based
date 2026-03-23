@@ -20,6 +20,13 @@ function IOTvideo() {
       {/* Content Overlay */}
       <div className="tw-relative tw-z-10 tw-container tw-mx-auto tw-px-4">
         
+        {/* Hidden SEO Image for alt text */}
+        <img 
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
+          alt="IOT Sense Smart Flow Intelligence Platform dashboard for Industry 4.0 telemetry" 
+          className="tw-hidden" 
+        />
+        
         <div className="tw-max-w-2xl tw-bg-black/20 tw-p-4 md:tw-p-6 tw-rounded-xl tw-border-l-4 tw-border-[#ffd700]">
           
           {/* Updated: Smaller Heading Size */}

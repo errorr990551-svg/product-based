@@ -22,6 +22,7 @@ const features = [
       "Supports all major industrial protocols (Modbus, HART, wireless IoT, LoRa, NB-IoT) and offers plug-and-play integration for flow measurement networks.",
     ],
     imagePlaceholder: deployAndScaleimg,
+    alt: "Diagram of IOT Sense Data Fabric connecting IoT flow meters, SCADA, and ERP systems",
     // Merged content from the original 4th feature
     subFeature: {
       title: "Deployment & Scalability",
@@ -39,7 +40,8 @@ const features = [
       "Compliance audits: generate reports for CGWA extraction limits, CPCB discharge-monitoring, NIC data-interface export.",
       "Leak-/reverse-flow detection, non-revenue water tracking, utility-loss reduction."
     ],
-    imagePlaceholder: flowFocusedAppsimg
+    imagePlaceholder: flowFocusedAppsimg,
+    alt: "Real-time flow monitoring application showing volumetric and mass flow totalizer data"
   },
   {
     title: "Intelligence, Analytics & Automation",
@@ -49,7 +51,8 @@ const features = [
       "Natural-language query: ask “why did flow drop in Zone 3?” or “which pump’s flow is leaking?”",
       "Edge-analytics: on-device or gateway inference for real-time flow events or critical telemetry use-cases."
     ],
-    imagePlaceholder: intelligenceAnalyticsimg
+    imagePlaceholder: intelligenceAnalyticsimg,
+    alt: "Al-driven flow analytics dashboard for leak detection and predictive maintenance"
   },
   {
     title: "Utility & Sustainability Benefits",
@@ -59,7 +62,8 @@ const features = [
       "Grow easily: add new flow-types, sites and devices without heavy custom-code.",
       "Deliver ESG / sustainability reporting: smart water meters and IoT flow data feed into sustainability metrics, help meet regulatory and corporate goals."
     ],
-    imagePlaceholder: utilityBenefitsimg
+    imagePlaceholder: utilityBenefitsimg,
+    alt: "ESG and sustainability reporting interface using smart water meter data on IOT Sense"
   }
 ];
 
@@ -129,7 +133,7 @@ function Corefeatures() {
               <div className={`tw-flex tw-justify-center ${index % 2 !== 0 ? 'md:tw-order-1' : 'md:tw-order-2'}`}>
                 <img 
                   src={feature.imagePlaceholder} 
-                  alt={feature.title} 
+                  alt={feature.alt || feature.title} 
                   className="tw-w-full tw-max-w-md md:tw-max-w-full tw-h-auto tw-rounded-lg tw-shadow-2xl tw-object-cover tw-bg-gray-200"
                 />
               </div>

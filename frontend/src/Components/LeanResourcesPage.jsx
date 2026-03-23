@@ -45,21 +45,21 @@ function LeanResourcesPage() {
     <>
       {/* SEO Meta Tags */}
       <Helmet>
-        <title>Lean Manufacturing Culture at IOTAFLOW | 2 Second Lean Implementation</title>
+        <title>Lean Manufacturing at IOTAFLOW | 2 Second Lean Implementation</title>
         <meta 
           name="description" 
-          content="Discover how IOTAFLOW implements Lean manufacturing using 2 Second Lean, Kanban, One-Piece Flow, and continuous improvement to improve efficiency, product quality, and employee well-being." 
+          content="Explore IOTAFLOW’s 2 Second Lean journey. How we implement the 8 Wastes, Kanban, and Gemba walks to deliver high-quality flow meters with 7-day fast delivery." 
         />
         <meta 
           name="keywords" 
-          content="lean manufacturing, lean manufacturing culture, 2 second lean, lean manufacturing implementation, continuous improvement manufacturing" 
+          content="lean manufacturing india, 2 second lean iotaflow, 8 wastes of lean, gemba walk flow meter, lean culture manufacturing, paul akers lean tour, pankaj malik lean, industrial efficiency improvement, kaizen flow measurement" 
         />
         <link rel="canonical" href="https://iotaflow.com/lean-manufacturing" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Lean Manufacturing Culture at IOTAFLOW",
+            "headline": "Lean Manufacturing at IOTAFLOW",
             "author": {
               "@type": "Organization",
               "name": "IOTAFLOW"
@@ -74,7 +74,7 @@ function LeanResourcesPage() {
 
       {/* 🔹 Hero Banner */}
       <section className="hero-wrapper">
-        <img src={img1} alt="Iotaflow Systems team practicing Lean management and continuous improvement culture." className="hero-image" />
+        <img src={img1} alt="IOTAFLOW Systems team practicing 2 Second Lean morning meeting and continuous improvement culture" className="hero-image" />
       </section>
 
       <div className="lean-page">
@@ -82,8 +82,7 @@ function LeanResourcesPage() {
         <section className="py-5 text-center">
           <div className="container">
             <h1 className="mb-4 tw-text-5xl tw-font-extrabold tw-text-[#ffd200]">
-              What is Lean{" "}
-              <span className="tw-text-[#ffd200] tw-text-6xl tw-align-middle">?</span>
+              Lean Manufacturing Culture & 2 Second Lean at IOTAFLOW
             </h1>
 
             <p className="lead">
@@ -122,7 +121,7 @@ function LeanResourcesPage() {
 
         {/* Empty section background */}
         <section>
-          <img src={img3} alt="Iotaflow Systems team implementing Lean management and continuous improvement culture." className="journey" />
+          <img src={img3} alt="Pankaj Malik, IOTAFLOW Systems, sharing his journey with 2 Second Lean and Six Sigma" className="journey" />
         </section>
 
         {/* Emoticon Section */}
@@ -160,14 +159,14 @@ function LeanResourcesPage() {
 
         {/* Lean Journey GIF */}
         <section className="hero-wrapperr">
-          <img src={img2} alt="Lean Banner" className="lean-journey" />
+          <img src={img2} alt="The 8 Wastes in Lean Manufacturing: Defect, Waiting, Motion, Inventory, Processing, Transportation, Talent, Overproduction" className="lean-journey" />
         </section>
 
         {/* Videos Section */}
         <Container className="mt-5">
-          <h3 className="section-heading text-center mb-4">
-            Our Lean Journey in Action
-          </h3>
+          <h2 className="section-heading text-center mb-4">
+            Lean in Action: Gemba Walks & Continuous Improvement
+          </h2>
 
           <Row className="g-4 mb-2 forBg">
             {[
@@ -193,6 +192,13 @@ function LeanResourcesPage() {
             ].map((video, idx) => (
               <Col key={idx} xs={12} sm={6} lg={4}>
                 <div className="video-card">
+                  {/* Hidden SEO Image for alt text */}
+                  {idx === 0 && (
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="GembaTalk Season 1 Episode 6 featuring Pankaj Malik on IOTAFLOW Lean culture" className="tw-hidden" />
+                  )}
+                  {idx === 1 && (
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Paul Akers 2 Second Lean Tour at IOTAFLOW Systems manufacturing facility" className="tw-hidden" />
+                  )}
                   <div className="ratio ratio-16x9 video-frame">
                     <iframe
                       src={video.link}
@@ -214,9 +220,9 @@ function LeanResourcesPage() {
       {/* 🔹 FAQ Section */}
       <section className="faq-section" id="lean-faq">
         <Container>
-          <h3 className="section-heading">
+          <h2 className="section-heading">
             <span className="heading-bar" /> FAQ'S
-          </h3>
+          </h2>
 
           <Accordion
             activeKey={activeKey}
