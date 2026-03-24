@@ -69,7 +69,7 @@ function Footer() {
       <i className="bi bi-linkedin"></i>
     </a>
 
-    <a href="https://www.instagram.com/iotaflowsystems?igsh=ejhkMzI4cm53bjFm" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/iotaflow_systems/?hl=en" target="_blank" rel="noopener noreferrer">
       <i className="bi bi-instagram"></i>
     </a>
 
