@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useCallback } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import React, { useEffect, useState, useCallback } from "react";
+import { useParams, Navigate, useNavigate } from "react-router-dom";
+import SEO from "../Components/common/SEO";
 import { motion, AnimatePresence } from "framer-motion";
 import { Container, Row, Col, Carousel, Button, Accordion, useAccordionButton, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -570,6 +571,11 @@ const slidesWithImages = (seoData.slides || []).map((slide, index) => ({
 }));
   return (
     <>
+      <SEO 
+        title={`Flow Meter Manufacturer & Suppliers in ${formattedCityName} | IOTAFLOW`}
+        description={`Leading industrial flow meter manufacturer and supplier in ${formattedCityName}. Expert in electromagnetic, ultrasonic, and thermal mass flow measurement.`}
+        keywords={`flow meter manufacturer ${formattedCityName}, industrial flow meter supplier ${formattedCityName}, ultrasonic flow meter ${formattedCityName}, electromagnetic flow meter ${formattedCityName}, industrial automation ${formattedCityName}`}
+      />
       <BannerSliderSeo slides={slidesWithImages} />
       <RightChoiceSeo featuresData={featuresData} />
       <MainContentSeo seoContent={seoContent} cityName={formattedCityName} />

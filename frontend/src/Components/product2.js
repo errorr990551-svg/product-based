@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import SEO from "./common/SEO";
 
 
 import img2 from "../images/2000x2000.jpg";
@@ -68,6 +69,11 @@ function ProductDetail() {
 
   return (
     <div className="text-dark">
+      <SEO 
+        title="Ultrimis™ Domestic Ultrasonic Flow Meters | IOTAFLOW"
+        description="Ultrimis ultrasonic water meter by Apator Powogaz. High-precision domestic ultrasonic flow meter with IP68 protection, NFC, and LoRaWAN connectivity."
+        keywords="Ultrimis ultrasonic flow meter, domestic water meter, Apator Powogaz India, ultrasonic water meter IP68, smart water meter LoRaWAN"
+      />
       <Breadcrumbs/>
       <div className="container py-5">
         <div className="row">

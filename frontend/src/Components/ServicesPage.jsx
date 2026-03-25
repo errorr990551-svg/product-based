@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from "./common/SEO";
 
 // --- Actual Images for "On-site service support" section ---
 import serviceImg1 from '../images/Service_1.jpg';
@@ -96,11 +96,12 @@ const ServicesPage = () => {
   }, []);
 
   return (
-    <div className="tw-bg-white tw-min-h-screen tw-font-sans">
-      <Helmet>
-        <title>Flow Meter Calibration & On-Site Services India | IOTAFLOW</title>
-        <meta name="description" content="Expert on-site flow meter calibration (NABL/ISO 17025), installation, and AMC services. IoT telemetry integration for CGWA & CPCB compliance. Book a site survey today!" />
-      </Helmet>
+    <div className="services-page">
+      <SEO
+        title="Our Services | Calibration & Support | IOTAFLOW"
+        description="IOTAFLOW offers comprehensive services including flow meter calibration, IoT system integration, and dedicated technical support. Discover our service offerings."
+        keywords="flow meter calibration, IoT integration, technical support, industrial services, IOTAFLOW services"
+      />
 
       {/* ==================== SECTION 1: On-site Service Support ==================== */}
       <section className="tw-py-12 md:tw-py-16 lg:tw-py-24">

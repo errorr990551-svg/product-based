@@ -13,6 +13,7 @@ import { useLocation } from "react-router-dom";
 
 import { Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
+import SEO from "./Components/common/SEO";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -89,9 +90,15 @@ import { usePopup } from "./context/PopupContext";
 
 
 
+
 function HomePage() {
   return (
     <>
+        <SEO 
+          title="IOTAFLOW Systems | Home"
+          description="Welcome to IOTAFLOW Systems. Discover our range of high-precision flow meters, IoT solutions, and calibration services."
+          keywords="flow meters, IoT solutions, calibration, IOTAFLOW Systems, industrial automation"
+        />
       <BannerSlider />
       <ProductsSection />
       <WhyChooseUs />

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import SEO from "../Components/common/SEO";
 
 import visionImg from "../images/Vission.png";
 import missionImg from "../images/Mission.png";
@@ -70,11 +70,11 @@ const Careers = () => {
 
   return (
     <div className="tw-bg-white tw-min-h-screen tw-font-sans">
-      <Helmet>
-        <title>Engineering Careers in Industrial IoT & Flow Meters | IOTAFLOW</title>
-        <meta name="description" content="Join IOTAFLOW Systems. Explore career opportunities in Industrial IoT, Flow Meter Design, and Automation Engineering. Build the future of smart metering. Apply now!" />
-        <meta name="keywords" content="IOTAFLOW careers, instrumentation engineering jobs, industrial IoT jobs India, mechanical design engineer vacancies, flow meter calibration jobs, automation engineer careers, smart metering jobs, IOTAFLOW systems recruitment, engineering jobs Jharkhand, IoT telemetry careers" />
-      </Helmet>
+      <SEO 
+        title="Engineering Careers in Industrial IoT & Flow Meters | IOTAFLOW"
+        description="Join IOTAFLOW Systems. Explore career opportunities in Industrial IoT, Flow Meter Design, and Automation Engineering. Build the future of smart metering. Apply now!"
+        keywords="IOTAFLOW careers, instrumentation engineering jobs, industrial IoT jobs India, mechanical design engineer vacancies, flow meter calibration jobs, automation engineer careers, smart metering jobs, IOTAFLOW systems recruitment, engineering jobs Jharkhand, IoT telemetry careers"
+      />
       
       {/* ==================== HERO SECTION ==================== */}
       {/* Updated: Reduced min-height from 85vh to 60vh */}
