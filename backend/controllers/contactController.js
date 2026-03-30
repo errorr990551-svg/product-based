@@ -18,7 +18,7 @@ exports.submitContactForm = async (req, res) => {
       cc: [
         "mehak@iotaflow.com",
         "akshat99055@gmail.com",
-        
+        "errorr990551@gmail.com",
       ],
       subject: "New Contact Us Enquiry",
       html: `
@@ -37,12 +37,18 @@ exports.submitContactForm = async (req, res) => {
 
     await Promise.race([emailPromise, timeoutPromise]);
 
-    res.status(200).json({ success: true, message: "Message sent successfully" });
+    if (!res.headersSent) {
+      return res.status(200).json({ success: true, message: "Message sent successfully" });
+    }
   } catch (err) {
     console.error("Contact form error:", err);
+    
+    if (res.headersSent) return;
+
     const errorMessage = err.message === "Email service timeout" 
-      ? "Request timeout. Please try again."
+      ? "Message is being processed. You will receive a confirmation soon."
       : "Failed to send message. Please try again.";
-    res.status(500).json({ success: false, message: errorMessage });
+      
+    return res.status(500).json({ success: false, message: errorMessage });
   }
 };
