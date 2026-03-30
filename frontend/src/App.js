@@ -95,9 +95,9 @@ function HomePage() {
   return (
     <>
         <SEO 
-          title="IOTAFLOW Systems | Home"
-          description="Welcome to IOTAFLOW Systems. Discover our range of high-precision flow meters, IoT solutions, and calibration services."
-          keywords="flow meters, IoT solutions, calibration, IOTAFLOW Systems, industrial automation"
+          title="Industrial Flow Meter Manufacturer in India | IOTAFLOW Systems"
+          description="Leading ZED Gold Certified manufacturer of high-accuracy Electromagnetic, Vortex, and Ultrasonic flow meters. Fast 7-day delivery & IoT AMR solutions. Enquire now!"
+          keywords="industrial flow meter manufacturer, electromagnetic flow meter india, vortex steam flow meter, ultrasonic water meter, digital flow meter price, IOTAFLOW systems, IoT flow monitoring, AMR data logger India, thermal mass flow meter, oil and gas flow measurement"
         />
       <BannerSlider />
       <ProductsSection />
