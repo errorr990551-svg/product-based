@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom';
 import cert1 from "../images/Zedgold.png";
 import cert2 from "../images/Type Test Certificate - PTB Lab Germany.png";
 import cert3 from "../images/RWS&S_Circle.png";
-import cert4 from "../images/Managment_system.png";
+import cert4 from "../images/Environmental Management Systems Certificate.jpg";
 import cert5 from "../images/Leanbasic.png";
 import cert6 from "../images/ISO.png";
 import cert7 from "../images/E-TenderEnquiry.png";
 
 const certificates = [
-  { id: 1, img: cert1, title: "Zedgold" },
-  { id: 2, img: cert2, title: "Type Test Certificate - PTB Lab Germany" },
+  { id: 1, img: cert1, title: "Zedgold Certificate" },
+  { id: 2, img: cert2, title: "Type Test Certificate - PTB Lab Germany Certificate" },
   { id: 3, img: cert3, title: "RWS&S_Circle" },
-  { id: 4, img: cert4, title: "Managment_system" },
-  { id: 5, img: cert5, title: "Leanbasic" },
-  { id: 6, img: cert6, title: "ISO" },
-  { id: 7, img: cert7, title: "E-TenderEnquiry" },
+  { id: 4, img: cert4, title: "Environmental Management Systems Certificate" },
+  { id: 5, img: cert5, title: "Leanbasic Certificate" },
+  { id: 6, img: cert6, title: "ISO Certificate" },
+  { id: 7, img: cert7, title: "E-TenderEnquiry Certificate" },
 ];
 
 function Certification() {
