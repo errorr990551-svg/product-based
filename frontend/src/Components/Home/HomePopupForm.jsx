@@ -236,7 +236,7 @@ const HomePopupForm = ({ isOpen, onClose }) => {
         setTimeout(() => {
           onClose();
           setSuccess("");
-        }, 1500);
+        }, 500);
       } else {
         setError(response.data.message || "Failed to send message. Please try again.");
       }
