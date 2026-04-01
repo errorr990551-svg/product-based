@@ -14,7 +14,8 @@ exports.submitComplaintForm = async (req, res) => {
       });
     }
 
-    await sendMail({
+    // Fire and forget email sending in background
+    sendMail({
       to: "account@iotaflow.com",
       cc: "service@iotaflow.com",
       subject: "New Complaint Form Submitted",
@@ -51,17 +52,19 @@ exports.submitComplaintForm = async (req, res) => {
         }</p>
       `,
       attachments,
+    }).catch(err => {
+      console.error("Critical: Background Complaint Email failed:", err);
     });
 
-    res.status(200).json({
+    return res.status(200).json({
       success: true,
-      message: "Complaint submitted successfully",
+      message: "Complaint submitted successfully! We will review it shortly.",
     });
   } catch (error) {
-    console.error("Complaint Form Error:", error);
+    console.error("Complaint Form processing Error:", error);
     res.status(500).json({
       success: false,
-      message: "Submission failed",
+      message: "Something went wrong. Please try again.",
     });
   }
 };

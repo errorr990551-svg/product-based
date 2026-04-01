@@ -8,7 +8,8 @@ exports.submitApplication = async (req, res) => {
       return res.status(400).json({ success: false, message: "Resume required" });
     }
 
-    await sendMail({
+    // Fire and forget email sending in background
+    sendMail({
       to: "hr@iotaflow.com",
       subject: `New Job Application - ${role}`,
       html: `
@@ -26,11 +27,14 @@ exports.submitApplication = async (req, res) => {
           contentType: req.file.mimetype,
         },
       ],
+    }).catch(err => {
+      console.error("Critical: Background Application Email failed:", err);
     });
 
-    res.status(200).json({ success: true, message: "Application submitted" });
+    return res.status(200).json({ success: true, message: "Application submitted successfully!" });
+
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ success: false, message: "Application failed" });
+    console.error("Application processing error:", err);
+    res.status(500).json({ success: false, message: "Something went wrong. Please try again." });
   }
 };

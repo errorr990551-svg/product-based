@@ -12,8 +12,8 @@ exports.submitContactForm = async (req, res) => {
       });
     }
 
-    // Set timeout for email sending (8 seconds)
-    const emailPromise = sendMail({
+    // Fire and forget email sending in background
+    sendMail({
       to: "contact@iotaflow.com",
       cc: [
         "mehak@iotaflow.com",
@@ -29,26 +29,21 @@ exports.submitContactForm = async (req, res) => {
         <p><b>Company:</b> ${company}</p>
         <p><b>Message:</b><br/>${message}</p>
       `,
+    }).catch(err => {
+      console.error("Critical: Background Contact Email failed:", err);
     });
 
-    const timeoutPromise = new Promise((_, reject) =>
-      setTimeout(() => reject(new Error("Email service timeout")), 8000)
-    );
+    // Respond immediately to the user
+    return res.status(200).json({ 
+      success: true, 
+      message: "Message sent! Our team will get back to you shortly." 
+    });
 
-    await Promise.race([emailPromise, timeoutPromise]);
-
-    if (!res.headersSent) {
-      return res.status(200).json({ success: true, message: "Message sent successfully" });
-    }
   } catch (err) {
-    console.error("Contact form error:", err);
-    
-    if (res.headersSent) return;
-
-    const errorMessage = err.message === "Email service timeout" 
-      ? "Message is being processed. You will receive a confirmation soon."
-      : "Failed to send message. Please try again.";
-      
-    return res.status(500).json({ success: false, message: errorMessage });
+    console.error("Contact form processing error:", err);
+    return res.status(500).json({ 
+      success: false, 
+      message: "Something went wrong. Please try again later." 
+    });
   }
 };
