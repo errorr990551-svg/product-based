@@ -1,6 +1,6 @@
 import React from 'react';
 
-import realWorldImg from '../../images/Ultrasonic_Flow_meter_Air_ATZTA TRXTRZ_PPT_(3).png';
+import realWorldImg from '../../images/Ultrasonic_Flow_meter_Air_ATZTA TRXTRZ_PPT_(3).webp';
 
 function Realworld() {
   return (

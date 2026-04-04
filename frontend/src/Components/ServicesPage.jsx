@@ -2,26 +2,26 @@ import React, { useEffect } from 'react';
 import SEO from "./common/SEO";
 
 // --- Actual Images for "On-site service support" section ---
-import serviceImg1 from '../images/Service_1.jpg';
-import serviceImg2 from '../images/Service_2.jpg';
-import serviceImg3 from '../images/Service_3.png';
+import serviceImg1 from '../images/Service_1.webp';
+import serviceImg2 from '../images/Service_2.webp';
+import serviceImg3 from '../images/Service_3.webp';
 
 // --- Actual Images for "Inhouse Calibration Lab" section ---
-import calibImg1 from '../images/Calibration_water.jpg';
-import calibImg2 from '../images/Oil Calibration Bench.png'; // Using same image - replace if you have different oil calibration image
+import calibImg1 from '../images/Calibration_water.webp';
+import calibImg2 from '../images/Oil Calibration Bench.webp'; // Using same image - replace if you have different oil calibration image
 
 // --- Actual Images for "Service Cases Graph" section ---
-import graphImg1 from '../images/Service_case_graph.jpg';
-// import graphImg2 from '../images/Service_case_graph.jpg'; // Unused
+import graphImg1 from '../images/Service_case_graph.webp';
+// import graphImg2 from '../images/Service_case_graph.webp'; // Unused
 
 // --- Actual Image for "Automation Services" section ---
-import automationImg from '../images/Automation_service.png';
+import automationImg from '../images/Automation_service.webp';
 
 // --- Actual Logos for Testimonials ---
-import logoAmbuja from '../images/Ambuja_cement.png';
-import logoMangalore from '../images/Mangalore_SEZ _Limited.png';
-import logoUltraTech from '../images/UltraTech_Cement – Dalla.png';
-import logoAdani from '../images/Adani_Natural _Resources.png';
+import logoAmbuja from '../images/Ambuja_cement.webp';
+import logoMangalore from '../images/Mangalore_SEZ _Limited.webp';
+import logoUltraTech from '../images/UltraTech_Cement – Dalla.webp';
+import logoAdani from '../images/Adani_Natural _Resources.webp';
 
 const servicesList = [
   {

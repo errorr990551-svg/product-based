@@ -2,19 +2,19 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from "../Components/common/SEO";
 
-import visionImg from "../images/Vission.png";
-import missionImg from "../images/Mission.png";
+import visionImg from "../images/Vission.webp";
+import missionImg from "../images/Mission.webp";
 
-import icon1 from "../images/icon1.png";
-import icon2 from "../images/icon2.png";
-import icon3 from "../images/icon3.png";
-import icon4 from "../images/icon4.png";
-import icon5 from "../images/icon5 (2).png";
-import icon6 from "../images/icon6.png";
+import icon1 from "../images/icon1.webp";
+import icon2 from "../images/icon2.webp";
+import icon3 from "../images/icon3.webp";
+import icon4 from "../images/icon4.webp";
+import icon5 from "../images/icon5 (2).webp";
+import icon6 from "../images/icon6.webp";
 
 // Placeholder for the banner image
 // You can replace this with your actual local image import later
-// import careersBanner from '../../images/careers_banner.jpg';
+// import careersBanner from '../../images/careers_banner.webp';
 const careersBanner = "https://plus.unsplash.com/premium_photo-1661771773771-a093c948ba92?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
 // Placeholders for Vision & Mission Backgrounds - Replace these with your actual images

@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 
-import approval1 from "../images/UP JAL NIGAM Approval 1_page-0001.jpg";
-import approval2 from "../images/UP JAL NIGAM Approval-2_page-0001 (1).jpg";
-import approval3 from "../images/RWSS- Approval letter - IOTAFLOW_page-0001.jpg";
-import approval4 from "../images/OIL INDIA LIMITED JOB APPROVAL Certificate_page-0001.jpg";
-import approval5 from "../images/DMS_Approved (1)_page-0001.jpg";
-import approval6 from "../images/NTPC Vendor Enlistment Certificate_page-0001.jpg";
-import approval7 from "../images/DJB_Approval_Letter_Dec2019.jpg";
-import approval8 from "../images/DELHI METRO JOB APPROVAL CERTIFICATE_page-0001.jpg";
+import approval1 from "../images/UP JAL NIGAM Approval 1_page-0001.webp";
+import approval2 from "../images/UP JAL NIGAM Approval-2_page-0001 (1).webp";
+import approval3 from "../images/RWSS- Approval letter - IOTAFLOW_page-0001.webp";
+import approval4 from "../images/OIL INDIA LIMITED JOB APPROVAL Certificate_page-0001.webp";
+import approval5 from "../images/DMS_Approved (1)_page-0001.webp";
+import approval6 from "../images/NTPC Vendor Enlistment Certificate_page-0001.webp";
+import approval7 from "../images/DJB_Approval_Letter_Dec2019.webp";
+import approval8 from "../images/DELHI METRO JOB APPROVAL CERTIFICATE_page-0001.webp";
 
 const approvals = [
   { id: 1, img: approval1, title: "UP JAL NIGAM Approval 1" },

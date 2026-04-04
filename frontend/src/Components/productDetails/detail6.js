@@ -7,39 +7,39 @@ import { FaRegFilePdf } from "react-icons/fa6";
 
 
 
-import img1 from "../../images/d6a.png";
-import img2 from "../../images/d6b.png";
-import img3 from "../../images/Doppler (2).png";
+import img1 from "../../images/d6a.webp";
+import img2 from "../../images/d6b.webp";
+import img3 from "../../images/Doppler (2).webp";
 
 
 
-import related1 from "../../images/p2a.png";
-import related2 from "../../images/p3a.jpg";
-import related3 from "../../images/p4a.jpg";
-import related4 from "../../images/p5a.png";
+import related1 from "../../images/p2a.webp";
+import related2 from "../../images/p3a.webp";
+import related3 from "../../images/p4a.webp";
+import related4 from "../../images/p5a.webp";
 
 
 
 //icons to be added
-import arrowIcon from "../../images/Arrow icon png.png";
-import NFCsymbol from "../../images/NFC.png";
-import Exproofimg from "../../images/Ex proof.png";
-import IBRimg from "../../images/IBR.png";
-import LoraWANimg from "../../images/Lora wan.png";
-import mbusimg from "../../images/m bus.png";
-import AMR from "../../images/AMR Ready.png";
-import battery from "../../images/Battery operated symbol.png";
-import datalogger from "../../images/built-in data logger..png";
-import ce from "../../images/CE.png";
-import CGWA from "../../images/CGWA Compliant symbol.png";
-import EAC from "../../images/EAC TR TS Compliance.png";
-import Ethernet from "../../images/Ethernet.png";
-import GOST from "../../images/GOST-R Certified symbol.png";
-import HART from "../../images/HART Enabled symbol.png";
-import MID from "../../images/MID Certified.png";
-import Wsonic from "../../images/W Sonic technology.png";
-import iot from "../../images/IOT Ready.png";
-import rohs from "../../images/Rohs compliant.png";
+import arrowIcon from "../../images/Arrow icon png.webp";
+import NFCsymbol from "../../images/NFC.webp";
+import Exproofimg from "../../images/Ex proof.webp";
+import IBRimg from "../../images/IBR.webp";
+import LoraWANimg from "../../images/Lora wan.webp";
+import mbusimg from "../../images/m bus.webp";
+import AMR from "../../images/AMR Ready.webp";
+import battery from "../../images/Battery operated symbol.webp";
+import datalogger from "../../images/built-in data logger..webp";
+import ce from "../../images/CE.webp";
+import CGWA from "../../images/CGWA Compliant symbol.webp";
+import EAC from "../../images/EAC TR TS Compliance.webp";
+import Ethernet from "../../images/Ethernet.webp";
+import GOST from "../../images/GOST-R Certified symbol.webp";
+import HART from "../../images/HART Enabled symbol.webp";
+import MID from "../../images/MID Certified.webp";
+import Wsonic from "../../images/W Sonic technology.webp";
+import iot from "../../images/IOT Ready.webp";
+import rohs from "../../images/Rohs compliant.webp";
 
 
 

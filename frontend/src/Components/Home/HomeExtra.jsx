@@ -6,80 +6,80 @@ import "swiper/css";
 import "./home-extra.css";
 
 /* === import every logo that lives under src/images (put correct cases!) === */
-import adani from "../../images/adani.png";
-import cairn from "../../images/Cairn.png"; // <-- make sure this EXACTLY matches the file name
-import client2 from "../../images/client2.jpg";
-import client3 from "../../images/client3.png";
-import client4_1 from "../../images/client4 (1).jpg";
-import client4_180 from "../../images/client4-180x96.png";
-import client5_180 from "../../images/client5-180x96.png";
-import client5 from "../../images/client5.jpg";
-import client6_180 from "../../images/client6-180x96.png";
-import client6 from "../../images/client6.jpg";
-import client7_180 from "../../images/client7-180x96.png";
-import client8_180 from "../../images/client8-180x96.png";
-import client8 from "../../images/client8.jpg";
-import client9_180 from "../../images/client9-180x96.png";
-import client10_180 from "../../images/client10-180x96.png";
-import client11_180 from "../../images/client11-180x96.png";
-import client12_180 from "../../images/client12-180x96.png";
-import drReddys from "../../images/Dr.-Reddys.png";
-import essarSteel from "../../images/essar-steel.png";
-import gaar from "../../images/Gaar.png";
-import hindustan from "../../images/hindustan.png";
-import itcHotels from "../../images/itc-hotels.png";
-import jindal from "../../images/jindal.png";
-import ltLogo from "../../images/lt_logo.png";
-import mahindraRise from "../../images/Mahindra-rise.png";
-import motherDairy from "../../images/mother-dairy.png";
-import ntpc from "../../images/NTPC.png";
-import ocmLuxury from "../../images/ocm-lxury.png";
-import oilLtd from "../../images/oilltd.png";
-import roorkee from "../../images/roorkee.png";
-import schneider from "../../images/Schneider.png";
-import smec from "../../images/smec.png";
-import sterlingWilson from "../../images/sterling-wilson.png";
-import taj from "../../images/Taj.png";
-import ultratech from "../../images/ultratech-cement.png";
-import voltas from "../../images/voltas.png";
-import cl2 from "../../images/Client logo icon_2.png";
-import cl3 from "../../images/Client logo icon_3.png";
+import adani from "../../images/adani.webp";
+import cairn from "../../images/Cairn.webp"; // <-- make sure this EXACTLY matches the file name
+import client2 from "../../images/client2.webp";
+import client3 from "../../images/client3.webp";
+import client4_1 from "../../images/client4 (1).webp";
+import client4_180 from "../../images/client4-180x96.webp";
+import client5_180 from "../../images/client5-180x96.webp";
+import client5 from "../../images/client5.webp";
+import client6_180 from "../../images/client6-180x96.webp";
+import client6 from "../../images/client6.webp";
+import client7_180 from "../../images/client7-180x96.webp";
+import client8_180 from "../../images/client8-180x96.webp";
+import client8 from "../../images/client8.webp";
+import client9_180 from "../../images/client9-180x96.webp";
+import client10_180 from "../../images/client10-180x96.webp";
+import client11_180 from "../../images/client11-180x96.webp";
+import client12_180 from "../../images/client12-180x96.webp";
+import drReddys from "../../images/Dr.-Reddys.webp";
+import essarSteel from "../../images/essar-steel.webp";
+import gaar from "../../images/Gaar.webp";
+import hindustan from "../../images/hindustan.webp";
+import itcHotels from "../../images/itc-hotels.webp";
+import jindal from "../../images/jindal.webp";
+import ltLogo from "../../images/lt_logo.webp";
+import mahindraRise from "../../images/Mahindra-rise.webp";
+import motherDairy from "../../images/mother-dairy.webp";
+import ntpc from "../../images/NTPC.webp";
+import ocmLuxury from "../../images/ocm-lxury.webp";
+import oilLtd from "../../images/oilltd.webp";
+import roorkee from "../../images/roorkee.webp";
+import schneider from "../../images/Schneider.webp";
+import smec from "../../images/smec.webp";
+import sterlingWilson from "../../images/sterling-wilson.webp";
+import taj from "../../images/Taj.webp";
+import ultratech from "../../images/ultratech-cement.webp";
+import voltas from "../../images/voltas.webp";
+import cl2 from "../../images/Client logo icon_2.webp";
+import cl3 from "../../images/Client logo icon_3.webp";
 
-import cl6 from "../../images/Client logo icon_6.png";
-import cl8 from "../../images/Client logo icon_8.png";
-import cl9 from "../../images/Client logo icon_9.png";
-import cl12 from "../../images/Client logo icon_12.png";
-import cl13 from "../../images/Client logo icon_13.png";
-import cl14 from "../../images/Client logo icon_14.png";
-import cl15 from "../../images/Client logo icon_15.png";
-import cl16 from "../../images/Client logo icon_16.png";
-import cl17 from "../../images/Client logo icon_17.png";
-import cl18 from "../../images/Client logo icon_18.png";
-import cl19 from "../../images/Client logo icon_19.png";
-import cl20 from "../../images/Client logo icon_20.png";
-import cl21 from "../../images/Client logo icon_21.png";
-import cl22 from "../../images/Client logo icon_22.png";
-import n7 from "../../images/New_7.png";
-import n11 from "../../images/New_11.png";
-import n23 from "../../images/New_23.png";
-import n24 from "../../images/New_24.png";
-import n25 from "../../images/New_25 Hindalco.png";
-import n26 from "../../images/New_26.png";
-import n27 from "../../images/New_27.png";
-import n28 from "../../images/New_28.png";
-import n29 from "../../images/New_29.png";
-import n30 from "../../images/New_30.png";
-import n31 from "../../images/New_31.png";
-import n32 from "../../images/New_32.png";
-import n33 from "../../images/New_33.png";
-import n34 from "../../images/34.png";
+import cl6 from "../../images/Client logo icon_6.webp";
+import cl8 from "../../images/Client logo icon_8.webp";
+import cl9 from "../../images/Client logo icon_9.webp";
+import cl12 from "../../images/Client logo icon_12.webp";
+import cl13 from "../../images/Client logo icon_13.webp";
+import cl14 from "../../images/Client logo icon_14.webp";
+import cl15 from "../../images/Client logo icon_15.webp";
+import cl16 from "../../images/Client logo icon_16.webp";
+import cl17 from "../../images/Client logo icon_17.webp";
+import cl18 from "../../images/Client logo icon_18.webp";
+import cl19 from "../../images/Client logo icon_19.webp";
+import cl20 from "../../images/Client logo icon_20.webp";
+import cl21 from "../../images/Client logo icon_21.webp";
+import cl22 from "../../images/Client logo icon_22.webp";
+import n7 from "../../images/New_7.webp";
+import n11 from "../../images/New_11.webp";
+import n23 from "../../images/New_23.webp";
+import n24 from "../../images/New_24.webp";
+import n25 from "../../images/New_25 Hindalco.webp";
+import n26 from "../../images/New_26.webp";
+import n27 from "../../images/New_27.webp";
+import n28 from "../../images/New_28.webp";
+import n29 from "../../images/New_29.webp";
+import n30 from "../../images/New_30.webp";
+import n31 from "../../images/New_31.webp";
+import n32 from "../../images/New_32.webp";
+import n33 from "../../images/New_33.webp";
+import n34 from "../../images/34.webp";
 
 
 
 /* ---------------- HERO ---------------- */
 export function HeroBanner() {
   // Put bg1.jpg into /public/images/bg1.jpg (or import it from src if you prefer)
-  const HERO_IMG = "/images/bg1.jpg";
+  const HERO_IMG = "/images/bg1.webp";
 
   return (
     <section
@@ -243,7 +243,7 @@ export function ClientsSection() {
                   {logos.map((src, i) => (
                     <SwiperSlide key={i}>
                       <div className="client-logo-cardd">
-                        <img src={src} alt={`client-${i}`} />
+                        <img src={src} alt={`client-${i}`} loading="lazy" />
                       </div>
                     </SwiperSlide>
                   ))}

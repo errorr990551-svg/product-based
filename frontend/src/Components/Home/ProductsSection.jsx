@@ -2,13 +2,13 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import ProductCard from './ProductCardd';
 
-import waterIcon from '../../images/icon1.png';
-import airIcon from '../../images/icon2.png';
-import oilIcon from '../../images/icon3.png';
+import waterIcon from '../../images/icon1.webp';
+import airIcon from '../../images/icon2.webp';
+import oilIcon from '../../images/icon3.webp';
 
-import gasIcon from '../../images/icon4.png';
-import steamIcon from '../../images/icon5 (2).png';
-import chemicalIcon from '../../images/icon6.png';
+import gasIcon from '../../images/icon4.webp';
+import steamIcon from '../../images/icon5 (2).webp';
+import chemicalIcon from '../../images/icon6.webp';
 //import { div } from 'framer-motion/client';
 
 

@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const seoContent = [
   {
     // Add the path to your image here. If you set it to null, the text will take up the full width.
-    image: '/path/to/your/playschool-toys-image.png',
+    image: '/path/to/your/playschool-toys-image.webp',
     sections: [
       {
         title: 'Playschool Toys in Ranchi',

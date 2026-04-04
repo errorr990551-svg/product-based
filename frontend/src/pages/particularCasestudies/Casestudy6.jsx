@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import IndustrialAutomationHeroBg from "../../images/Aluminum_Manufacturing_Plant_Aluminum1.png";
-import img1 from "../../images/Aluminum_Manufacturing_Plant_Aluminum2.png"
-import img2 from "../../images/Aluminum_Manufacturing_Plant_Aluminum3.png"
+import IndustrialAutomationHeroBg from "../../images/Aluminum_Manufacturing_Plant_Aluminum1.webp";
+import img1 from "../../images/Aluminum_Manufacturing_Plant_Aluminum2.webp"
+import img2 from "../../images/Aluminum_Manufacturing_Plant_Aluminum3.webp"
 
 // Placeholder for Related Product Images
 // Replace these with your actual image imports
-import product1Img from "../../images/SS_20.250.png";
+import product1Img from "../../images/SS_20.250.webp";
 
 
 // Related Products Data

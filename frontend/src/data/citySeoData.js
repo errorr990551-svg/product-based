@@ -1,7 +1,7 @@
 import { Award, Settings, Globe, ThumbsUp, Users, ShieldCheck } from "lucide-react";
-import slide1 from "../images/banner 25.jpg";
-import slide2 from "../images/bg2.jpg";
-import slide3 from "../images/Flow web banner  (1600 x 833 px).jpg";
+import slide1 from "../images/banner 25.webp";
+import slide2 from "../images/bg2.webp";
+import slide3 from "../images/Flow web banner  (1600 x 833 px).webp";
 
 export const mumbaiSeoData = {
   city: "Mumbai",

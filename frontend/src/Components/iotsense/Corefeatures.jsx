@@ -1,9 +1,9 @@
 import React from 'react';
 
-import deployAndScaleimg from '../../images/Core Features_1. Unified Data Fabric for Flow & Utility Assets.png';
-import flowFocusedAppsimg from '../../images/Core Features_2. Flow-Focused Applications.png';
-import intelligenceAnalyticsimg from '../../images/Core Features_3. Intelligence, Analytics & Automation.png';
-import utilityBenefitsimg from '../../images/Core Features_4. Utility & Sustainability Benefits.png';
+import deployAndScaleimg from '../../images/Core Features_1. Unified Data Fabric for Flow & Utility Assets.webp';
+import flowFocusedAppsimg from '../../images/Core Features_2. Flow-Focused Applications.webp';
+import intelligenceAnalyticsimg from '../../images/Core Features_3. Intelligence, Analytics & Automation.webp';
+import utilityBenefitsimg from '../../images/Core Features_4. Utility & Sustainability Benefits.webp';
 
 // A custom check icon, styled for the black and yellow theme.
 const IconCheck = ({ className }) => (
@@ -134,6 +134,7 @@ function Corefeatures() {
                 <img 
                   src={feature.imagePlaceholder} 
                   alt={feature.alt || feature.title} 
+                  loading="lazy"
                   className="tw-w-full tw-max-w-md md:tw-max-w-full tw-h-auto tw-rounded-lg tw-shadow-2xl tw-object-cover tw-bg-gray-200"
                 />
               </div>

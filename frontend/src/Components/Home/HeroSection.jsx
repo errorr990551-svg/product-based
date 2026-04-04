@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
-import bgImage from "../../images/metere.jpg"; 
+import bgImage from "../../images/metere.webp"; 
 import EnquiryButton from "../common/EnquiryButton";
 export default function HeroSection() {
   return (

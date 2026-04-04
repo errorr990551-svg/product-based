@@ -5,19 +5,19 @@ import { Container, Row, Col, Accordion } from "react-bootstrap";
 import "./lean-resources.css";
 import ProductCard from "./ProductCard";
 
-import img1 from "../images/pankaj-malik-lean-transformation-iotaflow.png"; // Hero banner
+import img1 from "../images/pankaj-malik-lean-transformation-iotaflow.webp"; // Hero banner
 import img2 from "../images/gifgif.gif";
-import img3 from "../images/iotaflow-lean-management-team.jpg";
+import img3 from "../images/iotaflow-lean-management-team.webp";
 
 // Emoticon icons
-import oilIcon from "../images/Emoticon 1.png";
-import waterIcon from "../images/Emoticon 2.png";
-import airIcon from "../images/Emoticon 3.png";
-import gasIcon from "../images/Emoticon 4.png";
-import steamIcon from "../images/Emoticon 5.png";
-import chemicalIcon from "../images/Emoticon 6.png";
-import waste7 from "../images/Emoticon 7.png";
-import waste8 from "../images/Emoticon 8.png";
+import oilIcon from "../images/Emoticon 1.webp";
+import waterIcon from "../images/Emoticon 2.webp";
+import airIcon from "../images/Emoticon 3.webp";
+import gasIcon from "../images/Emoticon 4.webp";
+import steamIcon from "../images/Emoticon 5.webp";
+import chemicalIcon from "../images/Emoticon 6.webp";
+import waste7 from "../images/Emoticon 7.webp";
+import waste8 from "../images/Emoticon 8.webp";
 
 function LeanResourcesPage() {
   const [activeKey, setActiveKey] = useState("-1");
@@ -116,7 +116,7 @@ function LeanResourcesPage() {
 
         {/* Empty section background */}
         <section>
-          <img src={img3} alt="Pankaj Malik, IOTAFLOW Systems, sharing his journey with 2 Second Lean and Six Sigma" className="journey" />
+          <img src={img3} alt="Pankaj Malik, IOTAFLOW Systems, sharing his journey with 2 Second Lean and Six Sigma" className="journey" loading="lazy" />
         </section>
 
         {/* Emoticon Section */}
@@ -143,6 +143,7 @@ function LeanResourcesPage() {
                       src={item.icon}
                       alt={item.title}
                       className="emoticon-img"
+                      loading="lazy"
                     />
                   </div>
                   <span className="emoticon-title">{item.title}</span>
@@ -154,7 +155,7 @@ function LeanResourcesPage() {
 
         {/* Lean Journey GIF */}
         <section className="hero-wrapperr">
-          <img src={img2} alt="The 8 Wastes in Lean Manufacturing: Defect, Waiting, Motion, Inventory, Processing, Transportation, Talent, Overproduction" className="lean-journey" />
+          <img src={img2} alt="The 8 Wastes in Lean Manufacturing: Defect, Waiting, Motion, Inventory, Processing, Transportation, Talent, Overproduction" className="lean-journey" loading="lazy" />
         </section>
 
         {/* Videos Section */}

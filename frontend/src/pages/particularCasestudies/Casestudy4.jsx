@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import MiningImg from "../../images/Case_study_images_Minning_Mining_stock.png"
-import img1 from "../../images/Case_study_images_Minning_Mining(1).png"
-import img2 from "../../images/Case_study_images_Minning_Mining(2).png"
+import MiningImg from "../../images/Case_study_images_Minning_Mining_stock.webp"
+import img1 from "../../images/Case_study_images_Minning_Mining(1).webp"
+import img2 from "../../images/Case_study_images_Minning_Mining(2).webp"
 
-import product1Img from "../../images/d3a.png";
+import product1Img from "../../images/d3a.webp";
 
 
 // Related Products Data

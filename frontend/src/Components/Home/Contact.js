@@ -69,7 +69,7 @@ const Contact = () => {
       {/* Banner */}
       <section className="contact-banner">
         <img
-          src={require("../../images/Contact us page.jpg")}
+          src={require("../../images/Contact us page.webp")}
           alt="Contact Banner"
           className="contact-banner-img"
         />

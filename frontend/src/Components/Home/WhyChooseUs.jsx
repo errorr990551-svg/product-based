@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import imgWhyChoose from '../../images/whyChooseUs.png';
+import imgWhyChoose from '../../images/whyChooseUs.webp';
 import './WhyChooseUs.css';
-import icon from "../../images/Arrow icon png.png";
+import icon from "../../images/Arrow icon png.webp";
 
 function WhyChooseUs() {
   const headingRef = useRef(null);
@@ -31,7 +31,7 @@ function WhyChooseUs() {
       
       <div className="why-container">
         <div className="why-left">
-          <img src={imgWhyChoose} alt="Why Choose IOTAFLOW infographic highlighting 7-day fast delivery, Lean Manufacturing, and flexible industrial flow solutions" />
+          <img src={imgWhyChoose} alt="Why Choose IOTAFLOW infographic highlighting 7-day fast delivery, Lean Manufacturing, and flexible industrial flow solutions" loading="lazy" />
         </div>
 
         <div className="why-right">
@@ -50,11 +50,11 @@ function WhyChooseUs() {
 
           <div className="why-grid">
             <div className="why-item">
-              <h5><img src={icon} alt="icon" className='Icon' /> Lean Manufacturing</h5>
+              <h5><img src={icon} alt="icon" className='Icon' loading="lazy" /> Lean Manufacturing</h5>
               <p> A Lean Team that is obsessed with flow of value to the customer by continuously working on the value stream.</p>
             </div>
             <div className="why-item">
-              <h5><img src={icon} alt="icon" className='Icon' /> Fast Delivery</h5>
+              <h5><img src={icon} alt="icon" className='Icon' loading="lazy" /> Fast Delivery</h5>
               <p> Unlike the industry standard lead times of 4-6 weeks, we deliver our standard products in just 7 days.</p>
             </div>
             <div className="why-item">

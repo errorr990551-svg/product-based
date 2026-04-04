@@ -2,13 +2,13 @@ import React, { useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 
 // --- Placeholder Images for Preview ---
-import strainerImage from '../../src/images/Strainers___Filters__2_-removebg-preview.png';
-import matchingFlagesImage from '../../src/images/Matching_Flange_Nut_BoltandGasket.png';
-import AirReleaseImage from '../../src/images/Air_Release_Systems-removebg-preview.png';
-import RemoteDisplayImage from '../../src/images/remoteDisplayUnit.png';
-import telementryImage from '../../src/images/Telemetry_Systems_-_4G_RTU_IOT_Gateways-removebg-preview.png';
-import CustomFlowImage from '../../src/images/Custom_Flow_Straighteners-removebg-preview.png';
-import SolarPowerSystemImage from '../../src/images/solarPowerSystem.png';
+import strainerImage from '../../src/images/Strainers___Filters__2_-removebg-preview.webp';
+import matchingFlagesImage from '../../src/images/Matching_Flange_Nut_BoltandGasket.webp';
+import AirReleaseImage from '../../src/images/Air_Release_Systems-removebg-preview.webp';
+import RemoteDisplayImage from '../../src/images/remoteDisplayUnit.webp';
+import telementryImage from '../../src/images/Telemetry_Systems_-_4G_RTU_IOT_Gateways-removebg-preview.webp';
+import CustomFlowImage from '../../src/images/Custom_Flow_Straighteners-removebg-preview.webp';
+import SolarPowerSystemImage from '../../src/images/solarPowerSystem.webp';
 
 const accessoriesData = [
   {

@@ -7,70 +7,70 @@ import { FaRegFilePdf } from "react-icons/fa6";
 
 
 
-import img1 from "../../images/d14a.png";
-import img2 from "../../images/d14b.png";
-import img3 from "../../images/d14c.png";
-import img4 from "../../images/d14d.png";
-import img5 from "../../images/d14e.png";
-import img6 from "../../images/d14f.png";
+import img1 from "../../images/d14a.webp";
+import img2 from "../../images/d14b.webp";
+import img3 from "../../images/d14c.webp";
+import img4 from "../../images/d14d.webp";
+import img5 from "../../images/d14e.webp";
+import img6 from "../../images/d14f.webp";
 
 
 
-import related1 from "../../images/p2a.png";
-import related2 from "../../images/d20a.png";
-import related3 from "../../images/d18a.png";
-import related4 from "../../images/d16a.png";
+import related1 from "../../images/p2a.webp";
+import related2 from "../../images/d20a.webp";
+import related3 from "../../images/d18a.webp";
+import related4 from "../../images/d16a.webp";
 
 
 
 //icons to be added
-import arrowIcon from "../../images/Arrow icon png.png";
-import NFCsymbol from "../../images/NFC.png";
-import Exproofimg from "../../images/Ex proof.png";
-import IBRimg from "../../images/IBR.png";
-import LoraWANimg from "../../images/Lora wan.png";
-import mbusimg from "../../images/m bus.png";
-import AMR from "../../images/AMR Ready.png";
-import battery from "../../images/Battery operated symbol.png";
-import datalogger from "../../images/built-in data logger..png";
-import ce from "../../images/CE.png";
-import CGWA from "../../images/CGWA Compliant symbol.png";
-import EAC from "../../images/EAC TR TS Compliance.png";
-import Ethernet from "../../images/Ethernet.png";
-import GOST from "../../images/GOST-R Certified symbol.png";
-import HART from "../../images/HART Enabled symbol.png";
-import MID from "../../images/MID Certified.png";
-import Wsonic from "../../images/W Sonic technology.png";
-import iot from "../../images/IOT Ready.png";
-import rohs from "../../images/Rohs compliant.png";
-import deg360 from "../../images/360 Deg Rotatable.png";
-import batteryip66 from "../../images/Battery + IP66 rating.png";
-import ccs from "../../images/CCS Type Approval.png";
-import coldhot from "../../images/Cold + Hot Water.png";
-import dnvgl from "../../images/DNV-GL Type Approval.png";
-import highpt from "../../images/High Pressure & Temperature Capability.png";
-import iacs from "../../images/IACS E10 Compliance.png";
-import inttemp from "../../images/Integrated temp measurement.png";
-import ip66 from "../../images/IP66 Protection.png";
-import iso from "../../images/ISO 17025 Accredited Calibration.png";
-import legalcom from "../../images/Legal & Commercial Use (fiscal approval).png";
-import lsg from "../../images/Liquids • Steam • Gas.png";
-import marine from "../../images/Marine Class Approved.png";
-import nooil from "../../images/No Oil Level Maintenance Required.png";
-import oiml from "../../images/OIML R49.png";
-import pipewprobe from "../../images/Pipe with probe (Insertion symbol).png";
-import propler from "../../images/Propler Icon.png";
-import pulse from "../../images/Pulse & Analog Output.png";
-import realtime from "../../images/Real-Time Display.png";
-import short from "../../images/Short pipe arrows.png";
-import tempsens from "../../images/Temperature Sensor.png";
-import therm from "../../images/Thermometer + gauge.png";
-import water from "../../images/Water meter (N).png";
-import wireless from "../../images/Wireless & Comm module.png";
-import ukca from "../../images/24 dec_UKCA_mark.png";
-import tempp from "../../images/24 dec_also_to_measure_output temp_pressure (1).png";
-import smallflow from "../../images/24 dec_leak_detectable_even_small_flow.png";
-import oilmist from "../../images/24 dec_strong_against_oilmist_and_durable.png";
+import arrowIcon from "../../images/Arrow icon png.webp";
+import NFCsymbol from "../../images/NFC.webp";
+import Exproofimg from "../../images/Ex proof.webp";
+import IBRimg from "../../images/IBR.webp";
+import LoraWANimg from "../../images/Lora wan.webp";
+import mbusimg from "../../images/m bus.webp";
+import AMR from "../../images/AMR Ready.webp";
+import battery from "../../images/Battery operated symbol.webp";
+import datalogger from "../../images/built-in data logger..webp";
+import ce from "../../images/CE.webp";
+import CGWA from "../../images/CGWA Compliant symbol.webp";
+import EAC from "../../images/EAC TR TS Compliance.webp";
+import Ethernet from "../../images/Ethernet.webp";
+import GOST from "../../images/GOST-R Certified symbol.webp";
+import HART from "../../images/HART Enabled symbol.webp";
+import MID from "../../images/MID Certified.webp";
+import Wsonic from "../../images/W Sonic technology.webp";
+import iot from "../../images/IOT Ready.webp";
+import rohs from "../../images/Rohs compliant.webp";
+import deg360 from "../../images/360 Deg Rotatable.webp";
+import batteryip66 from "../../images/Battery + IP66 rating.webp";
+import ccs from "../../images/CCS Type Approval.webp";
+import coldhot from "../../images/Cold + Hot Water.webp";
+import dnvgl from "../../images/DNV-GL Type Approval.webp";
+import highpt from "../../images/High Pressure & Temperature Capability.webp";
+import iacs from "../../images/IACS E10 Compliance.webp";
+import inttemp from "../../images/Integrated temp measurement.webp";
+import ip66 from "../../images/IP66 Protection.webp";
+import iso from "../../images/ISO 17025 Accredited Calibration.webp";
+import legalcom from "../../images/Legal & Commercial Use (fiscal approval).webp";
+import lsg from "../../images/Liquids • Steam • Gas.webp";
+import marine from "../../images/Marine Class Approved.webp";
+import nooil from "../../images/No Oil Level Maintenance Required.webp";
+import oiml from "../../images/OIML R49.webp";
+import pipewprobe from "../../images/Pipe with probe (Insertion symbol).webp";
+import propler from "../../images/Propler Icon.webp";
+import pulse from "../../images/Pulse & Analog Output.webp";
+import realtime from "../../images/Real-Time Display.webp";
+import short from "../../images/Short pipe arrows.webp";
+import tempsens from "../../images/Temperature Sensor.webp";
+import therm from "../../images/Thermometer + gauge.webp";
+import water from "../../images/Water meter (N).webp";
+import wireless from "../../images/Wireless & Comm module.webp";
+import ukca from "../../images/24 dec_UKCA_mark.webp";
+import tempp from "../../images/24 dec_also_to_measure_output temp_pressure (1).webp";
+import smallflow from "../../images/24 dec_leak_detectable_even_small_flow.webp";
+import oilmist from "../../images/24 dec_strong_against_oilmist_and_durable.webp";
 
 
 

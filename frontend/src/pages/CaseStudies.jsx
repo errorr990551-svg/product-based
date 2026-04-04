@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import SteelImg from "../images/Case_study_images_Steel&Metallurgy_Steel_stock.png"
-import MetroImg from "../images/Case_study_images_DMRC_Metro_DMRCstock.png"
-import WaterImg from "../images/Case_study_images_Water_Water_stock.png"
-import MiningImg from "../images/Case_study_images_Minning_Mining_stock.png"
-import HVACImg from "../images/Case_study_images_Hvac_Hvac_stock.png"
-import SteelImg2 from "../images/Aluminum_Manufacturing_Plant_Aluminum1.png"
+import SteelImg from "../images/Case_study_images_Steel&Metallurgy_Steel_stock.webp"
+import MetroImg from "../images/Case_study_images_DMRC_Metro_DMRCstock.webp"
+import WaterImg from "../images/Case_study_images_Water_Water_stock.webp"
+import MiningImg from "../images/Case_study_images_Minning_Mining_stock.webp"
+import HVACImg from "../images/Case_study_images_Hvac_Hvac_stock.webp"
+import SteelImg2 from "../images/Aluminum_Manufacturing_Plant_Aluminum1.webp"
 
 
 // --- Data: Industries (Sidebar Filters) ---

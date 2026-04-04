@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-import IconTelemetryImg from '../../images/Iotsense_Emoticons_RemoteTelemetrySystem.png';
-import SmartWaterImg from '../../images/Iotsense_Emoticons_SmartWaterMeterSupport.png';
-import IndeustryReadyImg from '../../images/Iotsense_Emoticons_Industry_4.0_Ready.png';
-import RegulatoryImg from '../../images/Iotsense_Emoticons_Regulatory_Compliance.png';
-import IconDatabaseImg from '../../images/Iotsense_Emoticons_Data_Accessibility.png';
+import IconTelemetryImg from '../../images/Iotsense_Emoticons_RemoteTelemetrySystem.webp';
+import SmartWaterImg from '../../images/Iotsense_Emoticons_SmartWaterMeterSupport.webp';
+import IndeustryReadyImg from '../../images/Iotsense_Emoticons_Industry_4.0_Ready.webp';
+import RegulatoryImg from '../../images/Iotsense_Emoticons_Regulatory_Compliance.webp';
+import IconDatabaseImg from '../../images/Iotsense_Emoticons_Data_Accessibility.webp';
 
 
 // Card component to display each feature

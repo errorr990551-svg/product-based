@@ -6,14 +6,14 @@ import "swiper/css";
 import "./Partner.css";
 
 // Import logos
-import aquametro from '../../images/par11.png';
-import apator from '../../images/par33.png';
-import Schmidt from '../../images/par44.png';
-import micro from '../../images/par55.png';
-import ultraflex from '../../images/par77.png';
-import elgas from '../../images/par22.png';
-import vzl from '../../images/par88.png';
-import aichi from '../../images/par66.png';
+import aquametro from '../../images/par11.webp';
+import apator from '../../images/par33.webp';
+import Schmidt from '../../images/par44.webp';
+import micro from '../../images/par55.webp';
+import ultraflex from '../../images/par77.webp';
+import elgas from '../../images/par22.webp';
+import vzl from '../../images/par88.webp';
+import aichi from '../../images/par66.webp';
 
 
 export function OurPartners() {
@@ -142,7 +142,7 @@ export function OurPartners() {
           {logos.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="client-logo-card">
-                <img src={item.img} alt={`Partner ${i}`} />
+                <img src={item.img} alt={`Partner ${i}`} loading="lazy" />
 
                 {/* Hover / info area */}
                 <div className="client-hover">

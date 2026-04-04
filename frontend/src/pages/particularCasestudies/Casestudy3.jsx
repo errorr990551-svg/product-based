@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import WaterImg from "../../images/Case_study_images_Water_Water_stock.png"
-import img1 from "../../images/Case_study_images_Water_Water(1).png"
-import img2 from "../../images/Case_study_images_Water_Water(2).png"
+import WaterImg from "../../images/Case_study_images_Water_Water_stock.webp"
+import img1 from "../../images/Case_study_images_Water_Water(1).webp"
+import img2 from "../../images/Case_study_images_Water_Water(2).webp"
 
 
-import product1Img from "../../images/d4a.png";
-import product2Img from "../../images/d2a.png";
+import product1Img from "../../images/d4a.webp";
+import product2Img from "../../images/d2a.webp";
 
 // Related Products Data
 const relatedProducts = [

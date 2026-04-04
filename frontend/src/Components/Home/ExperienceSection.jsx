@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
-import experienceImg from '../../images/bg1.jpg';  // Use your correct image path
+import experienceImg from '../../images/bg1.webp';  // Use your correct image path
 
 function ExperienceSection() {
   const sectionRef = useRef(null);

@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from "../common/SEO";
 import './AboutUsSection.css';
-import teamImage from '../../images/about us website img.jpg';  // Your single team image
+import teamImage from '../../images/about us website img.webp';  // Your single team image
 import KPISection from './KPISection';
 
 //import AnimatedVideoSection from './AnimatedVideoSection';
@@ -30,7 +30,7 @@ function AboutUsSection() {
             <div className="col-md-5 text-end position-relative">
               <div className="team-image-wrapper ms-md-0 me-md-3 mx-auto">
                 <div className="blur-bg"></div>
-                <img src={teamImage} alt="The IOTAFLOW Systems engineering team and problem solvers led by Mr. Pankaj Malik" className="img-fluid position-relative" />
+                <img src={teamImage} alt="The IOTAFLOW Systems engineering team and problem solvers led by Mr. Pankaj Malik" className="img-fluid position-relative" loading="lazy" />
               </div>
             </div>
 

@@ -1,15 +1,15 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; // Assuming you are using react-router-dom for navigation
-import ultrasonicimg from "../../images/p1a.png";
-import electromagneticimg from "../../images/p7a.jpg";
-import watermetersimg from "../../images/sja.png";
-import podisplacementimg from "../../images/p11a.jpg";
-import rotameterimg from "../../images/p24a.jpg";
-import sappflowmeter from "../../images/p23a.png";
-import thermalmassimg from "../../images/p15a.png";
-import gasflowmeterimg from "../../images/p19a.png";
-import vorteximg from "../../images/p16a.jpg";
+import ultrasonicimg from "../../images/p1a.webp";
+import electromagneticimg from "../../images/p7a.webp";
+import watermetersimg from "../../images/sja.webp";
+import podisplacementimg from "../../images/p11a.webp";
+import rotameterimg from "../../images/p24a.webp";
+import sappflowmeter from "../../images/p23a.webp";
+import thermalmassimg from "../../images/p15a.webp";
+import gasflowmeterimg from "../../images/p19a.webp";
+import vorteximg from "../../images/p16a.webp";
 
 const productData = {
   "Ultrasonic Flow Meters": {

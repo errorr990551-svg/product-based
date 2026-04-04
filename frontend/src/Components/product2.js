@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import SEO from "./common/SEO";
 
 
-import img2 from "../images/2000x2000.jpg";
+import img2 from "../images/2000x2000.webp";
 
 
-import related1 from "../images/p2a.png";
-import related2 from "../images/p3a.jpg";
-import related3 from "../images/p4a.jpg";
-import related4 from "../images/p5a.png";
+import related1 from "../images/p2a.webp";
+import related2 from "../images/p3a.webp";
+import related3 from "../images/p4a.webp";
+import related4 from "../images/p5a.webp";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Breadcrumbs from "./Breadcrumbs";

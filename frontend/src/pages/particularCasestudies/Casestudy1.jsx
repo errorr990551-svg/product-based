@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import SteelImg from "../../images/Case_study_images_Steel&Metallurgy_Steel_stock.png"
-import caseStudyImg from "../../images/Case_study_Try.png"
-import img2 from "../../images/Case_study_images_Steel&Metallurgy_Steel(2).png"
+import SteelImg from "../../images/Case_study_images_Steel&Metallurgy_Steel_stock.webp"
+import caseStudyImg from "../../images/Case_study_Try.webp"
+import img2 from "../../images/Case_study_images_Steel&Metallurgy_Steel(2).webp"
 
-import product1Img from "../../images/d7aa.png";
+import product1Img from "../../images/d7aa.webp";
 
 
 // Related Products Data

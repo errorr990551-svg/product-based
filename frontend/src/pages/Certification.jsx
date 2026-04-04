@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import cert1 from "../images/Zedgold.png";
-import cert2 from "../images/Type Test Certificate - PTB Lab Germany.png";
-import cert3 from "../images/RWS&S_Circle.png";
-import cert4 from "../images/Environmental Management Systems Certificate.jpg";
-import cert5 from "../images/Leanbasic.png";
-import cert6 from "../images/ISO.png";
-import cert7 from "../images/E-TenderEnquiry.png";
+import cert1 from "../images/Zedgold.webp";
+import cert2 from "../images/Type Test Certificate - PTB Lab Germany.webp";
+import cert3 from "../images/RWS&S_Circle.webp";
+import cert4 from "../images/Environmental Management Systems Certificate.webp";
+import cert5 from "../images/Leanbasic.webp";
+import cert6 from "../images/ISO.webp";
+import cert7 from "../images/E-TenderEnquiry.webp";
 
 const certificates = [
   { id: 1, img: cert1, title: "Zedgold Certificate" },

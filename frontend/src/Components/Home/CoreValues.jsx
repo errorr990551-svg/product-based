@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import coreValuesImg from '../../images/corepic.jpg';
-import icon from "../../images/Arrow icon png.png";
+import coreValuesImg from '../../images/corepic.webp';
+import icon from "../../images/Arrow icon png.webp";
 
 function CoreValues() {
   const headingRef = useRef(null);
@@ -38,28 +38,28 @@ function CoreValues() {
 
           <div className="row mt-4">
             <div className="col-sm-6 mb-4">
-              <h5><span className="text-warning me-2"><img src={icon} alt="icon" className='Icon' /></span>Empowering Ownership</h5>
+              <h5><span className="text-warning me-2"><img src={icon} alt="icon" className='Icon' loading="lazy" /></span>Empowering Ownership</h5>
               <p className="text-light">
                 A culture where our team takes full responsibility and pride in their work, driving excellence in every flow measuring sensor we create.
               </p>
             </div>
 
             <div className="col-sm-6 mb-4">
-              <h5><span className="text-warning me-2"><img src={icon} alt="icon" className='Icon' /></span>Thrust for Learning</h5>
+              <h5><span className="text-warning me-2"><img src={icon} alt="icon" className='Icon' loading="lazy" /></span>Thrust for Learning</h5>
               <p className="text-light">
                 Continuously expanding our expertise and skills, we harness the power of learning to innovate and lead.
               </p>
             </div>
 
             <div className="col-sm-6 mb-4">
-              <h5><span className="text-warning me-2"><img src={icon} alt="icon" className='Icon' /></span>Innovating Solutions</h5>
+              <h5><span className="text-warning me-2"><img src={icon} alt="icon" className='Icon' loading="lazy" /></span>Innovating Solutions</h5>
               <p className="text-light">
                     Embracing every challenge with creativity and resourcefulness.
               </p>
             </div>
 
             <div className="col-sm-6 mb-4">
-              <h5><span className="text-warning me-2"><img src={icon} alt="icon" className='Icon' /></span>Team of Problem Solvers</h5>
+              <h5><span className="text-warning me-2"><img src={icon} alt="icon" className='Icon' loading="lazy" /></span>Team of Problem Solvers</h5>
               <p className="text-light">
                 Fostering a collaborative environment, we thrive as a united team.
               </p>
@@ -73,6 +73,7 @@ function CoreValues() {
         <img
           src={coreValuesImg}
           alt="IOTAFLOW Core Values representing Empowering Ownership, Thrust for Learning, and Innovative Problem Solving in engineering"
+          loading="lazy"
           className="img-fluid w-100 h-100 object-fit-cover"
         />
       </div>

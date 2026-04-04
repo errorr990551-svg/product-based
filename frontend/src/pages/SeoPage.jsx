@@ -13,60 +13,60 @@ import { mumbaiSeoData, delhiSeoData, bengaluruSeoData, hyderabadSeoData, ahmeda
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
 // ====================================================================
-import slide1 from "../images/banner 25.jpg";
-import slide2 from "../images/bg2.jpg";
-import slide3 from "../images/Flow web banner  (1600 x 833 px).jpg";
+import slide1 from "../images/banner 25.webp";
+import slide2 from "../images/bg2.webp";
+import slide3 from "../images/Flow web banner  (1600 x 833 px).webp";
 
 /* === Import every logo that lives under src/images (put correct cases!) === */
-import adani from "../images/adani.png";
-import cairn from "../images/Cairn.png";
-import client2 from "../images/client2.jpg";
-import client3 from "../images/client3.png";
-import client4_1 from "../images/client4 (1).jpg";
-import client4_180 from "../images/client4-180x96.png";
-import client5_180 from "../images/client5-180x96.png";
-import client5 from "../images/client5.jpg";
-import client6_180 from "../images/client6-180x96.png";
-import client6 from "../images/client6.jpg";
-import client7_180 from "../images/client7-180x96.png";
-import client8_180 from "../images/client8-180x96.png";
-import client8 from "../images/client8.jpg";
-import client9_180 from "../images/client9-180x96.png";
-import client10_180 from "../images/client10-180x96.png";
-import client11_180 from "../images/client11-180x96.png";
-import client12_180 from "../images/client12-180x96.png";
-import drReddys from "../images/Dr.-Reddys.png";
-import essarSteel from "../images/essar-steel.png";
-import gaar from "../images/Gaar.png";
-import hindustan from "../images/hindustan.png";
-import itcHotels from "../images/itc-hotels.png";
-import jindal from "../images/jindal.png";
-import ltLogo from "../images/lt_logo.png";
-import mahindraRise from "../images/Mahindra-rise.png";
-import motherDairy from "../images/mother-dairy.png";
-import ntpc from "../images/NTPC.png";
-import ocmLuxury from "../images/ocm-lxury.png";
-import oilLtd from "../images/oilltd.png";
-import roorkee from "../images/roorkee.png";
-import schneider from "../images/Schneider.png";
-import smec from "../images/smec.png";
-import sterlingWilson from "../images/sterling-wilson.png";
-import taj from "../images/Taj.png";
-import ultratech from "../images/ultratech-cement.png";
-import voltas from "../images/voltas.png";
+import adani from "../images/adani.webp";
+import cairn from "../images/Cairn.webp";
+import client2 from "../images/client2.webp";
+import client3 from "../images/client3.webp";
+import client4_1 from "../images/client4 (1).webp";
+import client4_180 from "../images/client4-180x96.webp";
+import client5_180 from "../images/client5-180x96.webp";
+import client5 from "../images/client5.webp";
+import client6_180 from "../images/client6-180x96.webp";
+import client6 from "../images/client6.webp";
+import client7_180 from "../images/client7-180x96.webp";
+import client8_180 from "../images/client8-180x96.webp";
+import client8 from "../images/client8.webp";
+import client9_180 from "../images/client9-180x96.webp";
+import client10_180 from "../images/client10-180x96.webp";
+import client11_180 from "../images/client11-180x96.webp";
+import client12_180 from "../images/client12-180x96.webp";
+import drReddys from "../images/Dr.-Reddys.webp";
+import essarSteel from "../images/essar-steel.webp";
+import gaar from "../images/Gaar.webp";
+import hindustan from "../images/hindustan.webp";
+import itcHotels from "../images/itc-hotels.webp";
+import jindal from "../images/jindal.webp";
+import ltLogo from "../images/lt_logo.webp";
+import mahindraRise from "../images/Mahindra-rise.webp";
+import motherDairy from "../images/mother-dairy.webp";
+import ntpc from "../images/NTPC.webp";
+import ocmLuxury from "../images/ocm-lxury.webp";
+import oilLtd from "../images/oilltd.webp";
+import roorkee from "../images/roorkee.webp";
+import schneider from "../images/Schneider.webp";
+import smec from "../images/smec.webp";
+import sterlingWilson from "../images/sterling-wilson.webp";
+import taj from "../images/Taj.webp";
+import ultratech from "../images/ultratech-cement.webp";
+import voltas from "../images/voltas.webp";
 
 
 
 // Product Images
-import ultrasonicimg from "../images/p1a.png";
-import electromagneticimg from "../images/p7a.jpg";
-import watermetersimg from "../images/sja.png";
-import podisplacementimg from "../images/p11a.jpg";
-import rotameterimg from "../images/p24a.jpg";
-import sappflowmeter from "../images/p23a.png";
-import thermalmassimg from "../images/p15a.png";
-import gasflowmeterimg from "../images/p19a.png";
-import vorteximg from "../images/p16a.jpg";
+import ultrasonicimg from "../images/p1a.webp";
+import electromagneticimg from "../images/p7a.webp";
+import watermetersimg from "../images/sja.webp";
+import podisplacementimg from "../images/p11a.webp";
+import rotameterimg from "../images/p24a.webp";
+import sappflowmeter from "../images/p23a.webp";
+import thermalmassimg from "../images/p15a.webp";
+import gasflowmeterimg from "../images/p19a.webp";
+import vorteximg from "../images/p16a.webp";
 
 
 // ================= CITY DATA MAP =================
@@ -237,7 +237,13 @@ function BannerSliderSeo({ slides }) {
 
 function RightChoiceSeo({ featuresData }) {
   return (
-    <section className="tw-bg-white tw-py-20 tw-text-[#1f1e1d]">
+    <motion.section
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+      className="tw-bg-white tw-py-20 tw-text-[#1f1e1d]"
+    >
       <Container>
         <div className="tw-text-center tw-mb-12">
           <h2 className="tw-font-bold tw-text-4xl tw-relative tw-pb-4">
@@ -269,7 +275,7 @@ function RightChoiceSeo({ featuresData }) {
           })}
         </Row>
       </Container>
-    </section>
+    </motion.section>
   );
 }
 
@@ -279,7 +285,13 @@ function MainContentSeo(  { seoContent, cityName }) {
   const otherSections = contentBlock.sections.slice(1);
 
   return (
-    <section className="tw-bg-[#ffcc00] tw-py-16">
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 1 }}
+      className="tw-bg-[#ffcc00] tw-py-16"
+    >
       <Container>
         <div className="tw-text-center tw-mb-12">
           <h2 className="tw-font-bold tw-text-4xl tw-text-gray-800">
@@ -353,14 +365,19 @@ function MainContentSeo(  { seoContent, cityName }) {
           </Col>
         </Row>
       </Container>
-    </section>
+    </motion.section>
   );
 }
 
 function ProductsSeo() {
   const products = Object.values(productData);
   return (
-    <section className="tw-bg-white tw-py-20">
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      className="tw-bg-white tw-py-20"
+    >
       <Container>
         <div className="tw-text-center tw-mb-12">
           <h2 className="tw-font-bold tw-text-4xl tw-relative tw-pb-4">
@@ -384,7 +401,7 @@ function ProductsSeo() {
           ))}
         </Row>
       </Container>
-    </section>
+    </motion.section>
   );
 }
 
@@ -408,7 +425,7 @@ function OurClients() {
           {clientLogos.map((src, i) => (
             <SwiperSlide key={i}>
               <div className="tw-bg-white tw-rounded-xl tw-shadow-md tw-h-[300px] tw-flex tw-items-center tw-justify-center">
-                <img src={src} alt="Trusted Industrial Clients of IotaFlow" className="tw-max-h-[200px] tw-max-w-[90%] tw-object-contain tw-grayscale-[20%] tw-transition-all tw-duration-300 hover:tw-grayscale-0 hover:tw-scale-105" />
+                <img src={src} alt="Trusted Industrial Clients of IotaFlow" loading="lazy" className="tw-max-h-[200px] tw-max-w-[90%] tw-object-contain tw-grayscale-[20%] tw-transition-all tw-duration-300 hover:tw-grayscale-0 hover:tw-scale-105" />
               </div>
             </SwiperSlide>
           ))}

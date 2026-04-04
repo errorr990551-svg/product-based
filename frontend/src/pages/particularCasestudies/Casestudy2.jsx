@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import MetroImg from "../../images/Case_study_images_DMRC_Metro_DMRCstock.png"
-import img1 from "../../images/Case_study_images_DMRC_Metro_DMRC(1).png"
-import img2 from "../../images/Case_study_images_DMRC_Metro_DMRC(2).png"
+import MetroImg from "../../images/Case_study_images_DMRC_Metro_DMRCstock.webp"
+import img1 from "../../images/Case_study_images_DMRC_Metro_DMRC(1).webp"
+import img2 from "../../images/Case_study_images_DMRC_Metro_DMRC(2).webp"
 
-import product1Img from "../../images/d7aa.png";
-import product2Img from "../../images/d2a.png";
+import product1Img from "../../images/d7aa.webp";
+import product2Img from "../../images/d2a.webp";
 
 // Related Products Data
 const relatedProducts = [

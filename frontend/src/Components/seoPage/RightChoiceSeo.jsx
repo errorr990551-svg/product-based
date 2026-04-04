@@ -4,32 +4,32 @@ import { Container, Row, Col } from 'react-bootstrap';
 // --- You can easily change the icons and text here in the future ---
 const featuresData = [
   {
-    icon: '/icons/experience-icon.png', // Replace with your actual icon path
+    icon: '/icons/experience-icon.webp', // Replace with your actual icon path
     title: 'Years Of Experience',
     description: 'With 75+ years of experience in this industry, we have established ourselves as a trusted name.',
   },
   {
-    icon: '/icons/customize-icon.png', // Replace with your actual icon path
+    icon: '/icons/customize-icon.webp', // Replace with your actual icon path
     title: 'Customize Collection',
     description: 'We aim to nurture the needs of our clients by offering tailored and customized solutions.',
   },
   {
-    icon: '/icons/shipping-icon.png', // Replace with your actual icon path
+    icon: '/icons/shipping-icon.webp', // Replace with your actual icon path
     title: 'Worldwide Shipment',
     description: 'With worldwide reach, we are devoted to delivering undamaged products promptly.',
   },
   {
-    icon: '/icons/satisfaction-icon.png', // Replace with your actual icon path
+    icon: '/icons/satisfaction-icon.webp', // Replace with your actual icon path
     title: 'Client Satisfaction',
     description: 'Since our establishment, we are committed to bringing the utmost satisfaction to our clients.',
   },
   {
-    icon: '/icons/experts-icon.png', // Replace with your actual icon path
+    icon: '/icons/experts-icon.webp', // Replace with your actual icon path
     title: 'Team Of Experts',
     description: 'We have a dedicated team of experts who are committed to offering unparalleled service.',
   },
   {
-    icon: '/icons/quality-icon.png', // Replace with your actual icon path
+    icon: '/icons/quality-icon.webp', // Replace with your actual icon path
     title: 'Premium Quality Products',
     description: 'Experience top-quality products that enhance your operations and provide lasting value.',
   },

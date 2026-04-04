@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "./CustomNavbar.css";
-import Logo from "../../images/Iotaf logo full.png";
-import icon from "../../images/greater.png";
-import GaugeIcon from "../../images/clockIconn.png";
+import Logo from "../../images/Iotaf logo full.webp";
+import icon from "../../images/greater.webp";
+import GaugeIcon from "../../images/clockIconn.webp";
 
 function CustomNavbar() {
   const [menuOpen, setMenuOpen] = useState(false);

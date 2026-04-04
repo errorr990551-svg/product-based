@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Logo from "../images/Iotaf logo icon.png";
+import Logo from "../images/Iotaf logo icon.webp";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { useNavigate, useLocation } from "react-router-dom";
