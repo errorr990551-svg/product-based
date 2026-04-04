@@ -27,7 +27,7 @@
     "build:css": "tailwindcss -i ./src/index.css -o ./src/tailwind-output.css --watch",
     "start": "npm-run-all -p build:css start:react",
     "start:react": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npx tailwindcss -i ./src/index.css -o ./src/tailwind-output.css && react-scripts build",
     "test": "react-scripts test"
   },
   "eslintConfig": {
