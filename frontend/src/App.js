@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import './index.css';
 import "./App.css";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 
