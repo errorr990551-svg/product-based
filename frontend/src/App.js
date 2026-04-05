@@ -106,13 +106,13 @@ function HomePage() {
           keywords="industrial flow meter manufacturer, electromagnetic flow meter india, vortex steam flow meter, ultrasonic water meter, digital flow meter price, IOTAFLOW systems, IoT flow monitoring, AMR data logger India, thermal mass flow meter, oil and gas flow measurement"
         />
       <BannerSlider />
-      <HeroSection />
       <Suspense fallback={<div className="tw-py-20 tw-text-center">Loading section...</div>}>
-        <StatsModern />
         <ProductsSection />
         <WhyChooseUs />
         <CoreValues />
         <OurPartners />
+        <HeroSection />
+        <StatsModern />
         <ClientsSection />
         <MoreAboutUs />
         <FAQSection />
