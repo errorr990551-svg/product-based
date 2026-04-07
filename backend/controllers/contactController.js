@@ -2,7 +2,7 @@ const { sendMail } = require("../services/emailService");
 
 exports.submitContactForm = async (req, res) => {
   try {
-    const { name, email, phone, company, message } = req.body;
+    const { name, email, phone, location, company, message } = req.body;
 
     // Validate required fields
     if (!name || !email || !phone || !message) {
@@ -26,6 +26,7 @@ exports.submitContactForm = async (req, res) => {
         <p><b>Name:</b> ${name}</p>
         <p><b>Email:</b> ${email}</p>
         <p><b>Phone:</b> ${phone}</p>
+        <p><b>Location:</b> ${location || "Not Provided"}</p>
         <p><b>Company:</b> ${company}</p>
         <p><b>Message:</b><br/>${message}</p>
       `,
