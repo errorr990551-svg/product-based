@@ -8,7 +8,21 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import EnquiryButton from '../Components/common/EnquiryButton';
-import { mumbaiSeoData, delhiSeoData, bengaluruSeoData, hyderabadSeoData, ahmedabadSeoData, chennaiSeoData } from "../data/citySeoData";
+import { mumbaiSeoData, delhiSeoData, bengaluruSeoData, hyderabadSeoData, ahmedabadSeoData, chennaiSeoData, anantapurSeoData } from "../data/citySeoData";
+import { chittoorSeoData } from "../data/cities/chittoor";
+import { eastGodavariSeoData } from "../data/cities/east-godavari";
+import { gunturSeoData } from "../data/cities/guntur";
+import { kadapaSeoData } from "../data/cities/kadapa";
+import { kakinadaSeoData } from "../data/cities/kakinada";
+import { krishnaSeoData } from "../data/cities/krishna";
+import { kurnoolSeoData } from "../data/cities/kurnool";
+import { machilipatnamSeoData } from "../data/cities/machilipatnam";
+import { nelloreSeoData } from "../data/cities/nellore";
+import { prakasamSeoData } from "../data/cities/prakasam";
+import { srikakulamSeoData } from "../data/cities/srikakulam";
+import { visakhapatnamSeoData } from "../data/cities/visakhapatnam";
+import { vizianagaramSeoData } from "../data/cities/vizianagaram";
+import { westGodavariSeoData } from "../data/cities/west-godavari";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -77,6 +91,22 @@ const cityDataMap = {
   hyderabad: hyderabadSeoData,
   ahmedabad: ahmedabadSeoData,
   chennai: chennaiSeoData,
+  anantapur: anantapurSeoData,
+  anantpur: anantapurSeoData,
+  chittoor: chittoorSeoData,
+  "east-godavari": eastGodavariSeoData,
+  guntur: gunturSeoData,
+  kadapa: kadapaSeoData,
+  kakinada: kakinadaSeoData,
+  krishna: krishnaSeoData,
+  kurnool: kurnoolSeoData,
+  machilipatnam: machilipatnamSeoData,
+  nellore: nelloreSeoData,
+  prakasam: prakasamSeoData,
+  srikakulam: srikakulamSeoData,
+  visakhapatnam: visakhapatnamSeoData,
+  vizianagaram: vizianagaramSeoData,
+  "west-godavari": westGodavariSeoData,
 };
 
 
@@ -256,18 +286,15 @@ function RightChoiceSeo({ featuresData }) {
             const IconComponent = feature.icon;
             return (
               <Col key={index} md={6} lg={4} className="mb-4">
-                <div className="group tw-relative tw-bg-white tw-p-6 tw-rounded-lg tw-h-full hover:tw-bg-[#ffcc00] hover:tw--translate-y-2 tw-transition-all tw-duration-300 tw-ease-in-out tw-overflow-hidden">
-                  <div className="tw-flex tw-items-start tw-transition-opacity tw-duration-300 group-hover:tw-opacity-0">
+                <div className="tw-group tw-relative tw-bg-white tw-p-6 tw-rounded-lg tw-h-full hover:tw-bg-[#ffcc00] hover:tw--translate-y-2 tw-transition-all tw-duration-300 tw-ease-in-out tw-overflow-hidden">
+                  <div className="tw-flex tw-items-start">
                     <div className="tw-mr-5 tw-flex-shrink-0">
-                      <IconComponent className="tw-w-12 tw-h-12 tw-text-yellow-500" strokeWidth={1.5} />
+                      <IconComponent className="tw-w-12 tw-h-12 tw-text-yellow-500 group-hover:tw-text-black tw-transition-colors tw-duration-300" strokeWidth={1.5} />
                     </div>
                     <div className="tw-text-left">
-                      <h5 className="tw-text-yellow-400 tw-font-semibold tw-text-xl tw-mb-2">{feature.title}</h5>
+                      <h5 className="tw-text-yellow-400 tw-font-semibold tw-text-xl tw-mb-2 group-hover:tw-text-black tw-transition-colors tw-duration-300">{feature.title}</h5>
                       <p className="tw-text-[#1f1e1d] tw-text-base tw-mb-0">{feature.description}</p>
                     </div>
-                  </div>
-                  <div className="tw-absolute tw-inset-0 tw-p-6 tw-flex tw-items-center tw-justify-center tw-opacity-0 group-hover:tw-opacity-100 tw-transition-opacity tw-duration-300">
-                    <p className="tw-text-[#1f1e1d] tw-text-base tw-text-center tw-mb-0">{feature.description}</p>
                   </div>
                 </div>
               </Col>
@@ -290,29 +317,31 @@ function MainContentSeo(  { seoContent, cityName }) {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 1 }}
-      className="tw-bg-[#ffcc00] tw-py-16"
+      className="tw-bg-white tw-py-16"
     >
       <Container>
-        <div className="tw-text-center tw-mb-12">
-          <h2 className="tw-font-bold tw-text-4xl tw-text-gray-800">
-            {mainSection.title}
-          </h2>
-          <div className="tw-mt-2 tw-mx-auto tw-w-24 tw-h-1 tw-bg-[#f6e6aa]"></div>
-        </div>
-
         <Row className="tw-items-center">
           {contentBlock.image && (
             <Col md={5} className="tw-mb-8 md:tw-mb-0">
-              <img
-                src={contentBlock.image}
-                alt={`Industrial Flowmeter Manufacturer in ${cityName}`}
-                loading="lazy"
-                className="tw-rounded-lg tw-shadow-lg tw-w-full"
-              />
+              <Link to="/product" className="tw-block">
+                <img
+                  src={contentBlock.image}
+                  alt={`Industrial Flowmeter Manufacturer in ${cityName}`}
+                  loading="lazy"
+                  className="tw-rounded-lg tw-shadow-lg tw-w-full hover:tw-scale-[1.02] tw-transition-transform tw-duration-300"
+                />
+              </Link>
             </Col>
           )}
 
           <Col md={contentBlock.image ? 7 : 12}>
+            {/* Main Heading centered here in content column */}
+            <div className="tw-mb-8 tw-text-center">
+              <h2 className="tw-font-bold tw-text-4xl tw-text-black">
+                {mainSection.title}
+              </h2>
+              <div className="tw-mt-2 tw-w-24 tw-h-1 tw-bg-[#ffcc00] tw-mx-auto"></div>
+            </div>
             {/* Paragraphs */}
             <div className="tw-space-y-4">
               {mainSection.paragraphs?.map((paragraph, pIndex) => (
@@ -362,6 +391,12 @@ function MainContentSeo(  { seoContent, cityName }) {
                 </div>
               </div>
             ))}
+
+            <div className="tw-mt-10 tw-text-center md:tw-text-left">
+              <EnquiryButton className="tw-bg-[#ffcc00] tw-text-black tw-px-8 tw-py-3 tw-rounded-full tw-font-bold tw-shadow-lg hover:tw-bg-black hover:tw-text-white tw-transition-all tw-duration-300">
+                Enquiry Now
+              </EnquiryButton>
+            </div>
           </Col>
         </Row>
       </Container>
@@ -599,7 +634,6 @@ const slidesWithImages = (seoData.slides || []).map((slide, index) => ({
       <ProductsSeo />
       <OurClients />
       <InstrumentationSuppliersSeo instrumentation={instrumentation} cityName={formattedCityName } />
-      <ProductCategoriesSeo categoriesData={categoriesData} />
       <YtSeo />
       <Faqs faqs={faqs} />
     </>

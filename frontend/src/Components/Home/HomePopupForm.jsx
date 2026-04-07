@@ -191,6 +191,7 @@ const HomePopupForm = ({ isOpen, onClose }) => {
     name: "",
     email: "",
     phone: "",
+    location: "",
     company: "",
     message: "",
   });
@@ -229,6 +230,7 @@ const HomePopupForm = ({ isOpen, onClose }) => {
           name: "",
           email: "",
           phone: "",
+          location: "",
           company: "",
           message: "",
         });
@@ -321,6 +323,13 @@ const HomePopupForm = ({ isOpen, onClose }) => {
               onChange={handleChange}
               placeholder="Phone Number"
               required
+              className="tw-w-full tw-rounded-lg tw-border tw-px-4 tw-py-3"
+            />
+            <input
+              name="location"
+              value={formData.location}
+              onChange={handleChange}
+              placeholder="Location"
               className="tw-w-full tw-rounded-lg tw-border tw-px-4 tw-py-3"
             />
             <input

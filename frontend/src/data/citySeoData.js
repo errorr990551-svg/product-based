@@ -2,6 +2,7 @@ import { Award, Settings, Globe, ThumbsUp, Users, ShieldCheck } from "lucide-rea
 import slide1 from "../images/banner 25.webp";
 import slide2 from "../images/bg2.webp";
 import slide3 from "../images/Flow web banner  (1600 x 833 px).webp";
+import ultrasonicProductImg from "../images/d1a.webp";
 
 export const mumbaiSeoData = {
   city: "Mumbai",
@@ -734,7 +735,7 @@ export const ahmedabadSeoData = {
     heading: "Industrial Instrumentation Suppliers in Ahmedabad",
     paragraphs: [
       "Accurate flow measurement is critical for maintaining industrial efficiency, safety, and compliance. Our flowmeters in Ahmedabad are engineered to deliver consistent performance under demanding operating conditions.",
-      "Beyond manufacturing, we are recognized as dependable Industrial Instrumentation Suppliers in Ahmedabad. From large-scale chemical plants in Vatva to textile processing units in Naroda, we provide durable and technologically advanced instrumentation solutions that integrate seamlessly into modern industrial processes.",
+      "Beyond manufacturing, we are recognized as dependable Industrial Instrumentation Suppliers in Ahmedabad. From large-scale chemical plants in Vatva to textile processing units in Naroda, we provide durable and technically advanced instrumentation solutions that integrate seamlessly into modern industrial processes.",
     ],
     highlight:
       "Our solutions help industries improve process accuracy, reduce operational downtime, ensure regulatory compliance, and optimize production efficiency.",
@@ -882,7 +883,7 @@ export const chennaiSeoData = {
     heading: "Industrial Instrumentation Suppliers in Chennai",
     paragraphs: [
       "Accurate measurement is essential for maintaining industrial productivity and safety. Our flowmeters in Chennai are engineered to deliver consistent, stable performance even in high-temperature and coastal industrial environments.",
-      "Beyond manufacturing, we are recognized as dependable Industrial Instrumentation Suppliers in Chennai. From large automotive plants in Sriperumbudur to petrochemical facilities in Manali, we provide durable and technologically advanced instrumentation solutions that integrate seamlessly into modern industrial systems.",
+      "Beyond manufacturing, we are recognized as dependable Industrial Instrumentation Suppliers in Chennai. From large automotive plants in Sriperumbudur to petrochemical facilities in Manali, we provide durable and technically advanced instrumentation solutions that integrate seamlessly into modern industrial systems.",
     ],
     highlight:
       "Our solutions help industries improve process accuracy, reduce downtime, maintain regulatory compliance, and optimize operational efficiency.",
@@ -904,6 +905,151 @@ export const chennaiSeoData = {
       q: "Are your flowmeters suitable for coastal and high-humidity environments?",
       a:
         "Yes. Our flowmeters are built with corrosion-resistant materials and IP-rated enclosures, making them ideal for Chennai’s coastal industrial conditions.",
+    },
+  ],
+};
+
+export const anantapurSeoData = {
+  city: "Anantapur",
+
+  // 🔹 HERO SLIDER
+  slides: [
+    {
+      img: slide1,
+      heading: "Industrial Flow Meter Installation in Anantapur Manufacturing Plant",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in Anantapur.",
+      alt: "Industrial Flow Meter Installation in Anantapur Manufacturing Plant",
+      title: "IOTAFLOW Industrial Instrumentation Anantapur"
+    },
+    {
+      img: slide2,
+      heading: "Precision Electromagnetic Flow Meter for Anantapur Water Treatment",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Anantapur water treatment facilities.",
+      alt: "Precision Electromagnetic Flow Meter for Anantapur Water Treatment",
+      title: "IOTAFLOW Electromagnetic Meter Anantapur"
+    },
+    {
+      img: slide3,
+      heading: "NABL Traceable Calibration Services for Anantapur Industries",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Anantapur region.",
+      alt: "NABL Traceable Calibration Services for Anantapur Industries",
+      title: "IOTAFLOW Calibration Lab Anantapur"
+    },
+  ],
+
+  // 🔹 WHY RIGHT CHOICE (WITH ICONS)
+  featuresData: [
+    {
+      icon: Award,
+      title: "Years Of Experience",
+      description:
+        "With over 25+ years of expertise as a Flowmeter Manufacturer in Anantapur, IOTAFLOW delivers deep technical knowledge in process instrumentation and industrial measurement systems.",
+    },
+    {
+      icon: Settings,
+      title: "Customized Solutions",
+      description:
+        "We offer bespoke flow measurement solutions in Anantapur, tailoring meter configurations to meet specific pipeline sizes, pressure ratings, and process requirements.",
+    },
+    {
+      icon: Globe,
+      title: "Worldwide Shipment",
+      description:
+        "From our specialized manufacturing hub, we ensure prompt and secure dispatch of high-quality flowmeters to both domestic and international clients in the Anantapur region.",
+    },
+    {
+      icon: ThumbsUp,
+      title: "Client Satisfaction",
+      description:
+        "We are committed to serving industries across Hindupur, Tadipatri, and the Penukonda industrial zones with zero-defect product delivery and responsive technical assistance.",
+    },
+    {
+      icon: Users,
+      title: "Team Of Experts",
+      description:
+        "Our expert calibration engineers provide reliable on-site support, installation guidance, and technical consultation throughout the project lifecycle in Anantapur.",
+    },
+    {
+      icon: ShieldCheck,
+      title: "Premium Quality Products",
+      description:
+        "Every flowmeter supplied in Anantapur is ISO certified and undergoes strict quality checks to ensure precision, durability, and long-term operational stability.",
+    },
+  ],
+
+  // 🔹 MAIN SEO CONTENT
+  seoContent: [
+    {
+      image: ultrasonicProductImg,
+      sections: [
+        {
+          title: "Flowmeter Manufacturer in Anantapur",
+          paragraphs: [
+            "Iotaflow is a premier Flowmeter Manufacturer in Anantapur, specializing in the design and production of high-precision measurement systems. Our Anantpur facility engineers electromagnetic, ultrasonic, and vortex flowmeters that adhere to strict international quality standards. We ensure our industrial partners in Andhra Pradesh receive durable, high-efficacy products tailored to the specific pressure and temperature requirements of the local manufacturing sector.",
+          ],
+        },
+        {
+          title: "Industrial Flowmeter Supplier in Anantpur",
+          paragraphs: [
+            "As a leading Industrial Flowmeter Supplier in Anantpur, we provide the technical reliability that modern plants demand. Our extensive inventory serves the critical needs of Anantpur’s chemical, pharmaceutical, and agriculture-processing industries. From the major industrial corridors to the specialized manufacturing zones, we act as a trusted partner, ensuring every facility is meticulously equipped with instruments that offer uncompromising safety and operational excellence.",
+          ],
+        },
+        {
+          title: "NABL Traceable Calibration in Anantpur",
+          paragraphs: [
+            "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Anantpur, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Anantpur region.",
+          ],
+        }
+      ],
+    },
+  ],
+
+  // 🔹 PRODUCT CATEGORIES (Standardized for Anantapur)
+  categoriesData: [
+    {
+      title: "Electromagnetic Flowmeters",
+      desc: "Highly accurate measurement for conductive liquids and wastewater projects across Anantapur’s industrial hubs.",
+    },
+    {
+      title: "Ultrasonic Flowmeters",
+      desc: "Non-intrusive flow measurement solutions for oil, gas, and industrial utilities in Andhra Pradesh.",
+    },
+    {
+      title: "Vortex & Turbine Flowmeters",
+      desc: "Precision steam and gas measurement systems for manufacturing plants in Hindupur and Anantapur.",
+    },
+    {
+      title: "Thermal Mass Flowmeters",
+      desc: "Reliable air and gas monitoring solutions designed for chemical and pharmaceutical facilities.",
+    },
+  ],
+
+  // 🔹 INSTRUMENTATION
+  instrumentation: {
+    heading: "Industrial Instrumentation Suppliers in Anantapur",
+    paragraphs: [
+      "Accurate measurement is critical for industrial growth, safety, and operational efficiency. Our flowmeters in Anantapur are engineered to deliver consistent accuracy, long-term stability, and dependable performance even in demanding environments.",
+      "Beyond manufacturing, we are recognized as one of the most reliable Industrial Instrumentation Suppliers in Anantapur. From automated plant setups in Hindupur to monitoring systems in Penukonda and Gooty, we provide technically advanced and durable instrumentation solutions that seamlessly integrate into modern industrial processes.",
+      "Our solutions help industries across Andhra Pradesh minimize downtime, improve production control, and maintain strict quality compliance standards."
+    ],
+  },
+
+  // 🔹 FAQs
+  faqs: [
+    {
+      q: "Do you provide on-site calibration in Anantapur?",
+      a: "Yes, our expert engineers provide NABL-traceable on-site calibration services for industries located within Anantapur and surrounding industrial zones.",
+    },
+    {
+      q: "What is the delivery time for flowmeters in Anantapur?",
+      a: "We offer expedited shipping to Anantapur, ensuring delivery within a few business days depending on the specific customization required.",
+    },
+    {
+      q: "Can your flowmeters withstand Anantapur’s high temperatures?",
+      a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the semi-arid, high-heat climate of the Anantapur region.",
     },
   ],
 };

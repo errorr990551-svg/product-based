@@ -39,6 +39,7 @@ const ServicesPage = lazy(() => import("./Components/ServicesPage"));
 const LeanResourcesPage = lazy(() => import("./Components/LeanResourcesPage"));
 const AboutUsSection = lazy(() => import("./Components/aboutUs/AboutUsSection"));
 const SeoPage = lazy(() => import("./pages/SeoPage"));
+const MarketArea = lazy(() => import("./pages/MarketArea"));
 
 const Detail2 = lazy(() => import("./Components/productDetails/detail2"));
 const Detail3 = lazy(() => import("./Components/productDetails/detail3"));
@@ -204,6 +205,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
 
             <Route path="/product2" element={<Product2 />} />
+
+            <Route path="/market-area" element={<MarketArea />} />
 
             
           </Route>

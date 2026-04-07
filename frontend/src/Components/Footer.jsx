@@ -88,7 +88,8 @@ function Footer() {
                 { label: "About Us", href: "/about-us" },
                 { label: "Services", href: "/services" },
                 { label: "Case Studies", href: "/casestudies" },
-                { label: "Lean Resources", href: "/lean-manufacturing" }
+                { label: "Lean Resources", href: "/lean-manufacturing" },
+                { label: "Market Area", href: "/market-area" }
               ]}
             />
           </Col>

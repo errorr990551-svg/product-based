@@ -8,6 +8,7 @@ const Contact = () => {
     name: "",
     email: "",
     phone: "",
+    location: "",
     company: "",
     message: "",
   });
@@ -38,6 +39,7 @@ const Contact = () => {
           name: "",
           email: "",
           phone: "",
+          location: "",
           company: "",
           message: "",
         });
@@ -149,6 +151,18 @@ const Contact = () => {
                     placeholder="Company"
                     name="company"
                     value={formData.company}
+                    onChange={handleChange}
+                  />
+                </Col>
+              </Row>
+
+              <Row className="mb-3">
+                <Col>
+                  <Form.Control
+                    type="text"
+                    placeholder="Location"
+                    name="location"
+                    value={formData.location}
                     onChange={handleChange}
                   />
                 </Col>
