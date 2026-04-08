@@ -26,9 +26,23 @@ const MarketArea = () => {
       ],
     },
     {
-      state: "Maharashtra",
+      state: "Arunachal Pradesh",
       cities: [
-        { name: "Mumbai", link: "/mumbai" },
+        { name: "Itanagar", link: "/itanagar" },
+        { name: "Naharlagun", link: "/naharlagun" },
+        { name: "Pasighat", link: "/pasighat" },
+        { name: "Tawang", link: "/tawang" },
+        { name: "Ziro", link: "/ziro" },
+        { name: "Aalo", link: "/aalo" },
+        { name: "Tezu", link: "/tezu" },
+        { name: "Namsai", link: "/namsai" },
+        { name: "Roing", link: "/roing" },
+        { name: "Daporijo", link: "/daporijo" },
+        { name: "Bomdila", link: "/bomdila" },
+        { name: "Khonsa", link: "/khonsa" },
+        { name: "Seppa", link: "/seppa" },
+        { name: "Changlang", link: "/changlang" },
+        { name: "Yingkiong", link: "/yingkiong" },
       ],
     }
   ];

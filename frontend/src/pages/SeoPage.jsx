@@ -23,6 +23,21 @@ import { srikakulamSeoData } from "../data/cities/srikakulam";
 import { visakhapatnamSeoData } from "../data/cities/visakhapatnam";
 import { vizianagaramSeoData } from "../data/cities/vizianagaram";
 import { westGodavariSeoData } from "../data/cities/west-godavari";
+import { itanagarSeoData } from "../data/cities/itanagar";
+import { naharlagunSeoData } from "../data/cities/naharlagun";
+import { pasighatSeoData } from "../data/cities/pasighat";
+import { tawangSeoData } from "../data/cities/tawang";
+import { ziroSeoData } from "../data/cities/ziro";
+import { aaloSeoData } from "../data/cities/aalo";
+import { tezuSeoData } from "../data/cities/tezu";
+import { namsaiSeoData } from "../data/cities/namsai";
+import { roingSeoData } from "../data/cities/roing";
+import { daporijoSeoData } from "../data/cities/daporijo";
+import { bomdilaSeoData } from "../data/cities/bomdila";
+import { khonsaSeoData } from "../data/cities/khonsa";
+import { seppaSeoData } from "../data/cities/seppa";
+import { changlangSeoData } from "../data/cities/changlang";
+import { yingkiongSeoData } from "../data/cities/yingkiong";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -107,6 +122,21 @@ const cityDataMap = {
   visakhapatnam: visakhapatnamSeoData,
   vizianagaram: vizianagaramSeoData,
   "west-godavari": westGodavariSeoData,
+  itanagar: itanagarSeoData,
+  naharlagun: naharlagunSeoData,
+  pasighat: pasighatSeoData,
+  tawang: tawangSeoData,
+  ziro: ziroSeoData,
+  aalo: aaloSeoData,
+  tezu: tezuSeoData,
+  namsai: namsaiSeoData,
+  roing: roingSeoData,
+  daporijo: daporijoSeoData,
+  bomdila: bomdilaSeoData,
+  khonsa: khonsaSeoData,
+  seppa: seppaSeoData,
+  changlang: changlangSeoData,
+  yingkiong: yingkiongSeoData,
 };
 
 
