@@ -12,24 +12,24 @@ export const vizianagaramSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Vizianagaram Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in Vizianagaram.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in Vizianagaram.",
       alt: "Industrial Flow Meter Installation in Vizianagaram Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation Vizianagaram"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Vizianagaram Water Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Vizianagaram water treatment and industrial facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Vizianagaram water treatment and industrial facilities.",
       alt: "Precision Electromagnetic Flow Meter for Vizianagaram Water Treatment",
       title: "IOTAFLOW Electromagnetic Meter Vizianagaram"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Vizianagaram Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across Vizianagaram region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Vizianagaram region.",
       alt: "NABL Traceable Calibration Services for Vizianagaram Industries",
       title: "IOTAFLOW Calibration Lab Vizianagaram"
     },

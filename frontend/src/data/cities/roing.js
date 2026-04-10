@@ -12,24 +12,24 @@ export const roingSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Roing Hydropower and Infrastructure Project",
-      subHeading: "Providing professional flow meter installation for hydropower and large-scale infrastructure projects in Roing.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for hydropower and large-scale infrastructure projects in Roing.",
       alt: "Industrial Flow Meter Installation in Roing Hydropower and Infrastructure Project",
       title: "IOTAFLOW Industrial Instrumentation Roing"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Roing Water Supply and Agriculture",
-      subHeading: "High precision electromagnetic flow meters optimized for Roing’s agricultural irrigation and municipal water facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Roing’s agricultural irrigation and municipal water facilities.",
       alt: "Precision Electromagnetic Flow Meter for Roing Water Supply and Agriculture",
       title: "IOTAFLOW Electromagnetic Meter Roing"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Roing Industrial and Technical Units",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Roing and Lower Dibang Valley region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Roing and Lower Dibang Valley region.",
       alt: "NABL Traceable Calibration Services for Roing Industrial and Technical Units",
       title: "IOTAFLOW Calibration Lab Roing"
     },

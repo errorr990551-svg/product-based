@@ -12,24 +12,24 @@ export const ziroSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Ziro Eco-Tourism and Agriculture Projects",
-      subHeading: "Providing professional flow meter installation for agricultural and eco-industrial units in Ziro.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for agricultural and eco-industrial units in Ziro.",
       alt: "Industrial Flow Meter Installation in Ziro Eco-Tourism and Agriculture Projects",
       title: "IOTAFLOW Industrial Instrumentation Ziro"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Ziro Water Distribution and Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Ziro’s municipal water supply and hospitality facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Ziro’s municipal water supply and hospitality facilities.",
       alt: "Precision Electromagnetic Flow Meter for Ziro Water Distribution and Treatment",
       title: "IOTAFLOW Electromagnetic Meter Ziro"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Ziro Industrial Establishments",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Ziro and Lower Subansiri region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Ziro and Lower Subansiri region.",
       alt: "NABL Traceable Calibration Services for Ziro Industrial Establishments",
       title: "IOTAFLOW Calibration Lab Ziro"
     },

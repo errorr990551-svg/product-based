@@ -12,24 +12,24 @@ export const khonsaSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Khonsa Manufacturing and Tea Processing Units",
-      subHeading: "Providing professional flow meter installation for tea processing and industrial units in Khonsa.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for tea processing and industrial units in Khonsa.",
       alt: "Industrial Flow Meter Installation in Khonsa Manufacturing and Tea Processing Units",
       title: "IOTAFLOW Industrial Instrumentation Khonsa"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Khonsa Water Supply and Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Khonsa’s municipal water supply and treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Khonsa’s municipal water supply and treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Khonsa Water Supply and Treatment",
       title: "IOTAFLOW Electromagnetic Meter Khonsa"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Khonsa Industrial and Technical Sectors",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Khonsa and Tirap region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Khonsa and Tirap region.",
       alt: "NABL Traceable Calibration Services for Khonsa Industrial and Technical Sectors",
       title: "IOTAFLOW Calibration Lab Khonsa"
     },

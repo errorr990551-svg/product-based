@@ -12,24 +12,24 @@ export const daporijoSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Daporijo Infrastructure and Development Projects",
-      subHeading: "Providing professional flow meter installation for urban development and infrastructure projects in Daporijo.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for urban development and infrastructure projects in Daporijo.",
       alt: "Industrial Flow Meter Installation in Daporijo Infrastructure and Development Projects",
       title: "IOTAFLOW Industrial Instrumentation Daporijo"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Daporijo Water Supply and Irrigation",
-      subHeading: "High precision electromagnetic flow meters optimized for Daporijo’s agricultural irrigation and municipal water facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Daporijo’s agricultural irrigation and municipal water facilities.",
       alt: "Precision Electromagnetic Flow Meter for Daporijo Water Supply and Irrigation",
       title: "IOTAFLOW Electromagnetic Meter Daporijo"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Daporijo Industrial and Technical Units",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Daporijo and Upper Subansiri region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Daporijo and Upper Subansiri region.",
       alt: "NABL Traceable Calibration Services for Daporijo Industrial and Technical Units",
       title: "IOTAFLOW Calibration Lab Daporijo"
     },

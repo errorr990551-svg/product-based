@@ -12,24 +12,24 @@ export const srikakulamSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Srikakulam Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in Srikakulam.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in Srikakulam.",
       alt: "Industrial Flow Meter Installation in Srikakulam Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation Srikakulam"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Srikakulam Pharma Units",
-      subHeading: "High precision electromagnetic flow meters optimized for Srikakulam pharmaceutical and water treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Srikakulam pharmaceutical and water treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Srikakulam Pharma Units",
       title: "IOTAFLOW Electromagnetic Meter Srikakulam"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Srikakulam Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across Srikakulam region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Srikakulam region.",
       alt: "NABL Traceable Calibration Services for Srikakulam Industries",
       title: "IOTAFLOW Calibration Lab Srikakulam"
     },

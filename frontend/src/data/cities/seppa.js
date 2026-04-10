@@ -12,24 +12,24 @@ export const seppaSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Seppa Infrastructure and Development Projects",
-      subHeading: "Providing professional flow meter installation for urban development and infrastructure projects in Seppa.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for urban development and infrastructure projects in Seppa.",
       alt: "Industrial Flow Meter Installation in Seppa Infrastructure and Development Projects",
       title: "IOTAFLOW Industrial Instrumentation Seppa"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Seppa Water Supply and Irrigation",
-      subHeading: "High precision electromagnetic flow meters optimized for Seppa’s agricultural irrigation and municipal water facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Seppa’s agricultural irrigation and municipal water facilities.",
       alt: "Precision Electromagnetic Flow Meter for Seppa Water Supply and Irrigation",
       title: "IOTAFLOW Electromagnetic Meter Seppa"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Seppa Industrial and Technical Units",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Seppa and East Kameng region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Seppa and East Kameng region.",
       alt: "NABL Traceable Calibration Services for Seppa Industrial and Technical Units",
       title: "IOTAFLOW Calibration Lab Seppa"
     },

@@ -12,24 +12,24 @@ export const bomdilaSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Bomdila Infrastructure and Government Projects",
-      subHeading: "Providing professional flow meter installation for urban development and infrastructure projects in Bomdila.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for urban development and infrastructure projects in Bomdila.",
       alt: "Industrial Flow Meter Installation in Bomdila Infrastructure and Government Projects",
       title: "IOTAFLOW Industrial Instrumentation Bomdila"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Bomdila Water Supply and Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Bomdila’s municipal water supply and treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Bomdila’s municipal water supply and treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Bomdila Water Supply and Treatment",
       title: "IOTAFLOW Electromagnetic Meter Bomdila"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Bomdila Industrial and Technical Units",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Bomdila and West Kameng region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Bomdila and West Kameng region.",
       alt: "NABL Traceable Calibration Services for Bomdila Industrial and Technical Units",
       title: "IOTAFLOW Calibration Lab Bomdila"
     },

@@ -264,11 +264,11 @@ const HomePopupForm = ({ isOpen, onClose }) => {
 
   const popupContent = (
     <div
-      className="tw-fixed tw-inset-0 tw-z-[9999] tw-flex tw-items-center tw-justify-center tw-bg-black/60 tw-backdrop-blur-sm tw-p-4"
+      className="tw-fixed tw-inset-0 tw-z-[9999] tw-flex tw-items-start md:tw-items-center tw-justify-center tw-bg-black/60 tw-backdrop-blur-sm tw-p-4 tw-overflow-y-auto"
       onClick={onClose}
     >
       <div
-        className="tw-relative tw-w-full tw-max-w-3xl tw-bg-white tw-rounded-xl tw-p-8 md:tw-p-12 tw-shadow-2xl"
+        className="tw-relative tw-w-full tw-max-w-3xl tw-bg-white tw-rounded-xl tw-p-6 md:tw-p-12 tw-shadow-2xl tw-my-8 md:tw-my-0"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -278,11 +278,11 @@ const HomePopupForm = ({ isOpen, onClose }) => {
           &times;
         </button>
 
-        <div className="tw-mb-8">
-          <h2 className="tw-text-3xl md:tw-text-4xl tw-font-bold tw-text-black tw-mb-2">
+        <div className="tw-mb-6 md:tw-mb-8">
+          <h2 className="tw-text-2xl md:tw-text-4xl tw-font-bold tw-text-black tw-mb-2">
             Drop in your details below
           </h2>
-          <p className="tw-text-gray-600 tw-text-lg">
+          <p className="tw-text-gray-600 tw-text-base md:tw-text-lg">
             Let our experts take over from here!
           </p>
         </div>
@@ -298,8 +298,8 @@ const HomePopupForm = ({ isOpen, onClose }) => {
           </div>
         )}
 
-        <form className="tw-space-y-6" onSubmit={handleSubmit}>
-          <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-6">
+        <form className="tw-space-y-4 md:tw-space-y-6" onSubmit={handleSubmit}>
+          <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-4 md:tw-gap-6">
             <input
               name="name"
               value={formData.name}

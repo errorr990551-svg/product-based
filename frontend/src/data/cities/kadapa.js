@@ -12,24 +12,24 @@ export const kadapaSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Kadapa Cement Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in Kadapa.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in Kadapa.",
       alt: "Industrial Flow Meter Installation in Kadapa Cement Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation Kadapa"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Kadapa Mining Operations",
-      subHeading: "High precision electromagnetic flow meters optimized for Kadapa mining and water treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Kadapa mining and water treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Kadapa Mining Operations",
       title: "IOTAFLOW Electromagnetic Meter Kadapa"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Kadapa Industrial Zones",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across Kadapa region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Kadapa region.",
       alt: "NABL Traceable Calibration Services for Kadapa Industrial Zones",
       title: "IOTAFLOW Calibration Lab Kadapa"
     },

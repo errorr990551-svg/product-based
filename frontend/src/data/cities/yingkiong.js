@@ -12,24 +12,24 @@ export const yingkiongSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Yingkiong Hydropower and Infrastructure Projects",
-      subHeading: "Providing professional flow meter installation for hydropower and urban development projects in Yingkiong.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for hydropower and urban development projects in Yingkiong.",
       alt: "Industrial Flow Meter Installation in Yingkiong Hydropower and Infrastructure Projects",
       title: "IOTAFLOW Industrial Instrumentation Yingkiong"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Yingkiong Water Supply and Tourism",
-      subHeading: "High precision electromagnetic flow meters optimized for Yingkiong’s municipal water supply and hospitality facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Yingkiong’s municipal water supply and hospitality facilities.",
       alt: "Precision Electromagnetic Flow Meter for Yingkiong Water Supply and Tourism",
       title: "IOTAFLOW Electromagnetic Meter Yingkiong"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Yingkiong Technical and Industrial Units",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Yingkiong and Upper Siang region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Yingkiong and Upper Siang region.",
       alt: "NABL Traceable Calibration Services for Yingkiong Technical and Industrial Units",
       title: "IOTAFLOW Calibration Lab Yingkiong"
     },

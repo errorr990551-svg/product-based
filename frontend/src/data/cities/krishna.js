@@ -12,24 +12,24 @@ export const krishnaSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Krishna Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in the Krishna region.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in the Krishna region.",
       alt: "Industrial Flow Meter Installation in Krishna Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation Krishna"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Vijayawada Water Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Vijayawada water treatment and municipal facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Vijayawada water treatment and municipal facilities.",
       alt: "Precision Electromagnetic Flow Meter for Vijayawada Water Treatment",
       title: "IOTAFLOW Electromagnetic Meter Krishna"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Krishna District Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Krishna district.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Krishna district.",
       alt: "NABL Traceable Calibration Services for Krishna District Industries",
       title: "IOTAFLOW Calibration Lab Krishna"
     },

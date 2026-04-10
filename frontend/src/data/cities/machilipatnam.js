@@ -12,24 +12,24 @@ export const machilipatnamSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Machilipatnam Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in Machilipatnam.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in Machilipatnam.",
       alt: "Industrial Flow Meter Installation in Machilipatnam Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation Machilipatnam"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Machilipatnam Port Development",
-      subHeading: "High precision electromagnetic flow meters optimized for Machilipatnam port and water treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Machilipatnam port and water treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Machilipatnam Port Development",
       title: "IOTAFLOW Electromagnetic Meter Machilipatnam"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Machilipatnam Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across Machilipatnam region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Machilipatnam region.",
       alt: "NABL Traceable Calibration Services for Machilipatnam Industries",
       title: "IOTAFLOW Calibration Lab Machilipatnam"
     },

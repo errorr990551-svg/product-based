@@ -12,24 +12,24 @@ export const namsaiSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Namsai Agriculture and Processing Unit",
-      subHeading: "Providing professional flow meter installation for agriculture-processing and manufacturing units in Namsai.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for agriculture-processing and manufacturing units in Namsai.",
       alt: "Industrial Flow Meter Installation in Namsai Agriculture and Processing Unit",
       title: "IOTAFLOW Industrial Instrumentation Namsai"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Namsai Water Management Projects",
-      subHeading: "High precision electromagnetic flow meters optimized for Namsai’s municipal water supply and hospitality facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Namsai’s municipal water supply and hospitality facilities.",
       alt: "Precision Electromagnetic Flow Meter for Namsai Water Management Projects",
       title: "IOTAFLOW Electromagnetic Meter Namsai"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Namsai Industrial Hubs",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Namsai and Lohit region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Namsai and Lohit region.",
       alt: "NABL Traceable Calibration Services for Namsai Industrial Hubs",
       title: "IOTAFLOW Calibration Lab Namsai"
     },

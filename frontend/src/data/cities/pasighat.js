@@ -12,24 +12,24 @@ export const pasighatSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Pasighat Smart City Infrastructure",
-      subHeading: "Providing professional flow meter installation for infrastructure development and smart city initiatives in Pasighat.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for infrastructure development and smart city initiatives in Pasighat.",
       alt: "Industrial Flow Meter Installation in Pasighat Smart City Infrastructure",
       title: "IOTAFLOW Industrial Instrumentation Pasighat"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Pasighat Agriculture and Irrigation",
-      subHeading: "High precision electromagnetic flow meters optimized for Pasighat’s agricultural irrigation and water treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Pasighat’s agricultural irrigation and water treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Pasighat Agriculture and Irrigation",
       title: "IOTAFLOW Electromagnetic Meter Pasighat"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Pasighat Industrial and Educational Hubs",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Pasighat and East Siang region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Pasighat and East Siang region.",
       alt: "NABL Traceable Calibration Services for Pasighat Industrial and Educational Hubs",
       title: "IOTAFLOW Calibration Lab Pasighat"
     },

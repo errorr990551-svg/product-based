@@ -12,24 +12,24 @@ export const tezuSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Tezu Agriculture and Manufacturing Sector",
-      subHeading: "Providing professional flow meter installation for agriculture-processing and manufacturing units in Tezu.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for agriculture-processing and manufacturing units in Tezu.",
       alt: "Industrial Flow Meter Installation in Tezu Agriculture and Manufacturing Sector",
       title: "IOTAFLOW Industrial Instrumentation Tezu"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Tezu Water Supply and Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Tezu’s municipal water supply and treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Tezu’s municipal water supply and treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Tezu Water Supply and Treatment",
       title: "IOTAFLOW Electromagnetic Meter Tezu"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Tezu Industrial and Infrastructure Units",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Tezu and Lohit region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Tezu and Lohit region.",
       alt: "NABL Traceable Calibration Services for Tezu Industrial and Infrastructure Units",
       title: "IOTAFLOW Calibration Lab Tezu"
     },

@@ -12,24 +12,24 @@ export const tawangSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Tawang Infrastructure and Utilities",
-      subHeading: "Providing professional flow meter installation for utility and infrastructure projects in Tawang.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for utility and infrastructure projects in Tawang.",
       alt: "Industrial Flow Meter Installation in Tawang Infrastructure and Utilities",
       title: "IOTAFLOW Industrial Instrumentation Tawang"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Tawang Water Supply and Hospitality",
-      subHeading: "High precision electromagnetic flow meters optimized for Tawang’s hospitality sector and municipal water treatment.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Tawang’s hospitality sector and municipal water treatment.",
       alt: "Precision Electromagnetic Flow Meter for Tawang Water Supply and Hospitality",
       title: "IOTAFLOW Electromagnetic Meter Tawang"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Tawang Technical Facilities",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the high-altitude Tawang region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the high-altitude Tawang region.",
       alt: "NABL Traceable Calibration Services for Tawang Technical Facilities",
       title: "IOTAFLOW Calibration Lab Tawang"
     },

@@ -12,24 +12,24 @@ export const naharlagunSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Naharlagun Logistics and Trade Center",
-      subHeading: "Providing professional flow meter installation for logistics hubs and manufacturing units in Naharlagun.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for logistics hubs and manufacturing units in Naharlagun.",
       alt: "Industrial Flow Meter Installation in Naharlagun Logistics and Trade Center",
       title: "IOTAFLOW Industrial Instrumentation Naharlagun"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Naharlagun Infrastructure Projects",
-      subHeading: "High precision electromagnetic flow meters optimized for Naharlagun’s commercial water management and treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Naharlagun’s commercial water management and treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Naharlagun Infrastructure Projects",
       title: "IOTAFLOW Electromagnetic Meter Naharlagun"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Naharlagun Industrial Establishments",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Naharlagun and Papum Pare region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Naharlagun and Papum Pare region.",
       alt: "NABL Traceable Calibration Services for Naharlagun Industrial Establishments",
       title: "IOTAFLOW Calibration Lab Naharlagun"
     },

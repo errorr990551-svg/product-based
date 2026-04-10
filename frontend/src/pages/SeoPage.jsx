@@ -38,6 +38,20 @@ import { khonsaSeoData } from "../data/cities/khonsa";
 import { seppaSeoData } from "../data/cities/seppa";
 import { changlangSeoData } from "../data/cities/changlang";
 import { yingkiongSeoData } from "../data/cities/yingkiong";
+import { guwahatiSeoData } from "../data/cities/guwahati";
+import { dibrugarhSeoData } from "../data/cities/dibrugarh";
+import { jorhatSeoData } from "../data/cities/jorhat";
+import { nagaonSeoData } from "../data/cities/nagaon";
+import { tinsukiaSeoData } from "../data/cities/tinsukia";
+import { tezpurSeoData } from "../data/cities/tezpur";
+import { bongaigaonSeoData } from "../data/cities/bongaigaon";
+import { dhubriSeoData } from "../data/cities/dhubri";
+import { diphuSeoData } from "../data/cities/diphu";
+import { northLakhimpurSeoData } from "../data/cities/north-lakhimpur";
+import { sivasagarSeoData } from "../data/cities/sivasagar";
+import { goalparaSeoData } from "../data/cities/goalpara";
+import { barpetaSeoData } from "../data/cities/barpeta";
+import { golaghatSeoData } from "../data/cities/golaghat";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -137,6 +151,20 @@ const cityDataMap = {
   seppa: seppaSeoData,
   changlang: changlangSeoData,
   yingkiong: yingkiongSeoData,
+  guwahati: guwahatiSeoData,
+  dibrugarh: dibrugarhSeoData,
+  jorhat: jorhatSeoData,
+  nagaon: nagaonSeoData,
+  tinsukia: tinsukiaSeoData,
+  tezpur: tezpurSeoData,
+  bongaigaon: bongaigaonSeoData,
+  dhubri: dhubriSeoData,
+  diphu: diphuSeoData,
+  "north-lakhimpur": northLakhimpurSeoData,
+  sivasagar: sivasagarSeoData,
+  goalpara: goalparaSeoData,
+  barpeta: barpetaSeoData,
+  golaghat: golaghatSeoData,
 };
 
 
@@ -654,9 +682,9 @@ const slidesWithImages = (seoData.slides || []).map((slide, index) => ({
   return (
     <>
       <SEO 
-        title={`Flow Meter Manufacturer & Suppliers in ${formattedCityName} | IOTAFLOW`}
-        description={`Leading industrial flow meter manufacturer and supplier in ${formattedCityName}. Expert in electromagnetic, ultrasonic, and thermal mass flow measurement.`}
-        keywords={`flow meter manufacturer ${formattedCityName}, industrial flow meter supplier ${formattedCityName}, ultrasonic flow meter ${formattedCityName}, electromagnetic flow meter ${formattedCityName}, industrial automation ${formattedCityName}`}
+        title={seoData.metaTitle || `Flow Meter Manufacturer & Suppliers in ${formattedCityName} | IOTAFLOW`}
+        description={seoData.metaDescription || `Leading industrial flow meter manufacturer and supplier in ${formattedCityName}. Expert in electromagnetic, ultrasonic, and thermal mass flow measurement.`}
+        keywords={seoData.metaKeywords || `flow meter manufacturer ${formattedCityName}, industrial flow meter supplier ${formattedCityName}, ultrasonic flow meter ${formattedCityName}, electromagnetic flow meter ${formattedCityName}, industrial automation ${formattedCityName}`}
       />
       <BannerSliderSeo slides={slidesWithImages} />
       <RightChoiceSeo featuresData={featuresData} />

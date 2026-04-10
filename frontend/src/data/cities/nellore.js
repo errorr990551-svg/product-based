@@ -12,24 +12,24 @@ export const nelloreSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Nellore Power Plant",
-      subHeading: "Providing professional flow meter installation for power plants and manufacturing units in Nellore.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for power plants and manufacturing units in Nellore.",
       alt: "Industrial Flow Meter Installation in Nellore Power Plant",
       title: "IOTAFLOW Industrial Instrumentation Nellore"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Nellore Water Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Nellore water treatment and industrial facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Nellore water treatment and industrial facilities.",
       alt: "Precision Electromagnetic Flow Meter for Nellore Water Treatment",
       title: "IOTAFLOW Electromagnetic Meter Nellore"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Nellore Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across Nellore region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Nellore region.",
       alt: "NABL Traceable Calibration Services for Nellore Industries",
       title: "IOTAFLOW Calibration Lab Nellore"
     },

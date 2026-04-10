@@ -44,6 +44,25 @@ const MarketArea = () => {
         { name: "Changlang", link: "/changlang" },
         { name: "Yingkiong", link: "/yingkiong" },
       ],
+    },
+    {
+      state: "Assam",
+      cities: [
+        { name: "Guwahati", link: "/guwahati" },
+        { name: "Dibrugarh", link: "/dibrugarh" },
+        { name: "Jorhat", link: "/jorhat" },
+        { name: "Nagaon", link: "/nagaon" },
+        { name: "Tinsukia", link: "/tinsukia" },
+        { name: "Tezpur", link: "/tezpur" },
+        { name: "Bongaigaon", link: "/bongaigaon" },
+        { name: "Dhubri", link: "/dhubri" },
+        { name: "Diphu", link: "/diphu" },
+        { name: "North Lakhimpur", link: "/north-lakhimpur" },
+        { name: "Sivasagar", link: "/sivasagar" },
+        { name: "Goalpara", link: "/goalpara" },
+        { name: "Barpeta", link: "/barpeta" },
+        { name: "Golaghat", link: "/golaghat" },
+      ],
     }
   ];
 

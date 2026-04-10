@@ -12,24 +12,24 @@ export const aaloSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Aalo Commercial and Trade Center",
-      subHeading: "Providing professional flow meter installation for commercial units and trade centers in Aalo.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for commercial units and trade centers in Aalo.",
       alt: "Industrial Flow Meter Installation in Aalo Commercial and Trade Center",
       title: "IOTAFLOW Industrial Instrumentation Aalo"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Aalo Water Supply and Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Aalo’s municipal water management and treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Aalo’s municipal water management and treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Aalo Water Supply and Treatment",
       title: "IOTAFLOW Electromagnetic Meter Aalo"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Aalo Industrial Establishments",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Aalo and West Siang region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Aalo and West Siang region.",
       alt: "NABL Traceable Calibration Services for Aalo Industrial Establishments",
       title: "IOTAFLOW Calibration Lab Aalo"
     },

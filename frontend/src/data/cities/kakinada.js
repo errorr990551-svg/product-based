@@ -12,24 +12,24 @@ export const kakinadaSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Kakinada Port Facility",
-      subHeading: "Providing professional flow meter installation for maritime and port-based industries in Kakinada.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for maritime and port-based industries in Kakinada.",
       alt: "Industrial Flow Meter Installation in Kakinada Port Facility",
       title: "IOTAFLOW Industrial Instrumentation Kakinada"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Kakinada Chemical Plant",
-      subHeading: "High precision electromagnetic flow meters optimized for Kakinada’s chemical and fertilizer manufacturing units.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Kakinada’s chemical and fertilizer manufacturing units.",
       alt: "Precision Electromagnetic Flow Meter for Kakinada Chemical Plant",
       title: "IOTAFLOW Electromagnetic Meter Kakinada"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Kakinada Special Economic Zone",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Kakinada SEZ region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Kakinada SEZ region.",
       alt: "NABL Traceable Calibration Services for Kakinada Special Economic Zone",
       title: "IOTAFLOW Calibration Lab Kakinada"
     },

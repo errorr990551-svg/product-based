@@ -12,24 +12,24 @@ export const prakasamSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Prakasam Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in Prakasam.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in Prakasam.",
       alt: "Industrial Flow Meter Installation in Prakasam Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation Prakasam"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Ongole Water Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Ongole water treatment and industrial facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Ongole water treatment and industrial facilities.",
       alt: "Precision Electromagnetic Flow Meter for Ongole Water Treatment",
       title: "IOTAFLOW Electromagnetic Meter Prakasam"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Prakasam Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across Prakasam region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Prakasam region.",
       alt: "NABL Traceable Calibration Services for Prakasam Industries",
       title: "IOTAFLOW Calibration Lab Prakasam"
     },

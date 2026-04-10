@@ -12,24 +12,24 @@ export const gunturSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Guntur Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in Guntur.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in Guntur.",
       alt: "Industrial Flow Meter Installation in Guntur Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation Guntur"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Guntur Water Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Guntur water treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Guntur water treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Guntur Water Treatment",
       title: "IOTAFLOW Electromagnetic Meter Guntur"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Guntur Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across Guntur region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Guntur region.",
       alt: "NABL Traceable Calibration Services for Guntur Industries",
       title: "IOTAFLOW Calibration Lab Guntur"
     },

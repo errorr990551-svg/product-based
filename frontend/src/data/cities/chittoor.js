@@ -12,24 +12,24 @@ export const chittoorSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Chittoor Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in Chittoor.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in Chittoor.",
       alt: "Industrial Flow Meter Installation in Chittoor Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation Chittoor"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Chittoor Water Treatment",
-      subHeading: "High precision electromagnetic flow meters optimized for Chittoor water treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Chittoor water treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Chittoor Water Treatment",
       title: "IOTAFLOW Electromagnetic Meter Chittoor"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Chittoor Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across Chittoor region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Chittoor region.",
       alt: "NABL Traceable Calibration Services for Chittoor Industries",
       title: "IOTAFLOW Calibration Lab Chittoor"
     },

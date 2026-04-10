@@ -12,24 +12,24 @@ export const changlangSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Changlang Tea and Resource Processing Units",
-      subHeading: "Providing professional flow meter installation for the specialized tea and resource-extraction industries in Changlang.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for the specialized tea and resource-extraction industries in Changlang.",
       alt: "Industrial Flow Meter Installation in Changlang Tea and Resource Processing Units",
       title: "IOTAFLOW Industrial Instrumentation Changlang"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Changlang Water and Utility Management",
-      subHeading: "High precision electromagnetic flow meters optimized for Changlang’s municipal water supply and industrial facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Changlang’s municipal water supply and industrial facilities.",
       alt: "Precision Electromagnetic Flow Meter for Changlang Water and Utility Management",
       title: "IOTAFLOW Electromagnetic Meter Changlang"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Changlang Industrial Sectors",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Changlang and Miao regions.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Changlang and Miao regions.",
       alt: "NABL Traceable Calibration Services for Changlang Industrial Sectors",
       title: "IOTAFLOW Calibration Lab Changlang"
     },

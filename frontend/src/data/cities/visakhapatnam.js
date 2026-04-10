@@ -12,24 +12,24 @@ export const visakhapatnamSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Visakhapatnam Steel Plant",
-      subHeading: "Providing professional flow meter installation for heavy manufacturing and steel plants in Visakhapatnam.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for heavy manufacturing and steel plants in Visakhapatnam.",
       alt: "Industrial Flow Meter Installation in Visakhapatnam Steel Plant",
       title: "IOTAFLOW Industrial Instrumentation Visakhapatnam"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Vizag Petroleum Refinery",
-      subHeading: "High precision electromagnetic flow meters optimized for Vizag’s petroleum and chemical processing units.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Vizag’s petroleum and chemical processing units.",
       alt: "Precision Electromagnetic Flow Meter for Vizag Petroleum Refinery",
       title: "IOTAFLOW Electromagnetic Meter Visakhapatnam"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Visakhapatnam Industrial Zones",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Visakhapatnam metropolitan region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Visakhapatnam metropolitan region.",
       alt: "NABL Traceable Calibration Services for Visakhapatnam Industrial Zones",
       title: "IOTAFLOW Calibration Lab Visakhapatnam"
     },

@@ -12,24 +12,24 @@ export const eastGodavariSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in East Godavari Oil & Gas Plant",
-      subHeading: "Providing professional flow meter installation for oil, gas, and manufacturing plants in East Godavari.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for oil, gas, and manufacturing plants in East Godavari.",
       alt: "Industrial Flow Meter Installation in East Godavari Oil & Gas Plant",
       title: "IOTAFLOW Industrial Instrumentation East Godavari"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Kakinada Port Operations",
-      subHeading: "High precision electromagnetic flow meters optimized for Kakinada port and water treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Kakinada port and water treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Kakinada Port Operations",
       title: "IOTAFLOW Electromagnetic Meter East Godavari"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Rajahmundry Manufacturing Units",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Rajahmundry region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Rajahmundry region.",
       alt: "NABL Traceable Calibration Services for Rajahmundry Manufacturing Units",
       title: "IOTAFLOW Calibration Lab East Godavari"
     },

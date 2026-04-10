@@ -12,24 +12,24 @@ export const itanagarSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Itanagar Infrastructure Project",
-      subHeading: "Providing professional flow meter installation for infrastructure and urban development projects in Itanagar.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for infrastructure and urban development projects in Itanagar.",
       alt: "Industrial Flow Meter Installation in Itanagar Infrastructure Project",
       title: "IOTAFLOW Industrial Instrumentation Itanagar"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Itanagar Water Treatment Plant",
-      subHeading: "High precision electromagnetic flow meters optimized for Itanagar’s municipal water supply and treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Itanagar’s municipal water supply and treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for Itanagar Water Treatment Plant",
       title: "IOTAFLOW Electromagnetic Meter Itanagar"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Itanagar Government and Private Sectors",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across the Itanagar and Naharlagun regions.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across the Itanagar and Naharlagun regions.",
       alt: "NABL Traceable Calibration Services for Itanagar Government and Private Sectors",
       title: "IOTAFLOW Calibration Lab Itanagar"
     },

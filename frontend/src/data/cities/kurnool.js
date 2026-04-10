@@ -12,24 +12,24 @@ export const kurnoolSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in Kurnool Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in Kurnool.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in Kurnool.",
       alt: "Industrial Flow Meter Installation in Kurnool Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation Kurnool"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for Kurnool Water Management",
-      subHeading: "High precision electromagnetic flow meters optimized for Kurnool water treatment and industrial facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for Kurnool water treatment and industrial facilities.",
       alt: "Precision Electromagnetic Flow Meter for Kurnool Water Management",
       title: "IOTAFLOW Electromagnetic Meter Kurnool"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for Kurnool Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across Kurnool region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across Kurnool region.",
       alt: "NABL Traceable Calibration Services for Kurnool Industries",
       title: "IOTAFLOW Calibration Lab Kurnool"
     },

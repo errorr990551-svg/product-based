@@ -12,24 +12,24 @@ export const westGodavariSeoData = {
     {
       img: slide1,
       heading: "Industrial Flow Meter Installation in West Godavari Manufacturing Plant",
-      subHeading: "Providing professional flow meter installation for manufacturing plants in West Godavari.",
-      text: "",
+      subHeading: "",
+      text: "Providing professional flow meter installation for manufacturing plants in West Godavari.",
       alt: "Industrial Flow Meter Installation in West Godavari Manufacturing Plant",
       title: "IOTAFLOW Industrial Instrumentation West Godavari"
     },
     {
       img: slide2,
       heading: "Precision Electromagnetic Flow Meter for West Godavari Aqua Processing",
-      subHeading: "High precision electromagnetic flow meters optimized for West Godavari aqua-processing and water treatment facilities.",
-      text: "",
+      subHeading: "",
+      text: "High precision electromagnetic flow meters optimized for West Godavari aqua-processing and water treatment facilities.",
       alt: "Precision Electromagnetic Flow Meter for West Godavari Aqua Processing",
       title: "IOTAFLOW Electromagnetic Meter West Godavari"
     },
     {
       img: slide3,
       heading: "NABL Traceable Calibration Services for West Godavari Industries",
-      subHeading: "Expert NABL traceable calibration services ensuring industrial accuracy across West Godavari region.",
-      text: "",
+      subHeading: "",
+      text: "Expert NABL traceable calibration services ensuring industrial accuracy across West Godavari region.",
       alt: "NABL Traceable Calibration Services for West Godavari Industries",
       title: "IOTAFLOW Calibration Lab West Godavari"
     },
