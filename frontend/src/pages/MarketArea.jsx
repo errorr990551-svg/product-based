@@ -63,6 +63,26 @@ const MarketArea = () => {
         { name: "Barpeta", link: "/barpeta" },
         { name: "Golaghat", link: "/golaghat" },
       ],
+    },
+    {
+      state: "Bihar",
+      cities: [
+        { name: "Patna", link: "/patna" },
+        { name: "Gaya", link: "/gaya" },
+        { name: "Bhagalpur", link: "/bhagalpur" },
+        { name: "Muzaffarpur", link: "/muzaffarpur" },
+        { name: "Purnia", link: "/purnia" },
+        { name: "Darbhanga", link: "/darbhanga" },
+        { name: "Bihar Sharif", link: "/bihar-sharif" },
+        { name: "Arrah", link: "/arrah" },
+        { name: "Begusarai", link: "/begusarai" },
+        { name: "Katihar", link: "/katihar" },
+        { name: "Munger", link: "/munger" },
+        { name: "Chapra", link: "/chapra" },
+        { name: "Saharsa", link: "/saharsa" },
+        { name: "Hajipur", link: "/hajipur" },
+        { name: "Sasaram", link: "/sasaram" },
+      ],
     }
   ];
 

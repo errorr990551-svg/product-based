@@ -52,6 +52,21 @@ import { sivasagarSeoData } from "../data/cities/sivasagar";
 import { goalparaSeoData } from "../data/cities/goalpara";
 import { barpetaSeoData } from "../data/cities/barpeta";
 import { golaghatSeoData } from "../data/cities/golaghat";
+import { patnaSeoData } from "../data/cities/patna";
+import { gayaSeoData } from "../data/cities/gaya";
+import { bhagalpurSeoData } from "../data/cities/bhagalpur";
+import { muzaffarpurSeoData } from "../data/cities/muzaffarpur";
+import { purniaSeoData } from "../data/cities/purnia";
+import { darbhangaSeoData } from "../data/cities/darbhanga";
+import { biharSharifSeoData } from "../data/cities/bihar-sharif";
+import { arrahSeoData } from "../data/cities/arrah";
+import { begusaraiSeoData } from "../data/cities/begusarai";
+import { katiharSeoData } from "../data/cities/katihar";
+import { mungerSeoData } from "../data/cities/munger";
+import { chapraSeoData } from "../data/cities/chapra";
+import { saharsaSeoData } from "../data/cities/saharsa";
+import { hajipurSeoData } from "../data/cities/hajipur";
+import { sasaramSeoData } from "../data/cities/sasaram";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -165,6 +180,21 @@ const cityDataMap = {
   goalpara: goalparaSeoData,
   barpeta: barpetaSeoData,
   golaghat: golaghatSeoData,
+  patna: patnaSeoData,
+  gaya: gayaSeoData,
+  bhagalpur: bhagalpurSeoData,
+  muzaffarpur: muzaffarpurSeoData,
+  purnia: purniaSeoData,
+  darbhanga: darbhangaSeoData,
+  "bihar-sharif": biharSharifSeoData,
+  arrah: arrahSeoData,
+  begusarai: begusaraiSeoData,
+  katihar: katiharSeoData,
+  munger: mungerSeoData,
+  chapra: chapraSeoData,
+  saharsa: saharsaSeoData,
+  hajipur: hajipurSeoData,
+  sasaram: sasaramSeoData,
 };
 
 
@@ -261,19 +291,19 @@ function BannerSliderSeo({ slides }) {
             initial={{ scale: 1 }}
             animate={{ scale: 1.05 }}
             transition={{ duration: 4, ease: "easeInOut" }}
-            className="tw-block tw-w-full tw-object-cover tw-max-h-[300px] sm:tw-max-h-[380px] md:tw-max-h-[600px]"
+            className="tw-block tw-w-full tw-object-cover tw-h-[250px] sm:tw-h-[380px] md:tw-h-[600px]"
           />
 
           {/* Caption Overlay */}
-          <div className="tw-absolute tw-bottom-5 sm:tw-bottom-[35px] md:tw-bottom-10 tw-left-0 tw-right-0 tw-px-32 tw-text-left">
-            <div className="caption-bg tw-inline-block tw-max-w-[95%] sm:tw-max-w-[90%] md:tw-max-w-[85%] lg:tw-max-w-[650px] tw-bg-black/50 tw-p-3 sm:tw-p-[14px] md:tw-p-5 tw-rounded-lg tw-text-white">
-              <h1 className="tw-font-bold tw-text-yellow-400 tw-text-[1.4rem] sm:tw-text-[1.8rem] md:tw-text-[2rem] lg:tw-text-[2.5rem] tw-leading-tight">
+          <div className="tw-absolute tw-inset-0 tw-flex tw-items-center md:tw-items-end tw-px-6 sm:tw-px-10 md:tw-px-20 lg:tw-px-32 tw-pb-5 md:tw-pb-16 tw-text-left">
+            <div className="caption-bg tw-inline-block tw-max-w-[95%] sm:tw-max-w-[90%] md:tw-max-w-[85%] lg:tw-max-w-[650px] tw-bg-black/50 tw-p-2 sm:tw-p-[14px] md:tw-p-5 tw-rounded-lg tw-text-white">
+              <h1 className="tw-font-bold tw-text-yellow-400 tw-text-[1rem] sm:tw-text-[1.8rem] md:tw-text-[2rem] lg:tw-text-[2.5rem] tw-leading-tight">
                 {slides[index].heading}
               </h1>
-              <h2 className="tw-font-bold tw-text-white tw-text-[1.1rem] sm:tw-text-[1.25rem] md:tw-text-[1.4rem] lg:tw-text-[1.8rem] tw-leading-tight">
+              <h2 className="tw-font-bold tw-text-white tw-text-[0.85rem] sm:tw-text-[1.25rem] md:tw-text-[1.4rem] lg:tw-text-[1.8rem] tw-leading-tight">
                 {slides[index].subHeading}
               </h2>
-              <p className="tw-text-[0.85rem] sm:tw-text-[0.95rem] md:tw-text-[1rem] lg:tw-text-[1.2rem] tw-mb-3">
+              <p className="tw-text-[0.7rem] sm:tw-text-[0.95rem] md:tw-text-[1rem] lg:tw-text-[1.2rem] tw-mb-2">
                 {slides[index].text}
               </p>
 

@@ -160,7 +160,6 @@ function App() {
             <Route path="/product" element={<Product />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/lean-manufacturing" element={<LeanResourcesPage />} />
-            <Route path="/:city" element={<SeoPage />} />
             <Route path="/iotsense" element={<IOTsensePage />} />
             <Route path="/accessories" element={<Accessories />} />
             <Route path="/careers" element={<Careers />} />
@@ -207,6 +206,8 @@ function App() {
             <Route path="/product2" element={<Product2 />} />
 
             <Route path="/market-area" element={<MarketArea />} />
+            <Route path="/:city" element={<SeoPage />} />
+
 
             
           </Route>
