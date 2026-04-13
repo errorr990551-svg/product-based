@@ -11,7 +11,7 @@ export default function HeroSection() {
     >
       <div className="yellow-overlay">
         <div className="hero-content">
-        <h2 className="fade-slide tw-text-black">
+        <h2 className="fade-slide">
           IOTAFLOW <span className="systems-badge">Systems</span>
         </h2>
         <h2 className="fade-slide delay1">

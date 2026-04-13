@@ -83,6 +83,26 @@ const MarketArea = () => {
         { name: "Hajipur", link: "/hajipur" },
         { name: "Sasaram", link: "/sasaram" },
       ],
+    },
+    {
+      state: "Chhattisgarh",
+      cities: [
+        { name: "Raipur", link: "/raipur" },
+        { name: "Bhilai-Durg", link: "/bhilai-durg" },
+        { name: "Bilaspur", link: "/bilaspur" },
+        { name: "Korba", link: "/korba" },
+        { name: "Rajnandgaon", link: "/rajnandgaon" },
+        { name: "Raigarh", link: "/raigarh" },
+        { name: "Jagdalpur", link: "/jagdalpur" },
+        { name: "Ambikapur", link: "/ambikapur" },
+        { name: "Dhamtari", link: "/dhamtari" },
+        { name: "Nava Raipur", link: "/nava-raipur" },
+        { name: "Mahasamund", link: "/mahasamund" },
+        { name: "Bhatapara", link: "/bhatapara" },
+        { name: "Champa", link: "/champa" },
+        { name: "Kawardha", link: "/kawardha" },
+        { name: "Kanker", link: "/kanker" },
+      ],
     }
   ];
 

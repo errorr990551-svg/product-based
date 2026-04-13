@@ -67,6 +67,21 @@ import { chapraSeoData } from "../data/cities/chapra";
 import { saharsaSeoData } from "../data/cities/saharsa";
 import { hajipurSeoData } from "../data/cities/hajipur";
 import { sasaramSeoData } from "../data/cities/sasaram";
+import { raipurSeoData } from "../data/cities/raipur";
+import { bhilaiDurgSeoData } from "../data/cities/bhilai-durg";
+import { bilaspurSeoData } from "../data/cities/bilaspur";
+import { korbaSeoData } from "../data/cities/korba";
+import { rajnandgaonSeoData } from "../data/cities/rajnandgaon";
+import { raigarhSeoData } from "../data/cities/raigarh";
+import { jagdalpurSeoData } from "../data/cities/jagdalpur";
+import { ambikapurSeoData } from "../data/cities/ambikapur";
+import { dhamtariSeoData } from "../data/cities/dhamtari";
+import { navaRaipurSeoData } from "../data/cities/nava-raipur";
+import { mahasamundSeoData } from "../data/cities/mahasamund";
+import { bhataparaSeoData } from "../data/cities/bhatapara";
+import { champaSeoData } from "../data/cities/champa";
+import { kawardhaSeoData } from "../data/cities/kawardha";
+import { kankerSeoData } from "../data/cities/kanker";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -195,6 +210,21 @@ const cityDataMap = {
   saharsa: saharsaSeoData,
   hajipur: hajipurSeoData,
   sasaram: sasaramSeoData,
+  raipur: raipurSeoData,
+  "bhilai-durg": bhilaiDurgSeoData,
+  bilaspur: bilaspurSeoData,
+  korba: korbaSeoData,
+  rajnandgaon: rajnandgaonSeoData,
+  raigarh: raigarhSeoData,
+  jagdalpur: jagdalpurSeoData,
+  ambikapur: ambikapurSeoData,
+  dhamtari: dhamtariSeoData,
+  "nava-raipur": navaRaipurSeoData,
+  mahasamund: mahasamundSeoData,
+  bhatapara: bhataparaSeoData,
+  champa: champaSeoData,
+  kawardha: kawardhaSeoData,
+  kanker: kankerSeoData,
 };
 
 
