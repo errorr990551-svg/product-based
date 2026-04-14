@@ -82,6 +82,19 @@ import { bhataparaSeoData } from "../data/cities/bhatapara";
 import { champaSeoData } from "../data/cities/champa";
 import { kawardhaSeoData } from "../data/cities/kawardha";
 import { kankerSeoData } from "../data/cities/kanker";
+import { panajiSeoData } from "../data/cities/panaji";
+import { margaoSeoData } from "../data/cities/margao";
+import { mapusaSeoData } from "../data/cities/mapusa";
+import { pondaSeoData } from "../data/cities/ponda";
+import { porvorimSeoData } from "../data/cities/porvorim";
+import { vernaSeoData } from "../data/cities/verna";
+import { siolimSeoData } from "../data/cities/siolim";
+import { taleigaoSeoData } from "../data/cities/taleigao";
+import { sancoaleSeoData } from "../data/cities/sancoale";
+import { curchoremSeoData } from "../data/cities/curchorem";
+import { bicholimSeoData } from "../data/cities/bicholim";
+import { sanquelimSeoData } from "../data/cities/sanquelim";
+import { vascoDaGamaSeoData } from "../data/cities/vasco-da-gama";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -225,6 +238,19 @@ const cityDataMap = {
   champa: champaSeoData,
   kawardha: kawardhaSeoData,
   kanker: kankerSeoData,
+  panaji: panajiSeoData,
+  margao: margaoSeoData,
+  mapusa: mapusaSeoData,
+  ponda: pondaSeoData,
+  porvorim: porvorimSeoData,
+  verna: vernaSeoData,
+  siolim: siolimSeoData,
+  taleigao: taleigaoSeoData,
+  sancoale: sancoaleSeoData,
+  curchorem: curchoremSeoData,
+  bicholim: bicholimSeoData,
+  sanquelim: sanquelimSeoData,
+  "vasco-da-gama": vascoDaGamaSeoData,
 };
 
 

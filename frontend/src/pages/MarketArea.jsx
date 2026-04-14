@@ -103,6 +103,24 @@ const MarketArea = () => {
         { name: "Kawardha", link: "/kawardha" },
         { name: "Kanker", link: "/kanker" },
       ],
+    },
+    {
+      state: "Goa",
+      cities: [
+        { name: "Panaji", link: "/panaji" },
+        { name: "Margao", link: "/margao" },
+        { name: "Mapusa", link: "/mapusa" },
+        { name: "Ponda", link: "/ponda" },
+        { name: "Porvorim", link: "/porvorim" },
+        { name: "Verna", link: "/verna" },
+        { name: "Siolim", link: "/siolim" },
+        { name: "Taleigao", link: "/taleigao" },
+        { name: "Sancoale", link: "/sancoale" },
+        { name: "Curchorem", link: "/curchorem" },
+        { name: "Bicholim", link: "/bicholim" },
+        { name: "Sanquelim", link: "/sanquelim" },
+        { name: "Vasco da Gama", link: "/vasco-da-gama" },
+      ],
     }
   ];
 

@@ -74,15 +74,10 @@ const caseStudiesData = [
 ];
 
 // --- Component: Case Study Card ---
-const CaseStudyCard = ({ data, isHighlighted }) => (
+const CaseStudyCard = ({ data }) => (
   <div 
     id={`card-${data.id}`} // Unique ID for scrolling
-    className={`tw-bg-white tw-rounded-xl tw-shadow-lg tw-border tw-overflow-hidden tw-flex tw-flex-col tw-transition-all tw-duration-500
-      ${isHighlighted 
-        ? 'tw-border-[#fc8d05] tw-ring-4 tw-ring-[#ffd700]/50 tw-scale-[1.02] tw-shadow-2xl' 
-        : 'tw-border-gray-200 hover:tw-shadow-2xl hover:tw-translate-y-[-4px]'
-      }
-    `}
+    className="tw-bg-white tw-rounded-xl tw-shadow-lg tw-border tw-border-gray-200 hover:tw-shadow-2xl hover:tw-translate-y-[-4px] tw-overflow-hidden tw-flex tw-flex-col tw-transition-all tw-duration-500"
   >
     {/* Wrapped image content in Link to keep navigation functionality */}
     <Link to={`/case-studies/${data.id}`} className="tw-no-underline tw-group tw-flex tw-flex-col tw-flex-grow">
@@ -122,39 +117,10 @@ const CaseStudyCard = ({ data, isHighlighted }) => (
 // --- Main Component ---
 function CaseStudies() {
   const [activeFilter, setActiveFilter] = useState("All");
-  const [highlightedId, setHighlightedId] = useState(null);
 
   // Function to handle sidebar click
   const handleFilterClick = (industry) => {
-    // Find if a case study exists for this industry
-    const matchingStudy = caseStudiesData.find(study => study.category === industry);
-
-    if (matchingStudy) {
-      // If it exists:
-      // 1. Show 'All' so the card is rendered in the list
-      setActiveFilter("All");
-      
-      // 2. Set the ID to highlight
-      setHighlightedId(matchingStudy.id);
-
-      // 3. Scroll to the card after a short delay (to ensure render)
-      setTimeout(() => {
-        const element = document.getElementById(`card-${matchingStudy.id}`);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-      }, 100);
-
-      // 4. Remove the highlight after 2 seconds
-      setTimeout(() => {
-        setHighlightedId(null);
-      }, 2000);
-
-    } else {
-      // If no match (empty category), just filter the list like before
-      setActiveFilter(industry);
-      setHighlightedId(null);
-    }
+    setActiveFilter(industry);
   };
 
   // Filter Logic
@@ -234,7 +200,6 @@ function CaseStudies() {
                   <CaseStudyCard 
                     key={study.id} 
                     data={study} 
-                    isHighlighted={highlightedId === study.id} 
                   />
                 ))}
               </div>
