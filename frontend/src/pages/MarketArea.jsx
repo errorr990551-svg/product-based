@@ -121,6 +121,26 @@ const MarketArea = () => {
         { name: "Sanquelim", link: "/sanquelim" },
         { name: "Vasco da Gama", link: "/vasco-da-gama" },
       ],
+    },
+    {
+      state: "Gujarat",
+      cities: [
+        { name: "Mehsana", link: "/mehsana" },
+        { name: "Bharuch", link: "/bharuch" },
+        { name: "Nadiad", link: "/nadiad" },
+        { name: "Gandhidham", link: "/gandhidham" },
+        { name: "Morbi", link: "/morbi" },
+        { name: "Navsari", link: "/navsari" },
+        { name: "Anand", link: "/anand" },
+        { name: "Gandhinagar", link: "/gandhinagar" },
+        { name: "Junagadh", link: "/junagadh" },
+        { name: "Jamnagar", link: "/jamnagar" },
+        { name: "Bhavnagar", link: "/bhavnagar" },
+        { name: "Rajkot", link: "/rajkot" },
+        { name: "Vadodara", link: "/vadodara" },
+        { name: "Surat", link: "/surat" },
+        { name: "Ahmedabad", link: "/ahmedabad" },
+      ],
     }
   ];
 

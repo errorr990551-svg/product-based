@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import EnquiryButton from '../Components/common/EnquiryButton';
-import { mumbaiSeoData, delhiSeoData, bengaluruSeoData, hyderabadSeoData, ahmedabadSeoData, chennaiSeoData, anantapurSeoData } from "../data/citySeoData";
+import { mumbaiSeoData, delhiSeoData, bengaluruSeoData, hyderabadSeoData, chennaiSeoData, anantapurSeoData } from "../data/citySeoData";
 import { chittoorSeoData } from "../data/cities/chittoor";
 import { eastGodavariSeoData } from "../data/cities/east-godavari";
 import { gunturSeoData } from "../data/cities/guntur";
@@ -95,6 +95,21 @@ import { curchoremSeoData } from "../data/cities/curchorem";
 import { bicholimSeoData } from "../data/cities/bicholim";
 import { sanquelimSeoData } from "../data/cities/sanquelim";
 import { vascoDaGamaSeoData } from "../data/cities/vasco-da-gama";
+import { mehsanaSeoData } from "../data/cities/mehsana";
+import { bharuchSeoData } from "../data/cities/bharuch";
+import { nadiadSeoData } from "../data/cities/nadiad";
+import { gandhidhamSeoData } from "../data/cities/gandhidham";
+import { morbiSeoData } from "../data/cities/morbi";
+import { navsariSeoData } from "../data/cities/navsari";
+import { anandSeoData } from "../data/cities/anand";
+import { gandhinagarSeoData } from "../data/cities/gandhinagar";
+import { junagadhSeoData } from "../data/cities/junagadh";
+import { jamnagarSeoData } from "../data/cities/jamnagar";
+import { bhavnagarSeoData } from "../data/cities/bhavnagar";
+import { rajkotSeoData } from "../data/cities/rajkot";
+import { vadodaraSeoData } from "../data/cities/vadodara";
+import { suratSeoData } from "../data/cities/surat";
+import { ahmedabadSeoData } from "../data/cities/ahmedabad";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -251,6 +266,21 @@ const cityDataMap = {
   bicholim: bicholimSeoData,
   sanquelim: sanquelimSeoData,
   "vasco-da-gama": vascoDaGamaSeoData,
+  mehsana: mehsanaSeoData,
+  bharuch: bharuchSeoData,
+  nadiad: nadiadSeoData,
+  gandhidham: gandhidhamSeoData,
+  morbi: morbiSeoData,
+  navsari: navsariSeoData,
+  anand: anandSeoData,
+  gandhinagar: gandhinagarSeoData,
+  junagadh: junagadhSeoData,
+  jamnagar: jamnagarSeoData,
+  bhavnagar: bhavnagarSeoData,
+  rajkot: rajkotSeoData,
+  vadodara: vadodaraSeoData,
+  surat: suratSeoData,
+  ahmedabad: ahmedabadSeoData,
 };
 
 
