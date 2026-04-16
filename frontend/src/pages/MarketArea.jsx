@@ -141,7 +141,27 @@ const MarketArea = () => {
         { name: "Surat", link: "/surat" },
         { name: "Ahmedabad", link: "/ahmedabad" },
       ],
-    }
+    },
+    {
+      state: "Himachal Pradesh",
+      cities: [
+        { name: "Manali", link: "/manali" },
+        { name: "Bilaspur (HP)", link: "/bilaspur-hp" },
+        { name: "Hamirpur", link: "/hamirpur" },
+        { name: "Kullu", link: "/kullu" },
+        { name: "Una", link: "/una" },
+        { name: "Chamba", link: "/chamba" },
+        { name: "Sundernagar", link: "/sundernagar" },
+        { name: "Paonta Sahib", link: "/paonta-sahib" },
+        { name: "Nahan", link: "/nahan" },
+        { name: "Baddi", link: "/baddi" },
+        { name: "Palampur", link: "/palampur" },
+        { name: "Mandi", link: "/mandi" },
+        { name: "Solan", link: "/solan" },
+        { name: "Dharamshala", link: "/dharamshala" },
+        { name: "Shimla", link: "/shimla" },
+      ],
+    },
   ];
 
   return (

@@ -110,6 +110,21 @@ import { rajkotSeoData } from "../data/cities/rajkot";
 import { vadodaraSeoData } from "../data/cities/vadodara";
 import { suratSeoData } from "../data/cities/surat";
 import { ahmedabadSeoData } from "../data/cities/ahmedabad";
+import { manaliSeoData } from "../data/cities/manali";
+import { bilaspurHpSeoData } from "../data/cities/bilaspur-hp";
+import { hamirpurSeoData } from "../data/cities/hamirpur";
+import { kulluSeoData } from "../data/cities/kullu";
+import { unaSeoData } from "../data/cities/una";
+import { chambaSeoData } from "../data/cities/chamba";
+import { sundernagarSeoData } from "../data/cities/sundernagar";
+import { paontaSahibSeoData } from "../data/cities/paonta-sahib";
+import { nahanSeoData } from "../data/cities/nahan";
+import { baddiSeoData } from "../data/cities/baddi";
+import { palampurSeoData } from "../data/cities/palampur";
+import { mandiSeoData } from "../data/cities/mandi";
+import { solanSeoData } from "../data/cities/solan";
+import { dharamshalaSeoData } from "../data/cities/dharamshala";
+import { shimlaSeoData } from "../data/cities/shimla";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -281,6 +296,21 @@ const cityDataMap = {
   vadodara: vadodaraSeoData,
   surat: suratSeoData,
   ahmedabad: ahmedabadSeoData,
+  manali: manaliSeoData,
+  "bilaspur-hp": bilaspurHpSeoData,
+  hamirpur: hamirpurSeoData,
+  kullu: kulluSeoData,
+  una: unaSeoData,
+  chamba: chambaSeoData,
+  sundernagar: sundernagarSeoData,
+  "paonta-sahib": paontaSahibSeoData,
+  nahan: nahanSeoData,
+  baddi: baddiSeoData,
+  palampur: palampurSeoData,
+  mandi: mandiSeoData,
+  solan: solanSeoData,
+  dharamshala: dharamshalaSeoData,
+  shimla: shimlaSeoData,
 };
 
 
