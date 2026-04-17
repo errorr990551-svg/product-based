@@ -125,6 +125,21 @@ import { mandiSeoData } from "../data/cities/mandi";
 import { solanSeoData } from "../data/cities/solan";
 import { dharamshalaSeoData } from "../data/cities/dharamshala";
 import { shimlaSeoData } from "../data/cities/shimla";
+import { gumlaSeoData } from "../data/cities/gumla";
+import { lohardagaSeoData } from "../data/cities/lohardaga";
+import { chaibasaSeoData } from "../data/cities/chaibasa";
+import { sahibganjSeoData } from "../data/cities/sahibganj";
+import { giridihSeoData } from "../data/cities/giridih";
+import { ramgarhSeoData } from "../data/cities/ramgarh";
+import { medininagarSeoData } from "../data/cities/medininagar";
+import { deogharSeoData } from "../data/cities/deoghar";
+import { hazaribaghSeoData } from "../data/cities/hazaribagh";
+import { phusroSeoData } from "../data/cities/phusro";
+import { bokaroSteelCitySeoData } from "../data/cities/bokaro-steel-city";
+import { mangoSeoData } from "../data/cities/mango";
+import { dhanbadSeoData } from "../data/cities/dhanbad";
+import { ranchiSeoData } from "../data/cities/ranchi";
+import { jamshedpurSeoData } from "../data/cities/jamshedpur";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -311,6 +326,21 @@ const cityDataMap = {
   solan: solanSeoData,
   dharamshala: dharamshalaSeoData,
   shimla: shimlaSeoData,
+  gumla: gumlaSeoData,
+  lohardaga: lohardagaSeoData,
+  chaibasa: chaibasaSeoData,
+  sahibganj: sahibganjSeoData,
+  giridih: giridihSeoData,
+  ramgarh: ramgarhSeoData,
+  medininagar: medininagarSeoData,
+  deoghar: deogharSeoData,
+  hazaribagh: hazaribaghSeoData,
+  phusro: phusroSeoData,
+  "bokaro-steel-city": bokaroSteelCitySeoData,
+  mango: mangoSeoData,
+  dhanbad: dhanbadSeoData,
+  ranchi: ranchiSeoData,
+  jamshedpur: jamshedpurSeoData,
 };
 
 
