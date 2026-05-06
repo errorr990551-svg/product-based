@@ -3,7 +3,7 @@ import { useState } from "react";
 import api from "../services/api";
 
 export default function ComplaintForm() {
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit, reset, formState: { errors } } = useForm();
   const [showOtherComplaint, setShowOtherComplaint] = useState(false);
   const [showOtherFrequency, setShowOtherFrequency] = useState(false);
   const [showOtherSize, setShowOtherSize] = useState(false);
@@ -99,7 +99,17 @@ export default function ComplaintForm() {
             </div>
             <div className="sm:tw-col-span-2">
               <label className={labelStyle}>Phone Number*</label>
-              <input type="tel" {...register("phone", { required: true })} className={inputStyle} />
+              <input 
+                type="tel" 
+                {...register("phone", { 
+                  required: "Phone number is required", 
+                  minLength: { value: 10, message: "Phone number must be 10 digits" }, 
+                  maxLength: { value: 10, message: "Phone number must be 10 digits" },
+                  pattern: { value: /^[0-9]{10}$/, message: "Invalid phone number" }
+                })} 
+                className={inputStyle} 
+              />
+              {errors.phone && <p className="tw-text-red-500 tw-text-xs tw-mt-1">{errors.phone.message}</p>}
             </div>
           </div>
         </div>

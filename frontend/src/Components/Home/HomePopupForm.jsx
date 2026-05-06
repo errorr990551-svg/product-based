@@ -221,6 +221,12 @@ const HomePopupForm = ({ isOpen, onClose }) => {
     setError("");
     setSuccess("");
 
+    if (formData.phone.length !== 10) {
+      setError("Please enter a valid 10-digit phone number.");
+      setLoading(false);
+      return;
+    }
+
     try {
       const response = await api.post("/contact", formData);
       
@@ -319,10 +325,15 @@ const HomePopupForm = ({ isOpen, onClose }) => {
             />
             <input
               name="phone"
+              type="tel"
               value={formData.phone}
               onChange={handleChange}
               placeholder="Phone Number"
               required
+              minLength="10"
+              maxLength="10"
+              pattern="[0-9]{10}"
+              title="Please enter a 10-digit phone number"
               className="tw-w-full tw-rounded-lg tw-border tw-px-4 tw-py-3"
             />
             <input

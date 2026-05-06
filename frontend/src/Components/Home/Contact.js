@@ -30,6 +30,12 @@ const Contact = () => {
     setSuccess("");
     setError("");
 
+    if (formData.phone.length !== 10) {
+      setError("Please enter a valid 10-digit phone number.");
+      setLoading(false);
+      return;
+    }
+
     try {
       const response = await api.post("/contact", formData);
       
@@ -137,12 +143,15 @@ const Contact = () => {
               <Row className="mb-3">
                 <Col>
                   <Form.Control
-                    type="text"
+                    type="tel"
                     placeholder="Phone Number"
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
                     required
+                    minLength="10"
+                    maxLength="10"
+                    pattern="[0-9]{10}"
                   />
                 </Col>
                 <Col>
