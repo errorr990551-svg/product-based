@@ -12,11 +12,11 @@ import cert7 from "../images/E-TenderEnquiry.webp";
 const certificates = [
   { id: 1, img: cert1, title: "Zed Gold Certificate" },
   { id: 2, img: cert2, title: "Type Test Certificate - PTB Lab Germany" },
-  { id: 3, img: cert3, title: "RWS & S Circle" },
+  { id: 3, img: cert3, title: "RWSS Approval" },
   { id: 4, img: cert4, title: "Environmental Management Systems Certificate" },
   { id: 5, img: cert5, title: "Lean Basic Certificate" },
   { id: 6, img: cert6, title: "ISO Certificate" },
-  { id: 7, img: cert7, title: "E-Tender Enquiry Certificate" },
+  { id: 7, img: cert7, title: "Delhi Milk Scheme Approval" },
 ];
 
 function Certification() {

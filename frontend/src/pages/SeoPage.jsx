@@ -8,7 +8,22 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import EnquiryButton from '../Components/common/EnquiryButton';
-import { mumbaiSeoData, delhiSeoData, bengaluruSeoData, hyderabadSeoData, chennaiSeoData, anantapurSeoData } from "../data/citySeoData";
+import { mumbaiSeoData, delhiSeoData, hyderabadSeoData, chennaiSeoData, anantapurSeoData } from "../data/citySeoData";
+import { bengaluruSeoData } from "../data/cities/bengaluru";
+import { udupiSeoData } from "../data/cities/udupi";
+import { bidarSeoData } from "../data/cities/bidar";
+import { hospetSeoData } from "../data/cities/hospet";
+import { shivamoggaSeoData } from "../data/cities/shivamogga";
+import { vijayapuraSeoData } from "../data/cities/vijayapura";
+import { hassanSeoData } from "../data/cities/hassan";
+import { gadagBetageriSeoData } from "../data/cities/gadag-betageri";
+import { tumakuruSeoData } from "../data/cities/tumakuru";
+import { davanagereSeoData } from "../data/cities/davanagere";
+import { ballariSeoData } from "../data/cities/ballari";
+import { kalaburagiSeoData } from "../data/cities/kalaburagi";
+import { belagaviSeoData } from "../data/cities/belagavi";
+import { mangaluruSeoData } from "../data/cities/mangaluru";
+import { hubballiDharwadSeoData } from "../data/cities/hubballi-dharwad";
 import { chittoorSeoData } from "../data/cities/chittoor";
 import { eastGodavariSeoData } from "../data/cities/east-godavari";
 import { gunturSeoData } from "../data/cities/guntur";
@@ -205,6 +220,20 @@ const cityDataMap = {
   mumbai: mumbaiSeoData,
   delhi: delhiSeoData,
   bengaluru: bengaluruSeoData,
+  udupi: udupiSeoData,
+  bidar: bidarSeoData,
+  hospet: hospetSeoData,
+  shivamogga: shivamoggaSeoData,
+  vijayapura: vijayapuraSeoData,
+  hassan: hassanSeoData,
+  "gadag-betageri": gadagBetageriSeoData,
+  tumakuru: tumakuruSeoData,
+  davanagere: davanagereSeoData,
+  ballari: ballariSeoData,
+  kalaburagi: kalaburagiSeoData,
+  belagavi: belagaviSeoData,
+  mangaluru: mangaluruSeoData,
+  "hubballi-dharwad": hubballiDharwadSeoData,
   hyderabad: hyderabadSeoData,
   ahmedabad: ahmedabadSeoData,
   chennai: chennaiSeoData,

@@ -182,6 +182,26 @@ const MarketArea = () => {
         { name: "Jamshedpur", link: "/jamshedpur" },
       ],
     },
+    {
+      state: "Karnataka",
+      cities: [
+        { name: "Udupi", link: "/udupi" },
+        { name: "Bidar", link: "/bidar" },
+        { name: "Hospet", link: "/hospet" },
+        { name: "Shivamogga", link: "/shivamogga" },
+        { name: "Vijayapura", link: "/vijayapura" },
+        { name: "Hassan", link: "/hassan" },
+        { name: "Gadag-Betageri", link: "/gadag-betageri" },
+        { name: "Tumakuru", link: "/tumakuru" },
+        { name: "Davanagere", link: "/davanagere" },
+        { name: "Ballari", link: "/ballari" },
+        { name: "Kalaburagi", link: "/kalaburagi" },
+        { name: "Belagavi", link: "/belagavi" },
+        { name: "Mangaluru", link: "/mangaluru" },
+        { name: "Hubballi-Dharwad", link: "/hubballi-dharwad" },
+        { name: "Bengaluru", link: "/bengaluru" },
+      ],
+    },
   ];
 
   return (
