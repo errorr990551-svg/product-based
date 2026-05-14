@@ -202,6 +202,26 @@ const MarketArea = () => {
         { name: "Bengaluru", link: "/bengaluru" },
       ],
     },
+    {
+      state: "Kerala",
+      cities: [
+        { name: "Greater Kochi", link: "/greater-kochi" },
+        { name: "Trivandrum", link: "/trivandrum" },
+        { name: "Kochi", link: "/kochi" },
+        { name: "Kozhikode", link: "/kozhikode" },
+        { name: "Thrissur", link: "/thrissur" },
+        { name: "Kollam", link: "/kollam" },
+        { name: "Kannur", link: "/kannur" },
+        { name: "Malappuram", link: "/malappuram" },
+        { name: "Palakkad", link: "/palakkad" },
+        { name: "Alappuzha", link: "/alappuzha" },
+        { name: "Kottayam", link: "/kottayam" },
+        { name: "Kasaragod", link: "/kasaragod" },
+        { name: "Kanhangad", link: "/kanhangad" },
+        { name: "Thodupuzha", link: "/thodupuzha" },
+        { name: "Pathanamthitta", link: "/pathanamthitta" },
+      ],
+    },
   ];
 
   return (

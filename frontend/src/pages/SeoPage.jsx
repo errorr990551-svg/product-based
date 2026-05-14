@@ -155,6 +155,21 @@ import { mangoSeoData } from "../data/cities/mango";
 import { dhanbadSeoData } from "../data/cities/dhanbad";
 import { ranchiSeoData } from "../data/cities/ranchi";
 import { jamshedpurSeoData } from "../data/cities/jamshedpur";
+import { greaterKochiSeoData } from "../data/cities/greater-kochi";
+import { trivandrumSeoData } from "../data/cities/trivandrum";
+import { kochiSeoData } from "../data/cities/kochi";
+import { kozhikodeSeoData } from "../data/cities/kozhikode";
+import { thrissurSeoData } from "../data/cities/thrissur";
+import { kollamSeoData } from "../data/cities/kollam";
+import { kannurSeoData } from "../data/cities/kannur";
+import { malappuramSeoData } from "../data/cities/malappuram";
+import { palakkadSeoData } from "../data/cities/palakkad";
+import { alappuzhaSeoData } from "../data/cities/alappuzha";
+import { kottayamSeoData } from "../data/cities/kottayam";
+import { kasaragodSeoData } from "../data/cities/kasaragod";
+import { kanhangadSeoData } from "../data/cities/kanhangad";
+import { thodupuzhaSeoData } from "../data/cities/thodupuzha";
+import { pathanamthittaSeoData } from "../data/cities/pathanamthitta";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -370,6 +385,21 @@ const cityDataMap = {
   dhanbad: dhanbadSeoData,
   ranchi: ranchiSeoData,
   jamshedpur: jamshedpurSeoData,
+  "greater-kochi": greaterKochiSeoData,
+  trivandrum: trivandrumSeoData,
+  kochi: kochiSeoData,
+  kozhikode: kozhikodeSeoData,
+  thrissur: thrissurSeoData,
+  kollam: kollamSeoData,
+  kannur: kannurSeoData,
+  malappuram: malappuramSeoData,
+  palakkad: palakkadSeoData,
+  alappuzha: alappuzhaSeoData,
+  kottayam: kottayamSeoData,
+  kasaragod: kasaragodSeoData,
+  kanhangad: kanhangadSeoData,
+  thodupuzha: thodupuzhaSeoData,
+  pathanamthitta: pathanamthittaSeoData,
 };
 
 
