@@ -222,6 +222,26 @@ const MarketArea = () => {
         { name: "Pathanamthitta", link: "/pathanamthitta" },
       ],
     },
+    {
+      state: "Madhya Pradesh",
+      cities: [
+        { name: "Hoshangabad", link: "/hoshangabad" },
+        { name: "Damoh", link: "/damoh" },
+        { name: "Chhindwara", link: "/chhindwara" },
+        { name: "Rewa", link: "/rewa" },
+        { name: "Ratlam", link: "/ratlam" },
+        { name: "Satna", link: "/satna" },
+        { name: "Sagar", link: "/sagar" },
+        { name: "Dewas", link: "/dewas" },
+        { name: "Katni", link: "/katni" },
+        { name: "Pithampur", link: "/pithampur" },
+        { name: "Ujjain", link: "/ujjain" },
+        { name: "Gwalior", link: "/gwalior" },
+        { name: "Jabalpur", link: "/jabalpur" },
+        { name: "Bhopal", link: "/bhopal" },
+        { name: "Indore", link: "/indore" },
+      ],
+    },
   ];
 
   return (

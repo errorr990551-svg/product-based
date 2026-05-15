@@ -170,6 +170,21 @@ import { kasaragodSeoData } from "../data/cities/kasaragod";
 import { kanhangadSeoData } from "../data/cities/kanhangad";
 import { thodupuzhaSeoData } from "../data/cities/thodupuzha";
 import { pathanamthittaSeoData } from "../data/cities/pathanamthitta";
+import { hoshangabadSeoData } from "../data/cities/hoshangabad";
+import { damohSeoData } from "../data/cities/damoh";
+import { chhindwaraSeoData } from "../data/cities/chhindwara";
+import { rewaSeoData } from "../data/cities/rewa";
+import { ratlamSeoData } from "../data/cities/ratlam";
+import { satnaSeoData } from "../data/cities/satna";
+import { sagarSeoData } from "../data/cities/sagar";
+import { dewasSeoData } from "../data/cities/dewas";
+import { katniSeoData } from "../data/cities/katni";
+import { pithampurSeoData } from "../data/cities/pithampur";
+import { ujjainSeoData } from "../data/cities/ujjain";
+import { gwaliorSeoData } from "../data/cities/gwalior";
+import { jabalpurSeoData } from "../data/cities/jabalpur";
+import { bhopalSeoData } from "../data/cities/bhopal";
+import { indoreSeoData } from "../data/cities/indore";
 
 // ====================================================================
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
@@ -400,6 +415,21 @@ const cityDataMap = {
   kanhangad: kanhangadSeoData,
   thodupuzha: thodupuzhaSeoData,
   pathanamthitta: pathanamthittaSeoData,
+  hoshangabad: hoshangabadSeoData,
+  damoh: damohSeoData,
+  chhindwara: chhindwaraSeoData,
+  rewa: rewaSeoData,
+  ratlam: ratlamSeoData,
+  satna: satnaSeoData,
+  sagar: sagarSeoData,
+  dewas: dewasSeoData,
+  katni: katniSeoData,
+  pithampur: pithampurSeoData,
+  ujjain: ujjainSeoData,
+  gwalior: gwaliorSeoData,
+  jabalpur: jabalpurSeoData,
+  bhopal: bhopalSeoData,
+  indore: indoreSeoData,
 };
 
 
