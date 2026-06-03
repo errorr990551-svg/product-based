@@ -1,0 +1,26 @@
+services:
+  # Backend Web Service
+  - type: web
+    name: product-based-backend
+    env: node
+    plan: starter # You can change this to 'free' if you prefer, though the free tier spins down on inactivity
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: RESEND_API_KEY
+        sync: false # Set this in the Render dashboard under Environment Variables
+
+  # Frontend Static Site
+  - type: web
+    name: product-based-frontend
+    env: static
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    publishDir: build
+    envVars:
+      - key: REACT_APP_API_URL
+        sync: false # Connects to the backend URL (e.g. https://product-based-backend.onrender.com/api)
