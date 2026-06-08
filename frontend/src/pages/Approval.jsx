@@ -8,6 +8,7 @@ import approval5 from "../images/DMS_Approved (1)_page-0001.webp";
 import approval6 from "../images/NTPC Vendor Enlistment Certificate_page-0001.webp";
 import approval7 from "../images/DJB_Approval_Letter_Dec2019.webp";
 import approval8 from "../images/DELHI METRO JOB APPROVAL CERTIFICATE_page-0001.webp";
+import approval9 from "../images/Public Health Engineering Organisation (PHEO), Odisha.webp";
 
 const approvals = [
   { id: 1, img: approval1, title: "UP JAL NIGAM Approval 1" },
@@ -18,6 +19,7 @@ const approvals = [
   { id: 6, img: approval6, title: "NTPC Vendor Enlistment Certificate" },
   { id: 7, img: approval7, title: "DJB Approval Letter Dec2019" },
   { id: 8, img: approval8, title: "DELHI METRO JOB APPROVAL CERTIFICATE" },
+  { id: 9, img: approval9, title: "Public Health Engineering Organisation (PHEO), Odisha" },
 ];
 
 function Approval() {
