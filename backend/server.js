@@ -12,6 +12,10 @@ app.use(cors({
 
 app.use(express.json());
 
+app.get("/health", (req, res) => {
+  res.status(200).send("OK");
+});
+
 app.use("/api", require("./routes/contactRoutes"));
 app.use("/api", require("./routes/complaintRoutes"));
 app.use("/api", require("./routes/applicationRoutes"));
