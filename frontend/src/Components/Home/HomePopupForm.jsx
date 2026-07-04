@@ -185,8 +185,10 @@ import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
 import api from "../../services/api";
 import { useState } from "react";
+import { usePopup } from "../../context/PopupContext";
 
-const HomePopupForm = ({ isOpen, onClose }) => {
+const HomePopupForm = ({ isOpen, onClose, purpose }) => {
+  const { revealContactDetails } = usePopup();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -232,6 +234,9 @@ const HomePopupForm = ({ isOpen, onClose }) => {
       
       if (response.data.success) {
         setSuccess(response.data.message || "Message sent successfully!");
+        if (purpose === "reveal_contact") {
+          revealContactDetails();
+        }
         setFormData({
           name: "",
           email: "",
@@ -286,10 +291,10 @@ const HomePopupForm = ({ isOpen, onClose }) => {
 
         <div className="tw-mb-6 md:tw-mb-8">
           <h2 className="tw-text-2xl md:tw-text-4xl tw-font-bold tw-text-black tw-mb-2">
-            Drop in your details below
+            {purpose === "reveal_contact" ? "Fill details to get email & phone number" : "Drop in your details below"}
           </h2>
           <p className="tw-text-gray-600 tw-text-base md:tw-text-lg">
-            Let our experts take over from here!
+            {purpose === "reveal_contact" ? "Please fill the form to reveal our contact details." : "Let our experts take over from here!"}
           </p>
         </div>
 

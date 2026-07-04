@@ -141,7 +141,7 @@ function ScrollHandler() {
 
 function App() {
 
-  const { isPopupOpen, closePopup } = usePopup();
+  const { isPopupOpen, closePopup, popupPurpose } = usePopup();
   return (
     <>
       <ScrollHandler />
@@ -149,6 +149,7 @@ function App() {
       <HomePopupForm
         isOpen={isPopupOpen}
         onClose={closePopup}
+        purpose={popupPurpose}
       />
       <Suspense fallback={<LoadingFallback />}>
         <Routes>

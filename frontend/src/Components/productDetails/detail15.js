@@ -2,6 +2,7 @@ import { useState } from "react";
 import api from "../../services/api";
 
 import React, { useEffect } from 'react';
+import { usePopup } from "../../context/PopupContext";
 import bannerImg from '../../images/Schimdt_banner.webp';
 import model20250Img from '../../images/SS_20.250.webp';
 import model20261Img from '../../images/SS_20.261.webp';
@@ -137,6 +138,8 @@ const ApplicationCard = ({ title, image }) => (
 
 
 const Detail15 = () => {
+  const { contactDetailsRevealed, openPopup } = usePopup();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -587,11 +590,19 @@ const handleSubmit = async (e) => {
           <p className="tw-font-semibold tw-text-black tw-mb-1 tw-text-xs">
             Get in touch directly:
           </p>
-          <div className="tw-space-y-0.5 tw-text-gray-700 tw-text-xs">
-            <p>📞 +91-9910693866</p>
-            <p>📧 contact@iotaflow.com</p>
-          </div>
-          
+          {contactDetailsRevealed ? (
+            <div className="tw-space-y-0.5 tw-text-gray-700 tw-text-xs">
+              <p>📞 +91-9910693866</p>
+              <p>📧 contact@iotaflow.com</p>
+            </div>
+          ) : (
+            <button
+              onClick={() => openPopup("reveal_contact")}
+              className="tw-w-full tw-bg-[#ffd700] hover:tw-bg-yellow-400 tw-text-black tw-font-bold tw-py-2 tw-px-3 tw-rounded tw-text-xs tw-transition-colors tw-shadow-sm hover:tw-shadow tw-mt-1"
+            >
+              Show Contact Details
+            </button>
+          )}
         </div>
       </div>
     </div>

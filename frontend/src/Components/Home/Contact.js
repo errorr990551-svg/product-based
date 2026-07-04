@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap";
 import "./Contact.css";
 import api from "../../services/api";
+import { usePopup } from "../../context/PopupContext";
 
 const Contact = () => {
+  const { contactDetailsRevealed, openPopup } = usePopup();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -92,17 +94,37 @@ const Contact = () => {
             <p>Here’s how you can reach us,</p>
 
             <h5 className="mt-4">Talk to sales</h5>
-            <p>
-              📞 +91-9910693866 <br />
-              ☎️ 011-46254603 <br />
-              📧 contact@iotaflow.com
-            </p>
+            {contactDetailsRevealed ? (
+              <p>
+                📞 +91-9910693866 <br />
+                ☎️ 011-46254603 <br />
+                📧 contact@iotaflow.com
+              </p>
+            ) : (
+              <button
+                onClick={() => openPopup("reveal_contact")}
+                className="btn btn-warning btn-sm mt-1 mb-2 fw-bold"
+                style={{ backgroundColor: "#ffd700", border: "none", color: "black" }}
+              >
+                Show Sales Contact
+              </button>
+            )}
 
             <h5 className="mt-4">Contact Service Support</h5>
-            <p>
-              📞 +91-9779085987 <br />
-              📧 account@iotaflow.com
-            </p>
+            {contactDetailsRevealed ? (
+              <p>
+                📞 +91-9779085987 <br />
+                📧 account@iotaflow.com
+              </p>
+            ) : (
+              <button
+                onClick={() => openPopup("reveal_contact")}
+                className="btn btn-warning btn-sm mt-1 mb-2 fw-bold"
+                style={{ backgroundColor: "#ffd700", border: "none", color: "black" }}
+              >
+                Show Support Contact
+              </button>
+            )}
 
             <div className="social-icons mt-3">
               <a href="#!"><i className="fab fa-facebook-f"></i></a>
@@ -214,11 +236,31 @@ const Contact = () => {
             </Col>
             <Col md={4} className="text-center mb-3">
               <h6 className="text-uppercase">Mailing Address</h6>
-              <p>contact@iotaflow.com</p>
+              {contactDetailsRevealed ? (
+                <p>contact@iotaflow.com</p>
+              ) : (
+                <button
+                  onClick={() => openPopup("reveal_contact")}
+                  className="btn btn-link text-warning fw-bold p-0"
+                  style={{ textDecoration: "none" }}
+                >
+                  Show Email
+                </button>
+              )}
             </Col>
             <Col md={4} className="text-center mb-3">
               <h6 className="text-uppercase">Call Us Anytime</h6>
-              <p>+91-9910693866 <br /> 011-46254603</p>
+              {contactDetailsRevealed ? (
+                <p>+91-9910693866 <br /> 011-46254603</p>
+              ) : (
+                <button
+                  onClick={() => openPopup("reveal_contact")}
+                  className="btn btn-link text-warning fw-bold p-0"
+                  style={{ textDecoration: "none" }}
+                >
+                  Show Phone Number
+                </button>
+              )}
             </Col>
           </Row>
         </Container>

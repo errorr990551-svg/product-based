@@ -799,3 +799,30 @@
 body {
   min-width: 320px;
 }
+
+/* Show Contact Details Button in Header */
+.top-bar-reveal-btn {
+  background: none;
+  border: none;
+  color: #ffd700;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-bar-reveal-btn:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .top-bar-reveal-btn {
+    font-size: 12px;
+  }
+}

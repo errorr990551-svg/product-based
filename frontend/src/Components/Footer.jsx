@@ -5,9 +5,11 @@ import Logo from "../images/Iotaf logo icon.webp";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { useNavigate, useLocation } from "react-router-dom";
+import { usePopup } from "../context/PopupContext";
 
 
 function Footer() {
+  const { contactDetailsRevealed, openPopup } = usePopup();
   return (
     <footer className="footer text-light pt-5">
       {/* Wave Shape */}
@@ -124,26 +126,37 @@ function Footer() {
                 Contact Us
                 <span className="footer-col-underline" />
               </h5>
-              <p className="mb-1">
-                <i className="bi bi-telephone me-2"></i>
-                <a href="tel:+919910693866" className="text-decoration-none text-reset">
-                  +91-9910693866
-                </a>
-              </p>
+              {contactDetailsRevealed ? (
+                <>
+                  <p className="mb-1">
+                    <i className="bi bi-telephone me-2"></i>
+                    <a href="tel:+919910693866" className="text-decoration-none text-reset">
+                      +91-9910693866
+                    </a>
+                  </p>
 
-              <p className="mb-1">
-                <i className="bi bi-telephone me-2"></i>
-                <a href="tel:+919779085987" className="text-decoration-none text-reset">
-                  +91-9779085987
-                </a>
-              </p>
+                  <p className="mb-1">
+                    <i className="bi bi-telephone me-2"></i>
+                    <a href="tel:+919779085987" className="text-decoration-none text-reset">
+                      +91-9779085987
+                    </a>
+                  </p>
 
-              <p className="mb-1">
-                <i className="bi bi-envelope me-2"></i>
-                <a href="mailto:contact@iotaflow.com" className="text-decoration-none text-reset">
-                  contact@iotaflow.com
-                </a>
-              </p>
+                  <p className="mb-1">
+                    <i className="bi bi-envelope me-2"></i>
+                    <a href="mailto:contact@iotaflow.com" className="text-decoration-none text-reset">
+                      contact@iotaflow.com
+                    </a>
+                  </p>
+                </>
+              ) : (
+                <button
+                  onClick={() => openPopup("reveal_contact")}
+                  className="footer-reveal-btn"
+                >
+                  Show Contact Details
+                </button>
+              )}
               
               <p className="mb-1">
                 <i className="bi bi-geo-alt me-2"></i> Find Us

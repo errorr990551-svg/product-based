@@ -4,8 +4,10 @@ import "./CustomNavbar.css";
 import Logo from "../../images/Iotaf logo full.webp";
 import icon from "../../images/greater.webp";
 import GaugeIcon from "../../images/clockIconn.webp";
+import { usePopup } from "../../context/PopupContext";
 
 function CustomNavbar() {
+  const { contactDetailsRevealed, openPopup } = usePopup();
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState("Ultrasonic Flow Meters");
   const [productDropdownOpen, setProductDropdownOpen] = useState(false);
@@ -103,23 +105,34 @@ function CustomNavbar() {
     <>
       {/* Top Contact Bar */}
       <div className="top-bar">
-        <span>
-          <a
-            href="mailto:contact@iotaflow.com"
-            className="top-bar-link"
-          >
-            ✉ contact@iotaflow.com
-          </a>
-        </span>
+        {contactDetailsRevealed ? (
+          <>
+            <span>
+              <a
+                href="mailto:contact@iotaflow.com"
+                className="top-bar-link"
+              >
+                ✉ contact@iotaflow.com
+              </a>
+            </span>
 
-        <span>
-          <a
-            href="tel:+919910693866"
-            className="top-bar-link"
+            <span>
+              <a
+                href="tel:+919910693866"
+                className="top-bar-link"
+              >
+                📞 +91-9910693866
+              </a>
+            </span>
+          </>
+        ) : (
+          <button
+            onClick={() => openPopup("reveal_contact")}
+            className="top-bar-reveal-btn"
           >
-            📞 +91-9910693866
-          </a>
-        </span>
+            Show Contact Details
+          </button>
+        )}
       </div>
 
       {/* Navbar */}
