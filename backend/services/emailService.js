@@ -1,9 +1,16 @@
-const { Resend } = require("resend");
+import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const getResendInstance = (apiKey) => {
+  const key = apiKey || process.env.RESEND_API_KEY;
+  if (!key) {
+    throw new Error("RESEND_API_KEY is not defined. Please set RESEND_API_KEY in environment variables or Cloudflare secrets.");
+  }
+  return new Resend(key);
+};
 
-exports.sendMail = async ({ to, cc, subject, html, attachments = [] }) => {
+export const sendMail = async ({ to, cc, subject, html, attachments = [] }, apiKey) => {
   try {
+    const resend = getResendInstance(apiKey);
     const data = await resend.emails.send({
       from: "IOTAFLOW Website <no-reply@inquiry.errorr.in>",
       to: Array.isArray(to) ? to : [to],

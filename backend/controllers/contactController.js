@@ -1,19 +1,29 @@
-const { sendMail } = require("../services/emailService");
+import { sendMail } from "../services/emailService.js";
 
-exports.submitContactForm = async (req, res) => {
+export const submitContactForm = async (c) => {
   try {
-    const { name, email, phone, location, company, message } = req.body;
+    let body;
+    const contentType = c.req.header("content-type") || "";
+    if (contentType.includes("application/json")) {
+      body = await c.req.json();
+    } else {
+      body = await c.req.parseBody();
+    }
+
+    const { name, email, phone, location, company, message } = body || {};
 
     // Validate required fields
     if (!name || !email || !phone || !message) {
-      return res.status(400).json({ 
+      return c.json({ 
         success: false, 
         message: "Please fill in all required fields" 
-      });
+      }, 400);
     }
 
+    const apiKey = c.env?.RESEND_API_KEY || process.env.RESEND_API_KEY;
+
     // Fire and forget email sending in background
-    sendMail({
+    const emailPromise = sendMail({
       to: "contact@iotaflow.com",
       cc: [
         "mehak@iotaflow.com",
@@ -27,24 +37,28 @@ exports.submitContactForm = async (req, res) => {
         <p><b>Email:</b> ${email}</p>
         <p><b>Phone:</b> ${phone}</p>
         <p><b>Location:</b> ${location || "Not Provided"}</p>
-        <p><b>Company:</b> ${company}</p>
+        <p><b>Company:</b> ${company || "Not Provided"}</p>
         <p><b>Message:</b><br/>${message}</p>
       `,
-    }).catch(err => {
+    }, apiKey).catch(err => {
       console.error("Critical: Background Contact Email failed:", err);
     });
 
+    if (c.executionCtx && typeof c.executionCtx.waitUntil === "function") {
+      c.executionCtx.waitUntil(emailPromise);
+    }
+
     // Respond immediately to the user
-    return res.status(200).json({ 
+    return c.json({ 
       success: true, 
       message: "Message sent! Our team will get back to you shortly." 
-    });
+    }, 200);
 
   } catch (err) {
     console.error("Contact form processing error:", err);
-    return res.status(500).json({ 
+    return c.json({ 
       success: false, 
       message: "Something went wrong. Please try again later." 
-    });
+    }, 500);
   }
 };

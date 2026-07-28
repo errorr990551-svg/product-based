@@ -1,40 +1,50 @@
-const { sendMail } = require("../services/emailService");
+import { sendMail } from "../services/emailService.js";
 
-exports.submitApplication = async (req, res) => {
+export const submitApplication = async (c) => {
   try {
-    const { fullName, email, mobile, location, role } = req.body;
+    const body = await c.req.parseBody();
+    const { fullName, email, mobile, location, role } = body || {};
 
-    if (!req.file) {
-      return res.status(400).json({ success: false, message: "Resume required" });
+    const file = body["resume"];
+    if (!file || typeof file.arrayBuffer !== "function" || !file.name) {
+      return c.json({ success: false, message: "Resume required" }, 400);
     }
 
+    const arrayBuffer = await file.arrayBuffer();
+    const attachments = [
+      {
+        filename: file.name,
+        content: Buffer.from(arrayBuffer),
+      },
+    ];
+
+    const apiKey = c.env?.RESEND_API_KEY || process.env.RESEND_API_KEY;
+
     // Fire and forget email sending in background
-    sendMail({
+    const emailPromise = sendMail({
       to: "hr@iotaflow.com",
-      subject: `New Job Application - ${role}`,
+      subject: `New Job Application - ${role || ""}`,
       html: `
         <h2>New Job Application</h2>
-        <p><b>Name:</b> ${fullName}</p>
-        <p><b>Email:</b> ${email}</p>
-        <p><b>Mobile:</b> ${mobile}</p>
-        <p><b>Location:</b> ${location}</p>
-        <p><b>Applied For:</b> ${role}</p>
+        <p><b>Name:</b> ${fullName || ""}</p>
+        <p><b>Email:</b> ${email || ""}</p>
+        <p><b>Mobile:</b> ${mobile || ""}</p>
+        <p><b>Location:</b> ${location || ""}</p>
+        <p><b>Applied For:</b> ${role || ""}</p>
       `,
-      attachments: [
-        {
-          filename: req.file.originalname,
-          content: req.file.buffer,
-          contentType: req.file.mimetype,
-        },
-      ],
-    }).catch(err => {
+      attachments,
+    }, apiKey).catch(err => {
       console.error("Critical: Background Application Email failed:", err);
     });
 
-    return res.status(200).json({ success: true, message: "Application submitted successfully!" });
+    if (c.executionCtx && typeof c.executionCtx.waitUntil === "function") {
+      c.executionCtx.waitUntil(emailPromise);
+    }
+
+    return c.json({ success: true, message: "Application submitted successfully!" }, 200);
 
   } catch (err) {
     console.error("Application processing error:", err);
-    res.status(500).json({ success: false, message: "Something went wrong. Please try again." });
+    return c.json({ success: false, message: "Something went wrong. Please try again." }, 500);
   }
 };
