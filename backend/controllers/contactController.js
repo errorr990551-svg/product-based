@@ -20,17 +20,17 @@ export const submitContactForm = async (c) => {
       }, 400);
     }
 
-    const apiKey = c.env?.RESEND_API_KEY || process.env.RESEND_API_KEY;
+    const apiKey = c.env?.RESEND_API_KEY || (typeof process !== "undefined" ? process.env?.RESEND_API_KEY : undefined);
 
-    // Fire and forget email sending in background
-    const emailPromise = sendMail({
+    // Await email delivery to confirm success or catch failure
+    await sendMail({
       to: "contact@iotaflow.com",
       cc: [
         "mehak@iotaflow.com",
         "akshat99055@gmail.com",
         "errorr990551@gmail.com",
       ],
-      subject: "New Contact Us Enquiry",
+      subject: `New Contact Us Enquiry from ${name}`,
       html: `
         <h2>New Contact Enquiry</h2>
         <p><b>Name:</b> ${name}</p>
@@ -40,15 +40,9 @@ export const submitContactForm = async (c) => {
         <p><b>Company:</b> ${company || "Not Provided"}</p>
         <p><b>Message:</b><br/>${message}</p>
       `,
-    }, apiKey).catch(err => {
-      console.error("Critical: Background Contact Email failed:", err);
-    });
+    }, apiKey);
 
-    if (c.executionCtx && typeof c.executionCtx.waitUntil === "function") {
-      c.executionCtx.waitUntil(emailPromise);
-    }
-
-    // Respond immediately to the user
+    // Respond successfully after email is sent
     return c.json({ 
       success: true, 
       message: "Message sent! Our team will get back to you shortly." 
@@ -58,7 +52,8 @@ export const submitContactForm = async (c) => {
     console.error("Contact form processing error:", err);
     return c.json({ 
       success: false, 
-      message: "Something went wrong. Please try again later." 
+      message: err.message || "Something went wrong. Please try again later." 
     }, 500);
   }
 };
+

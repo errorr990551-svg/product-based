@@ -1,8 +1,6 @@
+import "dotenv/config";
 import { serve } from "@hono/node-server";
-import dotenv from "dotenv";
 import app from "./app.js";
-
-dotenv.config();
 
 const PORT = process.env.PORT || 4000;
 
@@ -14,7 +12,7 @@ export default {
 };
 
 // Start local Node server if run directly (Node.js runtime / Render)
-if (process.env.NODE_ENV !== "production") {
+if (typeof process !== "undefined" && process.env && process.env.NODE_ENV !== "production") {
   try {
     serve({ fetch: app.fetch, port: Number(PORT) }, (info) => {
       console.log(`🚀 Local Server running on port ${info.port}`);
@@ -23,3 +21,4 @@ if (process.env.NODE_ENV !== "production") {
     // Cloudflare Workers execution environment
   }
 }
+

@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "iotaflow-backend",
+  "name": "product-based",
   "main": "server.js",
   "compatibility_date": "2024-09-25",
   "compatibility_flags": [
@@ -10,3 +10,5 @@
     "enabled": true
   }
 }
+
+

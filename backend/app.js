@@ -16,9 +16,21 @@ app.use("*", cors({
 // Bind env variables from Worker context to process.env if present
 app.use("*", async (c, next) => {
   if (c.env && c.env.RESEND_API_KEY) {
-    process.env.RESEND_API_KEY = c.env.RESEND_API_KEY;
+    if (typeof process !== "undefined") {
+      process.env.RESEND_API_KEY = c.env.RESEND_API_KEY;
+    }
   }
   await next();
+});
+
+// Global error handler ensuring CORS headers are always present even on 500 errors
+app.onError((err, c) => {
+  console.error("Global Hono App Error:", err);
+  c.header("Access-Control-Allow-Origin", "*");
+  return c.json({
+    success: false,
+    message: err.message || "Internal Server Error"
+  }, 500);
 });
 
 // Health check routes
@@ -32,3 +44,4 @@ app.post("/api/apply", submitApplication);
 app.post("/api/application", submitApplication);
 
 export default app;
+

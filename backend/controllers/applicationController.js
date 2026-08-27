@@ -18,10 +18,10 @@ export const submitApplication = async (c) => {
       },
     ];
 
-    const apiKey = c.env?.RESEND_API_KEY || process.env.RESEND_API_KEY;
+    const apiKey = c.env?.RESEND_API_KEY || (typeof process !== "undefined" ? process.env?.RESEND_API_KEY : undefined);
 
-    // Fire and forget email sending in background
-    const emailPromise = sendMail({
+    // Await email delivery confirmation
+    await sendMail({
       to: "hr@iotaflow.com",
       subject: `New Job Application - ${role || ""}`,
       html: `
@@ -33,18 +33,13 @@ export const submitApplication = async (c) => {
         <p><b>Applied For:</b> ${role || ""}</p>
       `,
       attachments,
-    }, apiKey).catch(err => {
-      console.error("Critical: Background Application Email failed:", err);
-    });
-
-    if (c.executionCtx && typeof c.executionCtx.waitUntil === "function") {
-      c.executionCtx.waitUntil(emailPromise);
-    }
+    }, apiKey);
 
     return c.json({ success: true, message: "Application submitted successfully!" }, 200);
 
   } catch (err) {
     console.error("Application processing error:", err);
-    return c.json({ success: false, message: "Something went wrong. Please try again." }, 500);
+    return c.json({ success: false, message: err.message || "Something went wrong. Please try again." }, 500);
   }
 };
+

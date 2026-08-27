@@ -18,10 +18,10 @@ export const submitComplaintForm = async (c) => {
       });
     }
 
-    const apiKey = c.env?.RESEND_API_KEY || process.env.RESEND_API_KEY;
+    const apiKey = c.env?.RESEND_API_KEY || (typeof process !== "undefined" ? process.env?.RESEND_API_KEY : undefined);
 
-    // Fire and forget email sending in background
-    const emailPromise = sendMail({
+    // Await email sending to guarantee delivery confirmation
+    await sendMail({
       to: "account@iotaflow.com",
       cc: "service@iotaflow.com",
       subject: "New Complaint Form Submitted",
@@ -58,13 +58,7 @@ export const submitComplaintForm = async (c) => {
         }</p>
       `,
       attachments,
-    }, apiKey).catch(err => {
-      console.error("Critical: Background Complaint Email failed:", err);
-    });
-
-    if (c.executionCtx && typeof c.executionCtx.waitUntil === "function") {
-      c.executionCtx.waitUntil(emailPromise);
-    }
+    }, apiKey);
 
     return c.json({
       success: true,
@@ -74,7 +68,8 @@ export const submitComplaintForm = async (c) => {
     console.error("Complaint Form processing Error:", error);
     return c.json({
       success: false,
-      message: "Something went wrong. Please try again.",
+      message: error.message || "Something went wrong. Please try again.",
     }, 500);
   }
 };
+

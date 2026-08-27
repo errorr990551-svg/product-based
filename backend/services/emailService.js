@@ -1,7 +1,7 @@
 import { Resend } from "resend";
 
 const getResendInstance = (apiKey) => {
-  const key = apiKey || process.env.RESEND_API_KEY;
+  const key = apiKey || (typeof process !== "undefined" ? process.env?.RESEND_API_KEY : undefined);
   if (!key) {
     throw new Error("RESEND_API_KEY is not defined. Please set RESEND_API_KEY in environment variables or Cloudflare secrets.");
   }
@@ -11,7 +11,7 @@ const getResendInstance = (apiKey) => {
 export const sendMail = async ({ to, cc, subject, html, attachments = [] }, apiKey) => {
   try {
     const resend = getResendInstance(apiKey);
-    const data = await resend.emails.send({
+    const payload = {
       from: "IOTAFLOW Website <no-reply@inquiry.errorr.in>",
       to: Array.isArray(to) ? to : [to],
       cc: cc
@@ -21,16 +21,27 @@ export const sendMail = async ({ to, cc, subject, html, attachments = [] }, apiK
         : undefined,
       subject,
       html,
-      attachments: attachments.map((file) => ({
+    };
+
+    if (attachments && attachments.length > 0) {
+      payload.attachments = attachments.map((file) => ({
         filename: file.filename,
         content: file.content,
-      })),
-    });
+      }));
+    }
 
-    console.log("Resend response:", data);
-    return data;
+    const response = await resend.emails.send(payload);
+    console.log("Resend API response:", JSON.stringify(response));
+
+    if (response.error) {
+      console.error("Resend API Error:", response.error);
+      throw new Error(`Resend Delivery Error: ${response.error.message || JSON.stringify(response.error)}`);
+    }
+
+    return response.data;
   } catch (error) {
-    console.error("RESEND ERROR:", error);
+    console.error("RESEND ERROR in sendMail:", error);
     throw error;
   }
 };
+
