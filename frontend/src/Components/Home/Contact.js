@@ -41,7 +41,7 @@ const Contact = () => {
     try {
       const response = await api.post("/contact", formData);
       
-      if (response.data.success) {
+      if (response.data && response.data.success) {
         setSuccess(response.data.message || "Your message has been sent successfully!");
         setFormData({
           name: "",
@@ -52,7 +52,10 @@ const Contact = () => {
           message: "",
         });
       } else {
-        setError(response.data.message || "Failed to send message. Please try again.");
+        setError(
+          (response.data && response.data.message) ||
+          "Failed to send message. Please try again."
+        );
       }
     } catch (err) {
       console.error("Submission error:", err);

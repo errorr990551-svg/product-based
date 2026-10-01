@@ -232,7 +232,7 @@ const HomePopupForm = ({ isOpen, onClose, purpose }) => {
     try {
       const response = await api.post("/contact", formData);
       
-      if (response.data.success) {
+      if (response.data && response.data.success) {
         setSuccess(response.data.message || "Message sent successfully!");
         if (purpose === "reveal_contact") {
           revealContactDetails();
@@ -251,7 +251,10 @@ const HomePopupForm = ({ isOpen, onClose, purpose }) => {
           setSuccess("");
         }, 500);
       } else {
-        setError(response.data.message || "Failed to send message. Please try again.");
+        setError(
+          (response.data && response.data.message) ||
+          "Failed to send message. Please try again."
+        );
       }
     } catch (err) {
       console.error("Submission error:", err);

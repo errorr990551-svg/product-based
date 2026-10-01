@@ -46,25 +46,32 @@ const ApplicationForm = () => {
     });
 
     
-    await api.post("/apply", data);
+    const response = await api.post("/apply", data);
 
-    setMessage({
-      text: "Application submitted successfully!",
-      type: "success",
-    });
+    if (response.data && response.data.success) {
+      setMessage({
+        text: response.data.message || "Application submitted successfully!",
+        type: "success",
+      });
 
-    setFormData({
-      fullName: "",
-      email: "",
-      mobile: "",
-      location: "",
-      role: "",
-      resume: null,
-    });
+      setFormData({
+        fullName: "",
+        email: "",
+        mobile: "",
+        location: "",
+        role: "",
+        resume: null,
+      });
+    } else {
+      setMessage({
+        text: (response.data && response.data.message) || "Failed to submit application. Please try again.",
+        type: "error",
+      });
+    }
   } catch (err) {
     console.error(err);
     setMessage({
-      text: "Failed to submit application. Please try again.",
+      text: err.response?.data?.message || "Failed to submit application. Please try again.",
       type: "error",
     });
   } finally {

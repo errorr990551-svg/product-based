@@ -37,21 +37,28 @@ export default function ComplaintForm() {
     });
 
     
-    await api.post("/complaint", formData);
+    const response = await api.post("/complaint", formData);
 
-    setMessage({
-      text: "Complaint submitted successfully!",
-      type: "success",
-    });
+    if (response.data && response.data.success) {
+      setMessage({
+        text: response.data.message || "Complaint submitted successfully!",
+        type: "success",
+      });
 
-    reset();
-    setShowOtherComplaint(false);
-    setShowOtherFrequency(false);
-    setShowOtherSize(false);
+      reset();
+      setShowOtherComplaint(false);
+      setShowOtherFrequency(false);
+      setShowOtherSize(false);
+    } else {
+      setMessage({
+        text: (response.data && response.data.message) || "Failed to submit complaint. Please try again.",
+        type: "error",
+      });
+    }
   } catch (error) {
     console.error("Error submitting form:", error);
     setMessage({
-      text: "Failed to submit complaint. Please try again.",
+      text: error.response?.data?.message || "Failed to submit complaint. Please try again.",
       type: "error",
     });
   } finally {

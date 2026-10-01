@@ -369,7 +369,6 @@ const cityDataMap = {
   rajkot: rajkotSeoData,
   vadodara: vadodaraSeoData,
   surat: suratSeoData,
-  ahmedabad: ahmedabadSeoData,
   manali: manaliSeoData,
   "bilaspur-hp": bilaspurHpSeoData,
   hamirpur: hamirpurSeoData,
