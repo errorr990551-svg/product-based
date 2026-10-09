@@ -11,7 +11,7 @@ import { useLocation } from "react-router-dom";
 
 
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./Layout";
 import SEO from "./Components/common/SEO";
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -162,6 +162,10 @@ function App() {
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/lean-manufacturing" element={<LeanResourcesPage />} />
             <Route path="/iotsense" element={<IOTsensePage />} />
+            <Route path="/iotSense" element={<Navigate to="/iotsense" replace />} />
+            <Route path="/IOTsense" element={<Navigate to="/iotsense" replace />} />
+            <Route path="/Iotsense" element={<Navigate to="/iotsense" replace />} />
+            <Route path="/iot-sense" element={<Navigate to="/iotsense" replace />} />
             <Route path="/accessories" element={<Accessories />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/complaint" element={<ComplaintForm />} />

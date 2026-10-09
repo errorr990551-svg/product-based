@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # If the requested resource is an existing file or directory, serve it directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Otherwise, route all requests to index.html for Single Page Application (React Router)
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Fallback error document to index.html if mod_rewrite is bypassed
+ErrorDocument 404 /index.html
+
+# Prevent caching of index.html to ensure clients always receive updated SPA bundle links
+<IfModule mod_headers.c>
+  <Files "index.html">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+  </Files>
+</IfModule>
