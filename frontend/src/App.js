@@ -83,6 +83,7 @@ const ComplaintForm = lazy(() => import("./pages/ComplaintForm"));
 const ApplicationForm = lazy(() => import("./pages/ApplicationForm"));
 const Certification = lazy(() => import("./pages/Certification"));
 const Approval = lazy(() => import("./pages/Approval"));
+const FlowCalculator = lazy(() => import("./pages/FlowCalculator"));
 const HomePopupForm = lazy(() => import("./Components/Home/HomePopupForm"));
 
 // Sleek loading fallback
@@ -171,6 +172,9 @@ function App() {
             <Route path="/complaint" element={<ComplaintForm />} />
             <Route path="/application-form" element={<ApplicationForm />} />
             <Route path="/casestudies" element={<CaseStudies />} />
+            <Route path="/flow-calculator" element={<FlowCalculator />} />
+            <Route path="/calculator" element={<Navigate to="/flow-calculator" replace />} />
+            <Route path="/velocity-calculator" element={<Navigate to="/flow-calculator" replace />} />
             <Route path="/case-studies/1" element={<Casestudy1/>} />
             <Route path="/case-studies/2" element={<Casestudy2/>} />
             <Route path="/case-studies/3" element={<Casestudy3/>} />

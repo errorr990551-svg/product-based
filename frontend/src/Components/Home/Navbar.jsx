@@ -252,6 +252,9 @@ function CustomNavbar() {
                   <NavLink to="/casestudies" onClick={closeMenu}>
                     Case Studies
                   </NavLink>
+                  <NavLink to="/flow-calculator" onClick={closeMenu}>
+                    Flow Calculator
+                  </NavLink>
                 </div>
               )}
             </div>

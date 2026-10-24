@@ -26,6 +26,7 @@ const staticRoutes = [
   { path: '/complaint', priority: '0.6', changefreq: 'yearly' },
   { path: '/application-form', priority: '0.6', changefreq: 'yearly' },
   { path: '/casestudies', priority: '0.9', changefreq: 'monthly' },
+  { path: '/flow-calculator', priority: '0.9', changefreq: 'monthly' },
   { path: '/market-area', priority: '0.8', changefreq: 'monthly' },
   { path: '/contact', priority: '0.9', changefreq: 'monthly' }
 ];

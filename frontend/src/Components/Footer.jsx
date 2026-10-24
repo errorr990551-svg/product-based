@@ -102,6 +102,7 @@ function Footer() {
               title="Support"
               items={[
                 { label: "FAQs", action: "faq" },
+                { label: "Flow Velocity Calculator", href: "/flow-calculator" },
                 { label: "Lodge a Complaint", href: "/complaint" },
                 { label: "Feedback", href: "/feedback" },
                 { label: "Downloads", href: "/downloads" }
