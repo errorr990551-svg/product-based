@@ -1,0 +1,338 @@
+{
+  "/": {
+    "title": "Industrial Flow Meter Manufacturer in India | IOTAFLOW Systems",
+    "description": "Leading ZED Gold Certified manufacturer of high-accuracy Electromagnetic, Vortex, and Ultrasonic flow meters. Fast 7-day delivery & IoT AMR solutions. Enquire now!",
+    "keywords": "industrial flow meter manufacturer, electromagnetic flow meter india, vortex steam flow meter, ultrasonic water meter, digital flow meter price, IOTAFLOW systems, IoT flow monitoring, AMR data logger India, thermal mass flow meter, oil and gas flow measurement",
+    "priority": "1.0",
+    "changefreq": "weekly"
+  },
+  "/about-us": {
+    "title": "About IOTAFLOW Systems | 34+ Years in Flow Meter Manufacturing",
+    "description": "Learn about IOTAFLOW Systems, a leader in high-precision flow measurement since 1999. Specializing in European-standard manufacturing, Lean practices, and IoT automation.",
+    "keywords": "IOTAFLOW Systems history, Pankaj Malik IOTAFLOW, flow meter manufacturer India, technical collaboration Aflowt Germany, flow meter calibration lab India, lean manufacturing flow meters",
+    "priority": "0.9",
+    "changefreq": "monthly"
+  },
+  "/about-us/certification": {
+    "title": "Certifications | ZED Gold & ISO Certified Flow Meter Manufacturer | IOTAFLOW",
+    "description": "View IOTAFLOW Systems' quality certifications, including ZED Gold and ISO certificates, that back our electromagnetic, ultrasonic and vortex flow meters.",
+    "keywords": "IOTAFLOW certification, ZED Gold certified flow meter manufacturer, ISO certified flow meter company India, flow meter quality certificates",
+    "priority": "0.7",
+    "changefreq": "yearly"
+  },
+  "/about-us/approval": {
+    "title": "Vendor Approvals & Enlistments | IOTAFLOW Systems",
+    "description": "IOTAFLOW Systems is an approved and enlisted flow meter vendor for leading PSUs and industries, including NTPC. View our vendor approvals and enlistment certificates.",
+    "keywords": "IOTAFLOW vendor approval, NTPC approved flow meter vendor, PSU enlisted flow meter supplier, approved flow meter manufacturer India",
+    "priority": "0.7",
+    "changefreq": "yearly"
+  },
+  "/product": {
+    "title": "Ultrimis™ Domestic Ultrasonic Flow Meters | IOTAFLOW",
+    "description": "Ultrimis ultrasonic water meter by Apator Powogaz. High-precision domestic ultrasonic flow meter with IP68 protection, NFC, and LoRaWAN connectivity.",
+    "keywords": "Ultrimis ultrasonic flow meter, domestic water meter, Apator Powogaz India, ultrasonic water meter IP68, smart water meter LoRaWAN",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product2": {
+    "title": "Ultrimis™ Domestic Ultrasonic Flow Meters | IOTAFLOW",
+    "description": "Ultrimis ultrasonic water meter by Apator Powogaz. High-precision domestic ultrasonic flow meter with IP68 protection, NFC, and LoRaWAN connectivity.",
+    "keywords": "Ultrimis ultrasonic flow meter, domestic water meter, Apator Powogaz India, ultrasonic water meter IP68, smart water meter LoRaWAN",
+    "canonical": "/product",
+    "sitemap": false
+  },
+  "/services": {
+    "title": "Flow Meter Calibration & On-Site Services India | IOTAFLOW",
+    "description": "Expert on-site flow meter calibration (NABL/ISO 17025), installation, and AMC services. IoT telemetry integration for CGWA & CPCB compliance. Book a site survey today!",
+    "keywords": "flow meter calibration, IoT integration, technical support, industrial services, IOTAFLOW services",
+    "priority": "0.9",
+    "changefreq": "monthly"
+  },
+  "/lean-manufacturing": {
+    "title": "Lean Manufacturing at IOTAFLOW | 2 Second Lean Implementation",
+    "description": "Explore IOTAFLOW’s 2 Second Lean journey. How we implement the 8 Wastes, Kanban, and Gemba walks to deliver high-quality flow meters with 7-day fast delivery.",
+    "keywords": "lean manufacturing india, 2 second lean iotaflow, 8 wastes of lean, gemba walk flow meter, lean culture manufacturing, paul akers lean tour, pankaj malik lean, industrial efficiency improvement, kaizen flow measurement",
+    "priority": "0.8",
+    "changefreq": "monthly"
+  },
+  "/iotsense": {
+    "title": "IOT Sense: Smart Flow Intelligence & Remote Telemetry Platform",
+    "description": "Transform flow data into intelligence with IOT Sense. Real-time dashboards for smart water meters, CGWA/CPCB compliance, and Industry 4.0 telemetry. Explore now.",
+    "keywords": "IOT Sense, smart flow intelligence, remote telemetry system, industrial IoT platform, smart water meter software, CGWA compliance telemetry, CPCB flow monitoring, Industry 4.0 flow data, AMR AMI network, real-time flow dashboard",
+    "priority": "0.9",
+    "changefreq": "monthly"
+  },
+  "/accessories": {
+    "title": "Flow Meter Accessories | Data Loggers, Displays & Fittings | IOTAFLOW",
+    "description": "Complete your flow measurement system with IOTAFLOW accessories: data loggers, telemetry modules, remote displays, straighteners, flanges and installation fittings.",
+    "keywords": "flow meter accessories, flow meter data logger, telemetry module, flow meter display, flow straightener, flow meter installation fittings, IOTAFLOW accessories",
+    "priority": "0.8",
+    "changefreq": "monthly"
+  },
+  "/careers": {
+    "title": "Engineering Careers in Industrial IoT & Flow Meters | IOTAFLOW",
+    "description": "Join IOTAFLOW Systems. Explore career opportunities in Industrial IoT, Flow Meter Design, and Automation Engineering. Build the future of smart metering. Apply now!",
+    "keywords": "IOTAFLOW careers, instrumentation engineering jobs, industrial IoT jobs India, mechanical design engineer vacancies, flow meter calibration jobs, automation engineer careers, smart metering jobs, IOTAFLOW systems recruitment, engineering jobs Jharkhand, IoT telemetry careers",
+    "priority": "0.7",
+    "changefreq": "monthly"
+  },
+  "/complaint": {
+    "title": "Lodge a Product Complaint | Customer Support | IOTAFLOW",
+    "description": "Facing an issue with your IOTAFLOW flow meter? Lodge a complaint with your product and site details and our service team will get back to you quickly.",
+    "keywords": "IOTAFLOW complaint, flow meter service request, flow meter customer support, IOTAFLOW support",
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "/application-form": {
+    "title": "Job Application Form | Apply to IOTAFLOW Careers",
+    "description": "Apply for open positions at IOTAFLOW Systems. Submit your details and resume for engineering, sales, IoT and manufacturing roles.",
+    "keywords": "IOTAFLOW job application, apply IOTAFLOW careers, engineering job application India",
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "/casestudies": {
+    "title": "Flow Meter Case Studies | Real-World Installations | IOTAFLOW",
+    "description": "See how IOTAFLOW flow meters and IoT solutions solved measurement challenges in steel plants, metro rail, municipal water, mining, hospitality and aluminium plants.",
+    "keywords": "flow meter case studies, industrial flow measurement case study, ultrasonic flow meter project, electromagnetic flow meter installation, IOTAFLOW projects",
+    "priority": "0.9",
+    "changefreq": "monthly"
+  },
+  "/case-studies/1": {
+    "title": "Case Study: Flow Measurement Prevents Cooling Failures in a Steel Plant | IOTAFLOW",
+    "description": "How smart flow measurement from IOTAFLOW prevented cooling system failures and unplanned downtime in a major integrated steel plant.",
+    "keywords": "steel plant flow meter, cooling water flow measurement, flow meter case study steel industry",
+    "priority": "0.8",
+    "changefreq": "monthly"
+  },
+  "/case-studies/2": {
+    "title": "Case Study: Sustainable Water Management for a Metro Rail Network | IOTAFLOW",
+    "description": "How intelligent flow measurement from IOTAFLOW enabled sustainable water management and monitoring across a major metro rail network.",
+    "keywords": "metro rail water management, water flow monitoring metro, flow meter case study infrastructure",
+    "priority": "0.8",
+    "changefreq": "monthly"
+  },
+  "/case-studies/3": {
+    "title": "Case Study: 4-Track Ultrasonic Flow Meter for a Municipal Water Project | IOTAFLOW",
+    "description": "A custom 4-track ultrasonic flow meter with built-in level measurement improved accuracy for a major municipal water supply project.",
+    "keywords": "4 path ultrasonic flow meter, municipal water flow meter, ultrasonic flow meter with level measurement",
+    "priority": "0.8",
+    "changefreq": "monthly"
+  },
+  "/case-studies/4": {
+    "title": "Case Study: Area Velocity Flow Meters for a Mining & Fertilizer Producer | IOTAFLOW",
+    "description": "High-accuracy area velocity flow meters from IOTAFLOW improved process efficiency for a leading mining and fertilizer producer in Saudi Arabia.",
+    "keywords": "area velocity flow meter, open channel flow meter mining, fertilizer plant flow measurement",
+    "priority": "0.8",
+    "changefreq": "monthly"
+  },
+  "/case-studies/5": {
+    "title": "Case Study: Water & Energy Metering for a Premier Hospitality Project | IOTAFLOW",
+    "description": "An integrated flow and BTU metering solution from IOTAFLOW improved water and energy efficiency in a premier hospitality project.",
+    "keywords": "hotel water metering, BTU meter hospitality, water and energy efficiency flow meter",
+    "priority": "0.8",
+    "changefreq": "monthly"
+  },
+  "/case-studies/6": {
+    "title": "Case Study: PLC Combustion Control at an Aluminium Plant | IOTAFLOW",
+    "description": "A PLC-based combustion control system improved efficiency and reduced emissions at a leading aluminium manufacturing plant.",
+    "keywords": "combustion control system, aluminium plant automation, PLC combustion control, gas flow measurement furnace",
+    "priority": "0.8",
+    "changefreq": "monthly"
+  },
+  "/flow-calculator": {
+    "title": "Flow Velocity Calculator (v = Q / (A × PF)) | IOTAFLOW Systems",
+    "description": "Calculate pipe flow velocity, volume flow, and required pipe diameter with profile factors (SS 20.2xx, SS 20.6xx, HVAC 100) and ideal gas law operating data conversion.",
+    "keywords": "flow velocity calculator, pipe velocity formula, industrial flow meter calculator, profile factor 0.739, volume flow to velocity, gas law standard flow conversion, iotaflow systems",
+    "priority": "0.9",
+    "changefreq": "monthly"
+  },
+  "/market-area": {
+    "title": "Market Area | Cities We Serve Across India | IOTAFLOW Systems",
+    "description": "Explore the regions and cities IOTAFLOW serves across India, providing high-precision flow measurement and IoT solutions.",
+    "keywords": "IOTAFLOW cities served, industrial flow meter markets, Andhra Pradesh flow meters, Mumbai flow meter suppliers",
+    "priority": "0.8",
+    "changefreq": "monthly"
+  },
+  "/contact": {
+    "title": "Contact IOTAFLOW Systems | Flow Meter Enquiry & Quote",
+    "description": "Get in touch with IOTAFLOW Systems for flow meter quotes, technical support and site surveys. Call +91-9910693866 or send us an enquiry online.",
+    "keywords": "contact IOTAFLOW, flow meter enquiry, flow meter quote India, IOTAFLOW phone number",
+    "priority": "0.9",
+    "changefreq": "monthly"
+  },
+  "/product-detail/detail2": {
+    "title": "Robust™ Inline Ultrasonic Water Flow Meter | IOTAFLOW",
+    "description": "Robust™ inline ultrasonic water flow meter with no moving parts and a 10-year battery. High accuracy for water supply, irrigation and industrial water metering.",
+    "keywords": "inline ultrasonic flow meter, ultrasonic water flow meter, battery operated ultrasonic flow meter, Robust ultrasonic flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail3": {
+    "title": "UF-1500 Insertion Ultrasonic Flow Meter (1-4 Channels) | IOTAFLOW",
+    "description": "UF-1500 multi-channel insertion ultrasonic flow meter for accurate, bidirectional flow measurement in large-diameter pipelines using transit-time technology.",
+    "keywords": "insertion ultrasonic flow meter, 4 channel ultrasonic flow meter, UF 1500 flow meter, large pipeline flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail4": {
+    "title": "UF-1500 Clamp-On Fixed Ultrasonic Flow Meter | IOTAFLOW",
+    "description": "UF-1500 clamp-on ultrasonic flow meter for non-intrusive, permanent flow monitoring without cutting the pipe or stopping the process.",
+    "keywords": "clamp on ultrasonic flow meter, non intrusive flow meter, fixed ultrasonic flow meter, UF 1500 clamp on",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail5": {
+    "title": "Micronics PF222 / PF333 Portable Clamp-On Ultrasonic Flow Meter | IOTAFLOW",
+    "description": "Micronics PF222/PF333 portable clamp-on ultrasonic flow meter for quick flow surveys, audits and verification. Distributed in India by IOTAFLOW Systems.",
+    "keywords": "portable ultrasonic flow meter, PF333 flow meter, PF222 flow meter, Micronics India, clamp on portable flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail6": {
+    "title": "AV5500 Doppler Area Velocity Flow Meter for Open Channels | IOTAFLOW",
+    "description": "UF AV5500 area-velocity Doppler flow meter for open channels, drains and partially filled pipes. Measures velocity and level without flumes or weirs.",
+    "keywords": "area velocity flow meter, open channel flow meter, Doppler flow meter, partially filled pipe flow meter, AV5500",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail7": {
+    "title": "MF-PRO Electromagnetic Flow Meter | CGWA Compliant | IOTAFLOW",
+    "description": "MF-PRO full-bore electromagnetic flow meter for conductive liquids, slurries and wastewater. CGWA compliant with data transmission to CPCB, SPCB and NIC portals.",
+    "keywords": "electromagnetic flow meter, MF-PRO, CGWA flow meter, magnetic flow meter India, effluent flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail7b": {
+    "title": "MF-TER Flameproof Remote Electromagnetic Flow Meter | IOTAFLOW",
+    "description": "MF-TER remote-mount electromagnetic flow meter with Ex d IIC T6 flameproof transmitter and ±0.2% accuracy for hazardous and high-risk industrial areas.",
+    "keywords": "flameproof electromagnetic flow meter, remote electromagnetic flow meter, hazardous area flow meter, MF-TER",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail8": {
+    "title": "CX / VN / VNS Compact & Micro Electromagnetic Flow Meter | IOTAFLOW",
+    "description": "Compact and micro-sized CX/VN/VNS electromagnetic flow meters for high-accuracy liquid measurement in chemical dosing, water purification and food processing.",
+    "keywords": "micro electromagnetic flow meter, compact magnetic flow meter, small bore flow meter, chemical dosing flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail9": {
+    "title": "Smart D+ Single-Jet Water Meter | Apator Powogaz | IOTAFLOW",
+    "description": "Apator Powogaz Smart D+ single-jet water meter for residential, commercial and municipal metering in India, with fog-resistant sealed counter and tamper protection.",
+    "keywords": "single jet water meter, Smart D+ water meter, Apator Powogaz India, domestic water meter, AMR water meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail10": {
+    "title": "Woltmann Turbine Hot & Cold Water Meter | IOTAFLOW",
+    "description": "Woltmann turbine mechanical water meter for bulk hot and cold water measurement in industrial, commercial and waterworks applications.",
+    "keywords": "Woltmann water meter, turbine water meter, bulk water meter, hot water meter, mechanical water meter India",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail11": {
+    "title": "Contoil® RPD Oil Flow Meter for Fuel & Lube Oil | IOTAFLOW",
+    "description": "Contoil® rotary piston (RPD) oil flow meters for accurate measurement of diesel, furnace oil and lubrication oil, independent of temperature or viscosity.",
+    "keywords": "Contoil flow meter, RPD flow meter, diesel flow meter, fuel oil flow meter, oil consumption meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail12": {
+    "title": "Oval Gear Oil Flow Meter (OGM) | Positive Displacement | IOTAFLOW",
+    "description": "IOTAFLOW oval gear positive displacement flow meter for viscous, non-conductive and flammable liquids such as oils, solvents, alcohols and chemicals.",
+    "keywords": "oval gear flow meter, positive displacement flow meter, oil flow meter, viscous liquid flow meter, OGM",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail13": {
+    "title": "OF-Z Micro Stream Oval Gear Flow Sensor | IOTAFLOW",
+    "description": "OF-Z Microstream oval gear flow sensor by Aichi Tokei Denki, Japan for low-flow measurement of AdBlue, kerosene, heavy oil and lubricants.",
+    "keywords": "OF-Z flow sensor, micro flow sensor, low flow oval gear meter, AdBlue flow meter, Aichi Tokei India",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail14": {
+    "title": "TRX Ultrasonic Air Flow Meter for Compressed Air | IOTAFLOW",
+    "description": "TRX ultrasonic air flow meter for compressed air and gas flow monitoring, leak detection and energy audits in industrial plants.",
+    "keywords": "ultrasonic air flow meter, compressed air flow meter, air leak detection, TRX flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail15": {
+    "title": "SCHMIDT Thermal Mass Flow Sensors | IOTAFLOW",
+    "description": "SCHMIDT thermal mass flow sensors for compressed air, gases and clean-room airflow, offering direct mass flow measurement with high accuracy and fast response.",
+    "keywords": "thermal mass flow sensor, thermal mass flow meter, SCHMIDT flow sensor India, compressed air mass flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail16": {
+    "title": "VFM Inline Vortex Flow Meter for Steam, Gas & Liquids | IOTAFLOW",
+    "description": "VFM inline vortex flow meter for saturated and superheated steam, gases and liquids with temperature and pressure compensation.",
+    "keywords": "vortex flow meter, steam flow meter, inline vortex flow meter, VFM, gas vortex meter India",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail17": {
+    "title": "Ultrasonic BTU Energy Meter for HVAC & Chilled Water | IOTAFLOW",
+    "description": "IOTAFLOW ultrasonic BTU meter with Apator FAUN calculator for accurate thermal energy metering in HVAC, chilled water and district heating systems.",
+    "keywords": "BTU meter, ultrasonic BTU meter, energy meter HVAC, chilled water BTU meter, thermal energy meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail18": {
+    "title": "IVF Insertion Vortex Flow Meter for Large Pipelines | IOTAFLOW",
+    "description": "IOTAFLOW IVF insertion-type vortex flow meter for accurate and economical steam, gas and liquid flow measurement in large-diameter pipelines.",
+    "keywords": "insertion vortex flow meter, large pipe vortex meter, steam flow meter large line, IVF flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail19": {
+    "title": "EQZ / EQZK Turbine Gas Flow Meter | IOTAFLOW",
+    "description": "EQZ/EQZK turbine gas flow meters for natural gas, LPG and industrial gas measurement with high accuracy and wide rangeability.",
+    "keywords": "turbine gas flow meter, natural gas flow meter, EQZ gas meter, industrial gas flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail20": {
+    "title": "Ultra-NXT Ultrasonic Gas Flow Meter | IOTAFLOW",
+    "description": "Ultra-NXT ultrasonic gas flow meter for natural gas, compressed air and process gases with no moving parts and low pressure loss.",
+    "keywords": "ultrasonic gas flow meter, Ultra-NXT, natural gas ultrasonic meter, gas flow measurement",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail21": {
+    "title": "GasPro RPD Rotary Gas Meter | IOTAFLOW",
+    "description": "GasPro rotary displacement gas meter for precise measurement of natural gas, LPG, biogas, hydrogen and industrial gases.",
+    "keywords": "rotary gas meter, RPD gas meter, GasPro, LPG gas meter, natural gas meter India",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail22": {
+    "title": "UF-BioSonic Ultrasonic Biogas Flow Meter | IOTAFLOW",
+    "description": "UF-BioSonic ultrasonic flow meter for biogas measurement at landfills, wastewater treatment plants, anaerobic digesters and bio-methane facilities.",
+    "keywords": "biogas flow meter, ultrasonic biogas meter, landfill gas flow meter, digester gas flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail23": {
+    "title": "CSF Conical Shaped Flow Meter | IOTAFLOW",
+    "description": "IOTAFLOW CSF conical (cone) differential pressure flow meter for liquids, gases and steam with short straight-run requirements.",
+    "keywords": "cone flow meter, conical flow meter, V cone flow meter, differential pressure flow meter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail24": {
+    "title": "Metal Tube Rotameter (Variable Area Flow Meter) | IOTAFLOW",
+    "description": "IOTAFLOW metal tube rotameters for reliable variable area measurement of liquids, gases and steam in high-pressure and high-temperature applications.",
+    "keywords": "metal tube rotameter, variable area flow meter, rotameter manufacturer India, armoured rotameter",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  },
+  "/product-detail/detail25": {
+    "title": "Acrylic & Glass Tube Rotameter | IOTAFLOW",
+    "description": "IOTAFLOW acrylic and glass tube rotameters for precise, cost-effective variable area flow measurement of liquids and gases.",
+    "keywords": "glass tube rotameter, acrylic rotameter, variable area flow meter, rotameter price India",
+    "priority": "0.9",
+    "changefreq": "weekly"
+  }
+}

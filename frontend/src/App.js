@@ -13,7 +13,6 @@ import { useLocation } from "react-router-dom";
 
 import { Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./Layout";
-import SEO from "./Components/common/SEO";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { usePopup } from "./context/PopupContext";
@@ -85,6 +84,7 @@ const Certification = lazy(() => import("./pages/Certification"));
 const Approval = lazy(() => import("./pages/Approval"));
 const FlowCalculator = lazy(() => import("./pages/FlowCalculator"));
 const HomePopupForm = lazy(() => import("./Components/Home/HomePopupForm"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Sleek loading fallback
 const LoadingFallback = () => (
@@ -102,11 +102,6 @@ const LoadingFallback = () => (
 function HomePage() {
   return (
     <>
-        <SEO 
-          title="Industrial Flow Meter Manufacturer in India | IOTAFLOW Systems"
-          description="Leading ZED Gold Certified manufacturer of high-accuracy Electromagnetic, Vortex, and Ultrasonic flow meters. Fast 7-day delivery & IoT AMR solutions. Enquire now!"
-          keywords="industrial flow meter manufacturer, electromagnetic flow meter india, vortex steam flow meter, ultrasonic water meter, digital flow meter price, IOTAFLOW systems, IoT flow monitoring, AMR data logger India, thermal mass flow meter, oil and gas flow measurement"
-        />
       <BannerSlider />
       <Suspense fallback={<div className="tw-py-20 tw-text-center">Loading section...</div>}>
         <ProductsSection />
@@ -216,6 +211,7 @@ function App() {
 
             <Route path="/market-area" element={<MarketArea />} />
             <Route path="/:city" element={<SeoPage />} />
+            <Route path="*" element={<NotFound />} />
 
 
             

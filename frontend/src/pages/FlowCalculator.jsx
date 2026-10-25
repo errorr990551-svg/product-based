@@ -1,6 +1,5 @@
 import React, { useState, useMemo, useEffect } from "react";
 import { Link } from "react-router-dom";
-import SEO from "../Components/common/SEO";
 import { 
   Calculator, 
   Gauge, 
@@ -275,11 +274,6 @@ Check verified: 19.1 m/s at 400 m³/h & 100mm DN100 with PF 0.739
 
   return (
     <div className="tw-bg-[#f8fafc] tw-min-h-screen tw-font-sans tw-text-gray-900">
-      <SEO
-        title="Flow Velocity Calculator (v = Q / (A × PF)) | IOTAFLOW Systems"
-        description="Calculate pipe flow velocity, volume flow, and required pipe diameter with profile factors (SS 20.2xx, SS 20.6xx, HVAC 100) and ideal gas law operating data conversion."
-        keywords="flow velocity calculator, pipe velocity formula, industrial flow meter calculator, profile factor 0.739, volume flow to velocity, gas law standard flow conversion, iotaflow systems"
-      />
 
       {/* --- HERO BANNER --- */}
       <section className="tw-bg-gradient-to-b tw-from-[#1a1a1a] tw-via-[#222222] tw-to-[#1a1a1a] tw-text-white tw-pt-12 tw-pb-16 tw-border-b tw-border-neutral-800">

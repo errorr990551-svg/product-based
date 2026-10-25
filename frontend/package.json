@@ -28,7 +28,8 @@
     "start": "npm-run-all -p build:css start:react",
     "start:react": "react-scripts start",
     "generate-sitemap": "node scripts/generate-sitemap.js",
-    "build": "cross-env CI=false tailwindcss -i ./src/index.css -o ./src/tailwind-output.css && node scripts/generate-sitemap.js && cross-env CI=false react-scripts build",
+    "prerender": "node scripts/prerender-routes.js",
+    "build": "cross-env CI=false tailwindcss -i ./src/index.css -o ./src/tailwind-output.css && node scripts/generate-sitemap.js && cross-env CI=false react-scripts build && node scripts/prerender-routes.js",
     "test": "react-scripts test"
   },
   "eslintConfig": {

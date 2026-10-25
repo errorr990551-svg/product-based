@@ -1,24 +1,56 @@
+Options -Indexes
+DirectoryIndex index.html
+
+# Unknown URLs get a real 404 status (with a noindex page that still boots the app)
+ErrorDocument 404 /404.html
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
 
-  # If the requested resource is an existing file or directory, serve it directly
-  RewriteCond %{REQUEST_FILENAME} -f [OR]
-  RewriteCond %{REQUEST_FILENAME} -d
+  # 1. One canonical host: redirect www to the bare domain
+  RewriteCond %{HTTP_HOST} ^www\.iotaflow\.com$ [NC]
+  RewriteRule ^(.*)$ https://iotaflow.com/$1 [R=301,L]
+
+  # 2. Strip trailing slashes (/about-us/ -> /about-us) so each page has one URL
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+  # 3. Hide the .html extension of prerendered pages (/about-us.html -> /about-us)
+  RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+  RewriteRule ^ / [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+([^\s?]+)\.html[\s?] [NC]
+  RewriteCond %1 !^404$
+  RewriteRule ^ /%1 [R=301,L]
+
+  # 4. Legacy / alternate URLs -> canonical pages (previously client-side redirects)
+  RewriteRule ^iot-?sense$ /iotsense [NC,R=301,L]
+  RewriteCond %{REQUEST_URI} !^/iotsense$
+  RewriteRule ^iotsense$ /iotsense [NC,R=301,L]
+  RewriteRule ^(calculator|velocity-calculator)$ /flow-calculator [NC,R=301,L]
+  RewriteRule ^anantpur$ /anantapur [NC,R=301,L]
+  RewriteRule ^seo$ /market-area [NC,R=301,L]
+
+  # 5. Existing files (JS, CSS, images, sitemap, PHP) are served directly
+  RewriteCond %{REQUEST_FILENAME} -f
   RewriteRule ^ - [L]
 
-  # Otherwise, route all requests to index.html for Single Page Application (React Router)
-  RewriteRule ^ index.html [L]
+  # 6. Known routes are served from their prerendered HTML file
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.+)$ $1.html [L]
+
+  # 7. Homepage
+  RewriteRule ^$ index.html [L]
+
+  # 8. Everything else is a real 404 (served by /404.html above)
+  RewriteRule ^ - [R=404,L]
 </IfModule>
 
-# Fallback error document to index.html if mod_rewrite is bypassed
-ErrorDocument 404 /index.html
-
-# Prevent caching of index.html to ensure clients always receive updated SPA bundle links
+# Prevent caching of HTML so clients always receive updated SPA bundle links
 <IfModule mod_headers.c>
-  <Files "index.html">
+  <FilesMatch "\.html$">
     Header set Cache-Control "no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"
     Header set Expires 0
-  </Files>
+  </FilesMatch>
 </IfModule>
