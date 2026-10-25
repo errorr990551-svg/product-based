@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const pathanamthittaSeoData = {
   city: "Pathanamthitta",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Pathanamthitta | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Pathanamthitta, flow meter supplier Pathanamthitta, electromagnetic flow meter Pathanamthitta, ultrasonic flow meter Pathanamthitta, flow meter Kerala, NABL flow meter calibration Pathanamthitta",
+  metaDescription: "Flow meter manufacturer & supplier in Pathanamthitta, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Pathanamthitta district.",
 
   // 🔹 HERO SLIDER
   slides: [

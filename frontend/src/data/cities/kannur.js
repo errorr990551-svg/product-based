@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const kannurSeoData = {
   city: "Kannur",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Kannur | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Kannur, flow meter supplier Kannur, electromagnetic flow meter Kannur, ultrasonic flow meter Kannur, flow meter Kerala, NABL flow meter calibration Kannur",
+  metaDescription: "Flow meter manufacturer & supplier in Kannur, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kannur district.",
 
   // 🔹 HERO SLIDER
   slides: [

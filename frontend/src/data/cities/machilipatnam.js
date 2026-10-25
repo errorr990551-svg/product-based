@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const machilipatnamSeoData = {
   city: "Machilipatnam",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Machilipatnam | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Machilipatnam, flow meter supplier Machilipatnam, electromagnetic flow meter Machilipatnam, ultrasonic flow meter Machilipatnam, flow meter Andhra Pradesh, NABL flow meter calibration Machilipatnam",
+  metaDescription: "Flow meter manufacturer & supplier in Machilipatnam, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Machilipatnam region.",
 
   // 🔹 HERO SLIDER
   slides: [

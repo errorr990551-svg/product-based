@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const chittoorSeoData = {
   city: "Chittoor",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Chittoor | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Chittoor, flow meter supplier Chittoor, electromagnetic flow meter Chittoor, ultrasonic flow meter Chittoor, flow meter Andhra Pradesh, NABL flow meter calibration Chittoor",
+  metaDescription: "Flow meter manufacturer & supplier in Chittoor, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Chittoor region.",
 
   // 🔹 HERO SLIDER
   slides: [

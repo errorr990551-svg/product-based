@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const kurnoolSeoData = {
   city: "Kurnool",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Kurnool | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Kurnool, flow meter supplier Kurnool, electromagnetic flow meter Kurnool, ultrasonic flow meter Kurnool, flow meter Andhra Pradesh, NABL flow meter calibration Kurnool",
+  metaDescription: "Flow meter manufacturer & supplier in Kurnool, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kurnool region.",
 
   // 🔹 HERO SLIDER
   slides: [

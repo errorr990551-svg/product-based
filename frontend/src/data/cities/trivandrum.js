@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const trivandrumSeoData = {
   city: "Trivandrum",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Trivandrum | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Trivandrum, flow meter supplier Trivandrum, electromagnetic flow meter Trivandrum, ultrasonic flow meter Trivandrum, flow meter Kerala, NABL flow meter calibration Trivandrum",
+  metaDescription: "Flow meter manufacturer & supplier in Trivandrum, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Trivandrum district.",
 
   // 🔹 HERO SLIDER
   slides: [

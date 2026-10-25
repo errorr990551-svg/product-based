@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import SEO from "./common/SEO";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Accordion } from "react-bootstrap";
 import "./lean-resources.css";
@@ -43,12 +42,6 @@ function LeanResourcesPage() {
 
   return (
     <>
-      {/* SEO Meta Tags */}
-      <SEO 
-        title="Lean Manufacturing at IOTAFLOW | 2 Second Lean Implementation"
-        description="Explore IOTAFLOW’s 2 Second Lean journey. How we implement the 8 Wastes, Kanban, and Gemba walks to deliver high-quality flow meters with 7-day fast delivery."
-        keywords="lean manufacturing india, 2 second lean iotaflow, 8 wastes of lean, gemba walk flow meter, lean culture manufacturing, paul akers lean tour, pankaj malik lean, industrial efficiency improvement, kaizen flow measurement"
-      />
         <link rel="canonical" href="https://iotaflow.com/lean-manufacturing" />
         <script type="application/ld+json">
           {JSON.stringify({

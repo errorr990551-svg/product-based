@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const mangaluruSeoData = {
   city: "Mangaluru",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Mangaluru | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Mangaluru, flow meter supplier Mangaluru, electromagnetic flow meter Mangaluru, ultrasonic flow meter Mangaluru, flow meter Karnataka, NABL flow meter calibration Mangaluru",
+  metaDescription: "Flow meter manufacturer & supplier in Mangaluru, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Mangaluru industrial clusters and export zones.",
 
   // 🔹 HERO SLIDER
   slides: [

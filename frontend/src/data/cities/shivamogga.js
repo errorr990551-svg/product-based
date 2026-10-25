@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const shivamoggaSeoData = {
   city: "Shivamogga",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Shivamogga | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Shivamogga, flow meter supplier Shivamogga, electromagnetic flow meter Shivamogga, ultrasonic flow meter Shivamogga, flow meter Karnataka, NABL flow meter calibration Shivamogga",
+  metaDescription: "Flow meter manufacturer & supplier in Shivamogga, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Shivamogga and Bhadravathi industrial zones.",
 
   // 🔹 HERO SLIDER
   slides: [

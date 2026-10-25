@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const aaloSeoData = {
   city: "Aalo",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Aalo | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Aalo, flow meter supplier Aalo, electromagnetic flow meter Aalo, ultrasonic flow meter Aalo, flow meter Arunachal Pradesh, NABL flow meter calibration Aalo",
+  metaDescription: "Flow meter manufacturer & supplier in Aalo, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Aalo and West Siang region.",
 
   // 🔹 HERO SLIDER
   slides: [

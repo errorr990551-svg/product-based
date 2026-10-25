@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const itanagarSeoData = {
   city: "Itanagar",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Itanagar | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Itanagar, flow meter supplier Itanagar, electromagnetic flow meter Itanagar, ultrasonic flow meter Itanagar, flow meter Arunachal Pradesh, NABL flow meter calibration Itanagar",
+  metaDescription: "Flow meter manufacturer & supplier in Itanagar, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Itanagar and Naharlagun regions.",
 
   // 🔹 HERO SLIDER
   slides: [

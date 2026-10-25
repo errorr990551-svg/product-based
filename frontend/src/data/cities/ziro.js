@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const ziroSeoData = {
   city: "Ziro",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Ziro | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Ziro, flow meter supplier Ziro, electromagnetic flow meter Ziro, ultrasonic flow meter Ziro, flow meter Arunachal Pradesh, NABL flow meter calibration Ziro",
+  metaDescription: "Flow meter manufacturer & supplier in Ziro, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Ziro and Lower Subansiri region.",
 
   // 🔹 HERO SLIDER
   slides: [
