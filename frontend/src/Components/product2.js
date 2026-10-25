@@ -119,7 +119,7 @@ function ProductDetail() {
           {/* RIGHT: copy */}
           <div className="col-lg-6 mt-5 mt-lg-0">
             <p className="text-muted">Water Meters</p>
-            <h3 className="fw-semibold">Ultrimis™ Domestic Ultrasonic Flow Meters</h3>
+            <h1 className="fw-semibold h3">Ultrimis™ Domestic Ultrasonic Flow Meters</h1>
             <ul className="list-unstyled mt-3">
               <li className="mb-2">&#9679;Ultrimis ultrasonic water meter (DN15–DN50) for domestic use. </li>
               <li className="mb-2">&#9679;IP68, battery-powered, R800 accuracy, NFC/LoRaWAN/WM-Bus, CE & WRAS certified.</li>
