@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const roingSeoData = {
   city: "Roing",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Roing | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Roing, flow meter supplier Roing, electromagnetic flow meter Roing, ultrasonic flow meter Roing, flow meter Arunachal Pradesh, NABL flow meter calibration Roing",
+  metaDescription: "Flow meter manufacturer & supplier in Roing, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Roing and Lower Dibang Valley region.",
 
   // 🔹 HERO SLIDER
   slides: [

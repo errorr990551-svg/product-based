@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const westGodavariSeoData = {
   city: "West Godavari",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in West Godavari | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in West Godavari, flow meter supplier West Godavari, electromagnetic flow meter West Godavari, ultrasonic flow meter West Godavari, flow meter Andhra Pradesh, NABL flow meter calibration West Godavari",
+  metaDescription: "Flow meter manufacturer & supplier in West Godavari, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the West Godavari region.",
 
   // 🔹 HERO SLIDER
   slides: [

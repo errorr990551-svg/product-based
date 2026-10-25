@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const prakasamSeoData = {
   city: "Prakasam",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Prakasam | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Prakasam, flow meter supplier Prakasam, electromagnetic flow meter Prakasam, ultrasonic flow meter Prakasam, flow meter Andhra Pradesh, NABL flow meter calibration Prakasam",
+  metaDescription: "Flow meter manufacturer & supplier in Prakasam, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Prakasam region.",
 
   // 🔹 HERO SLIDER
   slides: [

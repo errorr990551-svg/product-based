@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const kollamSeoData = {
   city: "Kollam",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Kollam | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Kollam, flow meter supplier Kollam, electromagnetic flow meter Kollam, ultrasonic flow meter Kollam, flow meter Kerala, NABL flow meter calibration Kollam",
+  metaDescription: "Flow meter manufacturer & supplier in Kollam, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kollam district.",
 
   // 🔹 HERO SLIDER
   slides: [

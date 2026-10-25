@@ -42,8 +42,9 @@ ErrorDocument 404 /404.html
   # 7. Homepage
   RewriteRule ^$ index.html [L]
 
-  # 8. Everything else is a real 404 (served by /404.html above)
-  RewriteRule ^ - [R=404,L]
+  # 8. Everything else: 404.php redirects mixed-case URLs (/About-Us -> /about-us)
+  #    to their lowercase page, otherwise returns a real 404 with 404.html
+  RewriteRule ^ 404.php [L]
 </IfModule>
 
 # Prevent caching of HTML so clients always receive updated SPA bundle links

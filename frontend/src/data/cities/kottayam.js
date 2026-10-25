@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const kottayamSeoData = {
   city: "Kottayam",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Kottayam | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Kottayam, flow meter supplier Kottayam, electromagnetic flow meter Kottayam, ultrasonic flow meter Kottayam, flow meter Kerala, NABL flow meter calibration Kottayam",
+  metaDescription: "Flow meter manufacturer & supplier in Kottayam, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kottayam district.",
 
   // 🔹 HERO SLIDER
   slides: [

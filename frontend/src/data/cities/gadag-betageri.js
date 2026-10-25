@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const gadagBetageriSeoData = {
   city: "Gadag-Betageri",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Gadag-Betageri | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Gadag-Betageri, flow meter supplier Gadag-Betageri, electromagnetic flow meter Gadag-Betageri, ultrasonic flow meter Gadag-Betageri, flow meter Karnataka, NABL flow meter calibration Gadag-Betageri",
+  metaDescription: "Flow meter manufacturer & supplier in Gadag-Betageri, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Gadag and Betageri industrial clusters.",
 
   // 🔹 HERO SLIDER
   slides: [

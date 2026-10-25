@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const eastGodavariSeoData = {
   city: "East Godavari",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in East Godavari | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in East Godavari, flow meter supplier East Godavari, electromagnetic flow meter East Godavari, ultrasonic flow meter East Godavari, flow meter Andhra Pradesh, NABL flow meter calibration East Godavari",
+  metaDescription: "Flow meter manufacturer & supplier in East Godavari, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for Rajahmundry and the East Godavari region.",
 
   // 🔹 HERO SLIDER
   slides: [

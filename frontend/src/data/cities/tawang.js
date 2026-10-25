@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const tawangSeoData = {
   city: "Tawang",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Tawang | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Tawang, flow meter supplier Tawang, electromagnetic flow meter Tawang, ultrasonic flow meter Tawang, flow meter Arunachal Pradesh, NABL flow meter calibration Tawang",
+  metaDescription: "Flow meter manufacturer & supplier in Tawang, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the high-altitude Tawang region.",
 
   // 🔹 HERO SLIDER
   slides: [

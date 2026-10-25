@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const tumakuruSeoData = {
   city: "Tumakuru",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Tumakuru | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Tumakuru, flow meter supplier Tumakuru, electromagnetic flow meter Tumakuru, ultrasonic flow meter Tumakuru, flow meter Karnataka, NABL flow meter calibration Tumakuru",
+  metaDescription: "Flow meter manufacturer & supplier in Tumakuru, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Vasanthanarasapura and Tumakuru industrial estates.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const kakinadaSeoData = {
   city: "Kakinada",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Kakinada | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Kakinada, flow meter supplier Kakinada, electromagnetic flow meter Kakinada, ultrasonic flow meter Kakinada, flow meter Andhra Pradesh, NABL flow meter calibration Kakinada",
+  metaDescription: "Flow meter manufacturer & supplier in Kakinada, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kakinada SEZ region.",
 
   // 🔹 HERO SLIDER
   slides: [
