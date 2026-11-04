@@ -90,6 +90,9 @@ function CustomNavbar() {
       { name: <>VFM Vortex Flow Meters <br /> (Universal: Steam, Air, Gases, Liquids)</>, link: "/product-detail/detail16" },
       { name: "IVF Insertion Vortex Flow Meter", link: "/product-detail/detail18" },
     ],
+    "Fire Protection": [
+      { name: "Fire Pump Test Meter", link: "/product-detail/detail26" },
+    ],
     "Accessories": [
       { name: "Strainers & Filters", link: "/accessories#accessory-1" },
       { name: "Matching Flanges, Nuts, Bolts & Gaskets", link: "/accessories#accessory-2" },

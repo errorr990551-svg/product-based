@@ -39,7 +39,7 @@ for (let i = 1; i <= 6; i++) {
 
 // 3. Define Product Detail Routes (detail2 through detail25, including detail7b)
 const productDetailRoutes = [];
-for (let i = 2; i <= 25; i++) {
+for (let i = 2; i <= 26; i++) {
   productDetailRoutes.push({ path: `/product-detail/detail${i}`, priority: '0.9', changefreq: 'weekly' });
   if (i === 7) {
     productDetailRoutes.push({ path: '/product-detail/detail7b', priority: '0.9', changefreq: 'weekly' });

@@ -66,6 +66,7 @@ const Detail22 = lazy(() => import("./Components/productDetails/detail22"));
 const Detail23 = lazy(() => import("./Components/productDetails/detail23"));
 const Detail24 = lazy(() => import("./Components/productDetails/detail24"));
 const Detail25 = lazy(() => import("./Components/productDetails/detail25"));
+const Detail26 = lazy(() => import("./Components/productDetails/detail26"));
 
 const Product2 = lazy(() => import("./Components/product2"));
 const Contact = lazy(() => import("./Components/Home/Contact"));
@@ -209,6 +210,7 @@ function App() {
             <Route path="/product-detail/detail23" element={<Detail23 />} />
             <Route path="/product-detail/detail24" element={<Detail24 />} />
             <Route path="/product-detail/detail25" element={<Detail25 />} />
+            <Route path="/product-detail/detail26" element={<Detail26 />} />
 
             <Route path="/contact" element={<Contact />} />
 
