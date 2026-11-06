@@ -54,9 +54,8 @@ async function uploadFileWithRetry(host, user, password, serverDir, localFilePat
   const sizeMb = (totalBytes / (1024 * 1024)).toFixed(2);
 
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
-    // Attempt 1 tries secure FTPS.
-    // If that fails/drops with ECONNRESET or TLS error, retry with standard FTP which has no TLS session drop issues.
-    const useSecure = attempt === 1;
+    // Attempt 1 tries standard FTP (fast and reliable on Hostinger port 21 without TLS overhead)
+    const useSecure = attempt === 2; // only try FTPS on attempt 2 as alternative
     let client = null;
 
     try {
@@ -64,11 +63,9 @@ async function uploadFileWithRetry(host, user, password, serverDir, localFilePat
       client = await createAndConnectClient(host, user, password, serverDir, useSecure);
 
       // Clean up any stale Pure-FTPd temporary hidden files that might block upload
-      console.log(`   🧹 Cleaning up any stale temporary files on server...`);
       try { await client.send(`DELE .in.${fileName}.`); } catch (_) {}
       try { await client.send(`DELE .in.${fileName}`); } catch (_) {}
       try { await client.send("DELE .in.deploy.zip."); } catch (_) {}
-      try { await client.send("DELE .in.deploy.zip"); } catch (_) {}
       try { await client.remove(fileName); } catch (_) {}
 
       const startTime = Date.now();
@@ -103,7 +100,7 @@ async function uploadFileWithRetry(host, user, password, serverDir, localFilePat
         throw new Error(`Failed to upload ${fileName} after ${maxRetries} attempts: ${err.message}`);
       }
 
-      console.log(`⏳ Waiting 5 seconds before retrying (will use standard FTP for maximum stability)...`);
+      console.log(`⏳ Waiting 5 seconds before retrying...`);
       await new Promise(resolve => setTimeout(resolve, 5000));
     }
   }
@@ -116,13 +113,16 @@ async function run() {
   const password = (process.env.FTP_PASSWORD || "").trim();
   let serverDir = (process.env.FTP_SERVER_DIR || "./").trim();
 
+  const onlyExtractor = process.argv.includes("--only-extractor");
+
   console.log("----------------------------------------------------------------");
-  console.log("🚀 High-Speed Hostinger ZIP Deployment Uploader");
+  console.log(onlyExtractor 
+    ? "⚡ Hostinger Extractor Uploader" 
+    : "🚀 High-Speed Hostinger ZIP Deployment Uploader");
   console.log("----------------------------------------------------------------");
 
   if (!host) {
     console.error("❌ FTP_SERVER secret is empty or invalid!");
-    console.error("👉 Please add FTP_SERVER in GitHub Secrets (e.g. 217.21.90.3 or your Hostinger FTP hostname)");
     process.exit(1);
   }
 
@@ -131,22 +131,12 @@ async function run() {
     process.exit(1);
   }
 
-  console.log(`🔍 Target Host: ${host}`);
-  console.log(`👤 Target User: ${user}`);
-  console.log(`📁 Target Remote Dir: ${serverDir}`);
-
   // Test DNS lookup before attempting FTP connection
   try {
     const lookup = await dns.lookup(host);
-    console.log(`🌐 Resolved ${host} -> IP ${lookup.address}`);
+    console.log(`🌐 Target: ${host} (${lookup.address}) -> ${serverDir}`);
   } catch (dnsErr) {
     console.error(`❌ DNS Lookup failed for "${host}": ${dnsErr.message}`);
-    console.error("----------------------------------------------------------------");
-    console.error("💡 How to fix this:");
-    console.error("1. Go to Hostinger -> Websites -> FTP Accounts");
-    console.error("2. Look at 'FTP IP' (for example: 217.21.90.3) or 'FTP Hostname'");
-    console.error("3. Update your GitHub Secret FTP_SERVER with that exact IP or Hostname without 'ftp://' or ':21'");
-    console.error("----------------------------------------------------------------");
     process.exit(1);
   }
 
@@ -157,17 +147,24 @@ async function run() {
     process.exit(1);
   }
 
-  const files = fs.readdirSync(stagingDir);
+  let files = fs.readdirSync(stagingDir);
+  if (onlyExtractor) {
+    files = files.filter(f => f.endsWith(".php"));
+  } else {
+    // Put PHP files first so extractor is ready on server
+    files.sort((a, b) => a.endsWith(".php") ? -1 : 1);
+  }
+
   console.log(`📦 Found ${files.length} file(s) to upload in staging:`);
 
-  // Upload each file using the retry and fallback mechanism
+  // Upload each file using the retry mechanism
   for (const file of files) {
     const localFilePath = path.join(stagingDir, file);
     await uploadFileWithRetry(host, user, password, serverDir, localFilePath, file, 3);
   }
 
   console.log("\n----------------------------------------------------------------");
-  console.log("🎉 All files uploaded to Hostinger successfully!");
+  console.log("🎉 Upload completed successfully!");
   console.log("----------------------------------------------------------------");
 }
 

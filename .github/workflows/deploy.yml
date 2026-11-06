@@ -14,11 +14,13 @@ jobs:
   build-and-deploy:
     name: 🚀 Build & Ultra-Fast Deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
 
     steps:
       - name: ⬇️ Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: 🟢 Setup Node.js 20
         uses: actions/setup-node@v4
@@ -51,10 +53,16 @@ jobs:
           # 2. Create staging directory
           mkdir -p staging
 
-          # 3. Zip all files and folders from frontend/build (including dotfiles like .htaccess), excluding *.map
+          # 3. Zip files (excluding *.map, and excluding heavy documents/video unless modified in this commit)
           cd frontend/build
           shopt -s dotglob
-          zip -9 -r "../../staging/${ZIP_NAME}" * -x "*.map"
+          if git diff-tree --no-commit-id --name-only -r HEAD 2>/dev/null | grep -E '^frontend/public/documents/|\.mp4$'; then
+            echo "📦 Documents or video modified in this commit: packaging full site including documents..."
+            zip -9 -r "../../staging/${ZIP_NAME}" * -x "*.map"
+          else
+            echo "⚡ Core app update: excluding heavy static documents & video (already cached on server)..."
+            zip -9 -r "../../staging/${ZIP_NAME}" * -x "*.map" -x "documents/*" -x "*.mp4"
+          fi
           cd ../..
 
           # 4. Copy extraction script and inject secret token
@@ -64,26 +72,31 @@ jobs:
           echo "✅ Deployment package prepared in staging/:"
           ls -lh staging/
 
-      - name: 📤 Upload ZIP Package to Hostinger (Fast FTP/FTPS)
+      - name: 📤 Upload Extractor Script to Hostinger
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           FTP_SERVER_DIR: ${{ secrets.FTP_SERVER_DIR || './' }}
         run: |
-          node .github/scripts/upload_ftp.cjs
+          node .github/scripts/upload_ftp.cjs --only-extractor
 
-      - name: ⚡ Trigger Server Unpack & Clean Up Archive
+      - name: ⚡ High-Speed HTTPS Deploy & Server Unpack
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_SERVER_DIR: ${{ secrets.FTP_SERVER_DIR || './' }}
         run: |
-          echo "Waiting 3 seconds for file system sync..."
-          sleep 3
-
-          echo "Triggering deploy_extract.php on Hostinger..."
           DOMAIN="${{ secrets.SITE_DOMAIN || 'https://iotaflow.com' }}"
           DOMAIN="${DOMAIN%/}"
+          ZIP_FILE="staging/${ZIP_NAME}"
+          echo "🌐 Uploading & extracting ${ZIP_NAME} via HTTPS stream to ${DOMAIN}..."
 
-          echo "Calling: ${DOMAIN}/deploy_extract.php"
-          RESPONSE=$(curl -k -s -S -L --max-time 120 "${DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}&zip=${ZIP_NAME}")
+          RESPONSE=$(curl -k -s -S -L --max-time 300 \
+            -H "Content-Type: application/octet-stream" \
+            --data-binary "@${ZIP_FILE}" \
+            "${DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}&zip=${ZIP_NAME}")
           echo "Server Response: $RESPONSE"
 
           # If response doesn't contain success, also try alternate domain format (with/without www)
@@ -94,10 +107,25 @@ jobs:
               ALT_DOMAIN="${DOMAIN/https:\/\//https:\/\/www.}"
             fi
             echo "Retrying on alternate domain: ${ALT_DOMAIN}/deploy_extract.php..."
-            ALT_RESPONSE=$(curl -k -s -S -L --max-time 120 "${ALT_DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}&zip=${ZIP_NAME}")
+            ALT_RESPONSE=$(curl -k -s -S -L --max-time 300 \
+              -H "Content-Type: application/octet-stream" \
+              --data-binary "@${ZIP_FILE}" \
+              "${ALT_DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}&zip=${ZIP_NAME}")
             echo "Alternate Response: $ALT_RESPONSE"
             if [[ "$ALT_RESPONSE" == *"success"* ]]; then
               RESPONSE="$ALT_RESPONSE"
+            fi
+          fi
+
+          # Fallback to FTP upload if direct HTTPS upload was not accepted
+          if [[ "$RESPONSE" != *"success"* ]]; then
+            echo "⚠️ Direct HTTPS stream upload did not complete, falling back to FTP upload..."
+            node .github/scripts/upload_ftp.cjs
+            echo "Triggering extraction on server..."
+            FALLBACK_RESPONSE=$(curl -k -s -S -L --max-time 120 "${DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}&zip=${ZIP_NAME}")
+            echo "Fallback Response: $FALLBACK_RESPONSE"
+            if [[ "$FALLBACK_RESPONSE" == *"success"* ]]; then
+              RESPONSE="$FALLBACK_RESPONSE"
             fi
           fi
 
@@ -106,12 +134,7 @@ jobs:
           else
             echo "❌ Extraction failed or script was not reachable."
             echo "------------------------------------------------------"
-            echo "Troubleshooting Tips:"
-            echo "1. If you got a 404 error, check your FTP account path in Hostinger:"
-            echo "   - If your FTP account lands in /public_html, server-dir './' works."
-            echo "   - If using Hostinger Master FTP account, add a GitHub Secret: FTP_SERVER_DIR = public_html/"
-            echo "2. Check if PHP ZipArchive is enabled in Hostinger PHP extensions."
-            echo "3. If using custom domain, verify SITE_DOMAIN in GitHub Secrets (Default: https://iotaflow.com)."
+            echo "Server returned: $RESPONSE"
             echo "------------------------------------------------------"
             exit 1
           fi
