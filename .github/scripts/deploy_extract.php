@@ -3,11 +3,11 @@
  * IOTAFLOW Systems — High-Speed Automated ZIP Deployment Extractor
  * 
  * Flow:
- * 1. GitHub Actions builds React project & creates deploy.zip containing build folder.
- * 2. Uploads deploy.zip + this script via FTP (takes only 3-5 seconds!).
- * 3. GitHub Actions triggers this script with a secret token.
- * 4. This script unzips deploy.zip directly into public_html in ~1 second.
- * 5. Cleans up deploy.zip and self-destructs (unlinks this script) for 100% security.
+ * 1. GitHub Actions builds React project & packages into a unique deploy zip.
+ * 2. Uploads archive + this script via FTP.
+ * 3. GitHub Actions triggers this script with a secret token and zip filename.
+ * 4. This script unzips directly into public_html in ~1-2 seconds.
+ * 5. Cleans up archive, stale temp files, and self-destructs for 100% security.
  */
 
 header('Content-Type: application/json; charset=utf-8');
@@ -37,14 +37,30 @@ if (empty($expected_secret) || empty($provided_secret) || !hash_equals($expected
 ignore_user_abort(true);
 
 $target_dir = __DIR__;
-$zip_file = $target_dir . '/deploy.zip';
 
-// 3. Check for deploy.zip
+// Clean up any stale Pure-FTPd temporary hidden files that might linger from interrupted uploads
+foreach (glob($target_dir . '/.in.*') as $tmp_file) {
+    @unlink($tmp_file);
+}
+
+// 3. Locate zip archive
+$requested_zip = !empty($_GET['zip']) ? basename($_GET['zip']) : 'deploy.zip';
+$zip_file = $target_dir . '/' . $requested_zip;
+
+if (!file_exists($zip_file)) {
+    // Fallback: look for any deploy*.zip in target directory (sorted newest first)
+    $archives = glob($target_dir . '/deploy*.zip');
+    if (!empty($archives)) {
+        usort($archives, function($a, $b) { return filemtime($b) - filemtime($a); });
+        $zip_file = $archives[0];
+    }
+}
+
 if (!file_exists($zip_file)) {
     http_response_code(404);
     echo json_encode([
         'status' => 'error',
-        'message' => "Archive deploy.zip not found in directory: {$target_dir}"
+        'message' => "Archive not found in directory: {$target_dir}"
     ]);
     exit;
 }
@@ -85,8 +101,14 @@ if (!$extract_status) {
     exit;
 }
 
-// 6. Security Cleanup (Remove ZIP and Self-Destruct)
+// 6. Security Cleanup (Remove ZIP, stale archives, temp files, and Self-Destruct)
 @unlink($zip_file);
+foreach (glob($target_dir . '/deploy*.zip') as $stale_zip) {
+    @unlink($stale_zip);
+}
+foreach (glob($target_dir . '/.in.*') as $tmp_file) {
+    @unlink($tmp_file);
+}
 @unlink(__FILE__);
 
 // 7. Clear OPcache / PHP Cache so LiteSpeed / Apache serves fresh files immediately
@@ -99,5 +121,6 @@ echo json_encode([
     'status' => 'success',
     'message' => "Deployment successful! Extracted {$file_count} files into {$target_dir} and cleaned up archive.",
     'extracted_files' => $file_count,
+    'archive_used' => basename($zip_file),
     'timestamp' => date('Y-m-d H:i:s T')
 ]);

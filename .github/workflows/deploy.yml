@@ -42,9 +42,11 @@ jobs:
 
       - name: 🗜️ Package into Fast Deploy ZIP (with .htaccess)
         run: |
-          # 1. Generate unique deployment secret for this run
+          # 1. Generate unique deployment secret and archive name for this run
           DEPLOY_SECRET=$(openssl rand -hex 16)
+          ZIP_NAME="deploy_${DEPLOY_SECRET}.zip"
           echo "DEPLOY_SECRET=$DEPLOY_SECRET" >> $GITHUB_ENV
+          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
 
           # 2. Create staging directory
           mkdir -p staging
@@ -52,7 +54,7 @@ jobs:
           # 3. Zip all files and folders from frontend/build (including dotfiles like .htaccess), excluding *.map
           cd frontend/build
           shopt -s dotglob
-          zip -9 -r ../../staging/deploy.zip * -x "*.map"
+          zip -9 -r "../../staging/${ZIP_NAME}" * -x "*.map"
           cd ../..
 
           # 4. Copy extraction script and inject secret token
@@ -81,7 +83,7 @@ jobs:
           DOMAIN="${DOMAIN%/}"
 
           echo "Calling: ${DOMAIN}/deploy_extract.php"
-          RESPONSE=$(curl -k -s -S -L --max-time 120 "${DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}")
+          RESPONSE=$(curl -k -s -S -L --max-time 120 "${DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}&zip=${ZIP_NAME}")
           echo "Server Response: $RESPONSE"
 
           # If response doesn't contain success, also try alternate domain format (with/without www)
@@ -92,7 +94,7 @@ jobs:
               ALT_DOMAIN="${DOMAIN/https:\/\//https:\/\/www.}"
             fi
             echo "Retrying on alternate domain: ${ALT_DOMAIN}/deploy_extract.php..."
-            ALT_RESPONSE=$(curl -k -s -S -L --max-time 120 "${ALT_DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}")
+            ALT_RESPONSE=$(curl -k -s -S -L --max-time 120 "${ALT_DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}&zip=${ZIP_NAME}")
             echo "Alternate Response: $ALT_RESPONSE"
             if [[ "$ALT_RESPONSE" == *"success"* ]]; then
               RESPONSE="$ALT_RESPONSE"

@@ -63,6 +63,14 @@ async function uploadFileWithRetry(host, user, password, serverDir, localFilePat
       console.log(`\n⬆️ [Attempt ${attempt}/${maxRetries}] Uploading ${fileName} (${sizeMb} MB)...`);
       client = await createAndConnectClient(host, user, password, serverDir, useSecure);
 
+      // Clean up any stale Pure-FTPd temporary hidden files that might block upload
+      console.log(`   🧹 Cleaning up any stale temporary files on server...`);
+      try { await client.send(`DELE .in.${fileName}.`); } catch (_) {}
+      try { await client.send(`DELE .in.${fileName}`); } catch (_) {}
+      try { await client.send("DELE .in.deploy.zip."); } catch (_) {}
+      try { await client.send("DELE .in.deploy.zip"); } catch (_) {}
+      try { await client.remove(fileName); } catch (_) {}
+
       const startTime = Date.now();
       let lastReport = 0;
 
