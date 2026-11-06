@@ -77,9 +77,9 @@ export default function ComplaintForm() {
       className="tw-max-w-6xl tw-mx-auto tw-p-4 md:tw-p-8 tw-space-y-6 md:tw-space-y-8 tw-bg-gradient-to-br tw-from-black tw-to-yellow-600 tw-text-gray-200 tw-rounded-lg tw-shadow-lg"
     >
       <div className="tw-text-center">
-        <h2 className="tw-text-3xl tw-font-bold tw-text-yellow-400">
+        <h1 className="tw-text-3xl tw-font-bold tw-text-yellow-400">
           Lodge a Complaint
-        </h2>
+        </h1>
         <p className="tw-text-gray-400 tw-mt-1">
           Please provide the details about your issue below.
         </p>

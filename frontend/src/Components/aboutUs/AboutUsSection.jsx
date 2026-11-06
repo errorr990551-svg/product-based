@@ -1,5 +1,4 @@
 import React from 'react';
-import SEO from "../common/SEO";
 import './AboutUsSection.css';
 import teamImage from '../../images/about us website img.webp';  // Your single team image
 import KPISection from './KPISection';
@@ -14,11 +13,6 @@ import ClientsSection from './ClientsSection';
 function AboutUsSection() {
   return (
     <>
-      <SEO 
-        title="About IOTAFLOW Systems | 34+ Years in Flow Meter Manufacturing"
-        description="Learn about IOTAFLOW Systems, a leader in high-precision flow measurement since 1999. Specializing in European-standard manufacturing, Lean practices, and IoT automation."
-        keywords="IOTAFLOW Systems history, Pankaj Malik IOTAFLOW, flow meter manufacturer India, technical collaboration Aflowt Germany, flow meter calibration lab India, lean manufacturing flow meters"
-      />
       
       <section className="about-us-section py-5">
 

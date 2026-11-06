@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const visakhapatnamSeoData = {
   city: "Visakhapatnam",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Visakhapatnam | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Visakhapatnam, flow meter supplier Visakhapatnam, electromagnetic flow meter Visakhapatnam, ultrasonic flow meter Visakhapatnam, flow meter Andhra Pradesh, NABL flow meter calibration Visakhapatnam",
+  metaDescription: "Flow meter manufacturer & supplier in Visakhapatnam, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Visakhapatnam metropolitan region.",
 
   // 🔹 HERO SLIDER
   slides: [

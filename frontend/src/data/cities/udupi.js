@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const udupiSeoData = {
   city: "Udupi",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Udupi | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Udupi, flow meter supplier Udupi, electromagnetic flow meter Udupi, ultrasonic flow meter Udupi, flow meter Karnataka, NABL flow meter calibration Udupi",
+  metaDescription: "Flow meter manufacturer & supplier in Udupi, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Udupi district.",
 
   // 🔹 HERO SLIDER
   slides: [

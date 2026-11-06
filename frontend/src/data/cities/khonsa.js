@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const khonsaSeoData = {
   city: "Khonsa",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Khonsa | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Khonsa, flow meter supplier Khonsa, electromagnetic flow meter Khonsa, ultrasonic flow meter Khonsa, flow meter Arunachal Pradesh, NABL flow meter calibration Khonsa",
+  metaDescription: "Flow meter manufacturer & supplier in Khonsa, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Khonsa and Tirap region.",
 
   // 🔹 HERO SLIDER
   slides: [

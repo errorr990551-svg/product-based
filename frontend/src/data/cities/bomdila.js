@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const bomdilaSeoData = {
   city: "Bomdila",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Bomdila | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Bomdila, flow meter supplier Bomdila, electromagnetic flow meter Bomdila, ultrasonic flow meter Bomdila, flow meter Arunachal Pradesh, NABL flow meter calibration Bomdila",
+  metaDescription: "Flow meter manufacturer & supplier in Bomdila, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Bomdila and West Kameng region.",
 
   // 🔹 HERO SLIDER
   slides: [

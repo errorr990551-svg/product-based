@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const davanagereSeoData = {
   city: "Davanagere",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Davanagere | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Davanagere, flow meter supplier Davanagere, electromagnetic flow meter Davanagere, ultrasonic flow meter Davanagere, flow meter Karnataka, NABL flow meter calibration Davanagere",
+  metaDescription: "Flow meter manufacturer & supplier in Davanagere, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Davanagere and Harihar industrial zones.",
 
   // 🔹 HERO SLIDER
   slides: [

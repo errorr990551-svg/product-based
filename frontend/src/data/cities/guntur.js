@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const gunturSeoData = {
   city: "Guntur",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Guntur | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Guntur, flow meter supplier Guntur, electromagnetic flow meter Guntur, ultrasonic flow meter Guntur, flow meter Andhra Pradesh, NABL flow meter calibration Guntur",
+  metaDescription: "Flow meter manufacturer & supplier in Guntur, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Guntur region.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const krishnaSeoData = {
   city: "Krishna",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Krishna | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Krishna, flow meter supplier Krishna, electromagnetic flow meter Krishna, ultrasonic flow meter Krishna, flow meter Andhra Pradesh, NABL flow meter calibration Krishna",
+  metaDescription: "Flow meter manufacturer & supplier in Krishna, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Krishna district.",
 
   // 🔹 HERO SLIDER
   slides: [

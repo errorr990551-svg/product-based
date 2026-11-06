@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const bidarSeoData = {
   city: "Bidar",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Bidar | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Bidar, flow meter supplier Bidar, electromagnetic flow meter Bidar, ultrasonic flow meter Bidar, flow meter Karnataka, NABL flow meter calibration Bidar",
+  metaDescription: "Flow meter manufacturer & supplier in Bidar, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Bidar and Kolhar industrial estates.",
 
   // 🔹 HERO SLIDER
   slides: [

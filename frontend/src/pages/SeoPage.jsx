@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { useParams, Navigate, useNavigate } from "react-router-dom";
 import SEO from "../Components/common/SEO";
+import NotFound from "./NotFound";
 import { motion, AnimatePresence } from "framer-motion";
 import { Container, Row, Col, Carousel, Button, Accordion, useAccordionButton, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -924,8 +925,15 @@ function ProductCategoriesSeo({ categoriesData }) {
 const SeoPage = () => {
   const { city } = useParams();
 
-  // fallback to mumbai if invalid city
-  const seoData = cityDataMap[city?.toLowerCase()] || mumbaiSeoData;
+  const seoData = cityDataMap[city?.toLowerCase()];
+
+  // Unknown slugs must not serve duplicate city content (soft 404s hurt indexing)
+  if (!seoData) {
+    return <NotFound />;
+  }
+
+  // Aliases (e.g. "anantpur") point at the primary slug for the same city
+  const canonicalSlug = Object.keys(cityDataMap).find((key) => cityDataMap[key] === seoData);
 
   const {
   featuresData,
@@ -937,7 +945,8 @@ const SeoPage = () => {
 } = seoData;
 
 const formattedCityName =
-  (city && city.charAt(0).toUpperCase() + city.slice(1)) || "Mumbai";
+  seoData.city ||
+  city.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 
 const slidesWithImages = (seoData.slides || []).map((slide, index) => ({
   img: slide.img || [slide2, slide1, slide3][index % 3],
@@ -949,6 +958,7 @@ const slidesWithImages = (seoData.slides || []).map((slide, index) => ({
         title={seoData.metaTitle || `Flow Meter Manufacturer & Suppliers in ${formattedCityName} | IOTAFLOW`}
         description={seoData.metaDescription || `Leading industrial flow meter manufacturer and supplier in ${formattedCityName}. Expert in electromagnetic, ultrasonic, and thermal mass flow measurement.`}
         keywords={seoData.metaKeywords || `flow meter manufacturer ${formattedCityName}, industrial flow meter supplier ${formattedCityName}, ultrasonic flow meter ${formattedCityName}, electromagnetic flow meter ${formattedCityName}, industrial automation ${formattedCityName}`}
+        canonicalPath={`/${canonicalSlug}`}
       />
       <BannerSliderSeo slides={slidesWithImages} />
       <RightChoiceSeo featuresData={featuresData} />

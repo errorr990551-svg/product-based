@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import SEO from "./common/SEO";
 
 // --- Actual Images for "On-site service support" section ---
 import serviceImg1 from '../images/Service_1.webp';
@@ -97,11 +96,6 @@ const ServicesPage = () => {
 
   return (
     <div className="services-page">
-      <SEO
-        title="Flow Meter Calibration & On-Site Services India | IOTAFLOW"
-        description="Expert on-site flow meter calibration (NABL/ISO 17025), installation, and AMC services. IoT telemetry integration for CGWA & CPCB compliance. Book a site survey today!"
-        keywords="flow meter calibration, IoT integration, technical support, industrial services, IOTAFLOW services"
-      />
 
       {/* ==================== SECTION 1: On-site Service Support ==================== */}
       <section className="tw-py-12 md:tw-py-16 lg:tw-py-24">

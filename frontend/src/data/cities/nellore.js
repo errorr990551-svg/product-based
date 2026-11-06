@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const nelloreSeoData = {
   city: "Nellore",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Nellore | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Nellore, flow meter supplier Nellore, electromagnetic flow meter Nellore, ultrasonic flow meter Nellore, flow meter Andhra Pradesh, NABL flow meter calibration Nellore",
+  metaDescription: "Flow meter manufacturer & supplier in Nellore, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Nellore region.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const daporijoSeoData = {
   city: "Daporijo",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Daporijo | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Daporijo, flow meter supplier Daporijo, electromagnetic flow meter Daporijo, ultrasonic flow meter Daporijo, flow meter Arunachal Pradesh, NABL flow meter calibration Daporijo",
+  metaDescription: "Flow meter manufacturer & supplier in Daporijo, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Daporijo and Upper Subansiri region.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const vizianagaramSeoData = {
   city: "Vizianagaram",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Vizianagaram | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Vizianagaram, flow meter supplier Vizianagaram, electromagnetic flow meter Vizianagaram, ultrasonic flow meter Vizianagaram, flow meter Andhra Pradesh, NABL flow meter calibration Vizianagaram",
+  metaDescription: "Flow meter manufacturer & supplier in Vizianagaram, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Vizianagaram region.",
 
   // 🔹 HERO SLIDER
   slides: [

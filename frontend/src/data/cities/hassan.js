@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const hassanSeoData = {
   city: "Hassan",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Hassan | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Hassan, flow meter supplier Hassan, electromagnetic flow meter Hassan, ultrasonic flow meter Hassan, flow meter Karnataka, NABL flow meter calibration Hassan",
+  metaDescription: "Flow meter manufacturer & supplier in Hassan, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Hassan Special Economic Zone (SEZ) and industrial estates.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const seppaSeoData = {
   city: "Seppa",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Seppa | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Seppa, flow meter supplier Seppa, electromagnetic flow meter Seppa, ultrasonic flow meter Seppa, flow meter Arunachal Pradesh, NABL flow meter calibration Seppa",
+  metaDescription: "Flow meter manufacturer & supplier in Seppa, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Seppa and East Kameng region.",
 
   // 🔹 HERO SLIDER
   slides: [

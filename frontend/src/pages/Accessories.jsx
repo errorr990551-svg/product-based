@@ -234,9 +234,9 @@ function Accessories() {
         
         {/* Optional Header - Updated Content */}
         <div className="tw-text-center tw-max-w-4xl tw-mx-auto tw-mb-12 md:tw-mb-16">
-          <h2 className="tw-text-2xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black tw-leading-tight">
+          <h1 className="tw-text-2xl md:tw-text-4xl lg:tw-text-5xl tw-font-bold tw-text-black tw-leading-tight">
             Flow Meter Accessories – The Complete Ecosystem for Reliable Flow Measurement
-          </h2>
+          </h1>
           <div className="tw-mt-4 md:tw-mt-6 tw-space-y-4">
             <h3 className="tw-text-lg md:tw-text-xl tw-font-bold tw-text-[#ffd700] tw-tracking-wide">
               Beyond Flow Meters — Building a Complete Measurement System

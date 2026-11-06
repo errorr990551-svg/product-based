@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const greaterKochiSeoData = {
   city: "Greater Kochi",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Greater Kochi | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Greater Kochi, flow meter supplier Greater Kochi, electromagnetic flow meter Greater Kochi, ultrasonic flow meter Greater Kochi, flow meter Kerala, NABL flow meter calibration Greater Kochi",
+  metaDescription: "Flow meter manufacturer & supplier in Greater Kochi, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Greater Kochi region.",
 
   // 🔹 HERO SLIDER
   slides: [

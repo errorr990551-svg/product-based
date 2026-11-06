@@ -1,39 +1,72 @@
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import routeMeta from '../../data/routeMeta.json';
 
-const SEO = ({ title, description, keywords }) => {
+export const SITE_URL = 'https://iotaflow.com';
+
+// Normalise a pathname so every URL has exactly one canonical form
+// (lowercase, no trailing slash except for the homepage).
+export const normalizePath = (pathname = '/') => {
+  let path = pathname.toLowerCase().replace(/\/{2,}/g, '/');
+  if (path.length > 1) path = path.replace(/\/+$/, '');
+  return path || '/';
+};
+
+const upsertMeta = (attr, key, content) => {
+  let tag = document.head.querySelector(`meta[${attr}="${key}"]`);
+  if (!tag) {
+    tag = document.createElement('meta');
+    tag.setAttribute(attr, key);
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute('content', content);
+};
+
+const upsertCanonical = (href) => {
+  let link = document.head.querySelector('link[rel="canonical"]');
+  if (!link) {
+    link = document.createElement('link');
+    link.setAttribute('rel', 'canonical');
+    document.head.appendChild(link);
+  }
+  link.setAttribute('href', href);
+};
+
+// Sets title, description, keywords, canonical, Open Graph and robots tags.
+// Props override the entry for the current path in src/data/routeMeta.json.
+const SEO = ({ title, description, keywords, canonicalPath, noindex = false }) => {
+  const { pathname } = useLocation();
+  const path = normalizePath(pathname);
+  const meta = routeMeta[path] || {};
+
+  const finalTitle = title || meta.title;
+  const finalDescription = description || meta.description;
+  const finalKeywords = keywords || meta.keywords;
+  const canonicalUrl = `${SITE_URL}${normalizePath(canonicalPath || meta.canonical || path)}`;
+
   useEffect(() => {
-    // 1. Update Title
-    if (title) {
-      document.title = title;
+    if (finalTitle) {
+      document.title = finalTitle;
+      upsertMeta('property', 'og:title', finalTitle);
+    }
+    if (finalDescription) {
+      upsertMeta('name', 'description', finalDescription);
+      upsertMeta('property', 'og:description', finalDescription);
+    }
+    if (finalKeywords) {
+      upsertMeta('name', 'keywords', finalKeywords);
     }
 
-    // 2. Update Description Meta Tag
-    if (description) {
-      let metaDescription = document.querySelector('meta[name="description"]');
-      if (!metaDescription) {
-        metaDescription = document.createElement('meta');
-        metaDescription.setAttribute('name', 'description');
-        // Insert right below the title or at the end of head
-        document.head.appendChild(metaDescription);
-      }
-      metaDescription.setAttribute('content', description);
-    }
+    upsertMeta('name', 'robots', noindex ? 'noindex, follow' : 'index, follow');
 
-    // 3. Update Keywords Meta Tag
-    if (keywords) {
-      let metaKeywords = document.querySelector('meta[name="keywords"]');
-      if (!metaKeywords) {
-        metaKeywords = document.createElement('meta');
-        metaKeywords.setAttribute('name', 'keywords');
-        document.head.appendChild(metaKeywords);
-      }
-      metaKeywords.setAttribute('content', keywords);
+    if (noindex) {
+      document.head.querySelector('link[rel="canonical"]')?.remove();
+      document.head.querySelector('meta[property="og:url"]')?.remove();
+    } else {
+      upsertCanonical(canonicalUrl);
+      upsertMeta('property', 'og:url', canonicalUrl);
     }
-
-    // Cleanup function: remove tags when component unmounts if needed
-    // Actually, for SPA routing, it's better to leave them and let the next page update them,
-    // so we won't remove them on unmount.
-  }, [title, description, keywords]);
+  }, [finalTitle, finalDescription, finalKeywords, canonicalUrl, noindex]);
 
   return null;
 };

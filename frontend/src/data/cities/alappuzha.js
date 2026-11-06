@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const alappuzhaSeoData = {
   city: "Alappuzha",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Alappuzha | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Alappuzha, flow meter supplier Alappuzha, electromagnetic flow meter Alappuzha, ultrasonic flow meter Alappuzha, flow meter Kerala, NABL flow meter calibration Alappuzha",
+  metaDescription: "Flow meter manufacturer & supplier in Alappuzha, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Alappuzha district.",
 
   // 🔹 HERO SLIDER
   slides: [

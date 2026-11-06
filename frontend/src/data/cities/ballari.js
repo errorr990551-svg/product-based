@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const ballariSeoData = {
   city: "Ballari",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Ballari | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Ballari, flow meter supplier Ballari, electromagnetic flow meter Ballari, ultrasonic flow meter Ballari, flow meter Karnataka, NABL flow meter calibration Ballari",
+  metaDescription: "Flow meter manufacturer & supplier in Ballari, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Ballari and Sandur mining and industrial sectors.",
 
   // 🔹 HERO SLIDER
   slides: [

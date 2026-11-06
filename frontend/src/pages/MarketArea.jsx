@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ChevronRight, MapPin } from "lucide-react";
-import SEO from "../Components/common/SEO";
 
 const MarketArea = () => {
   const marketData = [
@@ -246,11 +245,6 @@ const MarketArea = () => {
 
   return (
     <div className="tw-min-h-screen tw-bg-gray-50 tw-font-sans">
-      <SEO 
-        title="Market Area | IOTAFLOW Systems"
-        description="Explore the regions and cities IOTAFLOW serves across India. providing high-precision flow measurement and IoT solutions."
-        keywords="IOTAFLOW cities served, industrial flow meter markets, Andhra Pradesh flow meters, Mumbai flow meter suppliers"
-      />
 
       {/* Breadcrumb Section */}
       <div className="tw-bg-gray-100 tw-py-4">

@@ -6,6 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const belagaviSeoData = {
   city: "Belagavi",
+  metaTitle: "Flow Meter Manufacturer & Suppliers in Belagavi | IOTAFLOW",
+  metaKeywords: "flow meter manufacturer in Belagavi, flow meter supplier Belagavi, electromagnetic flow meter Belagavi, ultrasonic flow meter Belagavi, flow meter Karnataka, NABL flow meter calibration Belagavi",
+  metaDescription: "Flow meter manufacturer & supplier in Belagavi, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Belagavi and Gokak industrial estates.",
 
   // 🔹 HERO SLIDER
   slides: [
