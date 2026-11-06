@@ -12,6 +12,95 @@ function sanitizeHost(s) {
   return s.trim();
 }
 
+async function createAndConnectClient(host, user, password, serverDir, useSecure) {
+  // Use 300 seconds (5 minutes) socket timeout for large file uploads on Hostinger
+  const client = new ftp.Client(300000);
+  client.ftp.verbose = false;
+
+  const modeName = useSecure ? "secure FTPS (Port 21, TLS)" : "standard FTP (Port 21)";
+  console.log(`🔌 Connecting with ${modeName}...`);
+
+  try {
+    await client.access({
+      host: host,
+      user: user,
+      password: password,
+      port: 21,
+      secure: useSecure,
+      secureOptions: { rejectUnauthorized: false }
+    });
+    console.log(`✅ ${useSecure ? "FTPS" : "FTP"} connection established successfully!`);
+  } catch (err) {
+    client.close();
+    throw err;
+  }
+
+  // Switch directory if needed
+  if (serverDir && serverDir !== "./" && serverDir !== ".") {
+    try {
+      console.log(`📂 Switching to directory: ${serverDir}`);
+      await client.ensureDir(serverDir);
+    } catch (dirErr) {
+      console.log(`⚠️ Warning switching dir: ${dirErr.message}, staying in default root.`);
+    }
+  }
+
+  return client;
+}
+
+async function uploadFileWithRetry(host, user, password, serverDir, localFilePath, fileName, maxRetries = 3) {
+  const stat = fs.statSync(localFilePath);
+  const totalBytes = stat.size;
+  const sizeMb = (totalBytes / (1024 * 1024)).toFixed(2);
+
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    // Attempt 1 tries secure FTPS.
+    // If that fails/drops with ECONNRESET or TLS error, retry with standard FTP which has no TLS session drop issues.
+    const useSecure = attempt === 1;
+    let client = null;
+
+    try {
+      console.log(`\n⬆️ [Attempt ${attempt}/${maxRetries}] Uploading ${fileName} (${sizeMb} MB)...`);
+      client = await createAndConnectClient(host, user, password, serverDir, useSecure);
+
+      const startTime = Date.now();
+      let lastReport = 0;
+
+      client.trackProgress(info => {
+        const percent = Math.min(100, Math.round((info.bytesOverall / totalBytes) * 100));
+        const now = Date.now();
+        // Log progress every 5 seconds or when finished
+        if (now - lastReport > 5000 || percent === 100) {
+          lastReport = now;
+          const uploadedMb = (info.bytesOverall / (1024 * 1024)).toFixed(1);
+          console.log(`   📊 Upload progress: ${uploadedMb} MB / ${sizeMb} MB (${percent}%)`);
+        }
+      });
+
+      await client.uploadFrom(localFilePath, fileName);
+      client.trackProgress(); // unregister
+
+      const timeTaken = ((Date.now() - startTime) / 1000).toFixed(1);
+      console.log(`✅ Successfully uploaded ${fileName} in ${timeTaken}s`);
+      client.close();
+      return; // Success!
+    } catch (err) {
+      if (client) {
+        try { client.close(); } catch (_) {}
+      }
+
+      console.error(`⚠️ Upload failed on attempt ${attempt}: ${err.message}`);
+
+      if (attempt >= maxRetries) {
+        throw new Error(`Failed to upload ${fileName} after ${maxRetries} attempts: ${err.message}`);
+      }
+
+      console.log(`⏳ Waiting 5 seconds before retrying (will use standard FTP for maximum stability)...`);
+      await new Promise(resolve => setTimeout(resolve, 5000));
+    }
+  }
+}
+
 async function run() {
   const rawHost = process.env.FTP_SERVER || "";
   const host = sanitizeHost(rawHost);
@@ -53,62 +142,7 @@ async function run() {
     process.exit(1);
   }
 
-  const client = new ftp.Client(30000); // 30s timeout
-  client.ftp.verbose = false;
-
-  let connected = false;
-
-  // 1. Try secure FTPS first
-  try {
-    console.log("🔒 Connecting with secure FTPS (Port 21, TLS)...");
-    await client.access({
-      host: host,
-      user: user,
-      password: password,
-      port: 21,
-      secure: true,
-      secureOptions: { rejectUnauthorized: false }
-    });
-    connected = true;
-    console.log("✅ FTPS connection established successfully!");
-  } catch (ftpsErr) {
-    console.log(`⚠️ FTPS connection note (${ftpsErr.message}). Retrying with plain FTP...`);
-    try {
-      await client.access({
-        host: host,
-        user: user,
-        password: password,
-        port: 21,
-        secure: false
-      });
-      connected = true;
-      console.log("✅ FTP connection established successfully!");
-    } catch (ftpErr) {
-      console.error("----------------------------------------------------------------");
-      console.error(`❌ FTP Connection failed: ${ftpErr.message}`);
-      if (
-        ftpErr.message.includes("530") ||
-        ftpErr.message.toLowerCase().includes("login") ||
-        ftpErr.message.toLowerCase().includes("authentication")
-      ) {
-        console.error("👉 530 Login Authentication Failed: Please check your FTP_USERNAME and FTP_PASSWORD in GitHub Secrets.");
-      }
-      console.error("----------------------------------------------------------------");
-      process.exit(1);
-    }
-  }
-
-  // 2. Change remote directory if needed
-  if (serverDir && serverDir !== "./" && serverDir !== ".") {
-    try {
-      console.log(`📂 Switching to directory: ${serverDir}`);
-      await client.ensureDir(serverDir);
-    } catch (dirErr) {
-      console.log(`⚠️ Warning switching dir: ${dirErr.message}, staying in default root.`);
-    }
-  }
-
-  // 3. Upload files from staging
+  // Check staging directory
   const stagingDir = path.resolve(process.cwd(), "staging");
   if (!fs.existsSync(stagingDir)) {
     console.error(`❌ Staging directory not found at ${stagingDir}`);
@@ -118,24 +152,18 @@ async function run() {
   const files = fs.readdirSync(stagingDir);
   console.log(`📦 Found ${files.length} file(s) to upload in staging:`);
 
+  // Upload each file using the retry and fallback mechanism
   for (const file of files) {
     const localFilePath = path.join(stagingDir, file);
-    const stat = fs.statSync(localFilePath);
-    const sizeMb = (stat.size / (1024 * 1024)).toFixed(2);
-    const startTime = Date.now();
-    console.log(`⬆️ Uploading ${file} (${sizeMb} MB)...`);
-    await client.uploadFrom(localFilePath, file);
-    const timeTaken = ((Date.now() - startTime) / 1000).toFixed(1);
-    console.log(`✅ Uploaded ${file} in ${timeTaken}s`);
+    await uploadFileWithRetry(host, user, password, serverDir, localFilePath, file, 3);
   }
 
-  client.close();
-  console.log("----------------------------------------------------------------");
-  console.log("🎉 All files uploaded to Hostinger in record time!");
+  console.log("\n----------------------------------------------------------------");
+  console.log("🎉 All files uploaded to Hostinger successfully!");
   console.log("----------------------------------------------------------------");
 }
 
 run().catch(err => {
-  console.error("❌ Unexpected upload error:", err);
+  console.error("❌ Fatal deployment upload error:", err);
   process.exit(1);
 });

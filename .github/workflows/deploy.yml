@@ -14,7 +14,7 @@ jobs:
   build-and-deploy:
     name: 🚀 Build & Ultra-Fast Deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - name: ⬇️ Checkout Repository
@@ -49,10 +49,10 @@ jobs:
           # 2. Create staging directory
           mkdir -p staging
 
-          # 3. Zip all files and folders from frontend/build (including dotfiles like .htaccess)
+          # 3. Zip all files and folders from frontend/build (including dotfiles like .htaccess), excluding *.map
           cd frontend/build
           shopt -s dotglob
-          zip -r ../../staging/deploy.zip *
+          zip -9 -r ../../staging/deploy.zip * -x "*.map"
           cd ../..
 
           # 4. Copy extraction script and inject secret token
