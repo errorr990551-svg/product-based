@@ -141,7 +141,7 @@
   },
   "/flow-calculator": {
     "title": "Flow Velocity Calculator (v = Q / (A × PF)) | IOTAFLOW Systems",
-    "description": "Calculate pipe flow velocity, volume flow, and required pipe diameter with profile factors (SS 20.2xx, SS 20.6xx, HVAC 100) and ideal gas law operating data conversion.",
+    "description": "Free pipe flow velocity calculator: get velocity (v = Q / A × PF), flow rate or required pipe diameter for air, gas, steam and water, with DN presets, profile factors and operating-to-standard flow conversion.",
     "keywords": "flow velocity calculator, pipe velocity formula, industrial flow meter calculator, profile factor 0.739, volume flow to velocity, gas law standard flow conversion, iotaflow systems",
     "priority": "0.9",
     "changefreq": "monthly"

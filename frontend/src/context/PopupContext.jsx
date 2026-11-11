@@ -14,7 +14,9 @@ export const PopupProvider = ({ children }) => {
     const timer = setTimeout(() => {
       // Only auto-open if contact details haven't been revealed yet
       const revealed = localStorage.getItem("contactDetailsRevealed") === "true";
-      if (!revealed) {
+      // Don't cover interactive tool pages with the enquiry popup
+      const toolPage = window.location.pathname.startsWith("/flow-calculator");
+      if (!revealed && !toolPage) {
         setPopupPurpose("default");
         setIsPopupOpen(true);
       }
