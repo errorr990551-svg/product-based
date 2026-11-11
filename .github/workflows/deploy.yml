@@ -14,7 +14,7 @@ jobs:
   build-and-deploy:
     name: 🚀 Build & Ultra-Fast Deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: ⬇️ Checkout Repository
@@ -38,31 +38,18 @@ jobs:
         run: |
           cd frontend
           npm run build
-          cd ..
 
       - name: 🗜️ Package into Fast Deploy ZIP (with .htaccess)
+        env:
+          SITE_DOMAIN: ${{ secrets.SITE_DOMAIN || 'https://iotaflow.com' }}
         run: |
-          # 1. Generate unique deployment secret for this run
           DEPLOY_SECRET=$(openssl rand -hex 16)
+          ZIP_NAME="deploy_${DEPLOY_SECRET}.zip"
           echo "DEPLOY_SECRET=$DEPLOY_SECRET" >> $GITHUB_ENV
+          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
+          DEPLOY_SECRET=$DEPLOY_SECRET ZIP_NAME=$ZIP_NAME node .github/scripts/package_deploy.cjs
 
-          # 2. Create staging directory
-          mkdir -p staging
-
-          # 3. Zip all files and folders from frontend/build (including dotfiles like .htaccess)
-          cd frontend/build
-          shopt -s dotglob
-          zip -r ../../staging/deploy.zip *
-          cd ../..
-
-          # 4. Copy extraction script and inject secret token
-          cp .github/scripts/deploy_extract.php staging/deploy_extract.php
-          sed -i "s/DEPLOY_SECRET_KEY/$DEPLOY_SECRET/g" staging/deploy_extract.php
-
-          echo "✅ Deployment package prepared in staging/:"
-          ls -lh staging/
-
-      - name: 📤 Upload ZIP Package to Hostinger (Fast FTP/FTPS)
+      - name: 📤 Upload Package to Hostinger (Fast FTP)
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
@@ -73,43 +60,23 @@ jobs:
 
       - name: ⚡ Trigger Server Unpack & Clean Up Archive
         run: |
-          echo "Waiting 3 seconds for file system sync..."
-          sleep 3
-
-          echo "Triggering deploy_extract.php on Hostinger..."
           DOMAIN="${{ secrets.SITE_DOMAIN || 'https://iotaflow.com' }}"
           DOMAIN="${DOMAIN%/}"
+          echo "🚀 Triggering extraction on server: ${DOMAIN}/deploy_extract.php?zip=${ZIP_NAME}..."
 
-          echo "Calling: ${DOMAIN}/deploy_extract.php"
-          RESPONSE=$(curl -k -s -S -L --max-time 120 "${DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}")
+          # Simple HTTP GET request to trigger PHP ZipArchive extractTo
+          RESPONSE=$(curl -k -s -S -L --max-time 120 \
+            -H "X-Deploy-Secret: ${DEPLOY_SECRET}" \
+            "${DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}&zip=${ZIP_NAME}")
+
           echo "Server Response: $RESPONSE"
-
-          # If response doesn't contain success, also try alternate domain format (with/without www)
-          if [[ "$RESPONSE" != *"success"* ]]; then
-            if [[ "$DOMAIN" == *"https://www."* ]]; then
-              ALT_DOMAIN="${DOMAIN/https:\/\/www./https:\/\/}"
-            else
-              ALT_DOMAIN="${DOMAIN/https:\/\//https:\/\/www.}"
-            fi
-            echo "Retrying on alternate domain: ${ALT_DOMAIN}/deploy_extract.php..."
-            ALT_RESPONSE=$(curl -k -s -S -L --max-time 120 "${ALT_DOMAIN}/deploy_extract.php?secret=${DEPLOY_SECRET}")
-            echo "Alternate Response: $ALT_RESPONSE"
-            if [[ "$ALT_RESPONSE" == *"success"* ]]; then
-              RESPONSE="$ALT_RESPONSE"
-            fi
-          fi
 
           if [[ "$RESPONSE" == *"success"* ]]; then
             echo "🎉 Extraction successful! All pages and assets deployed instantly on Hostinger."
           else
             echo "❌ Extraction failed or script was not reachable."
             echo "------------------------------------------------------"
-            echo "Troubleshooting Tips:"
-            echo "1. If you got a 404 error, check your FTP account path in Hostinger:"
-            echo "   - If your FTP account lands in /public_html, server-dir './' works."
-            echo "   - If using Hostinger Master FTP account, add a GitHub Secret: FTP_SERVER_DIR = public_html/"
-            echo "2. Check if PHP ZipArchive is enabled in Hostinger PHP extensions."
-            echo "3. If using custom domain, verify SITE_DOMAIN in GitHub Secrets (Default: https://iotaflow.com)."
+            echo "Server returned: $RESPONSE"
             echo "------------------------------------------------------"
             exit 1
           fi
@@ -118,10 +85,23 @@ jobs:
         run: |
           DOMAIN="${{ secrets.SITE_DOMAIN || 'https://iotaflow.com' }}"
           DOMAIN="${DOMAIN%/}"
+          echo "🔍 Verifying homepage..."
           HTTP_STATUS=$(curl -k -o /dev/null -s -w "%{http_code}" "${DOMAIN}/")
           echo "HTTP Status for ${DOMAIN}/: $HTTP_STATUS"
+
+          echo "🔍 Verifying new product page: /product-detail/detail26..."
+          DETAIL_STATUS=$(curl -k -o /dev/null -s -w "%{http_code}" "${DOMAIN}/product-detail/detail26")
+          echo "HTTP Status for /product-detail/detail26: $DETAIL_STATUS"
+
           if [ "$HTTP_STATUS" -eq 200 ] || [ "$HTTP_STATUS" -eq 301 ] || [ "$HTTP_STATUS" -eq 302 ]; then
             echo "✅ Website is live and healthy!"
           else
-            echo "⚠️ Website returned HTTP $HTTP_STATUS"
+            echo "⚠️ Homepage returned unexpected HTTP status: $HTTP_STATUS"
+            exit 1
+          fi
+
+          if [ "$DETAIL_STATUS" -eq 200 ] || [ "$DETAIL_STATUS" -eq 301 ] || [ "$DETAIL_STATUS" -eq 302 ]; then
+            echo "✅ Fire Pump Test Meter page is live!"
+          else
+            echo "⚠️ Detail26 returned HTTP status: $DETAIL_STATUS"
           fi

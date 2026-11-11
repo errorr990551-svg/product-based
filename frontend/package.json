@@ -29,7 +29,7 @@
     "start:react": "react-scripts start",
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "prerender": "node scripts/prerender-routes.js",
-    "build": "cross-env CI=false tailwindcss -i ./src/index.css -o ./src/tailwind-output.css && node scripts/generate-sitemap.js && cross-env CI=false react-scripts build && node scripts/prerender-routes.js",
+    "build": "cross-env CI=false GENERATE_SOURCEMAP=false tailwindcss -i ./src/index.css -o ./src/tailwind-output.css && node scripts/generate-sitemap.js && cross-env CI=false GENERATE_SOURCEMAP=false react-scripts build && node scripts/prerender-routes.js",
     "test": "react-scripts test"
   },
   "eslintConfig": {

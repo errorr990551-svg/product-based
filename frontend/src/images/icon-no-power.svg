@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <rect width="48" height="48" rx="8" fill="#E8F5E9"/>
+  <circle cx="24" cy="24" r="17" stroke="#2E7D32" stroke-width="2.5" fill="#FFFFFF"/>
+  <!-- Lightning bolt / power unplugged symbol -->
+  <path d="M25 13L17 25H23L21 35L31 23H25L27 13H25Z" fill="#757575"/>
+  <!-- Prohibition slash -->
+  <line x1="13" y1="13" x2="35" y2="35" stroke="#D32F2F" stroke-width="3" stroke-linecap="round"/>
+</svg>
+
