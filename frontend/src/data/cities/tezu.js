@@ -8,7 +8,7 @@ export const tezuSeoData = {
   city: "Tezu",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Tezu | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Tezu, flow meter supplier Tezu, electromagnetic flow meter Tezu, ultrasonic flow meter Tezu, flow meter Arunachal Pradesh, NABL flow meter calibration Tezu",
-  metaDescription: "Flow meter manufacturer & supplier in Tezu, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Tezu and Lohit region.",
+  metaDescription: "Flow meter manufacturer in Tezu, Arunachal Pradesh: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Tezu and Lohit region.",
 
   // 🔹 HERO SLIDER
   slides: [

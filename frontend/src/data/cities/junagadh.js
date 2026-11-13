@@ -8,7 +8,7 @@ export const junagadhSeoData = {
   city: "Junagadh",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Junagadh | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Junagadh, Industrial Instrumentation Suppliers Junagadh, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Junagadh, NABL Calibration Junagadh, IOTAFLOW Agriculture & Tourism",
-  metaDescription: "Leading Flowmeter Manufacturer in Junagadh. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Junagadh’s agricultural processing units, cement plants, and municipal water projects.",
+  metaDescription: "Flow meter manufacturer in Junagadh: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Junagadh’s agricultural processing units.",
 
   // 🔹 HERO SLIDER
   slides: [

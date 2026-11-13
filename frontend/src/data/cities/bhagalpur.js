@@ -8,7 +8,7 @@ export const bhagalpurSeoData = {
   city: "Bhagalpur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Bhagalpur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bhagalpur, Silk Industry Instrumentation, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Bhagalpur, NABL Calibration Bhagalpur, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Bhagalpur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Bhagalpur’s silk production, textiles, and agricultural sectors.",
+  metaDescription: "Flow meter manufacturer in Bhagalpur: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Bhagalpur’s silk production and textiles.",
 
   // 🔹 HERO SLIDER
   slides: [

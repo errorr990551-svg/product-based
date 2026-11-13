@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const vascoDaGamaSeoData = {
   city: "Vasco da Gama",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Vasco da Gama | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Vasco da Gama | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Vasco da Gama, Industrial Instrumentation Suppliers Vasco, Electromagnetic Flow Meter South Goa, Marine Flowmeters Mormugao, NABL Calibration Vasco, IOTAFLOW Port Solutions",
-  metaDescription: "Leading Flowmeter Manufacturer in Vasco da Gama. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Vasco’s maritime, petroleum, and industrial logistics sectors.",
+  metaDescription: "Flow meter manufacturer in Vasco da Gama: ISO-certified electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Vasco’s maritime and petroleum.",
 
   // 🔹 HERO SLIDER
   slides: [

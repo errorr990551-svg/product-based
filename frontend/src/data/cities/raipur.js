@@ -8,7 +8,7 @@ export const raipurSeoData = {
   city: "Raipur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Raipur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Raipur, Industrial Instrumentation Suppliers Bhilai, Electromagnetic Flow Meter Chhattisgarh, Ultrasonic Flowmeter Raipur, NABL Calibration Raipur, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Raipur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Raipur’s expanding steel plants, power sectors, and smart city water management.",
+  metaDescription: "Flow meter manufacturer in Raipur: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Raipur’s expanding steel plants and power sectors.",
 
   // 🔹 HERO SLIDER
   slides: [

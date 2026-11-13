@@ -8,7 +8,7 @@ export const saharsaSeoData = {
   city: "Saharsa",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Saharsa | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Saharsa, Industrial Instrumentation Kosi, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Saharsa, NABL Calibration Saharsa, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Saharsa. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Saharsa’s agricultural processing, grain storage, and municipal utility sectors.",
+  metaDescription: "Flow meter manufacturer in Saharsa: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Saharsa’s agricultural processing and grain storage.",
 
   // 🔹 HERO SLIDER
   slides: [

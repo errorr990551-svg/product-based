@@ -8,7 +8,7 @@ export const bharuchSeoData = {
   city: "Bharuch",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Bharuch | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bharuch, Industrial Instrumentation Suppliers Bharuch, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Bharuch, NABL Calibration Bharuch, IOTAFLOW Chemical & Fertilizers",
-  metaDescription: "Leading Flowmeter Manufacturer in Bharuch. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Bharuch’s massive chemical estates, fertilizer plants, and Dahej SEZ industrial units.",
+  metaDescription: "Flow meter manufacturer in Bharuch: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Bharuch’s massive chemical estates.",
 
   // 🔹 HERO SLIDER
   slides: [

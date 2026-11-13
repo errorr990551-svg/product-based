@@ -8,7 +8,7 @@ export const jagdalpurSeoData = {
   city: "Jagdalpur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Jagdalpur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Jagdalpur, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Jagdalpur, Ultrasonic Flowmeter Jagdalpur, NABL Calibration Jagdalpur, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Jagdalpur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Jagdalpur’s NMDC iron ore mines, food processing, and regional utility sectors.",
+  metaDescription: "Flow meter manufacturer in Jagdalpur: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Jagdalpur’s NMDC iron ore mines.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const mapusaSeoData = {
   city: "Mapusa",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Mapusa | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Mapusa, Industrial Instrumentation Suppliers Mapusa, Electromagnetic Flow Meter North Goa, Ultrasonic Flowmeter Mapusa, NABL Calibration Mapusa, IOTAFLOW North Goa Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Mapusa. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Mapusa’s northern industrial estates, tourism infrastructure, and regional distribution networks.",
+  metaDescription: "Flow meter manufacturer in Mapusa: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Mapusa’s northern industrial estates.",
 
   // 🔹 HERO SLIDER
   slides: [

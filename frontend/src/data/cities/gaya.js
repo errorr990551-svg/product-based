@@ -8,7 +8,7 @@ export const gayaSeoData = {
   city: "Gaya",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Gaya | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Gaya, Industrial Instrumentation Suppliers Bodh Gaya, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Gaya, NABL Calibration Gaya, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Gaya. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Gaya’s industrial utility, religious infrastructure, and agriculture sectors.",
+  metaDescription: "Flow meter manufacturer in Gaya: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Gaya’s industrial utility and religious infrastructure.",
 
   // 🔹 HERO SLIDER
   slides: [

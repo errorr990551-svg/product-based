@@ -8,7 +8,7 @@ export const gwaliorSeoData = {
   city: "Gwalior",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Gwalior | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Gwalior, Industrial Instrumentation Suppliers Gwalior, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Gwalior, NABL Calibration Gwalior, IOTAFLOW Manufacturing & Engineering Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Gwalior. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Gwalior’s textile mills, food processing units, and heavy engineering industries.",
+  metaDescription: "Flow meter manufacturer in Gwalior: electromagnetic, ultrasonic & vortex meters for textile mills, food processing units & heavy engineering industries.",
 
   // 🔹 HERO SLIDER
   slides: [

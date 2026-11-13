@@ -8,7 +8,7 @@ export const dibrugarhSeoData = {
   city: "Dibrugarh",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Dibrugarh | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Dibrugarh, Industrial Instrumentation Suppliers Upper Assam, Electromagnetic Flow Meter Naharkatia, Ultrasonic Flowmeter Dibrugarh, NABL Calibration Dibrugarh, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Dibrugarh. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Dibrugarh’s tea estates, oil & gas sectors, and medical infrastructure.",
+  metaDescription: "Flow meter manufacturer in Dibrugarh: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Dibrugarh’s tea estates and oil & gas sectors.",
 
   // 🔹 HERO SLIDER
   slides: [

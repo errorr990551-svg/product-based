@@ -8,7 +8,7 @@ export const taleigaoSeoData = {
   city: "Taleigao",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Taleigao | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Taleigao, Industrial Instrumentation Suppliers Taleigao, Electromagnetic Flow Meter Panaji Suburb, Ultrasonic Flowmeter Taleigao, NABL Calibration Taleigao, IOTAFLOW Urban Growth",
-  metaDescription: "Leading Flowmeter Manufacturer in Taleigao. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Taleigao’s rapid residential expansion, educational institutions, and smart city infrastructure.",
+  metaDescription: "Flow meter manufacturer in Taleigao: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Taleigao’s rapid residential expansion.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const raigarhSeoData = {
   city: "Raigarh",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Raigarh | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Raigarh, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Raigarh, Ultrasonic Flowmeter Raigarh, NABL Calibration Raigarh, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Raigarh. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Raigarh’s steel manufacturing, sponge iron plants, and mining sectors.",
+  metaDescription: "Flow meter manufacturer in Raigarh: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Raigarh’s steel manufacturing and sponge iron plants.",
 
   // 🔹 HERO SLIDER
   slides: [

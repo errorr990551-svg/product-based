@@ -8,7 +8,7 @@ export const dhamtariSeoData = {
   city: "Dhamtari",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Dhamtari | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Dhamtari, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Dhamtari, Ultrasonic Flowmeter Dhamtari, NABL Calibration Dhamtari, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Dhamtari. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Dhamtari’s rice milling sectors, irrigation projects, and regional food industries.",
+  metaDescription: "Flow meter manufacturer in Dhamtari: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Dhamtari’s rice milling sectors.",
 
   // 🔹 HERO SLIDER
   slides: [

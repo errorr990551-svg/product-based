@@ -8,7 +8,7 @@ export const begusaraiSeoData = {
   city: "Begusarai",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Begusarai | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Begusarai, Petrochemical Instrumentation Barauni, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Begusarai, NABL Calibration Begusarai, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Begusarai. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Begusarai’s petrochemicals, refineries, and industrial production.",
+  metaDescription: "Flow meter manufacturer in Begusarai: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Begusarai’s petrochemicals and refineries.",
 
   // 🔹 HERO SLIDER
   slides: [

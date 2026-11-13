@@ -8,7 +8,7 @@ export const dewasSeoData = {
   city: "Dewas",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Dewas | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Dewas, Industrial Instrumentation Suppliers Dewas, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Dewas, NABL Calibration Dewas, IOTAFLOW Pharma & Auto Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Dewas. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Dewas’s pharmaceutical plants, automobile manufacturing, and chemical industries.",
+  metaDescription: "Flow meter manufacturer in Dewas: electromagnetic, ultrasonic & vortex meters for pharmaceutical plants, automobile manufacturing & chemical industries.",
 
   // 🔹 HERO SLIDER
   slides: [

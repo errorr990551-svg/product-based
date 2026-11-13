@@ -8,7 +8,7 @@ export const hospetSeoData = {
   city: "Hospet",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Hospet | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Hospet, flow meter supplier Hospet, electromagnetic flow meter Hospet, ultrasonic flow meter Hospet, flow meter Karnataka, NABL flow meter calibration Hospet",
-  metaDescription: "Flow meter manufacturer & supplier in Hospet, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Hospet-Ballari region.",
+  metaDescription: "Flow meter manufacturer in Hospet, Karnataka: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Hospet-Ballari region.",
 
   // 🔹 HERO SLIDER
   slides: [

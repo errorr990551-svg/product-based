@@ -8,7 +8,7 @@ export const vijayapuraSeoData = {
   city: "Vijayapura",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Vijayapura | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Vijayapura, flow meter supplier Vijayapura, electromagnetic flow meter Vijayapura, ultrasonic flow meter Vijayapura, flow meter Karnataka, NABL flow meter calibration Vijayapura",
-  metaDescription: "Flow meter manufacturer & supplier in Vijayapura, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Vijayapura district.",
+  metaDescription: "Flow meter manufacturer in Vijayapura, Karnataka: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Vijayapura district.",
 
   // 🔹 HERO SLIDER
   slides: [

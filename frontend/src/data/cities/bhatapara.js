@@ -8,7 +8,7 @@ export const bhataparaSeoData = {
   city: "Bhatapara",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Bhatapara | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bhatapara, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Bhatapara, Ultrasonic Flowmeter Bhatapara, NABL Calibration Bhatapara, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Bhatapara. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Bhatapara’s cement industries, agro-processing, and regional infrastructure.",
+  metaDescription: "Flow meter manufacturer in Bhatapara: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Bhatapara’s cement industries and agro-processing.",
 
   // 🔹 HERO SLIDER
   slides: [

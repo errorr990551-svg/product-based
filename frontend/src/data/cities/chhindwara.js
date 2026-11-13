@@ -8,7 +8,7 @@ export const chhindwaraSeoData = {
   city: "Chhindwara",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Chhindwara | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Chhindwara, Industrial Instrumentation Suppliers Chhindwara, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Chhindwara, NABL Calibration Chhindwara, IOTAFLOW Mining & Agri Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Chhindwara. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Chhindwara’s coal mining operations, textile mills, and food processing industries.",
+  metaDescription: "Flow meter manufacturer in Chhindwara: electromagnetic, ultrasonic & vortex meters for coal mining operations, textile mills & food processing industries.",
 
   // 🔹 HERO SLIDER
   slides: [

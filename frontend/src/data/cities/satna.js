@@ -8,7 +8,7 @@ export const satnaSeoData = {
   city: "Satna",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Satna | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Satna, Industrial Instrumentation Suppliers Satna, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Satna, NABL Calibration Satna, IOTAFLOW Cement Capital Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Satna. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Satna’s massive cement plants, limestone mining, and agricultural industries.",
+  metaDescription: "Flow meter manufacturer in Satna: electromagnetic, ultrasonic & vortex meters for cement plants, limestone mining & agricultural industries.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const anandSeoData = {
   city: "Anand",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Anand | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Anand, Industrial Instrumentation Suppliers Anand, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Anand, NABL Calibration Anand, IOTAFLOW Milk Capital India",
-  metaDescription: "Leading Flowmeter Manufacturer in Anand. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Anand’s world-renowned dairy cooperatives, food processing units, and engineering industries.",
+  metaDescription: "Flow meter manufacturer in Anand: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Anand’s world-renowned dairy cooperatives.",
 
   // 🔹 HERO SLIDER
   slides: [

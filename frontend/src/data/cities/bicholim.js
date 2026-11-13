@@ -8,7 +8,7 @@ export const bicholimSeoData = {
   city: "Bicholim",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Bicholim | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bicholim, Industrial Instrumentation Suppliers Bicholim, Electromagnetic Flow Meter North Goa, Ultrasonic Flowmeter Bicholim, NABL Calibration Bicholim, IOTAFLOW Mineral & Industrial",
-  metaDescription: "Leading Flowmeter Manufacturer in Bicholim. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Bicholim’s mineral-based industries and heavy manufacturing units.",
+  metaDescription: "Flow meter manufacturer in Bicholim: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Bicholim’s mineral-based industries.",
 
   // 🔹 HERO SLIDER
   slides: [

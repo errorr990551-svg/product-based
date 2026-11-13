@@ -8,7 +8,7 @@ export const ramgarhSeoData = {
   city: "Ramgarh",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Ramgarh | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Ramgarh, Industrial Instrumentation Suppliers Ramgarh, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Ramgarh, NABL Calibration Ramgarh, IOTAFLOW Coal & Steel",
-  metaDescription: "Leading Flowmeter Manufacturer in Ramgarh. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Ramgarh’s coal washeries, sponge iron plants, and refractory units.",
+  metaDescription: "Flow meter manufacturer in Ramgarh: electromagnetic, ultrasonic & vortex meters for coal washeries, sponge iron plants & refractory units.",
 
   // 🔹 HERO SLIDER
   slides: [

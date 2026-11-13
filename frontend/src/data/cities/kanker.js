@@ -8,7 +8,7 @@ export const kankerSeoData = {
   city: "Kanker",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Kanker | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Kanker, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Kanker, Ultrasonic Flowmeter Kanker, NABL Calibration Kanker, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Kanker. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Kanker’s mining sectors, agro-processing, and regional development projects.",
+  metaDescription: "Flow meter manufacturer in Kanker: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Kanker’s mining sectors and agro-processing.",
 
   // 🔹 HERO SLIDER
   slides: [

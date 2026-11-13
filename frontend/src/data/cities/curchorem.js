@@ -8,7 +8,7 @@ export const curchoremSeoData = {
   city: "Curchorem",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Curchorem | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Curchorem, Industrial Instrumentation Suppliers Curchorem, Electromagnetic Flow Meter South Goa, Ultrasonic Flowmeter Curchorem, NABL Calibration Curchorem, IOTAFLOW Mining & Steel",
-  metaDescription: "Leading Flowmeter Manufacturer in Curchorem. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Curchorem’s heavy industrial sector, mining operations, and steel manufacturing plants.",
+  metaDescription: "Flow meter manufacturer in Curchorem: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Curchorem’s heavy industrial sector.",
 
   // 🔹 HERO SLIDER
   slides: [

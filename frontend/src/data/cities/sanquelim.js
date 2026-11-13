@@ -8,7 +8,7 @@ export const sanquelimSeoData = {
   city: "Sanquelim",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Sanquelim | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Sanquelim, Industrial Instrumentation Suppliers Sanquelim, Electromagnetic Flow Meter North Goa, Ultrasonic Flowmeter Sanquelim, NABL Calibration Sanquelim, IOTAFLOW Education & Industry",
-  metaDescription: "Leading Flowmeter Manufacturer in Sanquelim. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Sanquelim’s educational institutions, mining machinery, and industrial zones.",
+  metaDescription: "Flow meter manufacturer in Sanquelim: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Sanquelim’s educational institutions.",
 
   // 🔹 HERO SLIDER
   slides: [

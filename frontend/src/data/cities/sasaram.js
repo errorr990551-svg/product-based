@@ -8,7 +8,7 @@ export const sasaramSeoData = {
   city: "Sasaram",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Sasaram | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Sasaram, Industrial Instrumentation Rohtas, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Sasaram, NABL Calibration Sasaram, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Sasaram. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Sasaram’s stone processing, cement industries, and municipal utilities.",
+  metaDescription: "Flow meter manufacturer in Sasaram: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Sasaram’s stone processing and cement industries.",
 
   // 🔹 HERO SLIDER
   slides: [

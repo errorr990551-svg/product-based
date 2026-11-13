@@ -8,7 +8,7 @@ export const dhanbadSeoData = {
   city: "Dhanbad",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Dhanbad | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Dhanbad, Industrial Instrumentation Suppliers Dhanbad, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Dhanbad, NABL Calibration Dhanbad, IOTAFLOW Coal Capital",
-  metaDescription: "Leading Flowmeter Manufacturer in Dhanbad. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Dhanbad’s coal mines, washeries, and BCCL industrial projects.",
+  metaDescription: "Leading Flowmeter Manufacturer in Dhanbad. Providing Electromagnetic, Ultrasonic, and Vortex flow meters for Dhanbad’s coal mines and washeries.",
 
   // 🔹 HERO SLIDER
   slides: [

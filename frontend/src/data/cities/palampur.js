@@ -8,7 +8,7 @@ export const palampurSeoData = {
   city: "Palampur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Palampur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Palampur, Industrial Instrumentation Suppliers Palampur, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Palampur, NABL Calibration Palampur, IOTAFLOW Tea & Horticulture",
-  metaDescription: "Leading Flowmeter Manufacturer in Palampur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Palampur’s famous tea estates, horticultural centers, and agriculture research institutes.",
+  metaDescription: "Flow meter manufacturer in Palampur: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Palampur’s famous tea estates.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const vernaSeoData = {
   city: "Verna",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Verna | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Verna, Industrial Instrumentation Suppliers Verna, Electromagnetic Flow Meter Goa, Ultrasonic Flowmeter Verna, NABL Calibration Verna, IOTAFLOW Industrial Estate",
-  metaDescription: "Leading Flowmeter Manufacturer in Verna. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Verna’s massive industrial estate, pharmaceutical plants, and manufacturing units.",
+  metaDescription: "Flow meter manufacturer in Verna: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Verna’s massive industrial estate.",
 
   // 🔹 HERO SLIDER
   slides: [

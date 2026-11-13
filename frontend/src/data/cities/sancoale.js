@@ -8,7 +8,7 @@ export const sancoaleSeoData = {
   city: "Sancoale",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Sancoale | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Sancoale, Industrial Instrumentation Suppliers Sancoale, Electromagnetic Flow Meter South Goa, Ultrasonic Flowmeter Sancoale, NABL Calibration Sancoale, IOTAFLOW Logistics & Warehousing",
-  metaDescription: "Leading Flowmeter Manufacturer in Sancoale. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Sancoale’s logistics hubs, port-side industries, and manufacturing corridors.",
+  metaDescription: "Flow meter manufacturer in Sancoale: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Sancoale’s logistics hubs and port-side industries.",
 
   // 🔹 HERO SLIDER
   slides: [

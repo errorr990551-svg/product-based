@@ -8,7 +8,7 @@ export const gandhidhamSeoData = {
   city: "Gandhidham",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Gandhidham | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Gandhidham, Industrial Instrumentation Suppliers Gandhidham, Electromagnetic Flow Meter Kutch, Ultrasonic Flowmeter Gandhidham, NABL Calibration Gandhidham, IOTAFLOW Port & Logistics",
-  metaDescription: "Leading Flowmeter Manufacturer in Gandhidham. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Gandhidham’s major port operations, timber industries, and salt manufacturing units.",
+  metaDescription: "Flow meter manufacturer in Gandhidham: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Gandhidham’s major port operations.",
 
   // 🔹 HERO SLIDER
   slides: [

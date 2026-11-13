@@ -8,7 +8,7 @@ export const sahibganjSeoData = {
   city: "Sahibganj",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Sahibganj | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Sahibganj, Industrial Instrumentation Suppliers Sahibganj, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Sahibganj, NABL Calibration Sahibganj, IOTAFLOW Inland Waterways & Mining",
-  metaDescription: "Leading Flowmeter Manufacturer in Sahibganj. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Sahibganj’s Multi-Modal Terminal, stone crushing units, and river-based logistics.",
+  metaDescription: "Flow meter manufacturer in Sahibganj: electromagnetic, ultrasonic & vortex meters for the river port, stone crushers & river-based logistics.",
 
   // 🔹 HERO SLIDER
   slides: [

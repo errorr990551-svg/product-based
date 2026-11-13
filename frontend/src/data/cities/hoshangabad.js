@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const hoshangabadSeoData = {
   city: "Hoshangabad",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Hoshangabad | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Hoshangabad | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Hoshangabad, Industrial Instrumentation Suppliers Narmadapuram, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Hoshangabad, NABL Calibration Hoshangabad, IOTAFLOW Paper & Agri Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Hoshangabad (Narmadapuram). Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Hoshangabad’s paper mills, security paper manufacturing, and agricultural processing.",
+  metaDescription: "Flow meter manufacturer in Hoshangabad (Narmadapuram): electromagnetic, ultrasonic & vortex meters for paper mills & security paper manufacturing.",
 
   // 🔹 HERO SLIDER
   slides: [

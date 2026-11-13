@@ -8,7 +8,7 @@ export const guwahatiSeoData = {
   city: "Guwahati",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Guwahati | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Guwahati, Industrial Instrumentation Suppliers Kamrup Metro, Electromagnetic Flow Meter Dispur, Ultrasonic Flowmeter Guwahati, NABL Calibration Guwahati, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Guwahati. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Guwahati’s oil & gas, food processing, and urban water management sectors.",
+  metaDescription: "Flow meter manufacturer in Guwahati: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Guwahati’s oil & gas and food processing.",
 
   // 🔹 HERO SLIDER
   slides: [

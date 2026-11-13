@@ -8,7 +8,7 @@ export const margaoSeoData = {
   city: "Margao",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Margao | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Margao, Industrial Instrumentation Suppliers Margao, Electromagnetic Flow Meter South Goa, Ultrasonic Flowmeter Margao, NABL Calibration Margao, IOTAFLOW Commercial Solutions",
-  metaDescription: "Leading Flowmeter Manufacturer in Margao. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Margao’s diverse commercial, industrial, and railway logistics sectors.",
+  metaDescription: "Flow meter manufacturer in Margao: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Margao’s diverse commercial and industrial.",
 
   // 🔹 HERO SLIDER
   slides: [

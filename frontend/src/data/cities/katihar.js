@@ -8,7 +8,7 @@ export const katiharSeoData = {
   city: "Katihar",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Katihar | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Katihar, Jute Industry Instrumentation, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Katihar, NABL Calibration Katihar, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Katihar. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Katihar’s jute mills, agricultural processing, and municipal utilities.",
+  metaDescription: "Flow meter manufacturer in Katihar: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Katihar’s jute mills and agricultural processing.",
 
   // 🔹 HERO SLIDER
   slides: [

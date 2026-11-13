@@ -8,7 +8,7 @@ export const mandiSeoData = {
   city: "Mandi",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Mandi | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Mandi, Industrial Instrumentation Suppliers Mandi, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Mandi, NABL Calibration Mandi, IOTAFLOW Hydro & Agri Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Mandi. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Mandi’s hydroelectric projects, agricultural processing, and municipal utilities.",
+  metaDescription: "Flow meter manufacturer in Mandi: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Mandi’s hydroelectric projects.",
 
   // 🔹 HERO SLIDER
   slides: [

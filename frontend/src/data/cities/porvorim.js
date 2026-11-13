@@ -8,7 +8,7 @@ export const porvorimSeoData = {
   city: "Porvorim",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Porvorim | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Porvorim, Industrial Instrumentation Suppliers Porvorim, Electromagnetic Flow Meter North Goa, Ultrasonic Flowmeter Porvorim, NABL Calibration Porvorim, IOTAFLOW Premium Infrastructure",
-  metaDescription: "Leading Flowmeter Manufacturer in Porvorim. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Porvorim’s high-end residential, commercial, and emerging IT sectors.",
+  metaDescription: "Flow meter manufacturer in Porvorim: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Porvorim’s high-end residential and commercial.",
 
   // 🔹 HERO SLIDER
   slides: [

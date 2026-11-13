@@ -8,7 +8,7 @@ export const jabalpurSeoData = {
   city: "Jabalpur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Jabalpur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Jabalpur, Industrial Instrumentation Suppliers Jabalpur, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Jabalpur, NABL Calibration Jabalpur, IOTAFLOW Defense & Mineral Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Jabalpur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Jabalpur’s defense factories, mineral processing units, and food industries.",
+  metaDescription: "Flow meter manufacturer in Jabalpur: electromagnetic, ultrasonic & vortex meters for defense factories, mineral processing units & food industries.",
 
   // 🔹 HERO SLIDER
   slides: [

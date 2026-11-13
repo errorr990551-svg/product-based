@@ -8,7 +8,7 @@ export const giridihSeoData = {
   city: "Giridih",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Giridih | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Giridih, Industrial Instrumentation Suppliers Giridih, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Giridih, NABL Calibration Giridih, IOTAFLOW Mica Mining & Steel",
-  metaDescription: "Leading Flowmeter Manufacturer in Giridih. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Giridih’s mica processing units, steel rolling mills, and power plants.",
+  metaDescription: "Flow meter manufacturer in Giridih: electromagnetic, ultrasonic & vortex meters for mica processing units, steel rolling mills & power plants.",
 
   // 🔹 HERO SLIDER
   slides: [

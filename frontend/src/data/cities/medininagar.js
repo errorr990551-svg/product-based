@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const medininagarSeoData = {
   city: "Medininagar",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Medininagar | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Medininagar | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Medininagar, Industrial Instrumentation Suppliers Medininagar, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Medininagar, NABL Calibration Medininagar, IOTAFLOW Palamu Industrial Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Medininagar (Daltonganj). Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Palamu’s cement industries, graphite mining, and municipal water projects.",
+  metaDescription: "Flow meter manufacturer in Medininagar (Daltonganj): electromagnetic, ultrasonic & vortex meters for cement industries & graphite mining.",
 
   // 🔹 HERO SLIDER
   slides: [

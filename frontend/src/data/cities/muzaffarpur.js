@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const muzaffarpurSeoData = {
   city: "Muzaffarpur",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Muzaffarpur | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Muzaffarpur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Muzaffarpur, Agro-Industry Instrumentation, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Muzaffarpur, NABL Calibration Muzaffarpur, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Muzaffarpur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Muzaffarpur’s litchi processing, agro-industries, and urban sectors.",
+  metaDescription: "Flow meter manufacturer in Muzaffarpur: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Muzaffarpur’s litchi processing.",
 
   // 🔹 HERO SLIDER
   slides: [

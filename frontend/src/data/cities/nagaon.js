@@ -8,7 +8,7 @@ export const nagaonSeoData = {
   city: "Nagaon",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Nagaon | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Nagaon, Industrial Instrumentation Suppliers Central Assam, Electromagnetic Flow Meter Kaliabor, Ultrasonic Flowmeter Nagaon, NABL Calibration Nagaon, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Nagaon. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Nagaon’s paper mills, jute industry, and agricultural processing sectors.",
+  metaDescription: "Flow meter manufacturer in Nagaon: ISO-certified electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Nagaon’s paper mills and jute industry.",
 
   // 🔹 HERO SLIDER
   slides: [

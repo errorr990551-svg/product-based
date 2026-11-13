@@ -8,7 +8,7 @@ export const arrahSeoData = {
   city: "Arrah",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Arrah | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Arrah, Industrial Instrumentation Bhojpur, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Arrah, NABL Calibration Arrah, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Arrah. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Arrah’s grain mills, agriculture processing, and urban utilities.",
+  metaDescription: "Flow meter manufacturer in Arrah: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Arrah’s grain mills and agriculture processing.",
 
   // 🔹 HERO SLIDER
   slides: [

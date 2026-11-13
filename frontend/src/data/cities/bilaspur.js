@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const bilaspurSeoData = {
   city: "Bilaspur",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Bilaspur, Chhattisgarh | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Bilaspur, Chhattisgarh | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bilaspur, Industrial Instrumentation Suppliers Sirgitti, Electromagnetic Flow Meter Chhattisgarh, Ultrasonic Flowmeter Bilaspur, NABL Calibration Bilaspur, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Bilaspur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Bilaspur’s coal mining sectors, thermal power plants, and railway workshops.",
+  metaDescription: "Flow meter manufacturer in Bilaspur: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Bilaspur’s coal mining sectors.",
 
   // 🔹 HERO SLIDER
   slides: [

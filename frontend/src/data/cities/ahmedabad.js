@@ -8,7 +8,7 @@ export const ahmedabadSeoData = {
   city: "Ahmedabad",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Ahmedabad | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Ahmedabad, Industrial Instrumentation Suppliers Ahmedabad, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Ahmedabad, NABL Calibration Ahmedabad, IOTAFLOW Pharma & Chemical Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Ahmedabad. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Ahmedabad’s massive pharmaceutical clusters, chemical estates, and textile industries.",
+  metaDescription: "Flow meter manufacturer in Ahmedabad: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Ahmedabad’s massive pharmaceutical clusters.",
 
   // 🔹 HERO SLIDER
   slides: [

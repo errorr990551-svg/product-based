@@ -8,7 +8,7 @@ export const jamnagarSeoData = {
   city: "Jamnagar",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Jamnagar | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Jamnagar, Industrial Instrumentation Suppliers Jamnagar, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Jamnagar, NABL Calibration Jamnagar, IOTAFLOW Oil & Brass Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Jamnagar. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Jamnagar’s world-class oil refineries, brass parts industry, and thermal power plants.",
+  metaDescription: "Flow meter manufacturer in Jamnagar: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Jamnagar’s world-class oil refineries.",
 
   // 🔹 HERO SLIDER
   slides: [

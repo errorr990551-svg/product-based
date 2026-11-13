@@ -8,7 +8,7 @@ export const navsariSeoData = {
   city: "Navsari",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Navsari | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Navsari, Industrial Instrumentation Suppliers Navsari, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Navsari, NABL Calibration Navsari, IOTAFLOW Textile & Agriculture",
-  metaDescription: "Leading Flowmeter Manufacturer in Navsari. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Navsari’s textile mills, sugar factories, and agricultural research centers.",
+  metaDescription: "Flow meter manufacturer in Navsari: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Navsari’s textile mills and sugar factories.",
 
   // 🔹 HERO SLIDER
   slides: [

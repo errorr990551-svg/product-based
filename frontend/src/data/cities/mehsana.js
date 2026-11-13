@@ -8,7 +8,7 @@ export const mehsanaSeoData = {
   city: "Mehsana",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Mehsana | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Mehsana, Industrial Instrumentation Suppliers Mehsana, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Mehsana, NABL Calibration Mehsana, IOTAFLOW Dairy & Oil Sector",
-  metaDescription: "Leading Flowmeter Manufacturer in Mehsana. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Mehsana’s massive dairy cooperative, oil & gas assets, and pharmaceutical manufacturing units.",
+  metaDescription: "Flow meter manufacturer in Mehsana: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Mehsana’s massive dairy cooperative.",
 
   // 🔹 HERO SLIDER
   slides: [

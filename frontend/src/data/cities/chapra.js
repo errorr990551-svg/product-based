@@ -8,7 +8,7 @@ export const chapraSeoData = {
   city: "Chapra",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Chapra | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Chapra, Industrial Instrumentation Saran, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Chapra, NABL Calibration Chapra, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Chapra. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Chapra’s agricultural processing, grain mills, and urban utilities.",
+  metaDescription: "Flow meter manufacturer in Chapra: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Chapra’s agricultural processing and grain mills.",
 
   // 🔹 HERO SLIDER
   slides: [

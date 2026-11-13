@@ -8,7 +8,7 @@ export const champaSeoData = {
   city: "Champa",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Champa | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Champa, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Champa, Ultrasonic Flowmeter Champa, NABL Calibration Champa, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Champa. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Champa’s power sectors, silk industries, and regional development projects.",
+  metaDescription: "Flow meter manufacturer in Champa: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Champa’s power sectors and silk industries.",
 
   // 🔹 HERO SLIDER
   slides: [

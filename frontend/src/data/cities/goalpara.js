@@ -8,7 +8,7 @@ export const goalparaSeoData = {
   city: "Goalpara",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Goalpara | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Goalpara, Industrial Instrumentation Suppliers Lower Assam, Electromagnetic Flow Meter Dudhnoi, Ultrasonic Flowmeter Goalpara, NABL Calibration Goalpara, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Goalpara. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Goalpara’s agricultural logistics, riverine trade, and urban water schemes.",
+  metaDescription: "Flow meter manufacturer in Goalpara: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Goalpara’s agricultural logistics.",
 
   // 🔹 HERO SLIDER
   slides: [

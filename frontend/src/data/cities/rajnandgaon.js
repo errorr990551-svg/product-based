@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const rajnandgaonSeoData = {
   city: "Rajnandgaon",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Rajnandgaon | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Rajnandgaon | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Rajnandgaon, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Rajnandgaon, Ultrasonic Flowmeter Rajnandgaon, NABL Calibration Rajnandgaon, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Rajnandgaon. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Rajnandgaon’s agro-industries, textile sectors, and regional utility networks.",
+  metaDescription: "Flow meter manufacturer in Rajnandgaon: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Rajnandgaon’s agro-industries.",
 
   // 🔹 HERO SLIDER
   slides: [

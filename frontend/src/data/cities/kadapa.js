@@ -8,7 +8,7 @@ export const kadapaSeoData = {
   city: "Kadapa",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Kadapa | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Kadapa, flow meter supplier Kadapa, electromagnetic flow meter Kadapa, ultrasonic flow meter Kadapa, flow meter Andhra Pradesh, NABL flow meter calibration Kadapa",
-  metaDescription: "Flow meter manufacturer & supplier in Kadapa, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kadapa region.",
+  metaDescription: "Flow meter manufacturer in Kadapa, Andhra Pradesh: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Kadapa region.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const yingkiongSeoData = {
   city: "Yingkiong",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Yingkiong | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Yingkiong, flow meter supplier Yingkiong, electromagnetic flow meter Yingkiong, ultrasonic flow meter Yingkiong, flow meter Arunachal Pradesh, NABL flow meter calibration Yingkiong",
-  metaDescription: "Flow meter manufacturer & supplier in Yingkiong, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Yingkiong and Upper Siang region.",
+  metaDescription: "Flow meter manufacturer in Yingkiong, Arunachal Pradesh: electromagnetic, ultrasonic & vortex meters for the Yingkiong and Upper Siang region.",
 
   // 🔹 HERO SLIDER
   slides: [

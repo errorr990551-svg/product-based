@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const hubballiDharwadSeoData = {
   city: "Hubballi-Dharwad",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Hubballi-Dharwad | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Hubballi-Dharwad | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Hubballi-Dharwad, flow meter supplier Hubballi-Dharwad, electromagnetic flow meter Hubballi-Dharwad, ultrasonic flow meter Hubballi-Dharwad, flow meter Karnataka, NABL flow meter calibration Hubballi-Dharwad",
-  metaDescription: "Flow meter manufacturer & supplier in Hubballi-Dharwad, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Belur and Gokul Road industrial estates.",
+  metaDescription: "Flow meter manufacturer in Hubballi-Dharwad, Karnataka: electromagnetic, ultrasonic & vortex meters for the Belur and Gokul Road industrial estates.",
 
   // 🔹 HERO SLIDER
   slides: [

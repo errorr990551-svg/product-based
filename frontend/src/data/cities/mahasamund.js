@@ -8,7 +8,7 @@ export const mahasamundSeoData = {
   city: "Mahasamund",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Mahasamund | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Mahasamund, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Mahasamund, Ultrasonic Flowmeter Mahasamund, NABL Calibration Mahasamund, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Mahasamund. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Mahasamund’s agro-industries, rice mills, and regional water supply projects.",
+  metaDescription: "Flow meter manufacturer in Mahasamund: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Mahasamund’s agro-industries and rice mills.",
 
   // 🔹 HERO SLIDER
   slides: [

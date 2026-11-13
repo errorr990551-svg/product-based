@@ -8,7 +8,7 @@ export const nadiadSeoData = {
   city: "Nadiad",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Nadiad | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Nadiad, Industrial Instrumentation Suppliers Nadiad, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Nadiad, NABL Calibration Nadiad, IOTAFLOW Food & Pharma",
-  metaDescription: "Leading Flowmeter Manufacturer in Nadiad. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Nadiad’s food processing, pharmaceutical labs, and agricultural industrial units.",
+  metaDescription: "Flow meter manufacturer in Nadiad: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Nadiad’s food processing and pharmaceutical labs.",
 
   // 🔹 HERO SLIDER
   slides: [

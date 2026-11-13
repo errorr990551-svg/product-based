@@ -8,7 +8,7 @@ export const rajkotSeoData = {
   city: "Rajkot",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Rajkot | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Rajkot, Industrial Instrumentation Suppliers Rajkot, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Rajkot, NABL Calibration Rajkot, IOTAFLOW Engineering Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Rajkot. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Rajkot’s world-class engine manufacturing, machine tools, and casting industries.",
+  metaDescription: "Flow meter manufacturer in Rajkot: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Rajkot’s world-class engine manufacturing.",
 
   // 🔹 HERO SLIDER
   slides: [

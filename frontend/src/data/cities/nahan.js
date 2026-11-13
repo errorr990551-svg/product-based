@@ -8,7 +8,7 @@ export const nahanSeoData = {
   city: "Nahan",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Nahan | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Nahan, Industrial Instrumentation Suppliers Nahan, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Nahan, NABL Calibration Nahan, IOTAFLOW Pharma & Machinery",
-  metaDescription: "Leading Flowmeter Manufacturer in Nahan. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Nahan’s pharmaceutical labs, chemical units, and heritage industries.",
+  metaDescription: "Flow meter manufacturer in Nahan: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Nahan’s pharmaceutical labs and chemical units.",
 
   // 🔹 HERO SLIDER
   slides: [

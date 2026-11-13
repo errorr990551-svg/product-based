@@ -8,7 +8,7 @@ export const malappuramSeoData = {
   city: "Malappuram",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Malappuram | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Malappuram, flow meter supplier Malappuram, electromagnetic flow meter Malappuram, ultrasonic flow meter Malappuram, flow meter Kerala, NABL flow meter calibration Malappuram",
-  metaDescription: "Flow meter manufacturer & supplier in Malappuram, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Malappuram district.",
+  metaDescription: "Flow meter manufacturer in Malappuram, Kerala: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Malappuram district.",
 
   // 🔹 HERO SLIDER
   slides: [

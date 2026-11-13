@@ -8,7 +8,7 @@ export const unaSeoData = {
   city: "Una",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Una | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Una, Industrial Instrumentation Suppliers Una, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Una, NABL Calibration Una, IOTAFLOW Textile & Pharma",
-  metaDescription: "Leading Flowmeter Manufacturer in Una, HP. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Una’s growing industrial clusters, textile units, and pharmaceutical plants.",
+  metaDescription: "Flow meter manufacturer in Una, HP: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Una’s growing industrial clusters and textile units.",
 
   // 🔹 HERO SLIDER
   slides: [

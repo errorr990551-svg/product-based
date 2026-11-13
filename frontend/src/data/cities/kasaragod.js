@@ -8,7 +8,7 @@ export const kasaragodSeoData = {
   city: "Kasaragod",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Kasaragod | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Kasaragod, flow meter supplier Kasaragod, electromagnetic flow meter Kasaragod, ultrasonic flow meter Kasaragod, flow meter Kerala, NABL flow meter calibration Kasaragod",
-  metaDescription: "Flow meter manufacturer & supplier in Kasaragod, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kasaragod district.",
+  metaDescription: "Flow meter manufacturer in Kasaragod, Kerala: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Kasaragod district.",
 
   // 🔹 HERO SLIDER
   slides: [

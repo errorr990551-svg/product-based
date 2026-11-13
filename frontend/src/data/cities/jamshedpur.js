@@ -8,7 +8,7 @@ export const jamshedpurSeoData = {
   city: "Jamshedpur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Jamshedpur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Jamshedpur, Industrial Instrumentation Suppliers Jamshedpur, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Jamshedpur, NABL Calibration Jamshedpur, IOTAFLOW Tata Steel & Automotive Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Jamshedpur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Tata Steel, Tata Motors, and the massive Adityapur Industrial Area.",
+  metaDescription: "Leading Flowmeter Manufacturer in Jamshedpur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Tata Steel and Tata Motors.",
 
   // 🔹 HERO SLIDER
   slides: [

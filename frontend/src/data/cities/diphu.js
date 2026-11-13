@@ -8,7 +8,7 @@ export const diphuSeoData = {
   city: "Diphu",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Diphu | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Diphu, Industrial Instrumentation Suppliers Karbi Anglong, Electromagnetic Flow Meter Manja, Ultrasonic Flowmeter Diphu, NABL Calibration Diphu, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Diphu. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Diphu’s administrative centers, tourism infrastructure, and regional water supply schemes.",
+  metaDescription: "Flow meter manufacturer in Diphu: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Diphu’s administrative centers.",
 
   // 🔹 HERO SLIDER
   slides: [

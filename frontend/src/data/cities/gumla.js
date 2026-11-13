@@ -8,7 +8,7 @@ export const gumlaSeoData = {
   city: "Gumla",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Gumla | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Gumla, Industrial Instrumentation Suppliers Gumla, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Gumla, NABL Calibration Gumla, IOTAFLOW Mining & Agriculture",
-  metaDescription: "Leading Flowmeter Manufacturer in Gumla, Jharkhand. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Gumla’s bauxite mining operations, agricultural processing units, and water management projects.",
+  metaDescription: "Flow meter manufacturer in Gumla, Jharkhand: electromagnetic, ultrasonic & vortex meters for bauxite mining operations & agricultural processing units.",
 
   // 🔹 HERO SLIDER
   slides: [

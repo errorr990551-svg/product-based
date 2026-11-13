@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const bokaroSteelCitySeoData = {
   city: "Bokaro Steel City",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Bokaro Steel City | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Bokaro Steel City | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bokaro Steel City, Industrial Instrumentation Suppliers Bokaro, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Bokaro, NABL Calibration Bokaro, IOTAFLOW Steel & Metallurgy",
-  metaDescription: "Leading Flowmeter Manufacturer in Bokaro Steel City. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Bokaro Steel Plant (BSL), chemical processing units, and ancillary engineering industries.",
+  metaDescription: "Flow meter manufacturer in Bokaro Steel City: electromagnetic, ultrasonic & vortex meters for Bokaro Steel Plant (BSL) & chemical processing units.",
 
   // 🔹 HERO SLIDER
   slides: [

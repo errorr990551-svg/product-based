@@ -8,7 +8,7 @@ export const dhubriSeoData = {
   city: "Dhubri",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Dhubri | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Dhubri, Industrial Instrumentation Suppliers Lower Assam, Electromagnetic Flow Meter Bilasipara, Ultrasonic Flowmeter Dhubri, NABL Calibration Dhubri, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Dhubri. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Dhubri’s river transport hubs, jute industries, and cross-border trade facilities.",
+  metaDescription: "Flow meter manufacturer in Dhubri: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Dhubri’s river transport hubs and jute industries.",
 
   // 🔹 HERO SLIDER
   slides: [

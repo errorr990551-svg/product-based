@@ -8,7 +8,7 @@ export const patnaSeoData = {
   city: "Patna",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Patna | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Patna, Industrial Instrumentation Suppliers Danapur, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Patna, NABL Calibration Patna, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Patna. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Patna’s burgeoning food processing, dairy (Sudha), and smart city water projects.",
+  metaDescription: "Flow meter manufacturer in Patna: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Patna’s burgeoning food processing and dairy (Sudha).",
 
   // 🔹 HERO SLIDER
   slides: [

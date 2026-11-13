@@ -8,7 +8,7 @@ export const bongaigaonSeoData = {
   city: "Bongaigaon",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Bongaigaon | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bongaigaon, Industrial Instrumentation Suppliers Lower Assam, Electromagnetic Flow Meter New Bongaigaon, Ultrasonic Flowmeter Bongaigaon, NABL Calibration Bongaigaon, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Bongaigaon. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Bongaigaon’s oil refineries, thermal power plants, and chemical industries.",
+  metaDescription: "Flow meter manufacturer in Bongaigaon: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Bongaigaon’s oil refineries.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const tezpurSeoData = {
   city: "Tezpur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Tezpur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Tezpur, Industrial Instrumentation Suppliers Sonitpur, Electromagnetic Flow Meter Balipara, Ultrasonic Flowmeter Tezpur, NABL Calibration Tezpur, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Tezpur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Tezpur’s defense sector, tea gardens, and academic research units.",
+  metaDescription: "Flow meter manufacturer in Tezpur: ISO-certified electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Tezpur’s defense sector and tea gardens.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const pasighatSeoData = {
   city: "Pasighat",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Pasighat | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Pasighat, flow meter supplier Pasighat, electromagnetic flow meter Pasighat, ultrasonic flow meter Pasighat, flow meter Arunachal Pradesh, NABL flow meter calibration Pasighat",
-  metaDescription: "Flow meter manufacturer & supplier in Pasighat, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Pasighat and East Siang region.",
+  metaDescription: "Flow meter manufacturer in Pasighat, Arunachal Pradesh: electromagnetic, ultrasonic & vortex meters for the Pasighat and East Siang region.",
 
   // 🔹 HERO SLIDER
   slides: [

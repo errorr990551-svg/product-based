@@ -8,7 +8,7 @@ export const panajiSeoData = {
   city: "Panaji",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Panaji | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Panaji, Industrial Instrumentation Suppliers Panaji, Electromagnetic Flow Meter North Goa, Ultrasonic Flowmeter Panaji, NABL Calibration Panaji, IOTAFLOW Smart City Solutions",
-  metaDescription: "Leading Flowmeter Manufacturer in Panaji. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Panaji’s urban infrastructure, hospitality, and pharmaceutical sectors.",
+  metaDescription: "Flow meter manufacturer in Panaji: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Panaji’s urban infrastructure and hospitality.",
 
   // 🔹 HERO SLIDER
   slides: [

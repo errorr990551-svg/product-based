@@ -8,7 +8,7 @@ export const palakkadSeoData = {
   city: "Palakkad",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Palakkad | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Palakkad, flow meter supplier Palakkad, electromagnetic flow meter Palakkad, ultrasonic flow meter Palakkad, flow meter Kerala, NABL flow meter calibration Palakkad",
-  metaDescription: "Flow meter manufacturer & supplier in Palakkad, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Palakkad district.",
+  metaDescription: "Flow meter manufacturer in Palakkad, Kerala: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Palakkad district.",
 
   // 🔹 HERO SLIDER
   slides: [

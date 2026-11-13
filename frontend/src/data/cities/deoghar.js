@@ -8,7 +8,7 @@ export const deogharSeoData = {
   city: "Deoghar",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Deoghar | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Deoghar, Industrial Instrumentation Suppliers Deoghar, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Deoghar, NABL Calibration Deoghar, IOTAFLOW Spiritual & Health Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Deoghar. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Deoghar’s pharmaceutical clusters, plastic industries, and smart city water projects.",
+  metaDescription: "Flow meter manufacturer in Deoghar: electromagnetic, ultrasonic & vortex meters with NABL calibration for pharmaceutical clusters & plastic industries.",
 
   // 🔹 HERO SLIDER
   slides: [

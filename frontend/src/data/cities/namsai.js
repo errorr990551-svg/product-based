@@ -8,7 +8,7 @@ export const namsaiSeoData = {
   city: "Namsai",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Namsai | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Namsai, flow meter supplier Namsai, electromagnetic flow meter Namsai, ultrasonic flow meter Namsai, flow meter Arunachal Pradesh, NABL flow meter calibration Namsai",
-  metaDescription: "Flow meter manufacturer & supplier in Namsai, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Namsai and Lohit region.",
+  metaDescription: "Flow meter manufacturer in Namsai, Arunachal Pradesh: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Namsai and Lohit region.",
 
   // 🔹 HERO SLIDER
   slides: [

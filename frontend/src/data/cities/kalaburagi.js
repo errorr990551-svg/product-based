@@ -8,7 +8,7 @@ export const kalaburagiSeoData = {
   city: "Kalaburagi",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Kalaburagi | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Kalaburagi, flow meter supplier Kalaburagi, electromagnetic flow meter Kalaburagi, ultrasonic flow meter Kalaburagi, flow meter Karnataka, NABL flow meter calibration Kalaburagi",
-  metaDescription: "Flow meter manufacturer & supplier in Kalaburagi, Karnataka. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kalaburagi and Sedam industrial clusters.",
+  metaDescription: "Flow meter manufacturer in Kalaburagi, Karnataka: electromagnetic, ultrasonic & vortex meters for the Kalaburagi and Sedam industrial clusters.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const ranchiSeoData = {
   city: "Ranchi",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Ranchi | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Ranchi, Industrial Instrumentation Suppliers Ranchi, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Ranchi, NABL Calibration Ranchi, IOTAFLOW Heavy Engineering & Governance",
-  metaDescription: "Leading Flowmeter Manufacturer in Ranchi. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Ranchi’s heavy engineering units (HEC), mineral processing industries, and smart city water projects.",
+  metaDescription: "Flow meter manufacturer in Ranchi: electromagnetic, ultrasonic & vortex meters for heavy engineering units (HEC) & mineral processing industries.",
 
   // 🔹 HERO SLIDER
   slides: [

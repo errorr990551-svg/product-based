@@ -8,7 +8,7 @@ export const kanhangadSeoData = {
   city: "Kanhangad",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Kanhangad | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Kanhangad, flow meter supplier Kanhangad, electromagnetic flow meter Kanhangad, ultrasonic flow meter Kanhangad, flow meter Kerala, NABL flow meter calibration Kanhangad",
-  metaDescription: "Flow meter manufacturer & supplier in Kanhangad, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kanhangad region.",
+  metaDescription: "Flow meter manufacturer in Kanhangad, Kerala: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Kanhangad region.",
 
   // 🔹 HERO SLIDER
   slides: [

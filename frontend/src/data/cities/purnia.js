@@ -8,7 +8,7 @@ export const purniaSeoData = {
   city: "Purnia",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Purnia | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Purnia, Agricultural Instrumentation Bihar, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Purnia, NABL Calibration Purnia, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Purnia. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Purnia’s grain processing, maize industries, and municipal water supply.",
+  metaDescription: "Flow meter manufacturer in Purnia: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Purnia’s grain processing and maize industries.",
 
   // 🔹 HERO SLIDER
   slides: [

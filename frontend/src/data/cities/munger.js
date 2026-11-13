@@ -8,7 +8,7 @@ export const mungerSeoData = {
   city: "Munger",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Munger | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Munger, Industrial Instrumentation Bihar, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Munger, NABL Calibration Munger, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Munger. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Munger’s historical town infrastructure, manufacturing units, and utilities.",
+  metaDescription: "Flow meter manufacturer in Munger: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Munger’s historical town infrastructure.",
 
   // 🔹 HERO SLIDER
   slides: [

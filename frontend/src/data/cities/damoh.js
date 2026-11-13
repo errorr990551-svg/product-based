@@ -8,7 +8,7 @@ export const damohSeoData = {
   city: "Damoh",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Damoh | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Damoh, Industrial Instrumentation Suppliers Damoh, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Damoh, NABL Calibration Damoh, IOTAFLOW Cement & Agri Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Damoh. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Damoh’s cement plants, food processing units, and agricultural industries.",
+  metaDescription: "Leading Flowmeter Manufacturer in Damoh. Providing Electromagnetic, Ultrasonic, and Vortex flow meters for Damoh’s cement plants and food processing units.",
 
   // 🔹 HERO SLIDER
   slides: [

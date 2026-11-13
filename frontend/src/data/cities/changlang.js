@@ -8,7 +8,7 @@ export const changlangSeoData = {
   city: "Changlang",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Changlang | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Changlang, flow meter supplier Changlang, electromagnetic flow meter Changlang, ultrasonic flow meter Changlang, flow meter Arunachal Pradesh, NABL flow meter calibration Changlang",
-  metaDescription: "Flow meter manufacturer & supplier in Changlang, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Changlang and Miao regions.",
+  metaDescription: "Flow meter manufacturer in Changlang, Arunachal Pradesh: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Changlang and Miao regions.",
 
   // 🔹 HERO SLIDER
   slides: [

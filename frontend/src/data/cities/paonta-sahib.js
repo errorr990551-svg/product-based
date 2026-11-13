@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const paontaSahibSeoData = {
   city: "Paonta Sahib",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Paonta Sahib | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Paonta Sahib | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Paonta Sahib, Industrial Instrumentation Suppliers Paonta Sahib, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Paonta Sahib, NABL Calibration Paonta Sahib, IOTAFLOW Pharma & Chemical Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Paonta Sahib. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Paonta Sahib’s pharmaceutical clusters, chemical industries, and paper mills.",
+  metaDescription: "Flow meter manufacturer in Paonta Sahib: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Paonta Sahib’s pharmaceutical clusters.",
 
   // 🔹 HERO SLIDER
   slides: [

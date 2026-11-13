@@ -8,7 +8,7 @@ export const shimlaSeoData = {
   city: "Shimla",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Shimla | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Shimla, Industrial Instrumentation Suppliers Shimla, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Shimla, NABL Calibration Shimla, IOTAFLOW Tourism & Heritage Infrastructure",
-  metaDescription: "Leading Flowmeter Manufacturer in Shimla. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Shimla’s smart city utilities, heritage properties, and hospitality sectors.",
+  metaDescription: "Flow meter manufacturer in Shimla: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Shimla’s smart city utilities and heritage properties.",
 
   // 🔹 HERO SLIDER
   slides: [

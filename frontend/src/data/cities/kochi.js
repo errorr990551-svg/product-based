@@ -8,7 +8,7 @@ export const kochiSeoData = {
   city: "Kochi",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Kochi | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Kochi, flow meter supplier Kochi, electromagnetic flow meter Kochi, ultrasonic flow meter Kochi, flow meter Kerala, NABL flow meter calibration Kochi",
-  metaDescription: "Flow meter manufacturer & supplier in Kochi, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kochi region.",
+  metaDescription: "Flow meter manufacturer in Kochi, Kerala: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Kochi region.",
 
   // 🔹 HERO SLIDER
   slides: [

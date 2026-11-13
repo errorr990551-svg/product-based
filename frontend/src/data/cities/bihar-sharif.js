@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const biharSharifSeoData = {
   city: "Bihar Sharif",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Bihar Sharif | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Bihar Sharif | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bihar Sharif, Industrial Instrumentation Nalanda, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Bihar Sharif, NABL Calibration Bihar Sharif, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Bihar Sharif. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Bihar Sharif’s tourism infrastructure, cold storage, and agriculture.",
+  metaDescription: "Flow meter manufacturer in Bihar Sharif: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Bihar Sharif’s tourism infrastructure.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const dharamshalaSeoData = {
   city: "Dharamshala",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Dharamshala | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Dharamshala | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Dharamshala, Industrial Instrumentation Suppliers Dharamshala, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Dharamshala, NABL Calibration Dharamshala, IOTAFLOW Tourism & Sustainable Infrastructure",
-  metaDescription: "Leading Flowmeter Manufacturer in Dharamshala. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Dharamshala’s tourism infrastructure, administrative units, and eco-friendly utilities.",
+  metaDescription: "Flow meter manufacturer in Dharamshala: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Dharamshala’s tourism infrastructure.",
 
   // 🔹 HERO SLIDER
   slides: [

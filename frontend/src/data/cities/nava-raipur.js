@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const navaRaipurSeoData = {
   city: "Nava Raipur",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Nava Raipur | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Nava Raipur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Nava Raipur, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Nava Raipur, Ultrasonic Flowmeter Nava Raipur, NABL Calibration Nava Raipur, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Nava Raipur Atal Nagar. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Nava Raipur’s smart city infrastructure, IT parks, and high-tech urban projects.",
+  metaDescription: "Flow meter manufacturer in Nava Raipur Atal Nagar: electromagnetic, ultrasonic & vortex meters with NABL calibration for smart city infrastructure.",
 
   // 🔹 HERO SLIDER
   slides: [

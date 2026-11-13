@@ -8,7 +8,7 @@ export const golaghatSeoData = {
   city: "Golaghat",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Golaghat | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Golaghat, Industrial Instrumentation Suppliers Central Assam, Electromagnetic Flow Meter Bokakhat, Ultrasonic Flowmeter Golaghat, NABL Calibration Golaghat, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Golaghat. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Golaghat’s tea gardens, refinery neighbors (Numaligarh), and Kaziranga-adjacent logistics.",
+  metaDescription: "Flow meter manufacturer in Golaghat: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Golaghat’s tea gardens.",
 
   // 🔹 HERO SLIDER
   slides: [

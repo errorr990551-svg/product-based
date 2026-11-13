@@ -8,7 +8,7 @@ export const manaliSeoData = {
   city: "Manali",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Manali | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Manali, Industrial Instrumentation Suppliers Manali, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Manali, NABL Calibration Manali, IOTAFLOW Tourism & Agri Sector",
-  metaDescription: "Leading Flowmeter Manufacturer in Manali. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Manali’s tourism infrastructure, horticultural processing, and sustainable water management projects.",
+  metaDescription: "Flow meter manufacturer in Manali: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Manali’s tourism infrastructure.",
 
   // 🔹 HERO SLIDER
   slides: [

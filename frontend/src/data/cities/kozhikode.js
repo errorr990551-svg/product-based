@@ -8,7 +8,7 @@ export const kozhikodeSeoData = {
   city: "Kozhikode",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Kozhikode | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Kozhikode, flow meter supplier Kozhikode, electromagnetic flow meter Kozhikode, ultrasonic flow meter Kozhikode, flow meter Kerala, NABL flow meter calibration Kozhikode",
-  metaDescription: "Flow meter manufacturer & supplier in Kozhikode, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Kozhikode district.",
+  metaDescription: "Flow meter manufacturer in Kozhikode, Kerala: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Kozhikode district.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const katniSeoData = {
   city: "Katni",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Katni | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Katni, Industrial Instrumentation Suppliers Katni, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Katni, NABL Calibration Katni, IOTAFLOW Lime & Mineral Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Katni. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Katni’s lime plants, mineral processing units, and pulse mills.",
+  metaDescription: "Flow meter manufacturer in Katni: electromagnetic, ultrasonic & vortex meters for lime plants, mineral processing units & pulse mills.",
 
   // 🔹 HERO SLIDER
   slides: [

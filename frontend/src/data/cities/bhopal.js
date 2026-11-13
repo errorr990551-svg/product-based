@@ -8,7 +8,7 @@ export const bhopalSeoData = {
   city: "Bhopal",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Bhopal | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bhopal, Industrial Instrumentation Suppliers Bhopal, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Bhopal, NABL Calibration Bhopal, IOTAFLOW Capital & Industrial Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Bhopal. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Bhopal’s electrical engineering, chemical industries, and municipal water management.",
+  metaDescription: "Flow meter manufacturer in Bhopal: electromagnetic, ultrasonic & vortex meters with NABL calibration for electrical engineering & chemical industries.",
 
   // 🔹 HERO SLIDER
   slides: [

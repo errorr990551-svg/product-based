@@ -8,7 +8,7 @@ export const vadodaraSeoData = {
   city: "Vadodara",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Vadodara | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Vadodara, Industrial Instrumentation Suppliers Vadodara, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Vadodara, NABL Calibration Vadodara, IOTAFLOW Chemical & Power Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Vadodara. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Vadodara’s massive petrochemical complexes, power plants, and pharmaceutical estates.",
+  metaDescription: "Flow meter manufacturer in Vadodara: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Vadodara’s massive petrochemical complexes.",
 
   // 🔹 HERO SLIDER
   slides: [

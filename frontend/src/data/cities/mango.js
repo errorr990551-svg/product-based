@@ -8,7 +8,7 @@ export const mangoSeoData = {
   city: "Mango",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Mango | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Mango, Industrial Instrumentation Suppliers Mango, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Mango, NABL Calibration Mango, IOTAFLOW Steel & Metallurgy",
-  metaDescription: "Leading Flowmeter Manufacturer in Mango. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for area's chemical processing units and ancillary engineering industries.",
+  metaDescription: "Leading Flowmeter Manufacturer in Mango. Providing ISO-certified Electromagnetic and Ultrasonic.",
 
   // 🔹 HERO SLIDER
   slides: [

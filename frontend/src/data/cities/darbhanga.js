@@ -8,7 +8,7 @@ export const darbhangaSeoData = {
   city: "Darbhanga",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Darbhanga | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Darbhanga, Industrial Instrumentation Mithila, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Darbhanga, NABL Calibration Darbhanga, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Darbhanga. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Darbhanga’s educational hubs, healthcare, and artisanal industries.",
+  metaDescription: "Flow meter manufacturer in Darbhanga: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Darbhanga’s educational hubs and healthcare.",
 
   // 🔹 HERO SLIDER
   slides: [

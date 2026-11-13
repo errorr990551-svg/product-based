@@ -8,7 +8,7 @@ export const chaibasaSeoData = {
   city: "Chaibasa",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Chaibasa | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Chaibasa, Industrial Instrumentation Suppliers Chaibasa, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Chaibasa, NABL Calibration Chaibasa, IOTAFLOW Iron Ore Mining & Steel",
-  metaDescription: "Leading Flowmeter Manufacturer in Chaibasa. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Chaibasa’s iron ore mines, cement plants, and West Singhbhum’s industrial utilities.",
+  metaDescription: "Leading Flowmeter Manufacturer in Chaibasa. Providing Electromagnetic, Ultrasonic, and Vortex flow meters for Chaibasa’s iron ore mines and cement plants.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const thrissurSeoData = {
   city: "Thrissur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Thrissur | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Thrissur, flow meter supplier Thrissur, electromagnetic flow meter Thrissur, ultrasonic flow meter Thrissur, flow meter Kerala, NABL flow meter calibration Thrissur",
-  metaDescription: "Flow meter manufacturer & supplier in Thrissur, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Thrissur district.",
+  metaDescription: "Flow meter manufacturer in Thrissur, Kerala: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Thrissur district.",
 
   // 🔹 HERO SLIDER
   slides: [

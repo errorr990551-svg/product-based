@@ -8,7 +8,7 @@ export const ratlamSeoData = {
   city: "Ratlam",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Ratlam | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Ratlam, Industrial Instrumentation Suppliers Ratlam, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Ratlam, NABL Calibration Ratlam, IOTAFLOW Pharma & Chemical Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Ratlam. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Ratlam’s pharmaceutical labs, chemical plants, and food processing units.",
+  metaDescription: "Flow meter manufacturer in Ratlam: electromagnetic, ultrasonic & vortex meters for pharmaceutical labs, chemical plants & food processing units.",
 
   // 🔹 HERO SLIDER
   slides: [

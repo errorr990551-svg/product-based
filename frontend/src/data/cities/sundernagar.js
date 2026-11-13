@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const sundernagarSeoData = {
   city: "Sundernagar",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Sundernagar | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Sundernagar | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Sundernagar, Industrial Instrumentation Suppliers Sundernagar, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Sundernagar, NABL Calibration Sundernagar, IOTAFLOW Education & Hydro Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Sundernagar. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Sundernagar’s technical institutes, BSL project utilities, and engineering sectors.",
+  metaDescription: "Flow meter manufacturer in Sundernagar: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Sundernagar’s technical institutes.",
 
   // 🔹 HERO SLIDER
   slides: [

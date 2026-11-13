@@ -8,7 +8,7 @@ export const morbiSeoData = {
   city: "Morbi",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Morbi | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Morbi, Industrial Instrumentation Suppliers Morbi, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Morbi, NABL Calibration Morbi, IOTAFLOW Ceramics & Tiles",
-  metaDescription: "Leading Flowmeter Manufacturer in Morbi. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Morbi’s world-class ceramic clusters, tile manufacturing, and sanitaryware industries.",
+  metaDescription: "Flow meter manufacturer in Morbi: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Morbi’s world-class ceramic clusters.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const thodupuzhaSeoData = {
   city: "Thodupuzha",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Thodupuzha | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Thodupuzha, flow meter supplier Thodupuzha, electromagnetic flow meter Thodupuzha, ultrasonic flow meter Thodupuzha, flow meter Kerala, NABL flow meter calibration Thodupuzha",
-  metaDescription: "Flow meter manufacturer & supplier in Thodupuzha, Kerala. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Thodupuzha region.",
+  metaDescription: "Flow meter manufacturer in Thodupuzha, Kerala: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Thodupuzha region.",
 
   // 🔹 HERO SLIDER
   slides: [

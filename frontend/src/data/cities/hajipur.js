@@ -8,7 +8,7 @@ export const hajipurSeoData = {
   city: "Hajipur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Hajipur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Hajipur, Food Processing Instrumentation Vaishali, Electromagnetic Flow Meter Bihar, Ultrasonic Flowmeter Hajipur, NABL Calibration Hajipur, IOTAFLOW Bihar",
-  metaDescription: "Leading Flowmeter Manufacturer in Hajipur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Hajipur’s food processing units, banana export sector, and industrial estates.",
+  metaDescription: "Flow meter manufacturer in Hajipur: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Hajipur’s food processing units.",
 
   // 🔹 HERO SLIDER
   slides: [

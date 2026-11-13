@@ -8,7 +8,7 @@ export const ambikapurSeoData = {
   city: "Ambikapur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Ambikapur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Ambikapur, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Ambikapur, Ultrasonic Flowmeter Ambikapur, NABL Calibration Ambikapur, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Ambikapur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Ambikapur’s coal mining sectors, agro-industries, and smart city water projects.",
+  metaDescription: "Flow meter manufacturer in Ambikapur: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Ambikapur’s coal mining sectors.",
 
   // 🔹 HERO SLIDER
   slides: [

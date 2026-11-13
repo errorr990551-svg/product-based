@@ -8,7 +8,7 @@ export const ujjainSeoData = {
   city: "Ujjain",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Ujjain | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Ujjain, Industrial Instrumentation Suppliers Ujjain, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Ujjain, NABL Calibration Ujjain, IOTAFLOW Textile & Agri Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Ujjain. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Ujjain’s textile mills, soybean processing units, and municipal water projects.",
+  metaDescription: "Flow meter manufacturer in Ujjain: electromagnetic, ultrasonic & vortex meters for textile mills, soybean processing units & municipal water projects.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const bilaspurHpSeoData = {
   city: "Bilaspur",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Bilaspur, Himachal Pradesh | IOTAFLOW",
+  metaTitle: "Flow Meters in Bilaspur, Himachal Pradesh | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bilaspur, Industrial Instrumentation Suppliers Bilaspur, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Bilaspur, NABL Calibration Bilaspur, IOTAFLOW Cement & Hydro Sector",
-  metaDescription: "Leading Flowmeter Manufacturer in Bilaspur, Himachal Pradesh. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Bilaspur’s massive cement plants, hydroelectric projects, and municipal water systems.",
+  metaDescription: "Flow meter manufacturer in Bilaspur, Himachal Pradesh: electromagnetic, ultrasonic & vortex meters for cement plants & hydroelectric projects.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const sagarSeoData = {
   city: "Sagar",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Sagar | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Sagar, Industrial Instrumentation Suppliers Sagar, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Sagar, NABL Calibration Sagar, IOTAFLOW Agri & Education Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Sagar. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Sagar’s agricultural processing, dairy industries, and municipal water projects.",
+  metaDescription: "Flow meter manufacturer in Sagar: electromagnetic, ultrasonic & vortex meters for agricultural processing, dairy industries & municipal water projects.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -8,7 +8,7 @@ export const jorhatSeoData = {
   city: "Jorhat",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Jorhat | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Jorhat, Industrial Instrumentation Suppliers Central Assam, Electromagnetic Flow Meter Mariani, Ultrasonic Flowmeter Jorhat, NABL Calibration Jorhat, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Jorhat. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Jorhat’s tea research centers, agricultural universities, and rural water schemes.",
+  metaDescription: "Flow meter manufacturer in Jorhat: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Jorhat’s tea research centers.",
 
   // 🔹 HERO SLIDER
   slides: [

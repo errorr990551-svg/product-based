@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const northLakhimpurSeoData = {
   city: "North Lakhimpur",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in North Lakhimpur | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in North Lakhimpur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in North Lakhimpur, Industrial Instrumentation Suppliers Lakhimpur, Electromagnetic Flow Meter Lilabari, Ultrasonic Flowmeter North Lakhimpur, NABL Calibration North Lakhimpur, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in North Lakhimpur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for North Lakhimpur’s hydropower projects, agricultural hubs, and regional water distribution.",
+  metaDescription: "Flow meter manufacturer in North Lakhimpur: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for North Lakhimpur’s hydropower projects.",
 
   // 🔹 HERO SLIDER
   slides: [

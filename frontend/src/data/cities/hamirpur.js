@@ -8,7 +8,7 @@ export const hamirpurSeoData = {
   city: "Hamirpur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Hamirpur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Hamirpur, Industrial Instrumentation Suppliers Hamirpur, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Hamirpur, NABL Calibration Hamirpur, IOTAFLOW Education & Small Industry",
-  metaDescription: "Leading Flowmeter Manufacturer in Hamirpur, HP. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Hamirpur’s technical institutions, local manufacturing units, and water supply projects.",
+  metaDescription: "Flow meter manufacturer in Hamirpur, HP: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Hamirpur’s technical institutions.",
 
   // 🔹 HERO SLIDER
   slides: [

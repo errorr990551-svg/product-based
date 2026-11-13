@@ -8,7 +8,7 @@ export const srikakulamSeoData = {
   city: "Srikakulam",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Srikakulam | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Srikakulam, flow meter supplier Srikakulam, electromagnetic flow meter Srikakulam, ultrasonic flow meter Srikakulam, flow meter Andhra Pradesh, NABL flow meter calibration Srikakulam",
-  metaDescription: "Flow meter manufacturer & supplier in Srikakulam, Andhra Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Srikakulam region.",
+  metaDescription: "Flow meter manufacturer in Srikakulam, Andhra Pradesh: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for the Srikakulam region.",
 
   // 🔹 HERO SLIDER
   slides: [

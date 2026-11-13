@@ -8,7 +8,7 @@ export const naharlagunSeoData = {
   city: "Naharlagun",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Naharlagun | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Naharlagun, flow meter supplier Naharlagun, electromagnetic flow meter Naharlagun, ultrasonic flow meter Naharlagun, flow meter Arunachal Pradesh, NABL flow meter calibration Naharlagun",
-  metaDescription: "Flow meter manufacturer & supplier in Naharlagun, Arunachal Pradesh. Electromagnetic, ultrasonic & vortex meters with NABL calibration for the Naharlagun and Papum Pare region.",
+  metaDescription: "Flow meter manufacturer in Naharlagun, Arunachal Pradesh: electromagnetic, ultrasonic & vortex meters for the Naharlagun and Papum Pare region.",
 
   // 🔹 HERO SLIDER
   slides: [

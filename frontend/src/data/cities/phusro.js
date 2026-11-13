@@ -8,7 +8,7 @@ export const phusroSeoData = {
   city: "Phusro",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Phusro | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Phusro, Industrial Instrumentation Suppliers Phusro, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Phusro, NABL Calibration Phusro, IOTAFLOW Coal Mining & Washery",
-  metaDescription: "Leading Flowmeter Manufacturer in Phusro. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Phusro’s coal washeries, mining projects, and industrial water management.",
+  metaDescription: "Leading Flowmeter Manufacturer in Phusro. Providing Electromagnetic, Ultrasonic, and Vortex flow meters for Phusro’s coal washeries and mining projects.",
 
   // 🔹 HERO SLIDER
   slides: [

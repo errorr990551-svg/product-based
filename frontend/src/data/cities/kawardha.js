@@ -8,7 +8,7 @@ export const kawardhaSeoData = {
   city: "Kawardha",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Kawardha | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Kawardha, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Kawardha, Ultrasonic Flowmeter Kawardha, NABL Calibration Kawardha, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Kawardha. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Kawardha’s sugar industries, agro-processing, and municipal supply projects.",
+  metaDescription: "Flow meter manufacturer in Kawardha: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Kawardha’s sugar industries and agro-processing.",
 
   // 🔹 HERO SLIDER
   slides: [

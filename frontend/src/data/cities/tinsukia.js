@@ -8,7 +8,7 @@ export const tinsukiaSeoData = {
   city: "Tinsukia",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Tinsukia | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Tinsukia, Industrial Instrumentation Suppliers Upper Assam, Electromagnetic Flow Meter Digboi, Ultrasonic Flowmeter Tinsukia, NABL Calibration Tinsukia, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Tinsukia. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Tinsukia’s coal mines, oil refineries, and heavy engineering sectors.",
+  metaDescription: "Flow meter manufacturer in Tinsukia: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Tinsukia’s coal mines and oil refineries.",
 
   // 🔹 HERO SLIDER
   slides: [

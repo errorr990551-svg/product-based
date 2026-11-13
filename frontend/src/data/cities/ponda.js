@@ -8,7 +8,7 @@ export const pondaSeoData = {
   city: "Ponda",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Ponda | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Ponda, Industrial Instrumentation Suppliers Ponda, Electromagnetic Flow Meter South Goa, Ultrasonic Flowmeter Ponda, NABL Calibration Ponda, IOTAFLOW Cultural & Industrial Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Ponda. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Ponda’s heavy industrial estates and manufacturing sectors.",
+  metaDescription: "Flow meter manufacturer in Ponda: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Ponda’s heavy industrial estates.",
 
   // 🔹 HERO SLIDER
   slides: [

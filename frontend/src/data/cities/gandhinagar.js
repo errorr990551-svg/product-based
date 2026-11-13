@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const gandhinagarSeoData = {
   city: "Gandhinagar",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Gandhinagar | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Gandhinagar | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Gandhinagar, Industrial Instrumentation Suppliers Gandhinagar, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Gandhinagar, NABL Calibration Gandhinagar, IOTAFLOW Smart City & IT",
-  metaDescription: "Leading Flowmeter Manufacturer in Gandhinagar. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Gandhinagar’s state-of-the-art IT parks, thermal power stations, and government infrastructure.",
+  metaDescription: "Flow meter manufacturer in Gandhinagar: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Gandhinagar’s state-of-the-art IT parks.",
 
   // 🔹 HERO SLIDER
   slides: [

@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const bhilaiDurgSeoData = {
   city: "Bhilai-Durg",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Bhilai-Durg | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturer in Bhilai-Durg | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bhilai, Industrial Instrumentation Suppliers Durg, Electromagnetic Flow Meter Chhattisgarh, Ultrasonic Flowmeter Bhilai, NABL Calibration Bhilai, IOTAFLOW Durg",
-  metaDescription: "Premier Flowmeter Manufacturer in the Bhilai-Durg industrial belt. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration specifically for heavy engineering, steel plants (BSL), and chemical industries.",
+  metaDescription: "Flow meter manufacturer in the Bhilai-Durg belt: electromagnetic, ultrasonic & vortex meters for heavy engineering, steel plants & chemical units.",
 
   // 🔹 HERO SLIDER
   slides: [

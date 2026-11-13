@@ -8,7 +8,7 @@ export const kulluSeoData = {
   city: "Kullu",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Kullu | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Kullu, Industrial Instrumentation Suppliers Kullu, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Kullu, NABL Calibration Kullu, IOTAFLOW Tourism & Agro-Industry",
-  metaDescription: "Leading Flowmeter Manufacturer in Kullu, HP. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Kullu’s fruit processing plants, brewery industries, and municipal water supply.",
+  metaDescription: "Flow meter manufacturer in Kullu, HP: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Kullu’s fruit processing plants.",
 
   // 🔹 HERO SLIDER
   slides: [

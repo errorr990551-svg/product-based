@@ -8,7 +8,7 @@ export const rewaSeoData = {
   city: "Rewa",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Rewa | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Rewa, Industrial Instrumentation Suppliers Rewa, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Rewa, NABL Calibration Rewa, IOTAFLOW Solar & Agri Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Rewa. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Rewa’s solar power projects, cement industries, and agricultural processing.",
+  metaDescription: "Flow meter manufacturer in Rewa: electromagnetic, ultrasonic & vortex meters for solar power projects, cement industries & agricultural processing.",
 
   // 🔹 HERO SLIDER
   slides: [

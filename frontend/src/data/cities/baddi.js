@@ -8,7 +8,7 @@ export const baddiSeoData = {
   city: "Baddi",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Baddi | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Baddi, Industrial Instrumentation Suppliers Baddi, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Baddi, NABL Calibration Baddi, IOTAFLOW Pharma Hub Asia",
-  metaDescription: "Leading Flowmeter Manufacturer in Baddi. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Baddi’s massive pharmaceutical hub, FMCG plants, and textile industries.",
+  metaDescription: "Flow meter manufacturer in Baddi: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Baddi’s massive pharmaceutical hub and FMCG plants.",
 
   // 🔹 HERO SLIDER
   slides: [

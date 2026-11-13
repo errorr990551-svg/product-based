@@ -8,7 +8,7 @@ export const bhavnagarSeoData = {
   city: "Bhavnagar",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Bhavnagar | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Bhavnagar, Industrial Instrumentation Suppliers Bhavnagar, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Bhavnagar, NABL Calibration Bhavnagar, IOTAFLOW Ship Breaking & Chemicals",
-  metaDescription: "Leading Flowmeter Manufacturer in Bhavnagar. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Bhavnagar’s ship-breaking industry, chemical plants, and plastic manufacturing units.",
+  metaDescription: "Flow meter manufacturer in Bhavnagar: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Bhavnagar’s ship-breaking industry.",
 
   // 🔹 HERO SLIDER
   slides: [

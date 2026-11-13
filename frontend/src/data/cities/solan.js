@@ -8,7 +8,7 @@ export const solanSeoData = {
   city: "Solan",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Solan | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Solan, Industrial Instrumentation Suppliers Solan, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Solan, NABL Calibration Solan, IOTAFLOW Pharma & Food Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Solan. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Solan’s pharmaceutical estates, food processing units, and mushroom industries.",
+  metaDescription: "Flow meter manufacturer in Solan: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Solan’s pharmaceutical estates.",
 
   // 🔹 HERO SLIDER
   slides: [

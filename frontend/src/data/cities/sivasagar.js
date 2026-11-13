@@ -8,7 +8,7 @@ export const sivasagarSeoData = {
   city: "Sivasagar",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Sivasagar | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Sivasagar, Industrial Instrumentation Suppliers Upper Assam, Electromagnetic Flow Meter Nazira, Ultrasonic Flowmeter Sivasagar, NABL Calibration Sivasagar, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Sivasagar. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Sivasagar’s oil and gas fields, historic site maintenance, and urban water projects.",
+  metaDescription: "Flow meter manufacturer in Sivasagar: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Sivasagar’s oil.",
 
   // 🔹 HERO SLIDER
   slides: [

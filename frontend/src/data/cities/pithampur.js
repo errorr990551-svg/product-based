@@ -8,7 +8,7 @@ export const pithampurSeoData = {
   city: "Pithampur",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Pithampur | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Pithampur, Industrial Instrumentation Suppliers Pithampur, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Pithampur, NABL Calibration Pithampur, IOTAFLOW Auto & SEZ Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Pithampur. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Pithampur’s automobile giants, pharmaceutical SEZs, and heavy engineering industries.",
+  metaDescription: "Flow meter manufacturer in Pithampur: electromagnetic, ultrasonic & vortex meters with NABL calibration for automobile giants & pharmaceutical SEZs.",
 
   // 🔹 HERO SLIDER
   slides: [

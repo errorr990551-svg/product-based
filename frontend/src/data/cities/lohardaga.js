@@ -8,7 +8,7 @@ export const lohardagaSeoData = {
   city: "Lohardaga",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Lohardaga | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Lohardaga, Industrial Instrumentation Suppliers Lohardaga, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Lohardaga, NABL Calibration Lohardaga, IOTAFLOW Bauxite Mining & Rural Development",
-  metaDescription: "Leading Flowmeter Manufacturer in Lohardaga. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Lohardaga’s world-class bauxite mines, mineral processing plants, and district water projects.",
+  metaDescription: "Flow meter manufacturer in Lohardaga: electromagnetic, ultrasonic & vortex meters for bauxite mines & mineral processing plants.",
 
   // 🔹 HERO SLIDER
   slides: [

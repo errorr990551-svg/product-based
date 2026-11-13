@@ -8,7 +8,7 @@ export const korbaSeoData = {
   city: "Korba",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Korba | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Korba, Industrial Instrumentation Suppliers Chhattisgarh, Electromagnetic Flow Meter Korba, Ultrasonic Flowmeter Korba, NABL Calibration Korba, IOTAFLOW Chhattisgarh",
-  metaDescription: "Leading Flowmeter Manufacturer in Korba. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Korba’s massive thermal power plants, aluminum refinery (BALCO), and coal mines.",
+  metaDescription: "Flow meter manufacturer in Korba: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Korba’s massive thermal power plants.",
 
   // 🔹 HERO SLIDER
   slides: [

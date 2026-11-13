@@ -8,7 +8,7 @@ export const indoreSeoData = {
   city: "Indore",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Indore | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Indore, Industrial Instrumentation Suppliers Indore, Electromagnetic Flow Meter Madhya Pradesh, Ultrasonic Flowmeter Indore, NABL Calibration Indore, IOTAFLOW Commercial & Pharma Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Indore. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters for Indore’s pharmaceutical clusters, textile industries, and food processing units.",
+  metaDescription: "Flow meter manufacturer in Indore: electromagnetic, ultrasonic & vortex meters for pharmaceutical clusters, textile industries & food processing units.",
 
   // 🔹 HERO SLIDER
   slides: [

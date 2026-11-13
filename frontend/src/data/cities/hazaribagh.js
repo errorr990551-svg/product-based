@@ -8,7 +8,7 @@ export const hazaribaghSeoData = {
   city: "Hazaribagh",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Hazaribagh | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Hazaribagh, Industrial Instrumentation Suppliers Hazaribagh, Electromagnetic Flow Meter Jharkhand, Ultrasonic Flowmeter Hazaribagh, NABL Calibration Hazaribagh, IOTAFLOW Coal & Education Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Hazaribagh. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Hazaribagh’s coal mining projects, thermal power utilities, and research institutions.",
+  metaDescription: "Flow meter manufacturer in Hazaribagh: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Hazaribagh’s coal mining projects.",
 
   // 🔹 HERO SLIDER
   slides: [

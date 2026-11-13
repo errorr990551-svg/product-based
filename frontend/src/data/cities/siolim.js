@@ -8,7 +8,7 @@ export const siolimSeoData = {
   city: "Siolim",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Siolim | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Siolim, Industrial Instrumentation Suppliers Siolim, Electromagnetic Flow Meter North Goa, Ultrasonic Flowmeter Siolim, NABL Calibration Siolim, IOTAFLOW Boutique Infrastructure",
-  metaDescription: "Leading Flowmeter Manufacturer in Siolim. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Siolim’s luxury hospitality, upscale residential, and sustainable water management projects.",
+  metaDescription: "Flow meter manufacturer in Siolim: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Siolim’s luxury hospitality and upscale residential.",
 
   // 🔹 HERO SLIDER
   slides: [

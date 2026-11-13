@@ -8,7 +8,7 @@ export const barpetaSeoData = {
   city: "Barpeta",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Barpeta | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Barpeta, Industrial Instrumentation Suppliers Lower Assam, Electromagnetic Flow Meter Howly, Ultrasonic Flowmeter Barpeta, NABL Calibration Barpeta, IOTAFLOW Assam",
-  metaDescription: "Leading Flowmeter Manufacturer in Barpeta. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Barpeta’s cultural institutions, agricultural markets, and rural development schemes.",
+  metaDescription: "Flow meter manufacturer in Barpeta: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Barpeta’s cultural institutions.",
 
   // 🔹 HERO SLIDER
   slides: [

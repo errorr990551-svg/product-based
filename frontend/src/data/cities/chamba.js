@@ -8,7 +8,7 @@ export const chambaSeoData = {
   city: "Chamba",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Chamba | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Chamba, Industrial Instrumentation Suppliers Chamba, Electromagnetic Flow Meter Himachal, Ultrasonic Flowmeter Chamba, NABL Calibration Chamba, IOTAFLOW Hydro Power & Textiles",
-  metaDescription: "Leading Flowmeter Manufacturer in Chamba, HP. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Chamba’s hydroelectric projects, traditional textile weaving, and municipal water supply.",
+  metaDescription: "Flow meter manufacturer in Chamba, HP: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Chamba’s hydroelectric projects.",
 
   // 🔹 HERO SLIDER
   slides: [

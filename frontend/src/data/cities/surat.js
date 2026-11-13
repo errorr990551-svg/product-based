@@ -8,7 +8,7 @@ export const suratSeoData = {
   city: "Surat",
   metaTitle: "Flow Meter Manufacturer & Suppliers in Surat | IOTAFLOW",
   metaKeywords: "Flow Meter Manufacturer in Surat, Industrial Instrumentation Suppliers Surat, Electromagnetic Flow Meter Gujarat, Ultrasonic Flowmeter Surat, NABL Calibration Surat, IOTAFLOW Textile & Diamond Hub",
-  metaDescription: "Leading Flowmeter Manufacturer in Surat. Providing ISO-certified Electromagnetic, Ultrasonic, and Vortex flow meters with NABL traceable calibration for Surat’s massive textile clusters, diamond processing units, and petrochemical industries.",
+  metaDescription: "Flow meter manufacturer in Surat: electromagnetic, ultrasonic & vortex meters, NABL calibrated, for Surat’s massive textile clusters.",
 
   // 🔹 HERO SLIDER
   slides: [
