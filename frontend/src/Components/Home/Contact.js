@@ -95,6 +95,12 @@ const Contact = () => {
           <Col md={6} className="contact-info">
             <h1 className="mb-3">Get In Touch</h1>
             <p>Here’s how you can reach us,</p>
+            <p className="mt-3">
+              IOTAFLOW Systems Pvt. Ltd. manufactures electromagnetic, ultrasonic, vortex, turbine and other industrial flow meters in New Delhi and supplies them across India and overseas. Contact us for product selection, price quotations, calibration, installation support or after-sales service.
+            </p>
+            <p>
+              For a faster quote, tell us the fluid, pipe size, flow range, operating pressure and temperature, and the output or communication you need. Our application engineers will recommend the right meter for your process.
+            </p>
 
             <h5 className="mt-4">Talk to sales</h5>
             {contactDetailsRevealed ? (

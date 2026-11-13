@@ -12,19 +12,19 @@ import approval9 from "../images/Public Health Engineering Organisation (PHEO), 
 import approval10 from "../images/BHEL Approval.webp";
 
 const approvals = [
-  { id: 1, img: approval1, title: "UP JAL NIGAM Approval 1" },
-  { id: 2, img: approval2, title: "UP JAL NIGAM Approval 2" },
-  { id: 3, img: approval3, title: "RWSS- Approval letter - IOTAFLOW" },
-  { id: 4, img: approval4, title: "OIL INDIA LIMITED JOB APPROVAL" },
-  { id: 5, img: approval5, title: "DMS Approved" },
-  { id: 6, img: approval6, title: "NTPC Vendor Enlistment Certificate" },
-  { id: 7, img: approval7, title: "DJB Approval Letter Dec2019" },
-  { id: 8, img: approval8, title: "DELHI METRO JOB APPROVAL CERTIFICATE" },
-  { id: 9, img: approval9, title: "Public Health Engineering Organisation (PHEO), Odisha" },
+  { id: 1, img: approval1, title: "UP JAL NIGAM Approval 1", desc: "Approval from Uttar Pradesh Jal Nigam, the state agency for water supply and sewerage projects, for supply of our flow meters." },
+  { id: 2, img: approval2, title: "UP JAL NIGAM Approval 2", desc: "A further Uttar Pradesh Jal Nigam approval covering additional flow meter models for water supply schemes across the state." },
+  { id: 3, img: approval3, title: "RWSS- Approval letter - IOTAFLOW", desc: "Approval letter from the Rural Water Supply & Sanitation department for flow meters used in rural drinking water projects." },
+  { id: 4, img: approval4, title: "OIL INDIA LIMITED JOB APPROVAL", desc: "Job approval from Oil India Limited for flow measurement work in oil and gas operations." },
+  { id: 5, img: approval5, title: "DMS Approved", desc: "Approval from the Delhi Milk Scheme for flow meters used in dairy processing." },
+  { id: 6, img: approval6, title: "NTPC Vendor Enlistment Certificate", desc: "Vendor enlistment with NTPC, India's largest power generation company, for supply of flow measurement equipment to power plants." },
+  { id: 7, img: approval7, title: "DJB Approval Letter Dec2019", desc: "Approval from the Delhi Jal Board (December 2019) for flow meters used in Delhi's water supply and sewage networks." },
+  { id: 8, img: approval8, title: "DELHI METRO JOB APPROVAL CERTIFICATE", desc: "Job approval certificate from Delhi Metro Rail Corporation for flow metering work on metro infrastructure." },
+  { id: 9, img: approval9, title: "Public Health Engineering Organisation (PHEO), Odisha", desc: "Approval from the Public Health Engineering Organisation, Odisha, for flow meters in urban water supply schemes." },
   { 
     id: 10, 
     img: approval10, 
-    title: "BHEL Approval",
+    title: "BHEL Approval", desc: "Registration with Bharat Heavy Electricals Limited (BHEL) for supply of flow meters to power and industrial projects. Click to open the PDF letter.",
     pdf: `${process.env.PUBLIC_URL || ""}/documents/BHEL%20PEM%20registration%20letter%20IOTAflow.pdf`
   },
 ];
@@ -49,6 +49,16 @@ function Approval() {
           <div className="tw-w-24 tw-h-1.5 tw-bg-[#ffd700] tw-mx-auto tw-rounded-full"></div>
           <p className="tw-text-gray-600 tw-mt-4 tw-text-base md:tw-text-lg font-bold">
              Official approvals and regulatory documents supporting our compliance.
+          </p>
+        </div>
+
+        {/* Intro */}
+        <div className="tw-max-w-4xl tw-mx-auto tw-mb-12 tw-text-gray-700 tw-text-base md:tw-text-lg tw-space-y-4">
+          <p>
+            IOTAFLOW Systems flow meters are approved for use by government water utilities, public sector power and oil companies, and major infrastructure operators across India. These approvals mean our electromagnetic, ultrasonic and other flow meters have been reviewed and accepted for supply on public projects.
+          </p>
+          <p>
+            Our approvals include state water boards such as UP Jal Nigam, Delhi Jal Board and PHEO Odisha, along with NTPC, BHEL, Oil India Limited, Delhi Metro and the Delhi Milk Scheme. Click any document below to view it in full. Copies can be provided for tender and vendor registration purposes.
           </p>
         </div>
 
@@ -87,6 +97,9 @@ function Approval() {
                 <h3 className="tw-mt-6 tw-text-xl tw-font-bold tw-text-black group-hover:tw-text-[#d4af37] tw-transition-colors tw-text-center">
                   {item.title}
                 </h3>
+                <p className="tw-mt-2 tw-text-gray-600 tw-text-center tw-text-sm md:tw-text-base">
+                  {item.desc}
+                </p>
               </a>
             ))}
           </div>

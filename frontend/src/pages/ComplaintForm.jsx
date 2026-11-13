@@ -83,6 +83,14 @@ export default function ComplaintForm() {
         <p className="tw-text-gray-400 tw-mt-1">
           Please provide the details about your issue below.
         </p>
+        <div className="tw-max-w-3xl tw-mx-auto tw-mt-4 tw-text-left tw-text-gray-300 tw-text-sm md:tw-text-base tw-space-y-2">
+          <p>
+            Use this form to report a problem with an IOTAFLOW flow meter, flow computer, data logger or service visit. Our service support team reviews every complaint and will contact you to diagnose the issue, arrange remote support or schedule a site visit where needed.
+          </p>
+          <p>
+            To help us resolve it quickly, include the product model and serial number, the installation site, when the problem started and what you observed (for example, zero or unstable readings, display errors or communication faults). Photos of the meter, its display and nameplate are very helpful.
+          </p>
+        </div>
       </div>
 
       {/* --- This is the new grid container for the first two rows --- */}

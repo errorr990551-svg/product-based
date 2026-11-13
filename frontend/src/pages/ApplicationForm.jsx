@@ -90,6 +90,14 @@ const ApplicationForm = () => {
         <p className="tw-text-center tw-text-gray-300 tw-mb-8">
           Apply for exciting opportunities with us
         </p>
+        <div className="tw-text-gray-300 tw-text-sm md:tw-text-base tw-mb-8 tw-space-y-2">
+          <p>
+            IOTAFLOW Systems designs, manufactures, calibrates and services industrial flow meters from New Delhi for water utilities, power plants, oil and gas, chemical and process industries across India and abroad. Our teams work across engineering, production, calibration, field service, sales and administration.
+          </p>
+          <p>
+            Fill in your details, choose the role you are interested in and upload your resume (PDF or Word). Our HR team reviews every application and will contact shortlisted candidates for the next steps.
+          </p>
+        </div>
 
         {message.text && (
           <div

@@ -119,7 +119,7 @@ function Getstarted() {
             </h2>
             
             {/* Custom Bold Arrow Underline */}
-            <div className="tw-absolute tw-left-0 tw-top-full tw-mt-2 tw-flex tw-items-center tw-w-[115%]">
+            <div className="tw-absolute tw-left-0 tw-top-full tw-mt-2 tw-flex tw-items-center tw-w-full md:tw-w-[115%]">
               {/* Bold Arrow Shaft */}
               <div className="tw-h-2 tw-bg-[#ffd700] tw-flex-grow tw-rounded-l-sm"></div>
               

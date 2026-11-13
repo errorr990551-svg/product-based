@@ -10,13 +10,13 @@ import cert6 from "../images/ISO.webp";
 import cert7 from "../images/E-TenderEnquiry.webp";
 
 const certificates = [
-  { id: 1, img: cert1, title: "Zed Gold Certificate" },
-  { id: 2, img: cert2, title: "Type Test Certificate - PTB Lab Germany" },
-  { id: 3, img: cert3, title: "RWSS Approval" },
-  { id: 4, img: cert4, title: "Environmental Management Systems Certificate" },
-  { id: 5, img: cert5, title: "Lean Basic Certificate" },
-  { id: 6, img: cert6, title: "ISO Certificate" },
-  { id: 7, img: cert7, title: "Delhi Milk Scheme Approval" },
+  { id: 1, img: cert1, title: "Zed Gold Certificate", desc: "Gold level under the Ministry of MSME's Zero Defect Zero Effect (ZED) scheme, which assesses manufacturing quality, process control and environmental impact." },
+  { id: 2, img: cert2, title: "Type Test Certificate - PTB Lab Germany", desc: "Type test report from PTB, Germany's national metrology institute, confirming the measurement performance of our flow meter design against international standards." },
+  { id: 3, img: cert3, title: "RWSS Approval", desc: "Approval from the Rural Water Supply & Sanitation department for supplying flow meters to drinking water supply schemes." },
+  { id: 4, img: cert4, title: "Environmental Management Systems Certificate", desc: "Certification of our environmental management system, covering how we control waste, energy use and environmental risk in manufacturing." },
+  { id: 5, img: cert5, title: "Lean Basic Certificate", desc: "Lean manufacturing certification under the MSME Lean scheme, recognising waste reduction and efficient production practices on our shop floor." },
+  { id: 6, img: cert6, title: "ISO Certificate", desc: "ISO quality management certification covering the design, manufacture, calibration and servicing of our flow measurement products." },
+  { id: 7, img: cert7, title: "Delhi Milk Scheme Approval", desc: "Approval from the Delhi Milk Scheme for supplying flow meters used in hygienic dairy processing applications." },
 ];
 
 function Certification() {
@@ -59,6 +59,18 @@ function Certification() {
           </div>
         </div>
 
+        {/* Intro */}
+        <div className="tw-container tw-mx-auto tw-px-4 tw-mb-12">
+          <div className="tw-max-w-4xl tw-mx-auto tw-text-gray-700 tw-text-base md:tw-text-lg tw-space-y-4">
+            <p>
+              IOTAFLOW Systems manufactures electromagnetic, ultrasonic, vortex and other industrial flow meters at our facility in Mayapuri, New Delhi. Independent certifications are how we show customers, consultants and tender committees that our products and processes meet recognised quality, safety and environmental standards.
+            </p>
+            <p>
+              The certificates below cover our quality management system, environmental practices, lean manufacturing and independent type testing of our meter designs. Copies can be shared on request for vendor registration, tender documentation and project approvals.
+            </p>
+          </div>
+        </div>
+
         {/* Certificates Grid - Back in container */}
         <div className="tw-container tw-mx-auto tw-px-4">
           <div className="tw-max-w-6xl tw-mx-auto">
@@ -82,6 +94,9 @@ function Certification() {
                   <h3 className="tw-mt-6 tw-text-xl tw-font-bold tw-text-black group-hover:tw-text-[#d4af37] tw-transition-colors tw-text-center">
                     {cert.title}
                   </h3>
+                  <p className="tw-mt-2 tw-text-gray-600 tw-text-center tw-text-sm md:tw-text-base">
+                    {cert.desc}
+                  </p>
                 </div>
               ))}
             </div>
