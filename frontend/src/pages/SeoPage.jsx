@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import EnquiryButton from '../Components/common/EnquiryButton';
+import { findRegion } from '../data/marketAreas';
 import { mumbaiSeoData, delhiSeoData, hyderabadSeoData, chennaiSeoData, anantapurSeoData } from "../data/citySeoData";
 import { bengaluruSeoData } from "../data/cities/bengaluru";
 import { udupiSeoData } from "../data/cities/udupi";
@@ -922,6 +923,43 @@ function ProductCategoriesSeo({ categoriesData }) {
 // 🔹 MAIN COMPONENT
 // ====================================================================
 
+// Links to the other cities we serve in the same state, so every city page is
+// reachable from its neighbours (not only from /market-area)
+function NearbyCities({ slug, cityName }) {
+  const region = findRegion(slug);
+  if (!region || !region.cities.length) return null;
+  return (
+    <section className="tw-py-12 tw-bg-gray-50">
+      <Container>
+        <h2 className="tw-text-2xl md:tw-text-3xl tw-font-bold tw-mb-3">
+          <span className="tw-border-l-4 tw-border-yellow-400 tw-pl-3">
+            {region.state === "Major Metro Cities"
+              ? `Flow Meter Supply in Other Major Cities`
+              : `Flow Meter Supply Near ${cityName}: Other Cities in ${region.state}`}
+          </span>
+        </h2>
+        <p className="tw-text-gray-600 tw-mb-6">
+          Besides {cityName}, IOTAFLOW supplies, installs and calibrates industrial flow meters {region.state === "Major Metro Cities" ? "in India's major industrial cities" : `across ${region.state}`}. See our local pages:
+        </p>
+        <div className="tw-grid tw-grid-cols-2 sm:tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 tw-gap-3">
+          {region.cities.map((c) => (
+            <Link
+              key={c.link}
+              to={c.link}
+              className="tw-no-underline tw-bg-white tw-border tw-border-gray-200 tw-py-2.5 tw-px-3 tw-rounded-md tw-text-center tw-text-sm tw-text-gray-700 hover:tw-border-[#ffd700] hover:tw-text-black tw-transition-colors"
+            >
+              Flow meters in {c.name}
+            </Link>
+          ))}
+        </div>
+        <p className="tw-mt-6 tw-mb-0">
+          <Link to="/market-area" className="tw-font-semibold tw-text-black">View all cities we serve &rarr;</Link>
+        </p>
+      </Container>
+    </section>
+  );
+}
+
 const SeoPage = () => {
   const { city } = useParams();
 
@@ -968,6 +1006,7 @@ const slidesWithImages = (seoData.slides || []).map((slide, index) => ({
       <InstrumentationSuppliersSeo instrumentation={instrumentation} cityName={formattedCityName } />
       <YtSeo />
       <Faqs faqs={faqs} />
+      <NearbyCities slug={canonicalSlug} cityName={formattedCityName} />
     </>
   );
 };
