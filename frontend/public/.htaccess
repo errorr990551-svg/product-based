@@ -3,6 +3,7 @@ DirectoryIndex index.html
 
 # Unknown URLs get a real 404 status (with a noindex page that still boots the app)
 ErrorDocument 404 /404.html
+ErrorDocument 410 /404.html
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
@@ -11,6 +12,16 @@ ErrorDocument 404 /404.html
   # 1. One canonical host: redirect www to the bare domain
   RewriteCond %{HTTP_HOST} ^www\.iotaflow\.com$ [NC]
   RewriteRule ^(.*)$ https://iotaflow.com/$1 [R=301,L]
+
+  # Old WordPress-era URLs. Products with a current equivalent are 301-redirected;
+  # everything else from the old site is 410 Gone so Google drops it quickly.
+  RewriteRule ^product/robust-ultrasonic-water-meter/?$ /product-detail/detail2 [NC,R=301,L]
+  RewriteRule ^product/(automatic-meter-reading|prepaid-water-meter-system)/?$ /iotsense [NC,R=301,L]
+  RewriteRule ^product/turbine[^/]*/?$ /product-detail/detail10 [NC,R=301,L]
+  RewriteRule ^(product|product-category|product-tag|shop|cart|checkout|my-account|category|tag|author)/.+$ - [NC,G,L]
+  RewriteRule ^(product-category|shop|cart|checkout|my-account)/?$ - [NC,G,L]
+  RewriteRule ^(wp-admin|wp-content|wp-includes|wp-json|feed|comments)(/.*)?$ - [NC,G,L]
+  RewriteRule ^(wp-login\.php|xmlrpc\.php)$ - [NC,G,L]
 
   # 2. Strip trailing slashes (/about-us/ -> /about-us) so each page has one URL
   RewriteCond %{REQUEST_FILENAME} !-d
@@ -34,6 +45,8 @@ ErrorDocument 404 /404.html
   RewriteRule ^ - [L]
 
   # 6. Known routes are served from their prerendered HTML file
+  #    (first pass only: otherwise /product/x loops on product.html and returns 500)
+  RewriteCond %{ENV:REDIRECT_STATUS} ^$
   RewriteCond %{REQUEST_FILENAME}.html -f
   RewriteRule ^(.+)$ $1.html [L]
 
