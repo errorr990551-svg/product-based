@@ -5,7 +5,7 @@ const { execSync } = require('child_process');
 
 async function checkRemoteExists(domain, relPath) {
   return new Promise((resolve) => {
-    const url = `${domain}/${relPath.replace(/\\/g, '/')}`;
+    const url = `${domain}/${encodeURI(relPath.replace(/\\/g, '/'))}`;
     const req = https.request(url, {
       method: 'HEAD',
       headers: { 'User-Agent': 'GitHub-Actions-Deploy-Packager' },
@@ -71,18 +71,10 @@ async function main() {
       continue;
     }
 
-    // 2. Documents: skip by default unless changed in recent commit
-    if (relPath.startsWith('documents/')) {
-      continue; // Static catalogues (155 MB) already live on server
-    }
-
-    // 3. Videos: skip unless changed in recent commit
-    if (relPath.endsWith('.mp4')) {
-      continue; // 18 MB video already live on server
-    }
-
-    // 4. Large GIFs (e.g. 9MB gifgif): skip if already on server
-    if (relPath.endsWith('.gif')) {
+    // 2-4. Documents (PDF catalogues), videos and GIFs are large: upload them
+    //      only when the server doesn't already have that exact file.
+    if (relPath.startsWith('documents/') || relPath.endsWith('.mp4') || relPath.endsWith('.gif')) {
+      mediaToCheck.push({ fullPath, relPath });
       continue;
     }
 
