@@ -397,8 +397,7 @@ High Accuracy Volumetric Flow Meters.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p> Contoil® Oil Flow Meters are precision-engineered for accurate measurement of fuel and lubrication oil in the most demanding industrial environments. Built for reliability and flexibility, these meters offer consistent performance regardless of fluid temperature or viscosity. Their <b>compact design</b> allows for easy installation in space-restricted systems, making them ideal for integration with <b>power generators, boilers, burners, and closed-loop lubrication systems</b>. </p>
 
@@ -414,11 +413,9 @@ High Accuracy Volumetric Flow Meters.</li>
  <ul> <li><b>Fuel Consumption Measurement</b> for: <ul> <li>Oil burners in heating systems and industrial furnaces, Unloading Applications</li> <li>Ships, diesel locomotives, and emergency power units</li> <li>Combined heat and power (CHP) systems</li> </ul> </li> <li><b>Lubrication Monitoring</b> in: <ul> <li>Closed-loop systems for machinery bearings and motors</li> <li>Machine test benches and engine testing labs</li> </ul> </li> <li><b>Remote Integration</b>: <ul> <li>Optional digital output for integration into <b>superior control systems</b> and <b>remote monitoring platforms</b></li> </ul> </li> </ul>
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -440,11 +437,9 @@ High Accuracy Volumetric Flow Meters.</li>
 
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
  <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -497,13 +492,9 @@ High Accuracy Volumetric Flow Meters.</li>
       <td>Heating fuel Extra light / Light, Medium, Heavy naphtha, diesel, petrol, and other lubricating liquids (Oils)</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -531,8 +522,7 @@ High Accuracy Volumetric Flow Meters.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

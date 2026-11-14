@@ -285,8 +285,7 @@ IOTAFLOW acrylic & glass tube rotameters for accurate liquid, gas, and steam flo
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p>
 The <b>IOTAFLOW Acrylic & Glass Tube Rotameter Series</b> offers precise, reliable, and cost-effective variable area flow measurement for liquids, gases, and steam across diverse industries.<br/>
@@ -324,11 +323,9 @@ Available with multiple connection types, materials, and optional accessories li
 </p>
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -382,11 +379,9 @@ Available with multiple connection types, materials, and optional accessories li
 </ul>
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
   <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -435,13 +430,9 @@ Available with multiple connection types, materials, and optional accessories li
       <td>PP, MS, SS304, SS316</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -469,8 +460,7 @@ Available with multiple connection types, materials, and optional accessories li
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

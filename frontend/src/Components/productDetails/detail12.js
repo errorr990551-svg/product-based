@@ -382,8 +382,7 @@ Built for tough environments with multiple material and output options.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p> The <b>IOTAFLOW Oval Gear Flow Meter</b> is a high-precision <b>positive displacement flow meter</b> engineered for the accurate measurement of <b>viscous, non-conductive, flammable, and high-value liquids</b>, including <b>solvents, alcohols, oils, and chemicals</b>. Built with dual oval gear rotors, the meter provides <b>direct volumetric flow measurement</b>, unaffected by changes in fluid conductivity, temperature, or pulsation. Manufactured by <b>IOTAFLOW Systems Pvt. Ltd.</b>, this robust flow meter is ideal for <b>batching, dosing, transfer, and process control</b> across a wide range of industrial applications. With available sizes from <b>DN10 to DN200</b>, it offers repeatable accuracy of up to <b>±0.2%</b>, supports a wide viscosity range up to <b>5,000 cP</b>, and handles pressures up to <b>6.4 MPa</b>. </p>
 <p>The meter is supplied with flanged connections to <b>PN16–PN64</b> or <b>ANSI Class 150/300</b>. Match the meter's flange rating to your pipeline's pressure and temperature; this <a href="https://remaxforge.com/blogs/flange-pressure-class-guide/" target="_blank" rel="noopener">flange pressure class guide</a> explains how to choose the right class.</p>
@@ -400,11 +399,9 @@ Built for tough environments with multiple material and output options.</li>
 <ul> <li>The IOTAFLOW Oval Gear Flow Meter is ideal for <b>high-accuracy measurement of viscous, non-conductive, flammable, and high-value fluids</b>, including those used in:</li> <ul> <li><b>Oil metering</b> – diesel, heavy oil, light oil, lubrication systems</li> <li><b>Solvent and alcohol measurement</b> in pharmaceutical, distilleries, and chemical industries</li> <li><b>Paints, adhesives, and resins</b> in packaging and industrial coating</li> <li><b>Chemical dosing and batching</b> systems</li> <li><b>DEF/AdBlue</b> and non-conductive fluid applications</li> <li><b>Food-grade viscous liquid metering</b></li> <li><b>Heat transfer and hydraulic fluids</b> in OEM machinery and skids</li> <li><b>Explosion-prone or Ex-proof zones</b> needing positive displacement metering</li> </ul> </ul>
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -436,11 +433,9 @@ Built for tough environments with multiple material and output options.</li>
   <li>Flanged connections as per <strong>PN16, PN25, PN40, PN64</strong> or <strong>ANSI #150/300</strong> standards</li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
 <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -493,13 +488,9 @@ Built for tough environments with multiple material and output options.</li>
       <td>IP65, IP67, IP68; Flameproof/Ex-Proof options available</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -527,8 +518,7 @@ Built for tough environments with multiple material and output options.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

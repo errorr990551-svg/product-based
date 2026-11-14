@@ -348,8 +348,7 @@ AMR compatibility & precision for industrial and municipal use.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p> The <b>Woltmann Turbine Hot & Cold Mechanical Water Meter</b> is designed for measuring bulk water flow in a variety of industrial, commercial, and waterworks applications. It operates on the Woltmann principle, where a turbine with helical blades rotates inside the pipe as water flows through. The magnetic transmission ensures the register is hermetically sealed and detached from water, enhancing durability and reducing maintenance needs. This meter supports high flow rates, up to 600 m³/h or more, and withstands fluid temperatures up to 130°C for hot water applications. The device is suitable for horizontal, vertical, or inclined installation and features pulse output options for integration with monitoring systems. Certified to international standards such as MID, ISO 4064, and WRAS, it ensures reliable performance in demanding water metering conditions. </p>
 
@@ -368,11 +367,9 @@ AMR compatibility & precision for industrial and municipal use.</li>
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -405,11 +402,9 @@ AMR compatibility & precision for industrial and municipal use.</li>
   <li>Conforms to <strong>EN 14154 and MID Directive 2004/22/EC</strong></li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
 <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -458,12 +453,9 @@ AMR compatibility & precision for industrial and municipal use.</li>
       <td>In-built battery (life 1.5 ~ 2 years) (Optional)</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -491,8 +483,7 @@ AMR compatibility & precision for industrial and municipal use.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

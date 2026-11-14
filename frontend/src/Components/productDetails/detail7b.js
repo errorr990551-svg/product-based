@@ -321,8 +321,7 @@ High Accuracy | Oil & Gas.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p>The <b>MF-TER</b> from <b>IOTAFLOW Systems</b> is a <b>high-precision remote-mount electromagnetic flow meter</b>, specially designed for use in <b>hazardous, explosive, and high-risk industrial environments.</b> It features a <b>flameproof Ex d IIC T6-rated transmitter</b> and provides <b>±0.2% accuracy</b>, making it suitable for <b>custody transfer</b>, <b>chemical dosing</b>, and <b>oil & gas applications</b>.</p>
 <p> Built to comply with <b>CGWA guidelines</b>, the MF-TER is equipped for <b>real-time flow monitoring</b> and <b>data reporting to government portals (CPCB, PCB, NIC)</b> — ensuring legal and environmental accountability.</p>
@@ -349,11 +348,9 @@ High Accuracy | Oil & Gas.</li>
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -388,11 +385,9 @@ High Accuracy | Oil & Gas.</li>
   <li><b>CE, Ex, ISO certified</b></li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
   <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -473,13 +468,9 @@ High Accuracy | Oil & Gas.</li>
       <td>CE, ISO, Ex-proof, CGWA Compliant</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -507,8 +498,7 @@ High Accuracy | Oil & Gas.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

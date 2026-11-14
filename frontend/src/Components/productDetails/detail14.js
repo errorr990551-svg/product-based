@@ -368,8 +368,7 @@ Maintenance-free design with high resistance to oil, moisture, and dust.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p>
 
@@ -402,11 +401,9 @@ Whether looking to <b>reduce compressed air costs</b>, <b>monitor compressor eff
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -451,11 +448,9 @@ Whether looking to <b>reduce compressed air costs</b>, <b>monitor compressor eff
 </ul>
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
  <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -500,12 +495,9 @@ Whether looking to <b>reduce compressed air costs</b>, <b>monitor compressor eff
       <td>RoHS, CE, UKCA</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -533,8 +525,7 @@ Whether looking to <b>reduce compressed air costs</b>, <b>monitor compressor eff
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

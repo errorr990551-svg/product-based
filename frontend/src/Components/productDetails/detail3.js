@@ -301,8 +301,7 @@ Supports DN15 to DN6000 mm.         </li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
         <p><b>UF-1500 Series Insertion Ultrasonic Flow Meter – Precision Flow Measurement for Large Pipelines</b></p>        
 <p>Discover the <b>UF-1500 Insertion Ultrasonic Flow Meter</b> by <b>IOTAFLOW</b> is a high-precision, <b>4-channel (4-beam) insertion-type flow meter</b> designed for <b>accurate, bidirectional flow measurement in large-diameter pipelines.</b> Using advanced <b>ultrasonic time-pulse technology</b> with <b> multi-point sensing</b>, it delivers stable and reliable readings even in challenging flow conditions.</p>
@@ -344,11 +343,9 @@ Supports DN15 to DN6000 mm.         </li>
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -374,11 +371,9 @@ Supports DN15 to DN6000 mm.         </li>
 <li><b>Batching and Alarm Modes</b>: Supports volume-based batching, start-stop batching, and real-time diagnostics with alarm logging.</li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
   <tr>
     <td><b>Parameter</b></td>
     <td><b>Value</b></td>
@@ -451,14 +446,9 @@ Supports DN15 to DN6000 mm.         </li>
     <td><b>Transmitter dimensions</b></td>
     <td>250x132x90 mm.</td>
   </tr>
-</table>
+</table></div>      
 
-
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -486,8 +476,7 @@ Supports DN15 to DN6000 mm.         </li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

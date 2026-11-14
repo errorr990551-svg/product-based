@@ -313,8 +313,7 @@ Seamless billing-grade metering for heating & cooling networks.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
         <p><b>Ultrasonic BTU Meter</b></p>  
 <p>The <b>IOTAFLOW Ultrasonic BTU Meter</b>, intelligently integrated with the <b>Apator FAUN electronic BTU calculator</b>, offers a seamless solution for high-accuracy thermal energy metering in <b>HVAC systems, district heating, chilled water networks, and industrial energy monitoring.</b> Leveraging <b>transit-time ultrasonic flow technology</b>, it guarantees <b>zero pressure drop</b>, long-term stability, and maintenance-free operation—even in harsh conditions.</p>
@@ -342,11 +341,9 @@ Seamless billing-grade metering for heating & cooling networks.</li>
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -373,11 +370,9 @@ Seamless billing-grade metering for heating & cooling networks.</li>
 <li>Configurable via PC software or front buttons for tailored operation.</li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
 <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -422,14 +417,9 @@ Seamless billing-grade metering for heating & cooling networks.</li>
       <td>Low pressure drop, no moving parts, Apator BTU calculator integration</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -457,8 +447,7 @@ Seamless billing-grade metering for heating & cooling networks.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

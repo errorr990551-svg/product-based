@@ -317,8 +317,7 @@ AMR-ready, durable brass body, low start flow.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p> The <b>Apator Powogaz Smart D+ Single-Jet Water Meter</b> is a high-accuracy single-jet water meter designed for residential, commercial, and municipal water metering projects in India. It features advanced vane-wheel technology, hermetically sealed counters for fog resistance, and robust tamper protection to ensure long-term reliability in challenging environments. The meter is MID-compliant with an R200 measurement range and supports wired or wireless AMR communication modules. It allows installation in horizontal and vertical positions without requiring straight pipe runs, providing low starting flow sensitivity and resistance to external magnetic fields. The durable brass body and high-quality internal components ensure extended service life. </p>
 
@@ -335,11 +334,9 @@ AMR-ready, durable brass body, low start flow.</li>
 <ul> <li><b>Residential water metering</b> for single-family and multi-family housing water supply</li> <li><b>Commercial buildings</b> such as hotels, office complexes, and retail facilities</li> <li><b>Industrial utilities</b> including factories and processing plants requiring accurate water tracking</li> <li><b>Municipal water supply networks</b> for cold and hot water distribution systems</li> <li><b>Smart water metering projects</b> integrated with AMR/AMI systems for automated billing</li> </ul>
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -367,11 +364,9 @@ AMR-ready, durable brass body, low start flow.</li>
 </ul>
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
 <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -436,12 +431,9 @@ AMR-ready, durable brass body, low start flow.</li>
       <td>EN-ISO 4064, OIML R49, MID Directive 2014/32/EU</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -469,8 +461,7 @@ AMR-ready, durable brass body, low start flow.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

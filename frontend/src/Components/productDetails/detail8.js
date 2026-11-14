@@ -304,8 +304,7 @@ RoHS, CE & UKCA certified for global safety compliance.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p> The <b>CX/VN/VNS Compact / Micro Sized Electromagnetic Flow Meters</b> are precision-engineered sensors designed for <b>high-accuracy liquid flow measurement</b> in compact industrial setups. These <b>micro-sized electromagnetic flow meters</b> are ideal for <b>chemical liquid monitoring, water purification, food processing, and medical equipment applications</b>. Certified with <b>RoHS, CE, and UKCA</b>, they ensure compliance with global safety standards, making them highly suitable for industries across <b>India</b>.<br/> Built with <b>no moving parts</b> and a <b>compact body</b>, they provide <b>maintenance-free operation</b> and are compatible with <b>corrosive chemicals</b> like sodium hypochlorite, caustic soda, and coagulants — essential for <b>water treatment plants, agriculture spraying systems, and factory wastewater management in India</b>. </p>
 
@@ -323,11 +322,9 @@ RoHS, CE & UKCA certified for global safety compliance.</li>
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -351,11 +348,9 @@ RoHS, CE & UKCA certified for global safety compliance.</li>
   <li><b>Global certifications</b> – RoHS, CE, UKCA approved for industrial safety and reliability.</li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
  <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -388,13 +383,9 @@ RoHS, CE & UKCA certified for global safety compliance.</li>
         </ul>
       </td>
     </tr>
-  </tbody></table>
+  </tbody></table></div>      
 
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -422,8 +413,7 @@ RoHS, CE & UKCA certified for global safety compliance.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

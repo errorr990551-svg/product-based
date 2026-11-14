@@ -297,8 +297,7 @@ function ProductDetail() {
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-12 col-lg-10">
                 <p className="tw-text-gray-700 tw-leading-relaxed">
                   A fire pump is only as dependable as its last flow test. The{" "}
@@ -366,11 +365,9 @@ function ProductDetail() {
                   </li>
                 </ul>
               </div>
-            </div>
-          )}
+            </div></div>
 
-          {activeTab === "Features" && (
-            <div className="row">
+          <div hidden={activeTab !== "Features"}><div className="row">
               {/* Left Column */}
               <div className="col-md-6 column-separator">
                 <ul className="list-unstyled feature-list-spaced">
@@ -437,11 +434,9 @@ function ProductDetail() {
                   </li>
                 </ul>
               </div>
-            </div>
-          )}
+            </div></div>
 
-          {activeTab === "Technical data" && (
-            <div className="tw-space-y-8">
+          <div hidden={activeTab !== "Technical data"}><div className="tw-space-y-8">
               <div>
                 <h4 className="tw-text-lg tw-font-bold tw-text-gray-900 tw-mb-3">
                   Technical Specification
@@ -598,11 +593,9 @@ function ProductDetail() {
                   </table>
                 </div>
               </div>
-            </div>
-          )}
+            </div></div>
 
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
                 {downloadFiles.catalogue.map((file, index) => (
@@ -630,8 +623,7 @@ function ProductDetail() {
                   </a>
                 ))}
               </div>
-            </div>
-          )}
+            </div></div>
         </div>
       </div>
 

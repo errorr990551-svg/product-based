@@ -315,8 +315,7 @@ Open channel & sewer flow meter for Indian drainage systems.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p>The <b>UF AV5500</b> from <b>IOTAFLOW</b> is a high-performance <b>area-velocity ultrasonic flow meter</b>, purpose-built to <b>accurately measure flow in open channels, natural streams, stormwater drains, and partially-filled pipes</b> —without requiring flumes or weirs.</p>
 <p> This advanced system utilizes a <b>submerged ultrasonic Doppler sensor</b> to simultaneously measure <b>velocity and level</b>, calculating flow volume in real-time. Ideal for <b>wastewater</b>, <b>industrial effluent</b>, <b>stormwater monitoring</b>, and <b>irrigation flow measurement</b>, the UF AV5500 delivers <b>CE, CSA, and UL-certified reliability</b> in harsh field conditions.</p>
@@ -353,11 +352,9 @@ Open channel & sewer flow meter for Indian drainage systems.</li>
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -385,11 +382,9 @@ Open channel & sewer flow meter for Indian drainage systems.</li>
   <li><b>Temperature Compensated Readings</b> – Reliable in varying field temperatures</li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
 <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -458,12 +453,9 @@ Open channel & sewer flow meter for Indian drainage systems.</li>
       <td>Portable Doppler Effect (D550 Series) also available</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -491,8 +483,7 @@ Open channel & sewer flow meter for Indian drainage systems.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

@@ -388,8 +388,7 @@ AdBlue & oil flow sensor for Indian OEMs. Aichi OF-Z sensor by IOTAFLOW.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p>
 The <b>OF-Z Microstream Flow Sensor</b> from <b>Aichi Tokei Denki, Japan</b> is a compact, high-precision <b>oval gear flow sensor</b> designed for <b>low flow rate measurement</b> of viscous fluids such as <b>AdBlue, kerosene, heavy oil, and lubricants</b>.<br/>
@@ -428,11 +427,9 @@ Its strength lies in handling <b>viscous and low-viscosity fluids at very low fl
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -461,11 +458,9 @@ Its strength lies in handling <b>viscous and low-viscosity fluids at very low fl
   <li>Offered in India by IOTAFLOW Systems Pvt. Ltd.</li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
 <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -522,12 +517,9 @@ Its strength lies in handling <b>viscous and low-viscosity fluids at very low fl
       <td>Japan</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -555,8 +547,7 @@ Its strength lies in handling <b>viscous and low-viscosity fluids at very low fl
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

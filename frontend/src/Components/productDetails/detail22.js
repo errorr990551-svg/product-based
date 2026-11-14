@@ -273,8 +273,7 @@ Accurate, durable & maintenance-free.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p>
 The <b>UF-BioSonic Series</b> from <b>IOTAFLOW</b> is an advanced ultrasonic flow meter designed specifically for <b>biogas measurement</b> in demanding environments such as landfills, <b>wastewater treatment plants, anaerobic digesters, and bio-methane facilities</b>.<br/>
@@ -307,11 +306,9 @@ Available with <b>RS485 and 4–20 mA outputs</b>, plus external power or long-l
 </p>
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -359,11 +356,9 @@ Available with <b>RS485 and 4–20 mA outputs</b>, plus external power or long-l
   </li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
  <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -412,12 +407,9 @@ Available with <b>RS485 and 4–20 mA outputs</b>, plus external power or long-l
       <td>In-line flange connection</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -445,8 +437,7 @@ Available with <b>RS485 and 4–20 mA outputs</b>, plus external power or long-l
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

@@ -324,8 +324,7 @@ IP67, 10-year battery, NFC app, LoRa/GSM communication & built-in data logger.
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
                 
 <p><b><b>Robust™ Inline Ultrasonic Water Flow Meter | No Moving Parts, 10-Year Battery</b></b></p>
@@ -364,11 +363,9 @@ IP67, 10-year battery, NFC app, LoRa/GSM communication & built-in data logger.
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -391,11 +388,9 @@ IP67, 10-year battery, NFC app, LoRa/GSM communication & built-in data logger.
 <li>Smart Monitoring via NFC & Mobile App.</li>
                         </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
   <tr><th>Parameter</th><th>Value</th></tr>
   <tr><td><b>Pipe Range</b></td><td>DN32 – DN300 / up to DN1000</td></tr>
   <tr><td><b>NFC Communication Enabled</b></td><td></td></tr>
@@ -410,14 +405,9 @@ IP67, 10-year battery, NFC app, LoRa/GSM communication & built-in data logger.
   <tr><td><b>Power supply</b></td><td>Battery Operated 3.6 V, Lithium, 10 years, Power Operated (Optional)</td></tr>
   <tr><td><b>Measurement data logging, number of records</b></td><td>1440 Hourly log – 460 Daily log – 48 Monthly log</td></tr>
   <tr><td><b>CE, MID Certified</b></td><td></td></tr>
-</table>
+</table></div>      
 
-
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -445,8 +435,7 @@ IP67, 10-year battery, NFC app, LoRa/GSM communication & built-in data logger.
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

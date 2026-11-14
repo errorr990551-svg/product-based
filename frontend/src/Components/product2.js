@@ -149,8 +149,7 @@ function ProductDetail() {
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
                 <ul>
   <li><strong>Product Name:</strong> Ultrimis™ Domestic Ultrasonic Water Meter – Apator Powogaz</li>
@@ -184,11 +183,9 @@ function ProductDetail() {
   </li>
 </ul>
               </div>
-            </div>
-          )}
+            </div></div>
 
-          {activeTab === "Features" && (
-           <ul>
+          <div hidden={activeTab !== "Features"}><ul>
   <li>Ultrasonic W-Sonic™ technology for stable, high-accuracy metering up to R800</li>
   <li>No moving parts – maintenance-free and wear-resistant</li>
   <li>Flexible installation – horizontal, vertical, or angled positions without straight pipe runs</li>
@@ -219,11 +216,9 @@ function ProductDetail() {
   </li>
   <li>Compact and lightweight body suitable for small residential installations</li>
   <li>Environmentally friendly – low lithium content and energy-efficient</li>
-</ul>
-          )}
+</ul></div>
 
-          {activeTab === "Technical data" && (
-            <table>
+          <div hidden={activeTab !== "Technical data"}><table>
   <thead>
     <tr>
       <th>Parameter</th>
@@ -280,12 +275,9 @@ function ProductDetail() {
       <td>MID (Directive 2014/32/EU), RED (Directive 2014/53/EU)</td>
     </tr>
   </tbody>
-</table>
-          )}
+</table></div>
 
-          {activeTab === "Downloads" && (
-            <p>Visit our documentation page to download the full technical specifications and data sheets.</p>
-          )}
+          <div hidden={activeTab !== "Downloads"}><p>Visit our documentation page to download the full technical specifications and data sheets.</p></div>
         </div>
       </div>
 

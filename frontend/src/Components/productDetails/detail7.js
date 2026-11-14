@@ -324,8 +324,7 @@ CGWA Compliant.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p>The <b>MF-PRO Electromagnetic Flow Meter</b> by <b>IOTAFLOW Systems</b> is a highly robust, full-bore inline meter engineered for precise flow measurement of conductive liquids, <b>slurries</b>, and <b>wastewater</b> in industrial and municipal applications. Designed for harsh flow environments, it delivers reliable performance with <b>no moving parts</b>, minimal maintenance, and a <b>wide velocity range from 0.3 to 10 m/s</b>.</p>
 <p> MF-PRO complies with <b>CGWA guidelines for flow monitoring</b> and can transmit flow data to <b>CPCB, State Pollution Control Boards (SPCB), and NIC portals</b>, making it ideal for regulated effluent and water discharge applications.</p>
@@ -352,11 +351,9 @@ CGWA Compliant.</li>
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -387,11 +384,9 @@ CGWA Compliant.</li>
   <li><b>CE, ISO certified</b></li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
   <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -468,14 +463,9 @@ CGWA Compliant.</li>
       <td>CE, ISO, CGWA Compliant</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -503,8 +493,7 @@ CGWA Compliant.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 

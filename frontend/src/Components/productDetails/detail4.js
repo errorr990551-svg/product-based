@@ -301,8 +301,7 @@ Easy install, no pipe cutting.</li>
       {/* Tab content */}
       <div className="container">
         <div ref={tabContentRef} className="p-4 border shadow-sm bg-white fade-in">
-          {activeTab === "Description" && (
-            <div className="row">
+          <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
         <p><b>UF-1500 Series Ultrasonic Flow Meter Clamp-On</b></p>  
         <p><b>Unlock Precision with Non-Intrusive Flow Monitoring</b></p>      
@@ -347,11 +346,9 @@ Easy install, no pipe cutting.</li>
 
 
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-                  {activeTab === "Features" && (
-                    <div className="row">
+                  <div hidden={activeTab !== "Features"}><div className="row">
                       {/* Left Column */}
                       <div className="col-md-6 column-separator">
                         <ul className="list-unstyled feature-list-spaced">
@@ -377,11 +374,9 @@ Easy install, no pipe cutting.</li>
 <li><b>Data Logging & Configuration</b>: Internal memory for measurement history, batching control, alarm monitoring, and parameter protection.</li>
 </ul>
                       </div>
-                    </div>
-                  )}
+                    </div></div>
 
-          {activeTab === "Technical data" && (
-            <table className="tech-specs-table">
+          <div hidden={activeTab !== "Technical data"}><table className="tech-specs-table">
 <thead>
     <tr>
       <th><b>Parameter</b></th>
@@ -458,14 +453,9 @@ Easy install, no pipe cutting.</li>
       <td>250x132x90 mm.</td>
     </tr>
   </tbody>
-</table>
+</table></div>      
 
-
-
-          )}      
-
-          {activeTab === "Downloads" && (
-            <div className="row">
+          <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
                 <h4 className="download-heading">Catalogue</h4>
@@ -493,8 +483,7 @@ Easy install, no pipe cutting.</li>
                   </a>
                 ))}
     </div>
-  </div>
-)}
+  </div></div>
         </div>
       </div>
 
