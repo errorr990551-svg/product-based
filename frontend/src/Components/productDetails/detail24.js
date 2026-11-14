@@ -295,6 +295,9 @@ Built with a robust <b>SS316 stainless steel body</b> (optional PTFE lining) and
 With <b>magnetic coupling indication, optional 4–20 mA transmitters, and switch outputs</b>, they ensure safe operation without leakage risk.<br/>
 Ideal for utilities, chemical plants, food & beverage, oil & gas, and process industries requiring dependable flow monitoring.<br/>
 </p>
+<p>
+For dairy, food and pharmaceutical lines, the sanitary and tri-clamp versions fit directly into hygienic stainless steel pipework built with <a href="https://steelmanufacturer.in/dairy-fittings/" target="_blank" rel="noopener">dairy and sanitary fittings</a>, keeping the whole line easy to clean.
+</p>
 
 
           {/* Responsive Decorative Separator Line */}

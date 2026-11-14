@@ -386,6 +386,7 @@ Built for tough environments with multiple material and output options.</li>
             <div className="row">
               <div className="col-md-6">
 <p> The <b>IOTAFLOW Oval Gear Flow Meter</b> is a high-precision <b>positive displacement flow meter</b> engineered for the accurate measurement of <b>viscous, non-conductive, flammable, and high-value liquids</b>, including <b>solvents, alcohols, oils, and chemicals</b>. Built with dual oval gear rotors, the meter provides <b>direct volumetric flow measurement</b>, unaffected by changes in fluid conductivity, temperature, or pulsation. Manufactured by <b>IOTAFLOW Systems Pvt. Ltd.</b>, this robust flow meter is ideal for <b>batching, dosing, transfer, and process control</b> across a wide range of industrial applications. With available sizes from <b>DN10 to DN200</b>, it offers repeatable accuracy of up to <b>±0.2%</b>, supports a wide viscosity range up to <b>5,000 cP</b>, and handles pressures up to <b>6.4 MPa</b>. </p>
+<p>The meter is supplied with flanged connections to <b>PN16–PN64</b> or <b>ANSI Class 150/300</b>. Match the meter's flange rating to your pipeline's pressure and temperature; this <a href="https://remaxforge.com/blogs/flange-pressure-class-guide/" target="_blank" rel="noopener">flange pressure class guide</a> explains how to choose the right class.</p>
 
           {/* Responsive Decorative Separator Line */}
           <div style={{
@@ -432,7 +433,7 @@ Built for tough environments with multiple material and output options.</li>
   <li>Optional display units: <strong>Mechanical, Digital Totalizer, Rate + Total, MCU Controller</strong></li>
   <li>Enclosure ratings: <strong>IP65, IP67, IP68, with NEMA 4X and Ex-Proof options</strong></li>
   <li>Complies with <strong>CGWA guidelines</strong> for groundwater flow reporting</li>
-  <li>Flanged connections as per <strong>PN16, PN25, PN40, PN64</strong> or <strong>ANSI #150//300</strong> standards</li>
+  <li>Flanged connections as per <strong>PN16, PN25, PN40, PN64</strong> or <strong>ANSI #150/300</strong> standards</li>
 </ul>
                       </div>
                     </div>
