@@ -16,7 +16,7 @@ export const PopupProvider = ({ children }) => {
       const revealed = localStorage.getItem("contactDetailsRevealed") === "true";
       // Don't cover interactive tool pages with the enquiry popup
       const toolPage = window.location.pathname.startsWith("/flow-calculator");
-      if (!revealed && !toolPage) {
+      if (!revealed && !toolPage && !window.__PRERENDER__) {
         setPopupPurpose("default");
         setIsPopupOpen(true);
       }

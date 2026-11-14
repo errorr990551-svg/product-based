@@ -16,7 +16,10 @@ const FeatureCard = ({ icon, title, className }) => (
       {/* Image Tag for Icon - increased size since it includes background */}
       <img 
         src={icon} 
-        alt="" 
+        alt={`${title} icon`}
+        width="48"
+        height="48"
+        loading="lazy"
         className="tw-w-12 tw-h-12 tw-object-contain" 
       />
     </div>

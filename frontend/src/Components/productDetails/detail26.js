@@ -10,6 +10,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import img1 from "../../images/d26a.webp";
 import img2 from "../../images/d26b.webp";
 import img3 from "../../images/d26c.webp";
+import pipingImg from "../../images/d26-piping.webp";
 
 // Related product images
 import related1 from "../../images/d2a.webp";
@@ -28,6 +29,11 @@ import EnquiryButton from "../common/EnquiryButton";
 
 function ProductDetail() {
   const images = [img1, img2, img3];
+  const imageAlts = [
+    "IOTAFLOW Fire Pump Test Meter with differential pressure dial gauge on red carbon steel venturi body",
+    "Fire pump test meter dial gauge reading flow (m3/h) and differential pressure (mmWC)",
+    "Fire pump test meter technical drawing - front and side view",
+  ];
   const ROTATE_MS = 2500;
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -37,9 +43,9 @@ function ProductDetail() {
   const [downloadFiles, setDownloadFiles] = useState({
     catalogue: [
       {
-        title: "Catalogue (Cat. No. 150.02.0926)",
-        path: "#", // Link to be added
-        size: "Available on Request",
+        title: "Fire Pump Test Meter Catalogue (Cat. No. 150.02.0926)",
+        path: "/documents/150_Fire Pump Test Meter.pdf",
+        size: "2.24 MB",
       },
     ],
     manual: [],
@@ -62,7 +68,7 @@ function ProductDetail() {
       const fetchSize = async (file) => {
         if (!file.path || file.path === "#") return;
         try {
-          const response = await fetch(file.path);
+          const response = await fetch(file.path, { method: "HEAD" });
           if (response.ok) {
             const size = response.headers.get("content-length");
             file.size = size ? formatBytes(size) : "N/A";
@@ -133,9 +139,9 @@ function ProductDetail() {
   return (
     <div className="text-dark">
       <SEO
-        title="Fire Pump Test Meter | Direct-Reading Flow Testing | IOTAFLOW"
-        description="UL complied IOTAFLOW Fire Pump Test Meter for fire pump flow testing. Carbon steel venturi body, direct-reading dual dial, ±2% FS accuracy, rated up to 34.5 bar (500 psi)."
-        keywords="fire pump test meter, fire protection flow meter, direct reading fire flow meter, NFPA 20 fire pump test meter, venturi fire flow meter, IOTAFLOW fire pump meter"
+        title="Fire Pump Test Meter | UL Certified, DN100–DN250 | IOTAFLOW"
+        description="UL certified fire pump test meter for NFPA 20/25 flow tests. Carbon steel venturi body, ±2% FS dial, DN100–DN250, Grooved/ANSI/Butt Weld ends, up to 500 psi."
+        keywords="fire pump test meter, fire pump flow meter, fire pump testing flow meter, UL certified fire pump test meter, NFPA 20 fire pump test meter, venturi fire flow meter, fire protection flow meter, IOTAFLOW fire pump meter"
       />
 
       <div className="container py-5">
@@ -150,7 +156,7 @@ function ProductDetail() {
               <div ref={imgWrapperRef} className="img-canvas img-fade-in">
                 <img
                   src={mainImage}
-                  alt="IOTAFLOW Fire Pump Test Meter"
+                  alt={imageAlts[currentIndex] || imageAlts[0]}
                   className="main-image mt-2"
                 />
               </div>
@@ -161,7 +167,7 @@ function ProductDetail() {
                 <div key={i} className="d-flex flex-column align-items-center mb-2">
                   <img
                     src={img}
-                    alt={`thumb-${i}`}
+                    alt={imageAlts[i]}
                     onClick={() => handleThumbClick(img, i)}
                     className="img-thumbnail"
                     style={{
@@ -195,7 +201,7 @@ function ProductDetail() {
               Fire Protection
             </p>
             <h1 className="tw-text-3xl tw-font-bold tw-text-gray-900">
-              Fire Pump Test Meter (d26)
+              Fire Pump Test Meter
             </h1>
             <p className="tw-text-base tw-font-medium tw-text-gray-600 tw-mt-1">
               IOTAFLOW Fire Pump Test Meter – Direct-Reading Flow Testing for Fire Pump Systems
@@ -207,7 +213,7 @@ function ProductDetail() {
                 <span>
                   <img src={arrowIcon} alt="arrow icon" className="Icon" />
                 </span>
-                UL complied fire pump test meter for accurate flow testing.
+                UL certified fire pump test meter for accurate, repeatable flow testing.
               </li>
               <li className="mb-2 list-item-with-icon">
                 <span>
@@ -313,7 +319,7 @@ function ProductDetail() {
                   valves. Its dual-scale dial shows flow rate and differential pressure directly –
                   no charts, conversions or external power needed. It is available with Grooved,
                   ANSI 150, ANSI 300 and Butt Weld connections, in line sizes from DN100 to DN250,
-                  and is UL complied for fire protection service.
+                  and is UL certified for fire protection service.
                 </p>
                 <p className="tw-text-gray-700 tw-leading-relaxed">
                   Ideal for fire protection contractors, facility managers and plant safety teams
@@ -332,7 +338,64 @@ function ProductDetail() {
                   }}
                 />
 
-                <h4 className="tw-text-xl tw-font-bold tw-text-gray-900 tw-mb-3">Applications</h4>
+                <h2 className="tw-text-xl tw-font-bold tw-text-gray-900 tw-mb-3">
+                  How to Test a Fire Pump with the Fire Pump Test Meter
+                </h2>
+                <p className="tw-text-gray-700 tw-leading-relaxed">
+                  The test meter is installed in the pump's by-pass test line, with at least 5 pipe
+                  diameters (5D) of straight pipe before it and 2 pipe diameters (2D) after it,
+                  between the by-pass valve and the throttle valve that discharges to waste. Follow
+                  these operating instructions for each flow test:
+                </p>
+                <ol className="tw-space-y-2 tw-list-decimal tw-pl-5 tw-text-gray-700">
+                  <li>Close the system valve.</li>
+                  <li>Open the system by-pass valve and the throttle valve.</li>
+                  <li>
+                    Purge air from the meter:
+                    <ul className="tw-list-disc tw-pl-5 tw-mt-1">
+                      <li>Open the shut-off valves and vent valves on the meter.</li>
+                      <li>
+                        When a steady stream of water is passing through each hose, the meter is
+                        purged of air.
+                      </li>
+                      <li>Close the vent valves after purging.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Refer to the pump's rated GPM/LPM requirement and adjust the throttle valve to
+                    reach it, then read the flow directly on the dial.
+                  </li>
+                  <li>
+                    After the test, open the system valve and close the system by-pass and throttle
+                    valves.
+                  </li>
+                </ol>
+                <figure className="tw-my-6">
+                  <img
+                    src={pipingImg}
+                    alt="Fire pump typical piping diagram showing test meter location with 5xD and 2xD straight pipe, by-pass valve, throttle valve and system valve"
+                    width="1060"
+                    height="370"
+                    loading="lazy"
+                    className="tw-w-full tw-h-auto tw-max-w-3xl tw-border tw-rounded"
+                  />
+                  <figcaption className="tw-text-sm tw-text-gray-500 tw-mt-2">
+                    Fire pump typical piping: the test meter sits in the by-pass test line, 5D
+                    downstream of the by-pass valve and 2D upstream of the throttle valve.
+                  </figcaption>
+                </figure>
+
+                <div
+                  style={{
+                    height: "4px",
+                    width: "100%",
+                    maxWidth: "700px",
+                    background: "linear-gradient(to right, #ffcc00, #ffd700)",
+                    margin: "2rem 0",
+                  }}
+                />
+
+                <h2 className="tw-text-xl tw-font-bold tw-text-gray-900 tw-mb-3">Applications</h2>
                 <ul className="tw-space-y-2 tw-list-disc tw-pl-5 tw-text-gray-700">
                   <li>
                     <strong>Periodic &amp; Annual Fire Pump Testing</strong> – Performance checks at
@@ -381,7 +444,7 @@ function ProductDetail() {
                     rooms
                   </li>
                   <li>
-                    <strong>UL Complied</strong> – Verified compliance for fire protection service
+                    <strong>UL Certified</strong> – Approved for fire protection service
                   </li>
                   <li>
                     <strong>Rugged Carbon Steel Body</strong> – Built for permanent installation in
@@ -536,7 +599,7 @@ function ProductDetail() {
                       <td>
                         <b>Approval</b>
                       </td>
-                      <td>UL Complied</td>
+                      <td>UL Certified</td>
                     </tr>
                     <tr>
                       <td>

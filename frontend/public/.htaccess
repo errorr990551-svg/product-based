@@ -60,6 +60,8 @@ ErrorDocument 410 /404.html
 
 # Prevent caching of HTML so clients always receive updated SPA bundle links
 <IfModule mod_headers.c>
+  # Tell browsers to always use HTTPS for this domain (1 year)
+  Header always set Strict-Transport-Security "max-age=31536000"
   <FilesMatch "\.html$">
     Header set Cache-Control "no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"

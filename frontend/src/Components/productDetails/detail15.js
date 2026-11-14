@@ -25,6 +25,7 @@ import md10020Img from '../../images/MD-10-020-564x686.webp';
 import bt10010Img from '../../images/BT-10-010-564x686.webp';
 import model23400Img from '../../images/SS_23.400.webp';
 import model30300Img from '../../images/SS_30.300.webp';
+import LiteYouTube from "../LiteYouTube";
 
 
 // --- Placeholder Links ---
@@ -612,28 +613,22 @@ const handleSubmit = async (e) => {
       {/* Video 1 */}
       <div className="tw-bg-black tw-rounded-lg tw-overflow-hidden tw-shadow-md">
         <div className="tw-w-full tw-h-[180px]">
-          <iframe
-            className="tw-w-full tw-h-full"
-            src="https://www.youtube.com/embed/8gex6KDndCU"
+          <LiteYouTube
+            className="tw-w-full tw-h-full tw-relative"
+            id="8gex6KDndCU"
             title="Schmidt Technology Video 1"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          />
         </div>
       </div>
 
       {/* Video 2 */}
       <div className="tw-bg-black tw-rounded-lg tw-overflow-hidden tw-shadow-md">
         <div className="tw-w-full tw-h-[180px]">
-          <iframe
-            className="tw-w-full tw-h-full"
-            src="https://www.youtube.com/embed/8gex6KDndCU"
+          <LiteYouTube
+            className="tw-w-full tw-h-full tw-relative"
+            id="8gex6KDndCU"
             title="Schmidt Technology Video 2"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          />
         </div>
       </div>
     </div>

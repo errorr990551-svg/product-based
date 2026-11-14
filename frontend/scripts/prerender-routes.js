@@ -110,9 +110,11 @@ const renderBodies = async (routes) => {
   const origin = `http://127.0.0.1:${server.address().port}`;
   const templateStyles = new Set([...template.matchAll(/<link href="([^"]+\.css)"/g)].map((m) => m[1]));
   const context = await browser.newContext({ viewport: { width: 1366, height: 900 } });
-  // Keep the contact popup closed so it is not baked into the HTML
+  // Keep the enquiry popup from auto-opening (so it is not baked into the HTML)
+  // while leaving everything else exactly as a first-time visitor sees it.
+  // Baking the "contacts revealed" state made the page jump on load (CLS).
   await context.addInitScript(() => {
-    try { window.localStorage.setItem('contactDetailsRevealed', 'true'); } catch (e) { /* ignore */ }
+    window.__PRERENDER__ = true;
   });
   await context.route('**/*', (route) => {
     const url = route.request().url();

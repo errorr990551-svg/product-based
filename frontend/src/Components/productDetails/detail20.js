@@ -90,7 +90,7 @@ function ProductDetail() {
       // A function to fetch and update the size for a single file
       const fetchSize = async (file) => {
         try {
-          const response = await fetch(file.path);
+          const response = await fetch(file.path, { method: "HEAD" });
           if (response.ok) {
             const size = response.headers.get('content-length');
             file.size = size ? formatBytes(size) : 'N/A';

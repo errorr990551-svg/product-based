@@ -17,3 +17,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Product pages: keep the rotating main image box the same size on phones/tablets,
+   so switching to a differently shaped photo doesn't push the page around (layout shift). */
+@media (max-width: 991px) {
+  div.main-image-wrapper {
+    aspect-ratio: 1 / 1;
+    max-height: 400px;
+  }
+}

@@ -73,6 +73,7 @@ import n31 from "../../images/New_31.webp";
 import n32 from "../../images/New_32.webp";
 import n33 from "../../images/New_33.webp";
 import n34 from "../../images/34.webp";
+import LiteYouTube from "../LiteYouTube";
 
 
 
@@ -266,17 +267,17 @@ export function MoreAboutUs() {
         <Row className="g-4">
           <Col md={4}>
             <div className="ratio ratio-16x9 video-frame">
-              <iframe src="https://www.youtube.com/embed/VZZiKbyaNww" title="video1" allowFullScreen />
+              <LiteYouTube id="VZZiKbyaNww" title="IOTAFLOW Systems company video 1" style={{ borderRadius: 6 }} />
             </div>
           </Col>
           <Col md={4}>
             <div className="ratio ratio-16x9 video-frame">
-              <iframe src="https://www.youtube.com/embed/2PgkpKsiGsY" title="video2" allowFullScreen />
+              <LiteYouTube id="2PgkpKsiGsY" title="IOTAFLOW Systems company video 2" style={{ borderRadius: 6 }} />
             </div>
           </Col>
           <Col md={4}>
             <div className="ratio ratio-16x9 video-frame">
-              <iframe src="https://www.youtube.com/embed/3NVPU0yrmu0" title="video3" allowFullScreen />
+              <LiteYouTube id="3NVPU0yrmu0" title="IOTAFLOW Systems company video 3" style={{ borderRadius: 6 }} />
             </div>
 
           </Col>

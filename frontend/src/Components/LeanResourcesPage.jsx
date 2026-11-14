@@ -5,7 +5,7 @@ import "./lean-resources.css";
 import ProductCard from "./ProductCard";
 
 import img1 from "../images/pankaj-malik-lean-transformation-iotaflow.webp"; // Hero banner
-import img2 from "../images/gifgif.gif";
+import img2 from "../images/lean-journey.webp"; // animated (was 9 MB GIF)
 import img3 from "../images/iotaflow-lean-management-team.webp";
 
 // Emoticon icons
@@ -17,6 +17,7 @@ import steamIcon from "../images/Emoticon 5.webp";
 import chemicalIcon from "../images/Emoticon 6.webp";
 import waste7 from "../images/Emoticon 7.webp";
 import waste8 from "../images/Emoticon 8.webp";
+import LiteYouTube from "./LiteYouTube";
 
 function LeanResourcesPage() {
   const [activeKey, setActiveKey] = useState("-1");
@@ -189,10 +190,9 @@ function LeanResourcesPage() {
                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Paul Akers 2 Second Lean Tour at IOTAFLOW Systems manufacturing facility" className="tw-hidden" />
                   )}
                   <div className="ratio ratio-16x9 video-frame">
-                    <iframe
-                      src={video.link}
-                      title={`video-${idx}`}
-                      allowFullScreen
+                    <LiteYouTube
+                      id={video.link.split("/embed/")[1]}
+                      title={video.title}
                     />
                   </div>
                   <div className="video-info">

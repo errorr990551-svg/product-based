@@ -6,7 +6,40 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 import { useNavigate, useLocation } from "react-router-dom";
 import { usePopup } from "../context/PopupContext";
+import LazyIframe from "./LazyIframe";
 
+
+const FOOTER_PRODUCTS = [
+  ["Domestic Ultrasonic Water Meter", "/product"],
+  ["Inline Ultrasonic Flow Meter", "/product-detail/detail2"],
+  ["Intrusive Ultrasonic Flow Meter", "/product-detail/detail3"],
+  ["Clamp-On Ultrasonic Flow Meter", "/product-detail/detail4"],
+  ["Portable Ultrasonic Flow Meter", "/product-detail/detail5"],
+  ["Area Velocity Doppler Flow Meter", "/product-detail/detail6"],
+  ["Ultrasonic BTU & Energy Meter", "/product-detail/detail17"],
+  ["Ultrasonic Gas Flow Meter", "/product-detail/detail20"],
+  ["Biogas Flow Meter", "/product-detail/detail22"],
+  ["Compressed Air & Nitrogen Flow Meter", "/product-detail/detail14"],
+  ["Electromagnetic Flow Meter", "/product-detail/detail7"],
+  ["Ex-Proof Electromagnetic Flow Meter", "/product-detail/detail7b"],
+  ["Compact Electromagnetic Flow Meter", "/product-detail/detail8"],
+  ["Smart Single-Jet Water Meter", "/product-detail/detail9"],
+  ["Woltmann Water Meter", "/product-detail/detail10"],
+  ["Ring Piston Flow Meter", "/product-detail/detail11"],
+  ["Oval Gear Flow Meter", "/product-detail/detail12"],
+  ["Micro Stream Flow Sensor", "/product-detail/detail13"],
+  ["Thermal Mass Flow Meter", "/product-detail/detail15"],
+  ["Vortex Flow Meter", "/product-detail/detail16"],
+  ["Insertion Vortex Flow Meter", "/product-detail/detail18"],
+  ["Turbine Gas Meter", "/product-detail/detail19"],
+  ["RPD Gas Meter", "/product-detail/detail21"],
+  ["Conical Flow Meter", "/product-detail/detail23"],
+  ["Metal Tube Rotameter", "/product-detail/detail24"],
+  ["Glass / Acrylic Rotameter", "/product-detail/detail25"],
+  ["Fire Pump Test Meter", "/product-detail/detail26"],
+  ["Flow Meter Accessories", "/accessories"],
+  ["IoTSense Platform", "/iotsense"],
+];
 
 function Footer() {
   const { contactDetailsRevealed, openPopup } = usePopup();
@@ -88,7 +121,9 @@ function Footer() {
               title="Company"
               items={[
                 { label: "About Us", href: "/about-us" },
+                { label: "Certifications", href: "/about-us/certification" },
                 { label: "Services", href: "/services" },
+                { label: "Accessories", href: "/accessories" },
                 { label: "Case Studies", href: "/casestudies" },
                 { label: "Lean Resources", href: "/lean-manufacturing" },
                 { label: "Market Area", href: "/market-area" }
@@ -162,7 +197,7 @@ function Footer() {
                 <i className="bi bi-geo-alt me-2"></i> Find Us
               </p>
               <div className="map">
-                <iframe
+                <LazyIframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.2619677918765!2d77.1224383!3d28.621909699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d034d4c4c02d3%3A0x4b397a3052ad9053!2sIOTAFLOW%20Systems%20Pvt%20Ltd%20-%20Flow%20meter%20manufacturer%20%26%20exporter%20in%20india!5e0!3m2!1sen!2sin!4v1755784905876!5m2!1sen!2sin"
                   width="100%"
                   height="120"
@@ -170,11 +205,28 @@ function Footer() {
                   allowFullScreen=""
                   loading="lazy"
                   title="Company Location"
-                ></iframe>
+                />
               </div>
             </div>
           </Col>
         </Row>
+
+        {/* All products – plain links so every product page is reachable from every page */}
+        <nav aria-label="All products" className="footer-products mt-4">
+          <h5 className="fw-bold mb-2 footer-col-title">
+            Our Products
+            <span className="footer-col-underline" />
+          </h5>
+          <ul className="footer-products-list list-unstyled mb-0">
+            {FOOTER_PRODUCTS.map(([label, href]) => (
+              <li key={href}>
+                <Link to={href} className="text-decoration-none text-light-50">
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </Container>
 
       {/* Yellow Divider */}

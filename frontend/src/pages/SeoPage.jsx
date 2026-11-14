@@ -245,6 +245,7 @@ import sappflowmeter from "../images/p23a.webp";
 import thermalmassimg from "../images/p15a.webp";
 import gasflowmeterimg from "../images/p19a.webp";
 import vorteximg from "../images/p16a.webp";
+import LiteYouTube from "../Components/LiteYouTube";
 
 
 // ================= CITY DATA MAP =================
@@ -812,14 +813,10 @@ function YtSeo() {
                     className="tw-relative tw-w-full tw-overflow-hidden tw-rounded-xl"
                     style={{ paddingBottom: "56.25%" }} // 16:9 aspect ratio
                   >
-                    <iframe
+                    <LiteYouTube
                       className="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full tw-rounded-xl"
-                      src={`https://www.youtube.com/embed/${video.videoId}`}
+                      id={video.videoId}
                       title={video.title || "Industrial Flowmeter Video"}
-                      frameBorder="0"
-                      loading="lazy"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
                     />
                   </div>
                 </div>

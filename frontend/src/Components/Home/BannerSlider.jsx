@@ -173,7 +173,9 @@ function BannerSlider() {
       onMouseLeave={() => setPaused(false)}
     >
       {/* Slides */}
-      <AnimatePresence mode="wait">
+      {/* initial={false}: the first slide is visible straight away (no fade-in),
+          so the pre-rendered banner and its H1 are not hidden at opacity 0 */}
+      <AnimatePresence mode="wait" initial={false}>
         <motion.div
           key={index}
           initial={{ opacity: 0 }}
@@ -186,6 +188,7 @@ function BannerSlider() {
           <motion.img
             src={slides[index].img}
             alt={slides[index].alt || `Slide ${index + 1}`}
+            fetchPriority={index === 0 ? "high" : "auto"}
             initial={{ scale: 1 }}
             animate={{ scale: 1.05 }}
             transition={{ duration: 4, ease: "easeInOut" }}
