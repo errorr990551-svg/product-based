@@ -247,7 +247,7 @@ function ProductDetail() {
           {/* RIGHT: copy */}
          <div className="col-lg-6 product-detail-right">
             <p className="text-muted">Gas Flow Meters</p>
-            <h1 className="tw-text-3xl tw-font-semibold">EQZ/EQZK Turbine Gas Flow Meter</h1>
+            <h1 className="tw-text-3xl tw-font-semibold">EQZ Series Turbine Gas Flow Meter (EQZ/EQZK)</h1>
             
             {/* Reverted to original Bootstrap-style list with your Icon class */}
             <ul className="list-unstyled mt-3">

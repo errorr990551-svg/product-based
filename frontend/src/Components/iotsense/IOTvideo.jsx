@@ -31,7 +31,7 @@ function IOTvideo() {
           
           {/* Updated: Smaller Heading Size */}
           <h1 className="tw-text-2xl md:tw-text-4xl tw-font-bold tw-text-black tw-mb-4">
-            <span className="tw-text-[#ffaa00]">IOT Sense</span> – Smart Flow Intelligence Platform
+            <span className="tw-text-[#ffaa00]">IOT Sense</span> – IoT Flow Meter Monitoring Platform
           </h1>
           
           {/* Updated: Smaller Description Size */}

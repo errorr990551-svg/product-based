@@ -208,7 +208,7 @@ const handleSubmit = async (e) => {
           </h5>
           
           <h1 className="tw-text-2xl md:tw-text-4xl tw-font-extrabold tw-text-white tw-leading-tight tw-drop-shadow-lg">
-            THERMAL MASS <br/> FLOW SENSORS
+            THERMAL MASS <br/> GAS FLOW SENSORS
           </h1>
         </div>
       </div>

@@ -223,7 +223,7 @@ function ProductDetail() {
           {/* RIGHT: copy */}
          <div className="col-lg-6 product-detail-right">
             <p className="text-muted">Gas Flow Meter</p>
-            <h1 className="tw-text-3xl tw-font-semibold"> GasPro RPD Gas Meter </h1>
+            <h1 className="tw-text-3xl tw-font-semibold">GasPro RPD Gas Meter (Rotary Positive Displacement)</h1>
             
             {/* Reverted to original Bootstrap-style list with your Icon class */}
             <ul className="list-unstyled mt-3">
@@ -291,7 +291,7 @@ Made in India.</li>
           <div hidden={activeTab !== "Description"}><div className="row">
               <div className="col-md-6">
 <p>
-The <b>GasPro RPD Gas Meter</b> by <b>IOTAFLOW Systems</b> is a high-accuracy rotary displacement meter designed for precise measurement of <b>natural gas, LPG, biogas, hydrogen, and industrial gases</b>.<br/>
+The <b>GasPro RPD Gas Meter</b> by <b>IOTAFLOW Systems</b> is a high-accuracy RPD meter (RPD stands for <b>Rotary Positive Displacement</b>: two rotors trap and count fixed volumes of gas) designed for precise measurement of <b>natural gas, LPG, biogas, hydrogen, and industrial gases</b>.<br/>
 Available in sizes <b>DN15 to DN200 (G6 to G400)</b>, it features <b>±1.5% accuracy</b>, robust construction, and supports <b>pulse, 4–20 mA, and RS-485 Modbus outputs</b>.<br/>
 Optional <b>ELCOR volume corrector</b> ensures MID-certified pressure and temperature compensation, with <b>ATEX approval</b> for hazardous zones.<br/>
 Ideal for <b>CGD, industrial plants, and commercial gas monitoring</b>, with remote data via <b>2G/3G/4G/NB-IoT</b>.<br/>

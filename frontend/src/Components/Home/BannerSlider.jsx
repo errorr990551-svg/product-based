@@ -125,8 +125,8 @@ const slides = [
     // Smaller copies so phones don't download the 2816px desktop banner (LCP image)
     // (encodeURI: the file name has a space, which would break srcset)
     srcSet: `${encodeURI(slide1Small)} 1024w, ${encodeURI(slide1Medium)} 1600w, ${encodeURI(slide1)} 2816w`,
-    heading: "High-Precision Flow Measurement Powered by European Technology",
-    subHeading: "",
+    heading: "Flow Meter Manufacturer in India",
+    subHeading: "High-Precision Flow Measurement Powered by European Technology",
     text: "Designed with German precision and manufactured in India. Delivering ±0.5% accuracy for critical industrial utilities.",
     ctaText: "View Product Range →",
     ctaLink: "/product",
