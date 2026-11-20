@@ -2,12 +2,12 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 import './ProductCard.css';
 
-function ProductCard({ icon, title, details }) {
+function ProductCard({ icon, iconWidth, iconHeight, title, details }) {
   return (
     <Col md={4} className="d-flex justify-content-center mb-4">
       <div className="product-card text-center">
         <div className="iconn-box py-4">
-          <img src={icon} alt={title} className="img-fluid" loading="lazy" />
+          <img src={icon} alt={title} width={iconWidth} height={iconHeight} className="img-fluid" loading="lazy" />
           <div className="title-box py-2">{title}</div>
         </div>
 

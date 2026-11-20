@@ -184,7 +184,7 @@ function ProductDetail() {
               onMouseLeave={() => setIsPaused(false)}
             >
               <div ref={imgWrapperRef} className="img-canvas img-fade-in">
-                <img src={mainImage} alt="Main Meter" className="main-image mt-2" />
+                <img src={mainImage} alt="Main Meter" className="main-image mt-2" fetchPriority="high" />
               </div>
             </div>
 

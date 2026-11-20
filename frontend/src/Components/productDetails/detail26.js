@@ -158,6 +158,7 @@ function ProductDetail() {
                   src={mainImage}
                   alt={imageAlts[currentIndex] || imageAlts[0]}
                   className="main-image mt-2"
+                  fetchPriority="high"
                 />
               </div>
             </div>

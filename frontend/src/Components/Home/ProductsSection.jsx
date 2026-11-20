@@ -25,6 +25,8 @@ function ProductsSection() {
       <Row>
         <ProductCard
           icon={waterIcon}
+          iconWidth={460}
+          iconHeight={329}
           title="Water Flow Meter"
           details={
             <div>
@@ -43,6 +45,8 @@ function ProductsSection() {
 
         <ProductCard
           icon={airIcon}
+          iconWidth={446}
+          iconHeight={317}
           title="Air Flow Meter"
           details={
             <div>
@@ -59,6 +63,8 @@ function ProductsSection() {
 
         <ProductCard
           icon={oilIcon}
+          iconWidth={454}
+          iconHeight={327}
           title="Oil Flow Meter"
           details={
             <div>
@@ -77,6 +83,8 @@ function ProductsSection() {
       <Row>
         <ProductCard
           icon={gasIcon}
+          iconWidth={445}
+          iconHeight={315}
           title="Gas Flow Meter"
           details={
             <div>
@@ -95,6 +103,8 @@ function ProductsSection() {
 
         <ProductCard
           icon={steamIcon}
+          iconWidth={419}
+          iconHeight={293}
           title="Steam Flow Meter"
           details={
             <div>
@@ -116,6 +126,8 @@ function ProductsSection() {
 
         <ProductCard
           icon={chemicalIcon}
+          iconWidth={438}
+          iconHeight={324}
           title="Chemical Flow Meter"
           details={
             <div>

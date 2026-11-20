@@ -111,6 +111,8 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import slide1 from "../../images/banner 25.webp";
+import slide1Small from "../../images/banner 25-1024.webp";
+import slide1Medium from "../../images/banner 25-1600.webp";
 import slide2 from "../../images/bg2.webp";
 import slide3 from "../../images/Website_banner.webp";
 import "./BannerSlider.css";
@@ -120,6 +122,9 @@ import EnquiryButton from "../common/EnquiryButton";
 const slides = [
   {
     img: slide1,
+    // Smaller copies so phones don't download the 2816px desktop banner (LCP image)
+    // (encodeURI: the file name has a space, which would break srcset)
+    srcSet: `${encodeURI(slide1Small)} 1024w, ${encodeURI(slide1Medium)} 1600w, ${encodeURI(slide1)} 2816w`,
     heading: "High-Precision Flow Measurement Powered by European Technology",
     subHeading: "",
     text: "Designed with German precision and manufactured in India. Delivering ±0.5% accuracy for critical industrial utilities.",
@@ -187,6 +192,10 @@ function BannerSlider() {
           {/* Image with zoom effect */}
           <motion.img
             src={slides[index].img}
+            srcSet={slides[index].srcSet}
+            // Drawn width, not screen width: the banner has a fixed height and
+            // crops its sides (object-cover), so it is wider than the screen.
+            sizes="(min-width: 768px) max(100vw, 1388px), (min-width: 640px) 879px, max(100vw, 579px)"
             alt={slides[index].alt || `Slide ${index + 1}`}
             fetchPriority={index === 0 ? "high" : "auto"}
             initial={{ scale: 1 }}
