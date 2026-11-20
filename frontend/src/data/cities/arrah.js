@@ -100,6 +100,27 @@ export const arrahSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Arrah, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Arrah region.",
           ],
+        },
+        {
+          title: "Rice Mills and Agro Processing in Bhojpur",
+          paragraphs: [
+            "Arrah is the headquarters of Bhojpur district, an important rice-growing area fed by the Sone canal system. Rice mills and parboiling units across the district use steam and water for soaking and drying paddy.",
+            "A vortex flow meter on the steam line shows how much steam each batch really uses, which helps reduce husk and fuel costs. Electromagnetic meters measure soaking water and borewell use for groundwater compliance."
+          ],
+        },
+        {
+          title: "Sone Canal Irrigation and Water Supply",
+          paragraphs: [
+            "The Sone canal network carries water to farms across Bhojpur and neighbouring districts. Measuring flow at offtakes and distributaries helps irrigation engineers share water fairly and plan releases.",
+            "The AV5500 area-velocity meter measures canal flow without a weir, and electromagnetic meters on pumping mains record water supplied to towns and villages under drinking water schemes."
+          ],
+        },
+        {
+          title: "Brick Kilns, Hospitals and Small Industry",
+          paragraphs: [
+            "Arrah has a growing number of hospitals, colleges and small industries that use water, steam and diesel every day. Metering helps them control costs and plan maintenance before breakdowns happen.",
+            "Contoil and oval gear meters measure diesel for gensets and vehicles, ultrasonic meters measure building water supply, and our MF-PRO meter covers CGWA borewell rules. We deliver to Arrah with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const arrahSeoData = {
     {
       q: "Can your flowmeters withstand Arrah’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Arrah region.",
+    },
+    {
+      q: "How can a rice mill in Arrah measure steam use?",
+      a: "Fit a vortex flow meter on the main steam line from the boiler. It shows steam flow and total steam used, so you can work out steam per tonne of paddy and see the effect of any changes.",
+    },
+    {
+      q: "Can you measure water in the Sone canal distributaries?",
+      a: "Yes. The AV5500 area-velocity meter measures water level and velocity together, giving flow in open canals without building a weir. Data can be logged for irrigation records.",
     },
   ],
 };

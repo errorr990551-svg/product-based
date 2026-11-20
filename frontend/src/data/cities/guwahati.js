@@ -100,6 +100,27 @@ export const guwahatiSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Guwahati, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Guwahati region.",
           ],
+        },
+        {
+          title: "Refinery and Petroleum Industry in Guwahati",
+          paragraphs: [
+            "Guwahati is home to one of India's oldest oil refineries at Noonmati, along with fuel depots and petroleum logistics that serve the whole North East. These facilities need precise flow measurement for crude, fuels, steam, cooling water and effluent.",
+            "Our flameproof MF-TER electromagnetic meter suits hazardous areas, Contoil and oval gear meters measure fuels accurately for custody records, and vortex meters measure steam. Turbine and ultrasonic gas meters measure fuel gas."
+          ],
+        },
+        {
+          title: "City Water Supply from the Brahmaputra",
+          paragraphs: [
+            "Guwahati is expanding its piped water supply from the Brahmaputra, with large treatment plants, trunk mains and new household connections. Bulk metering at each stage is essential to reduce non-revenue water.",
+            "Large electromagnetic meters and insertion ultrasonic meters measure trunk mains, while Ultrimis and Smart D+ meters suit household and building connections. Zonal meters help the utility find and fix leaks faster."
+          ],
+        },
+        {
+          title: "Hospitals, Hotels, Pharma and Tea Trade",
+          paragraphs: [
+            "As the gateway to the North East, Guwahati has major hospitals, hotels, malls and a busy tea auction and warehousing trade. These buildings use chilled water, hot water and steam that can be measured and managed.",
+            "BTU meters measure air conditioning energy, vortex meters measure steam for laundries and kitchens, and thermal mass sensors measure medical gases and compressed air. We serve Guwahati with fast delivery and support."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const guwahatiSeoData = {
     {
       q: "Can your flowmeters withstand Guwahati’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid, subtropical climate of the Guwahati region.",
+    },
+    {
+      q: "Which flow meters are used in a refinery?",
+      a: "Refineries use flameproof electromagnetic meters for conductive liquids, positive displacement meters such as Contoil and oval gear for fuels, vortex meters for steam and turbine or ultrasonic meters for gas. We can help select meters for each line.",
+    },
+    {
+      q: "How can Guwahati hotels measure air conditioning energy?",
+      a: "Install an ultrasonic BTU meter on the chilled water circuit. It shows cooling energy used, so you can compare chillers, bill tenants fairly and spot waste.",
     },
   ],
 };

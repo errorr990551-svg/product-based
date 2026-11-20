@@ -100,6 +100,27 @@ export const goalparaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Goalpara, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Goalpara region.",
           ],
+        },
+        {
+          title: "Rice Mills and Agro Industry in Goalpara",
+          paragraphs: [
+            "Goalpara district on the south bank of the Brahmaputra has a strong farming economy, with rice mills and agro-processing units across the district. Parboiling and drying need steam and water.",
+            "Vortex meters measure boiler steam, electromagnetic meters measure soaking water, and Contoil meters measure diesel for dryers and gensets. Metering helps mills reduce fuel per tonne of paddy."
+          ],
+        },
+        {
+          title: "Fisheries and Water Bodies",
+          paragraphs: [
+            "Goalpara has many beels and wetlands that support fisheries. Fish farms and hatcheries pump water between ponds, and measuring pump output helps save electricity and diesel.",
+            "Clamp-on ultrasonic meters can check many pumps with one instrument, and electromagnetic meters give permanent readings on important lines."
+          ],
+        },
+        {
+          title: "Water Supply and Flood Resilience",
+          paragraphs: [
+            "Floods are common in Goalpara, and water schemes must keep working through the monsoon. IP68 electromagnetic sensors work underwater, with converters mounted above flood level.",
+            "Bulk meters on treatment plant outlets help the PHE department track water supplied. We deliver to Goalpara with calibration certificates and installation support."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const goalparaSeoData = {
     {
       q: "Can your flowmeters withstand Goalpara’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and riverine climate of the Goalpara region.",
+    },
+    {
+      q: "How can fish farms in Goalpara save pumping costs?",
+      a: "Measure the output of each pump with a clamp-on ultrasonic meter. Pumps that move less water for the same power are worn or mismatched and can be repaired or replaced.",
+    },
+    {
+      q: "Which meter works in a flood-prone chamber?",
+      a: "An electromagnetic meter with an IP68 sensor and a remote converter. The sensor can work under water while the converter stays dry above flood level.",
     },
   ],
 };

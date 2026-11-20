@@ -100,6 +100,27 @@ export const westGodavariSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in West Godavari, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the West Godavari region.",
           ],
+        },
+        {
+          title: "Flow Meters for West Godavari's Aquaculture Belt",
+          paragraphs: [
+            "West Godavari, especially around Bhimavaram and Akividu, is one of India's largest aquaculture regions. Shrimp and fish farms pump water in and out of ponds daily, and the power used by those pumps is one of the biggest costs a farmer has.",
+            "A flow meter on each pump shows how much water it actually moves, which quickly reveals worn pumps and over-pumping. Clamp-on ultrasonic meters can check many pumps with one instrument, while electromagnetic meters give a permanent reading on key lines."
+          ],
+        },
+        {
+          title: "Rice Mills, Feed Mills and Seafood Processing",
+          paragraphs: [
+            "The Godavari delta is a rice bowl, and the district has many rice mills, parboiling units, aqua feed mills and seafood processing plants. Steam and water are essential to all of them, yet many still run without any metering.",
+            "Vortex steam flow meters measure boiler output and steam use per line, and electromagnetic meters measure process and wash water. For cold chain and processing plants, our ultrasonic BTU meters show how much cooling energy each section consumes."
+          ],
+        },
+        {
+          title: "Edible Oil, Sugar and Delta Water Management",
+          paragraphs: [
+            "Oil palm processing, edible oil refining and sugar units in the district handle oils, molasses and steam. Our oval gear meters are well suited to viscous oils, while vortex meters measure steam for refining and evaporation.",
+            "Water flows through the delta via an extensive canal system. The AV5500 area-velocity meter measures canal and drain flow without a weir, helping irrigation and drainage departments manage water across the district."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const westGodavariSeoData = {
     {
       q: "Can your flowmeters withstand West Godavari’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied industrial climates of the West Godavari region.",
+    },
+    {
+      q: "How can an aqua farmer save power on pond pumping?",
+      a: "Measure the water each pump moves. A clamp-on ultrasonic meter can check several pumps one by one without cutting pipes. Pumps that move less water for the same power are worn or poorly matched and can be repaired or replaced.",
+    },
+    {
+      q: "Which meter is best for edible oil or palm oil?",
+      a: "Oval gear flow meters are ideal for viscous oils such as palm oil and edible oils. They are accurate across a wide viscosity range and give a precise totalised volume for batching and dispatch.",
     },
   ],
 };

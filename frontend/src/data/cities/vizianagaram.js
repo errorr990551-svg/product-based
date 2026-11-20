@@ -100,6 +100,27 @@ export const vizianagaramSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Vizianagaram, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Vizianagaram region.",
           ],
+        },
+        {
+          title: "Ferro Alloy and Metal Industry around Vizianagaram",
+          paragraphs: [
+            "Vizianagaram district has a long industrial history, with ferro alloy plants around Garividi and other metal industries that rely heavily on cooling water. Furnaces and transformers must be cooled continuously, and a drop in cooling water flow can lead to expensive damage.",
+            "Electromagnetic flow meters on cooling circuits give a continuous reading and an alarm if flow falls. Clamp-on ultrasonic meters allow quick checks on existing lines, and thermal mass sensors measure compressed air and industrial gases."
+          ],
+        },
+        {
+          title: "Jute Mills, Sugar and Agro Processing",
+          paragraphs: [
+            "Jute mills at Nellimarla and sugar and agro-processing units across the district use steam and water every day. Vortex steam flow meters show how much steam each section uses, which is the first step to reducing coal or bagasse consumption.",
+            "For water drawn from borewells, our MF-PRO electromagnetic meter meets CGWA requirements with a tamper-proof totaliser. Diesel for boilers and gensets can be tracked with Contoil and oval gear oil flow meters."
+          ],
+        },
+        {
+          title: "Serving Bobbili, Vizianagaram Town and the Vizag Corridor",
+          paragraphs: [
+            "Vizianagaram sits close to Visakhapatnam, and many units here supply the larger industries of the Vizag region. Industrial parks at Bobbili and around the town need water, effluent and gas metering for compliance and cost control.",
+            "For effluent channels, the AV5500 open channel meter measures flow without a weir. We dispatch meters from New Delhi with calibration certificates and provide technical support by phone and on site when needed."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const vizianagaramSeoData = {
     {
       q: "Can your flowmeters withstand Vizianagaram’s industrial conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the high-demand environments of the Vizianagaram industrial region.",
+    },
+    {
+      q: "How do I monitor furnace cooling water in a ferro alloy plant?",
+      a: "Install an electromagnetic flow meter on each critical cooling circuit with a low-flow alarm. It reads continuously and has no moving parts to fail. Clamp-on ultrasonic meters can be used for quick checks on other lines.",
+    },
+    {
+      q: "Do you supply CGWA-compliant borewell meters in Vizianagaram?",
+      a: "Yes. Our MF-PRO electromagnetic flow meter is built for CGWA groundwater rules, with a tamper-proof totaliser, data logging and optional telemetry for remote reporting.",
     },
   ],
 };

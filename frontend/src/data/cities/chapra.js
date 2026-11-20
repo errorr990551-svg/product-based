@@ -100,6 +100,27 @@ export const chapraSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Chapra, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Saran region.",
           ],
+        },
+        {
+          title: "Rail Wheel and Locomotive Manufacturing in Saran",
+          paragraphs: [
+            "Saran district around Chapra is home to a rail wheel plant at Bela and a locomotive factory at Marhowrah. Heavy manufacturing like this uses compressed air, cooling water, industrial gases and fuel across furnaces, machining and assembly.",
+            "Thermal mass sensors and ultrasonic air flow meters measure compressed air and gases, electromagnetic meters measure furnace cooling water, and turbine or RPD gas meters measure fuel gas."
+          ],
+        },
+        {
+          title: "Agro Processing and Distilleries",
+          paragraphs: [
+            "Saran's fertile plains support rice, maize and sugarcane, with mills and processing units across the district. These units use steam, water and diesel, often without metering.",
+            "Vortex meters measure steam from boilers, electromagnetic meters measure process and borewell water, and Contoil meters track diesel. Flameproof meters suit areas handling alcohol or solvents."
+          ],
+        },
+        {
+          title: "Ganga–Ghaghara Water Supply",
+          paragraphs: [
+            "Chapra sits near the meeting point of the Ganga and Ghaghara rivers. Town and rural water schemes need bulk meters to record water pumped and supplied.",
+            "Electromagnetic meters on pumping mains and IP68 sensors for flood-prone pits keep readings reliable through the monsoon. We supply to Chapra with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const chapraSeoData = {
     {
       q: "Can your flowmeters withstand Chapra’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Chapra region.",
+    },
+    {
+      q: "How do you monitor cooling water in a forging or wheel plant?",
+      a: "Fit electromagnetic flow meters with low-flow alarms on critical cooling circuits. They read continuously and have no moving parts, so a blocked or failed pump is noticed immediately.",
+    },
+    {
+      q: "Do you supply meters for industrial gases?",
+      a: "Yes. Thermal mass flow sensors measure compressed air, nitrogen and other industrial gases, and turbine and rotary gas meters measure fuel gas. Tell us the gas and line size and we will recommend a model.",
     },
   ],
 };

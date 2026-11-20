@@ -100,6 +100,27 @@ export const krishnaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Krishna, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Krishna region.",
           ],
+        },
+        {
+          title: "Krishna Delta Irrigation and Water Management",
+          paragraphs: [
+            "The Krishna district lies in the fertile Krishna delta, fed by a dense network of canals from the Prakasam Barrage. Fair distribution of water across this network depends on knowing how much flows through each canal and branch.",
+            "The AV5500 area-velocity meter measures open canal flow without a weir, and electromagnetic meters on pumping mains and lift schemes record water delivered. These readings help irrigation engineers plan releases during dry spells."
+          ],
+        },
+        {
+          title: "Aquaculture, Dairy and Food Processing",
+          paragraphs: [
+            "Coastal mandals around Machilipatnam, Kaikaluru and Kruthivennu have extensive fish and shrimp farming, while dairy and food processing units operate across the district. Each of these uses large amounts of water, steam and cooling.",
+            "Sanitary electromagnetic meters measure milk and cleaning solutions in dairies, vortex meters measure steam, and BTU meters measure chilled water energy in processing plants and cold storages."
+          ],
+        },
+        {
+          title: "Gannavaram, Gudivada and Growing Industry",
+          paragraphs: [
+            "Industrial and commercial growth around Gannavaram and Gudivada is bringing new factories, warehouses and institutions that need water, compressed air and energy metering from the start.",
+            "Our MF-PRO meter covers CGWA borewell rules, TRX air flow meters measure compressed air, and Contoil meters track diesel for gensets. We supply meters to the Krishna district with calibration certificates and installation support."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const krishnaSeoData = {
     {
       q: "Can your flowmeters withstand Krishna's industrial environments?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the diverse industrial settings of the Krishna region.",
+    },
+    {
+      q: "Which flow meter is used for milk in a dairy?",
+      a: "A sanitary electromagnetic flow meter. Milk is conductive, so it reads accurately, and the hygienic design withstands daily CIP cleaning. It has no moving parts and causes no pressure loss.",
+    },
+    {
+      q: "Can you measure flow in delta irrigation canals?",
+      a: "Yes. The AV5500 area-velocity meter measures water level and velocity together to give canal flow without building a weir or flume. It can log data for irrigation planning.",
     },
   ],
 };

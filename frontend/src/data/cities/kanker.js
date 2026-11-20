@@ -100,6 +100,27 @@ export const kankerSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Kanker, providing local manufacturing units and quality control labs with a robust verification service designed for high-standard accuracy. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the region.",
           ],
+        },
+        {
+          title: "Water Supply Metering for Kanker and North Bastar",
+          paragraphs: [
+            "Kanker sits at the gateway to the Bastar region, where many towns and villages depend on river intakes, borewells and new piped water schemes under Jal Jeevan Mission. Each scheme needs to prove how much water it pumps and delivers, and that starts with a dependable flow meter on the pumping main.",
+            "Our electromagnetic flow meters fit pipelines from small village mains to large trunk lines and keep their accuracy for years with no moving parts. For sites far from reliable power, battery-operated models with data logging let engineers download readings during routine visits."
+          ],
+        },
+        {
+          title: "Mining and Mineral Processing near Bhanupratappur",
+          paragraphs: [
+            "The iron ore belt around Bhanupratappur in Kanker district needs flow measurement for dewatering pumps, process water and slurry handling. Abrasive, solids-laden water wears out mechanical meters quickly, so a lined electromagnetic flow meter is the better choice for these lines.",
+            "Where a pipe cannot be cut, our clamp-on ultrasonic flow meters are fixed to the outside of the pipe and give readings without stopping the pump. Diesel used by heavy machinery and gensets can be tracked with Contoil oil flow meters to control fuel consumption."
+          ],
+        },
+        {
+          title: "Rice Mills and Forest Produce Units in Kanker",
+          paragraphs: [
+            "Rice is the main crop across Kanker district, and local rice and parboiling mills use steam for soaking and drying paddy. A vortex steam flow meter shows how much steam each batch uses, so mill owners can compare boilers, fuels and operators fairly.",
+            "Units processing minor forest produce such as mahua and tamarind also use water and steam in cleaning and drying. We help these smaller units choose a simple, affordable meter, and we deliver to Kanker with calibration certificates traceable to national standards."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const kankerSeoData = {
     {
       q: "Can your flowmeters withstand Kanker’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid subtropical climate of the region.",
+    },
+    {
+      q: "Do you supply flow meters for Jal Jeevan Mission schemes in Kanker?",
+      a: "Yes. We supply electromagnetic and ultrasonic flow meters for rural water supply schemes, including battery-operated models for remote pump houses. Meters can be supplied with data logging so the scheme's water supply can be recorded and reported.",
+    },
+    {
+      q: "What flow meter works for mine dewatering water?",
+      a: "Mine dewatering water often carries sand and fine particles, so a lined electromagnetic flow meter is recommended. It has no moving parts to wear out. If the pipe cannot be cut, a clamp-on ultrasonic meter can be fitted from the outside instead.",
     },
   ],
 };

@@ -100,6 +100,27 @@ export const tezpurSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Tezpur, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Tezpur region.",
           ],
+        },
+        {
+          title: "Tea Estates of Sonitpur",
+          paragraphs: [
+            "Tezpur is the headquarters of Sonitpur district, one of Assam's main tea regions. Tea factories use fuel, steam and hot air for withering and drying, and measuring fuel use helps estates cut costs and compare factories.",
+            "Contoil meters measure diesel, gas meters measure natural gas, and vortex meters measure steam. Electromagnetic meters measure water drawn from borewells and rivers."
+          ],
+        },
+        {
+          title: "Defence, University and Institutions",
+          paragraphs: [
+            "Tezpur hosts a major army establishment, an air force station, a central university and a large mental health institute. These campuses use large amounts of water, diesel, hot water and air conditioning.",
+            "Ultrasonic and electromagnetic meters measure water supply, Contoil meters measure generator diesel, and BTU meters measure cooling energy. Metering helps campuses plan budgets and find waste."
+          ],
+        },
+        {
+          title: "Brahmaputra Water Supply and Drainage",
+          paragraphs: [
+            "Tezpur sits on the north bank of the Brahmaputra. Town water supply and drainage need accurate data, especially during floods.",
+            "IP68 electromagnetic meters work in flooded chambers, and the AV5500 meter measures drain flow. We deliver to Tezpur with calibration certificates and installation support."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const tezpurSeoData = {
     {
       q: "Can your flowmeters withstand Tezpur’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and subtropical climate of the Tezpur region.",
+    },
+    {
+      q: "How can a tea estate compare fuel use between factories?",
+      a: "Install fuel meters such as Contoil for diesel or RPD meters for gas at each factory. Combine readings with made tea output to get fuel per kilogram, which allows fair comparison.",
+    },
+    {
+      q: "Can you supply meters for a large campus?",
+      a: "Yes. We supply water meters, BTU meters and diesel meters for large campuses, along with data logging so readings from many buildings can be collected easily.",
     },
   ],
 };

@@ -94,6 +94,27 @@ export const namsaiSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Namsai, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Namsai region.",
           ],
+        },
+        {
+          title: "Tea Factories in Namsai District",
+          paragraphs: [
+            "Namsai is one of the plains districts of Arunachal Pradesh, and its tea gardens and factories are an important part of the local economy. Tea factories use hot air and steam for withering and drying, and diesel or gas for heaters and generators.",
+            "Contoil meters measure diesel for dryers and gensets, RPD gas meters measure natural gas where it is available, and vortex meters measure steam. Measuring fuel per kilogram of made tea helps factories cut their biggest cost."
+          ],
+        },
+        {
+          title: "Rice, Agriculture and Irrigation",
+          paragraphs: [
+            "Namsai's flat land supports rice farming and irrigation canals fed by the Lohit and Noa-Dihing rivers. Measuring water delivered to each canal helps irrigation engineers share water fairly.",
+            "The AV5500 open channel meter measures canal flow without a weir, and electromagnetic meters on lift irrigation pumps record water supplied. Rice mills can measure steam and water with vortex and electromagnetic meters."
+          ],
+        },
+        {
+          title: "Town Water Supply and Tourism",
+          paragraphs: [
+            "Namsai town and the Golden Pagoda attract visitors throughout the year. Hotels, monasteries and institutions can use simple water meters to manage supply and costs.",
+            "Town water schemes benefit from bulk electromagnetic meters on treatment plant outlets. We deliver to Namsai with calibration certificates and installation support."
+          ],
         }
       ],
     },
@@ -142,6 +163,14 @@ export const namsaiSeoData = {
     {
       q: "Can your flowmeters withstand Namsai’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied climate of the Namsai region.",
+    },
+    {
+      q: "How can a tea factory in Namsai reduce fuel cost?",
+      a: "Measure fuel used per kilogram of made tea. A Contoil meter for diesel or an RPD meter for gas shows consumption by dryer and shift, helping you find leaks and compare settings.",
+    },
+    {
+      q: "Can you measure irrigation canal flow in Namsai?",
+      a: "Yes. The AV5500 area-velocity meter measures flow in open canals without building a weir. It can log readings for irrigation records.",
     },
   ],
 };

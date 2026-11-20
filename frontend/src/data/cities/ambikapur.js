@@ -100,6 +100,27 @@ export const ambikapurSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Ambikapur, providing local laboratories and utility departments with a robust verification service designed for high-standard accuracy. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Ambikapur region.",
           ],
+        },
+        {
+          title: "Coal Mine Dewatering and Process Water in Surguja",
+          paragraphs: [
+            "Surguja district around Ambikapur is coal country, with underground and opencast mines in the Bishrampur and Hasdeo Arand fields. Mines pump large volumes of water out of the workings every day, and that water has to be measured for both pump efficiency and environmental reporting.",
+            "Mine water often carries coal fines and grit, so we recommend lined electromagnetic flow meters, which have no moving parts to wear. Clamp-on ultrasonic meters are a good option on existing pipes, and Contoil meters track the diesel used by dumpers and excavators."
+          ],
+        },
+        {
+          title: "Urban Water and Waste Management in Ambikapur",
+          paragraphs: [
+            "Ambikapur is known across India for its door-to-door waste segregation model, and the same attention to measurement helps its water supply. Bulk electromagnetic meters on treatment plant outlets and zonal mains show where water is lost between the plant and the tap.",
+            "For sewage and storm drains, the AV5500 open channel meter measures flow in partly filled pipes and channels. Where organic waste is turned into biogas, our UF-BioSonic ultrasonic biogas meter measures gas output even when it is wet and at low pressure."
+          ],
+        },
+        {
+          title: "Hospitals, Institutions and Small Industry",
+          paragraphs: [
+            "Ambikapur is the main medical and education centre of northern Chhattisgarh. Hospitals and hostels can cut water and energy bills by metering water, hot water and boiler steam, and BTU meters help larger buildings measure the energy used by air conditioning.",
+            "Rice mills and food processing units around the town benefit from simple steam and water metering. We deliver to Ambikapur with calibration certificates and guide your team through installation."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const ambikapurSeoData = {
     {
       q: "Can your flowmeters withstand Ambikapur’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid subtropical climate of the region.",
+    },
+    {
+      q: "Which flow meter is best for coal mine dewatering pumps?",
+      a: "A lined electromagnetic flow meter is the most reliable choice because mine water often carries fines and grit. It has no moving parts and does not block. If cutting the pipe is not possible, a clamp-on ultrasonic meter can be used.",
+    },
+    {
+      q: "Can you measure biogas from a waste processing plant?",
+      a: "Yes. The UF-BioSonic ultrasonic biogas flow meter is designed for wet, low-pressure biogas. It has no moving parts and can also indicate methane content, which helps plant operators judge the quality of the gas.",
     },
   ],
 };

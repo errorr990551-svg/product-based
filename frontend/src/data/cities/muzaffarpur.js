@@ -100,6 +100,27 @@ export const muzaffarpurSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Muzaffarpur, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Muzaffarpur region.",
           ],
+        },
+        {
+          title: "Litchi and Food Processing in Muzaffarpur",
+          paragraphs: [
+            "Muzaffarpur is famous for its Shahi litchi, and pulp, juice and food processing units are growing around the city. These units use steam for pasteurisation, chilled water for storage and large amounts of wash water.",
+            "Sanitary electromagnetic meters measure pulp and juice, vortex meters measure steam, and BTU meters measure cooling energy in cold storages. Good metering helps processors control costs in a short, intense season."
+          ],
+        },
+        {
+          title: "Power Generation and the Bela Industrial Area",
+          paragraphs: [
+            "The Kanti thermal power station near Muzaffarpur and the Bela industrial area are major water and energy users. Power plants need flow measurement on raw water, cooling make-up, boiler feed and effluent lines.",
+            "Clamp-on and insertion ultrasonic meters measure large lines without shutdown, while electromagnetic and vortex meters cover water and steam. Industrial units in Bela can use our MF-PRO meter to meet CGWA rules."
+          ],
+        },
+        {
+          title: "City Water Supply, Hospitals and Institutions",
+          paragraphs: [
+            "Muzaffarpur is a major commercial and medical centre for north Bihar. Hospitals, hotels and institutions use water, hot water, steam and air conditioning every day, and metering shows where money is lost.",
+            "Ultrasonic meters measure building water supply, BTU meters measure chilled water energy, and electromagnetic meters handle municipal mains. We deliver to Muzaffarpur with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const muzaffarpurSeoData = {
     {
       q: "Can your flowmeters withstand Muzaffarpur’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Muzaffarpur region.",
+    },
+    {
+      q: "Which flow meter is used for litchi pulp?",
+      a: "A sanitary electromagnetic flow meter. Pulp is conductive and may contain fibres, and the meter's clear bore has no moving parts to block. It also suits CIP cleaning.",
+    },
+    {
+      q: "Do you supply CGWA borewell meters in Muzaffarpur?",
+      a: "Yes. The MF-PRO electromagnetic meter is designed for CGWA groundwater rules, with a tamper-proof totaliser, data logging and optional telemetry for automatic reporting.",
     },
   ],
 };

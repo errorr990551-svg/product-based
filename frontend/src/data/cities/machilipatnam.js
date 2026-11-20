@@ -100,6 +100,27 @@ export const machilipatnamSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Machilipatnam, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Machilipatnam region.",
           ],
+        },
+        {
+          title: "Port Development and Coastal Industry in Machilipatnam",
+          paragraphs: [
+            "Machilipatnam is the headquarters of Krishna district, and a new deep-water port is being built along its coast. Port construction and the industries expected to follow will need flow measurement for fuel, water supply, firefighting systems and effluent.",
+            "Contoil and oval gear oil meters give accurate records for diesel and fuel oil, and our UL-listed fire pump test meters help verify firefighting pump performance. Electromagnetic and ultrasonic meters handle fresh water and seawater lines."
+          ],
+        },
+        {
+          title: "Imitation Jewellery, Kalamkari and Small Industry",
+          paragraphs: [
+            "Machilipatnam is known for its rolled gold imitation jewellery industry and for Kalamkari textile printing. Plating units use process water and rinse water, while Kalamkari and dyeing units use water and steam in washing and fixing colours.",
+            "Small electromagnetic meters measure rinse and process water, helping units control effluent volumes for pollution control requirements. For effluent drains, the AV5500 open channel meter measures flow without building a weir."
+          ],
+        },
+        {
+          title: "Aquaculture, Electronics and Water Supply",
+          paragraphs: [
+            "The coastal villages around Machilipatnam have extensive fish and shrimp farming, where flow meters help control pumping costs. The town also hosts an established electronics manufacturing unit, which relies on purified water, compressed air and cooling.",
+            "Thermal mass and ultrasonic air flow meters measure compressed air and nitrogen accurately, and BTU meters measure chilled water energy. We deliver to Machilipatnam with calibration certificates and installation guidance."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const machilipatnamSeoData = {
     {
       q: "Can your flowmeters withstand Machilipatnam’s coastal environment?",
       a: "Absolutely. Our meters are engineered with high-grade, corrosion-resistant materials specifically designed to maintain accuracy and durability in the humid, saline conditions of the Machilipatnam coast.",
+    },
+    {
+      q: "How can a jewellery plating unit measure rinse water?",
+      a: "A small electromagnetic flow meter on the rinse water line gives an accurate total of water used. Plating rinse water is conductive, so the meter reads it well, and the totals help with effluent records and water saving.",
+    },
+    {
+      q: "Do you supply fire pump test meters for new port facilities?",
+      a: "Yes. Our fire pump test meter is UL certified and available from DN100 to DN250. It is used to test fire pump performance at rated and peak flow as required by fire safety standards.",
     },
   ],
 };

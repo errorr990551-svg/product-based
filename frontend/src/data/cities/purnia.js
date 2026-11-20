@@ -100,6 +100,27 @@ export const purniaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Purnia, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Seemanchal region.",
           ],
+        },
+        {
+          title: "Maize Processing and Ethanol in Purnia",
+          paragraphs: [
+            "Purnia is one of Bihar's largest maize-producing districts, and it has become home to grain-based ethanol production. Ethanol plants use steam, cooling water, process water and fuel, and they must measure them all closely for efficiency and excise records.",
+            "Vortex meters measure steam, electromagnetic meters measure process water and mash, and our flameproof MF-TER meter suits areas where alcohol vapours may be present. UF-BioSonic meters measure biogas from effluent treatment."
+          ],
+        },
+        {
+          title: "Makhana, Jute and Agro Industry",
+          paragraphs: [
+            "Purnia is also a centre for makhana and jute. Processing units use steam, water and diesel in drying and cleaning, and small boilers often run without metering.",
+            "Compact vortex meters show steam used per batch, and Contoil meters track diesel for dryers and gensets. Electromagnetic meters measure borewell water and help meet CGWA rules."
+          ],
+        },
+        {
+          title: "Water Supply and Groundwater in the Kosi Region",
+          paragraphs: [
+            "Purnia lies in the Kosi plains with high groundwater use for farming and drinking water. Bulk meters on water schemes show how much water each scheme supplies, and help engineers plan maintenance.",
+            "IP68 electromagnetic meters work in flood-prone pits, and the AV5500 meter measures canal and drain flow. We deliver to Purnia with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const purniaSeoData = {
     {
       q: "Can your flowmeters withstand Purnia’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Purnia region.",
+    },
+    {
+      q: "Which flow meters does a grain ethanol plant need?",
+      a: "Usually vortex meters for steam, electromagnetic meters for water and mash, flameproof meters in alcohol areas, oil meters for fuel and biogas meters for the effluent plant. We can help plan the full list for your process.",
+    },
+    {
+      q: "Do you supply flameproof meters for ethanol plants?",
+      a: "Yes. The MF-TER flameproof electromagnetic flow meter is designed for hazardous areas where flammable vapours, such as ethanol, may be present.",
     },
   ],
 };

@@ -100,6 +100,27 @@ export const nelloreSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Nellore, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Nellore region.",
           ],
+        },
+        {
+          title: "Port, Power and Heavy Industry around Krishnapatnam",
+          paragraphs: [
+            "Nellore's coast is home to Krishnapatnam Port and several large thermal power plants. These plants handle very large volumes of seawater for cooling, plus fuel oil, demineralised water and effluent, all of which need accurate flow measurement.",
+            "Clamp-on and insertion ultrasonic meters measure large seawater and cooling lines without cutting the pipe. For fuel oil at ports and plants, Contoil and oval gear meters give precise custody records, and electromagnetic meters handle DM water and effluent."
+          ],
+        },
+        {
+          title: "Aquaculture and Food Processing in Nellore",
+          paragraphs: [
+            "Nellore is one of the country's leading shrimp producing districts, with hatcheries, farms and seafood processing plants along the coast. Processing plants use a lot of chilled water and ice, and measuring water and refrigeration energy helps control costs.",
+            "Electromagnetic meters with corrosion-resistant electrodes suit brackish and process water, and our ultrasonic BTU meters measure chilled water energy in cold storages. Hatcheries can use small meters to control seawater intake to each section."
+          ],
+        },
+        {
+          title: "Industrial Parks, Rice Mills and Town Water Supply",
+          paragraphs: [
+            "Industrial areas around Naidupeta and Menakuru, together with many rice mills across Nellore district, need water and steam metering for efficiency and groundwater compliance. Our MF-PRO electromagnetic meter meets CGWA requirements for borewells.",
+            "For municipal supply and sewage, bulk electromagnetic meters and AV5500 open channel meters cover pipelines and drains. We deliver to Nellore with calibration certificates and installation support."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const nelloreSeoData = {
     {
       q: "Can your flowmeters withstand Nellore’s industrial conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the high-demand environments of the Nellore industrial region.",
+    },
+    {
+      q: "Which flow meter is used for large seawater cooling lines?",
+      a: "Clamp-on or insertion ultrasonic flow meters are the usual choice for very large seawater lines. They do not need the pipe to be cut, cause no pressure loss and avoid exposing meter parts to corrosive seawater.",
+    },
+    {
+      q: "How do cold storages in Nellore measure refrigeration energy?",
+      a: "An ultrasonic BTU meter measures chilled water flow and the temperature difference between supply and return, and calculates the cooling energy delivered. This helps cold storages compare chillers and bill energy fairly between users.",
     },
   ],
 };

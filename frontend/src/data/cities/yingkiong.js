@@ -94,6 +94,27 @@ export const yingkiongSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Yingkiong, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Yingkiong region.",
           ],
+        },
+        {
+          title: "Water Supply in the Upper Siang Valley",
+          paragraphs: [
+            "Yingkiong, the headquarters of Upper Siang district, sits high above the Siang river. Villages here rely on hill springs and streams, and water schemes must work through heavy rain, cold winters and long distances.",
+            "Battery-operated electromagnetic meters need no grid power and log readings for months. IP68 sensors work in flooded chambers, and the lack of moving parts means they do not jam with silt from stream water."
+          ],
+        },
+        {
+          title: "Small Hydro and Remote Power",
+          paragraphs: [
+            "Many villages in Upper Siang depend on small hydro stations and diesel generators. Measuring flow in hydro station cooling systems and diesel used by generators helps operators keep power on with limited resources.",
+            "Clamp-on ultrasonic meters fit existing pipes without cutting, and Contoil oil meters record generator fuel. Both are simple to install and maintain in remote locations."
+          ],
+        },
+        {
+          title: "Institutions, Tourism and Construction",
+          paragraphs: [
+            "Road and bridge construction is opening up Upper Siang to visitors and trade. Construction sites, schools, hospitals and homestays need water and fuel metering to manage scarce supplies.",
+            "We dispatch meters to Yingkiong with calibration certificates and provide installation guidance by phone or video, so your team can install them without waiting for a site visit."
+          ],
         }
       ],
     },
@@ -142,6 +163,14 @@ export const yingkiongSeoData = {
     {
       q: "Can your flowmeters withstand Yingkiong’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied mountainous climate of the Yingkiong region.",
+    },
+    {
+      q: "Will a flow meter work in cold winters at Yingkiong?",
+      a: "Yes, when the meter is installed correctly. Pipes and meters should be protected from freezing, and electromagnetic meters have no moving parts that can be damaged by cold. We can advise on installation.",
+    },
+    {
+      q: "Can you install a flow meter remotely?",
+      a: "We provide installation guidance by phone or video for most meters. Clamp-on ultrasonic and battery electromagnetic meters are especially simple for local teams to install.",
     },
   ],
 };

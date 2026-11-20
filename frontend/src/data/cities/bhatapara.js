@@ -100,6 +100,27 @@ export const bhataparaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Bhatapara, providing local manufacturing units and quality control labs with a robust verification service designed for high-standard accuracy. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the region.",
           ],
+        },
+        {
+          title: "Flow Meters for Bhatapara's Rice and Dal Mills",
+          paragraphs: [
+            "Bhatapara is one of Chhattisgarh's busiest grain trading towns, with a large mandi and many rice, poha and dal mills. Parboiling and drying take a lot of steam and water, and most small mills have no idea how much each tonne of paddy really costs them in fuel.",
+            "A vortex flow meter on the boiler steam line, together with an electromagnetic meter on the soaking water, gives mill owners real numbers for every batch. These readings help reduce husk and firewood use and show quickly when a boiler or steam trap needs attention."
+          ],
+        },
+        {
+          title: "Cement Plants in the Baloda Bazar–Bhatapara Belt",
+          paragraphs: [
+            "The limestone-rich Baloda Bazar–Bhatapara area is one of India's major cement clusters. Cement plants need flow measurement for cooling water, compressed air, fuel oil and the gas lines that feed kilns and captive power plants.",
+            "Our TRX ultrasonic air flow meters and SCHMIDT thermal mass flow sensors help plants find compressed air leaks, which are among the biggest hidden power losses in a cement works. Vortex and turbine gas meters measure fuel gas, and Contoil meters measure diesel and furnace oil used in kilns and gensets."
+          ],
+        },
+        {
+          title: "Groundwater and Industrial Water Metering",
+          paragraphs: [
+            "Industries drawing groundwater in Chhattisgarh are expected to meter their borewells and report extraction. Our MF-PRO electromagnetic flow meter is designed for CGWA requirements, with a tamper-proof totaliser and optional telemetry to send readings automatically.",
+            "For effluent and treated water, the AV5500 open channel meter measures flow in drains and channels. We supply meters to Bhatapara from New Delhi with calibration certificates, so they are ready to install when they arrive."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const bhataparaSeoData = {
     {
       q: "Can your flowmeters withstand Bhatapara’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid subtropical climate of the region.",
+    },
+    {
+      q: "How can a Bhatapara rice mill reduce boiler fuel cost?",
+      a: "Start by measuring steam. A vortex flow meter on the main steam line shows how much steam each batch of paddy uses. Comparing that with the husk or firewood burnt shows boiler efficiency, and changes such as fixing steam traps or insulating pipes can then be checked in real numbers.",
+    },
+    {
+      q: "Which meter is best for measuring compressed air in a cement plant?",
+      a: "A thermal mass flow sensor or an ultrasonic air flow meter works best. Both read compressed air directly, cause almost no pressure loss and are sensitive at low flows, which makes them useful for finding leaks during non-production hours.",
     },
   ],
 };

@@ -100,6 +100,27 @@ export const chittoorSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Chittoor, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Chittoor region.",
           ],
+        },
+        {
+          title: "Mango Pulp and Food Processing in Chittoor",
+          paragraphs: [
+            "Chittoor is one of India's leading mango pulp processing centres, with dozens of units that run at full capacity through the mango season. Pulp processing uses steam for sterilisation and evaporation, along with large volumes of wash water and cooling.",
+            "Vortex steam meters show how much steam each line uses, and sanitary electromagnetic meters measure pulp, juice and cleaning solutions. BTU meters help cold storages and aseptic plants measure cooling energy."
+          ],
+        },
+        {
+          title: "Dairy and Agro Industry",
+          paragraphs: [
+            "Dairy farming is strong across Chittoor district, with milk collection centres, chilling plants and processing units. Milk reception, chilling and pasteurisation all need accurate flow measurement for payment and quality.",
+            "Our sanitary electromagnetic meters measure milk accurately and withstand CIP cleaning, while BTU meters measure ice bank and chilled water energy. Steam for pasteurisers can be measured with vortex meters."
+          ],
+        },
+        {
+          title: "Battery, Engineering and Industrial Parks",
+          paragraphs: [
+            "Chittoor and the neighbouring Tirupati region have become a major hub for automotive batteries, electronics and engineering. These plants use compressed air, process water, demineralised water and cooling systems that must be measured for efficiency and compliance.",
+            "Thermal mass and ultrasonic air flow meters measure compressed air, electromagnetic meters handle process water and effluent, and the MF-PRO meter covers CGWA borewell rules. We deliver to Chittoor with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const chittoorSeoData = {
     {
       q: "Can your flowmeters withstand Chittoor’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic environments of the Chittoor region.",
+    },
+    {
+      q: "Which meter is suitable for mango pulp?",
+      a: "A sanitary electromagnetic flow meter. Mango pulp is conductive and thick, and the meter's clear bore has no moving parts to block. It is easy to clean and suits hygienic processing lines.",
+    },
+    {
+      q: "How can a battery plant measure compressed air use?",
+      a: "Install thermal mass flow sensors or ultrasonic air flow meters at the compressor outlet and on major branch lines. They show consumption in each area and make leaks visible during non-production hours.",
     },
   ],
 };

@@ -100,6 +100,27 @@ export const kawardhaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Kawardha, providing local manufacturing units and quality control labs with a robust verification service designed for high-standard accuracy. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the region.",
           ],
+        },
+        {
+          title: "Flow Meters for Kabirdham's Sugar Mills",
+          paragraphs: [
+            "Sugarcane is the backbone of industry in Kawardha and the wider Kabirdham district, and the cooperative sugar mills here run hard through every crushing season. A mill needs reliable numbers for juice flow, imbibition water, boiler feed water and process steam. Without them, sugar recovery and fuel use are guesswork, and a problem is noticed only after it has cost a shift's output.",
+            "For steam lines we recommend VFM vortex flow meters, which have no moving parts and handle saturated steam well. Juice and water lines suit our electromagnetic flow meters, which keep their accuracy even with suspended solids. For bagasse-fired boilers, measuring feed water against steam produced is the simplest way to watch boiler efficiency day by day."
+          ],
+        },
+        {
+          title: "Irrigation and Canal Flow Measurement in Kabirdham",
+          paragraphs: [
+            "Water from reservoirs such as Sutiyapat and Sarodha feeds farms across the district, and the water resources department needs to know how much each canal actually delivers. Our AV5500 area-velocity open channel flow meter measures flow in canals and partly filled pipes without a weir, so it suits existing channels with no civil work.",
+            "For lift irrigation and rural drinking water schemes under Jal Jeevan Mission, full-bore electromagnetic meters on pumping mains give a clear record of water supplied to each village. Battery-powered versions are available for remote sites where grid power is unreliable."
+          ],
+        },
+        {
+          title: "Rice Mills, Dal Mills and Small Industry around Kawardha",
+          paragraphs: [
+            "Kawardha's rice mills, parboiling units and dal mills use steam and water every day, often from small boilers with no metering at all. A compact vortex meter on the steam header shows how much steam each batch really takes, and that usually reveals savings in firewood or husk.",
+            "Diesel and furnace oil for gensets and boilers can be tracked with our Contoil and oval gear oil flow meters, which help catch theft and leakage. We deliver to Kawardha from our New Delhi factory and provide installation guidance by phone or on site."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const kawardhaSeoData = {
     {
       q: "Can your flowmeters withstand Kawardha’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid subtropical climate of the region.",
+    },
+    {
+      q: "Which flow meter is suitable for steam in a Kawardha sugar mill?",
+      a: "A vortex flow meter is the usual choice for saturated steam in sugar mills. It has no moving parts, tolerates high temperature and gives a stable reading across a wide flow range. With a pressure and temperature input it can also show steam in kg/h, which is what boiler operators need to track efficiency.",
+    },
+    {
+      q: "Can you measure flow in an open irrigation canal in Kabirdham?",
+      a: "Yes. Our AV5500 area-velocity flow meter measures flow in open canals and partly filled pipes. It reads both water level and velocity, so it works without building a weir or flume, and it can log data for the water resources department.",
     },
   ],
 };

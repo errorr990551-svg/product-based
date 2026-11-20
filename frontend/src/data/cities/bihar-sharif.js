@@ -100,6 +100,27 @@ export const biharSharifSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Bihar Sharif, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Bihar Sharif region.",
           ],
+        },
+        {
+          title: "Ganga Water Supply for Rajgir and Nalanda",
+          paragraphs: [
+            "Bihar Sharif is the headquarters of Nalanda district, close to Rajgir and the Nalanda heritage site. Large schemes now lift Ganga water to towns in the region, and bulk water must be measured accurately from intake to reservoir to distribution.",
+            "Large-diameter electromagnetic meters and insertion ultrasonic meters measure trunk mains, while smaller meters track supply to each zone. This helps water departments find leakage and plan pumping."
+          ],
+        },
+        {
+          title: "Defence, Engineering and Industrial Units",
+          paragraphs: [
+            "The Nalanda region hosts defence manufacturing and a growing number of industrial units. These facilities use compressed air, process water, steam and fuel, and need reliable measurement for safety and cost.",
+            "Thermal mass and ultrasonic meters measure compressed air, vortex meters measure steam, and flameproof MF-TER meters suit hazardous areas. Contoil meters measure diesel for gensets and vehicles."
+          ],
+        },
+        {
+          title: "Tourism, Hotels and Institutions",
+          paragraphs: [
+            "Rajgir and Nalanda attract tourists and students from around the world, with hotels, universities and hospitals that use water and energy every day. Metering helps them control utility bills.",
+            "Ultrasonic water meters measure building supply, BTU meters measure air conditioning energy, and our MF-PRO meter covers CGWA borewell rules. We deliver to Bihar Sharif with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const biharSharifSeoData = {
     {
       q: "Can your flowmeters withstand Bihar Sharif’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Bihar Sharif region.",
+    },
+    {
+      q: "Which flow meter is best for a large water trunk main?",
+      a: "A full-bore electromagnetic meter gives the highest accuracy on large mains. Where the pipe cannot be cut, an insertion or clamp-on ultrasonic meter can be installed on a running line.",
+    },
+    {
+      q: "How can a hotel in Rajgir measure air conditioning energy?",
+      a: "Install an ultrasonic BTU meter on the chilled water circuit. It measures flow and temperature difference and shows the cooling energy used, which helps compare chillers and spot waste.",
     },
   ],
 };

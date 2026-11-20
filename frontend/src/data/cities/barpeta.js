@@ -100,6 +100,27 @@ export const barpetaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Barpeta, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Barpeta region.",
           ],
+        },
+        {
+          title: "Bell Metal and Brass Craft at Sarthebari",
+          paragraphs: [
+            "Barpeta district is famous for the bell metal and brass craft of Sarthebari. Metal workshops use cooling water, compressed air and LPG or diesel for furnaces.",
+            "Small electromagnetic meters measure cooling water, thermal mass sensors measure compressed air and gases, and RPD gas meters measure LPG or natural gas. Simple metering helps workshops control costs."
+          ],
+        },
+        {
+          title: "Agriculture, Rice Mills and Fisheries",
+          paragraphs: [
+            "Barpeta's farms grow rice and vegetables, and the district has many rice mills and fisheries. Steam, water and diesel are the main utilities.",
+            "Vortex meters measure steam, electromagnetic meters measure water, and Contoil meters measure diesel. Clamp-on ultrasonic meters check pump output on fish farms."
+          ],
+        },
+        {
+          title: "Water Supply and Pilgrimage",
+          paragraphs: [
+            "Barpeta Satra attracts pilgrims throughout the year. Town water supply and temporary arrangements during festivals need reliable metering.",
+            "Electromagnetic meters on main lines and clamp-on meters on temporary lines help plan supply. IP68 sensors work through the monsoon. We deliver to Barpeta with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const barpetaSeoData = {
     {
       q: "Can your flowmeters withstand Barpeta’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and riverine climate of the Barpeta region.",
+    },
+    {
+      q: "Which meter measures LPG for a metal workshop?",
+      a: "An RPD rotary gas meter measures gas volume accurately at low pressure. It suits LPG and natural gas supply to furnaces.",
+    },
+    {
+      q: "Can you supply meters for temporary water lines?",
+      a: "Yes. Clamp-on ultrasonic meters are ideal for temporary lines because they fit outside the pipe and can be moved easily.",
     },
   ],
 };

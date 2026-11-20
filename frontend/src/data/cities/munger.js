@@ -100,6 +100,27 @@ export const mungerSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Munger, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Munger region.",
           ],
+        },
+        {
+          title: "Railway Workshop and Engineering at Jamalpur",
+          paragraphs: [
+            "Munger district is home to the Jamalpur Railway Workshop, one of the oldest and largest locomotive workshops in India. Workshops like this use compressed air, process water, fuel and industrial gases across many shops.",
+            "Thermal mass and ultrasonic air flow meters measure compressed air in each shop, helping find leaks and cut power use. Turbine and RPD gas meters measure fuel gas, and Contoil meters track diesel."
+          ],
+        },
+        {
+          title: "Tobacco and Manufacturing in Munger",
+          paragraphs: [
+            "Munger has a long manufacturing tradition, including a large cigarette factory and many small engineering and arms-making workshops. These units need steam, compressed air and water metering for efficiency and safety.",
+            "Vortex meters measure steam for conditioning and process heating, and electromagnetic meters measure process water and effluent. Our flameproof MF-TER meter suits areas where flammable vapours may be present."
+          ],
+        },
+        {
+          title: "Ganga Water Supply and Groundwater Metering",
+          paragraphs: [
+            "Munger sits on the banks of the Ganga, and town and village water schemes draw from the river and from groundwater. Bulk electromagnetic meters on pumping mains show how much water each scheme supplies.",
+            "Industries using borewells can meet CGWA requirements with our MF-PRO meter, which has a tamper-proof totaliser and optional telemetry. We deliver to Munger with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const mungerSeoData = {
     {
       q: "Can your flowmeters withstand Munger’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Munger region.",
+    },
+    {
+      q: "Which meter measures compressed air in a railway workshop?",
+      a: "A thermal mass flow sensor or ultrasonic air flow meter. Both read compressed air directly with very little pressure loss and are sensitive at low flows, so they can show leaks when the workshop is idle.",
+    },
+    {
+      q: "Do you supply flameproof flow meters in Munger?",
+      a: "Yes. The MF-TER flameproof electromagnetic flow meter is designed for hazardous areas where flammable gases or vapours may be present, such as fuel handling and chemical sections.",
     },
   ],
 };

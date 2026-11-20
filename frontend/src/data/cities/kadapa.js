@@ -100,6 +100,27 @@ export const kadapaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Kadapa, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Kadapa region.",
           ],
+        },
+        {
+          title: "Cement and Mineral Industry in Kadapa District",
+          paragraphs: [
+            "Kadapa is rich in limestone, barytes and other minerals, and the district has several large cement plants around Yerraguntla and Jammalamadugu. Cement works need accurate measurement of compressed air, cooling water, fuel oil and kiln fuel gas to control their energy costs.",
+            "Our TRX ultrasonic air flow meters and SCHMIDT thermal mass sensors measure compressed air and help find leaks. Contoil and oval gear meters measure fuel oil and diesel, and lined electromagnetic meters handle slurry and mine water at barytes and limestone mines."
+          ],
+        },
+        {
+          title: "Thermal Power and Industrial Water",
+          paragraphs: [
+            "The Rayalaseema Thermal Power Project at Muddanur is one of the region's largest water users. Power stations need flow measurement on raw water intake, cooling tower make-up, boiler feed and effluent, often on very large pipes.",
+            "Clamp-on and insertion ultrasonic meters are ideal for these large lines because they can be installed without shutting down. Vortex meters measure auxiliary steam, and electromagnetic meters suit DM water and effluent lines."
+          ],
+        },
+        {
+          title: "Water Scarcity, Irrigation and Groundwater Metering",
+          paragraphs: [
+            "Kadapa is a dry district where every litre of water counts. Lift irrigation schemes, town supply systems and industries all rely on accurate metering to share water fairly and plan for summer shortages.",
+            "Our MF-PRO electromagnetic meter meets CGWA requirements for borewell metering, with a tamper-proof totaliser and optional telemetry. For canals, the AV5500 open channel meter measures flow without civil work."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const kadapaSeoData = {
     {
       q: "Can your flowmeters withstand Kadapa’s high temperatures?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the semi-arid, high-heat climate of the Kadapa region.",
+    },
+    {
+      q: "Which flow meter suits barytes or limestone mine water?",
+      a: "A lined electromagnetic flow meter is the best choice because mine water carries fine abrasive particles. It has no moving parts that can wear or jam, and it keeps its accuracy over long periods.",
+    },
+    {
+      q: "Can you supply borewell meters for industries in Kadapa?",
+      a: "Yes. The MF-PRO electromagnetic borewell meter is built for CGWA rules. It has a tamper-proof totaliser, data logging and optional telemetry so readings can be reported automatically.",
     },
   ],
 };

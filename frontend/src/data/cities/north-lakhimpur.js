@@ -100,6 +100,27 @@ export const northLakhimpurSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in North Lakhimpur, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the North Lakhimpur region.",
           ],
+        },
+        {
+          title: "Subansiri Lower Hydro Project Region",
+          paragraphs: [
+            "North Lakhimpur is close to the Subansiri Lower hydroelectric project on the Assam–Arunachal border. Hydro stations need flow measurement on cooling water, drainage and auxiliary systems.",
+            "Clamp-on ultrasonic meters measure existing pipes without shutdown, and electromagnetic meters measure cooling and drainage water. Contoil meters track diesel for backup generators."
+          ],
+        },
+        {
+          title: "Tea Gardens and Agro Processing",
+          paragraphs: [
+            "Lakhimpur district has many tea gardens and factories. Withering and drying use fuel and hot air, and measuring fuel per kilogram of tea helps cut costs.",
+            "Contoil meters measure diesel, gas meters measure natural gas and vortex meters measure steam. Rice mills can measure steam and water in the same way."
+          ],
+        },
+        {
+          title: "Flood Management and Water Supply",
+          paragraphs: [
+            "Lakhimpur is often affected by floods from the Subansiri and its tributaries. Water supply schemes need flood-resilient meters.",
+            "IP68 electromagnetic sensors work underwater, and the AV5500 meter measures drain and channel flow. We deliver to North Lakhimpur with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const northLakhimpurSeoData = {
     {
       q: "Can your flowmeters withstand North Lakhimpur’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and riverine climate of the North Lakhimpur region.",
+    },
+    {
+      q: "Which meter measures cooling water at a hydro station?",
+      a: "An electromagnetic meter on dedicated lines, or a clamp-on ultrasonic meter on existing pipes where cutting is not possible.",
+    },
+    {
+      q: "How can a tea factory measure fuel use?",
+      a: "Install a Contoil meter for diesel or a gas meter for natural gas, and compare readings with made tea output to get fuel per kilogram.",
     },
   ],
 };

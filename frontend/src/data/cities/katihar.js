@@ -100,6 +100,27 @@ export const katiharSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Katihar, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Katihar region.",
           ],
+        },
+        {
+          title: "Maize, Makhana and Agro Processing in Katihar",
+          paragraphs: [
+            "Katihar is part of Bihar's maize belt and an important centre for makhana. Maize dryers, feed mills, starch and makhana processing units use steam, hot air and water, and better measurement helps them cut fuel costs.",
+            "Vortex meters measure steam from small boilers, and electromagnetic meters measure process and wash water. Contoil meters track diesel used in dryers and gensets, which is often a major cost."
+          ],
+        },
+        {
+          title: "Jute and Railway Industry",
+          paragraphs: [
+            "Katihar has a long history of jute processing and is a major railway junction. Jute mills use steam and water for softening fibre, while railway facilities use compressed air, diesel and water in maintenance and washing.",
+            "Our vortex and electromagnetic meters cover steam and water lines, while thermal mass and ultrasonic meters measure compressed air. Oval gear and Contoil meters provide accurate diesel records."
+          ],
+        },
+        {
+          title: "Flood-Prone Water Supply and Drainage",
+          paragraphs: [
+            "Katihar lies between the Ganga and Mahananda rivers and faces regular floods. Water supply schemes and drainage systems must work under difficult conditions, and reliable metering helps engineers manage them.",
+            "IP68-rated electromagnetic meters can work in flooded pits, and the AV5500 open channel meter measures drain and canal flow. We supply to Katihar with calibration certificates and installation guidance."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const katiharSeoData = {
     {
       q: "Can your flowmeters withstand Katihar’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Katihar region.",
+    },
+    {
+      q: "Which flow meter works in a pit that floods during monsoon?",
+      a: "Choose an electromagnetic flow meter with an IP68-rated sensor and a remote-mounted converter. The sensor can work under water, while the display and electronics stay above flood level.",
+    },
+    {
+      q: "How can a maize dryer reduce diesel cost?",
+      a: "Install a Contoil or oval gear oil flow meter on the burner supply. Knowing diesel used per tonne of maize dried lets you compare batches, settings and operators and spot leaks or theft.",
     },
   ],
 };

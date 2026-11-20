@@ -100,6 +100,27 @@ export const gayaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Gaya, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Gaya region.",
           ],
+        },
+        {
+          title: "Water Supply for Gaya and Bodh Gaya",
+          paragraphs: [
+            "Gaya and Bodh Gaya face serious water stress, and large projects now bring Ganga water to the region. Bulk water must be measured at every stage, from intake to treatment plant to city reservoirs.",
+            "Large electromagnetic meters and insertion ultrasonic meters measure trunk mains, while zonal meters help the water department find leakage. Accurate data is essential when every litre of water travels a long way."
+          ],
+        },
+        {
+          title: "Pilgrimage, Hotels and Monasteries",
+          paragraphs: [
+            "Bodh Gaya welcomes pilgrims from around the world, and its hotels, guest houses and monasteries use a lot of water and energy in the peak season. Metering helps them control costs and plan for shortages.",
+            "Ultrasonic water meters measure building supply, BTU meters measure air conditioning energy, and Woltmann hot water meters measure hot water use in kitchens and laundries."
+          ],
+        },
+        {
+          title: "Manpur Powerlooms and Local Industry",
+          paragraphs: [
+            "Manpur in Gaya is a well-known powerloom and textile cluster, and the district also has agro and agarbatti units. Textile processing uses water and steam, and compressed air is used in many machines.",
+            "Vortex meters measure steam, electromagnetic meters measure process water, and our MF-PRO meter meets CGWA rules for borewells. We deliver to Gaya with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const gayaSeoData = {
     {
       q: "Can your flowmeters withstand Gaya’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Gaya region.",
+    },
+    {
+      q: "How can a hotel in Bodh Gaya track water use?",
+      a: "Fit ultrasonic or electromagnetic meters on the main supply and on large users such as kitchens, laundries and cooling towers. Comparing daily readings shows leaks and waste quickly.",
+    },
+    {
+      q: "Do you supply meters for Ganga water supply schemes?",
+      a: "Yes. We supply large-diameter electromagnetic meters and insertion ultrasonic meters for trunk mains, plus zonal meters for distribution, all with calibration certificates.",
     },
   ],
 };

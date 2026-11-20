@@ -100,6 +100,27 @@ export const srikakulamSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Srikakulam, providing local laboratories and pharma units with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Srikakulam region.",
           ],
+        },
+        {
+          title: "Pharma Manufacturing at Pydibhimavaram",
+          paragraphs: [
+            "The Pydibhimavaram industrial area near Srikakulam hosts several large pharmaceutical plants. Pharma manufacturing depends on purified water, steam, nitrogen, compressed air and chilled water, all of which must be measured for validation and cost control.",
+            "Our electromagnetic meters handle purified and process water, vortex meters measure clean steam, and thermal mass sensors measure nitrogen and compressed air. BTU meters measure chilled water energy for HVAC and reactors."
+          ],
+        },
+        {
+          title: "Cashew Processing in Palasa",
+          paragraphs: [
+            "Palasa and the surrounding areas are among India's leading cashew processing centres. Steam is used to roast and condition raw cashew nuts, and small boilers often run with no steam metering at all.",
+            "A compact vortex flow meter on the steam line shows how much steam each batch uses, helping units reduce firewood or shell fuel. Electromagnetic meters measure process water, and Contoil meters measure diesel for gensets."
+          ],
+        },
+        {
+          title: "Vamsadhara and Nagavali Water Management",
+          paragraphs: [
+            "Srikakulam depends on the Vamsadhara and Nagavali rivers for irrigation and water supply. Canal networks and lift schemes need accurate water accounting to serve farmers fairly across the district.",
+            "The AV5500 open channel meter measures canal flow without a weir, and full-bore electromagnetic meters record water delivered by pumping stations and town water schemes."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const srikakulamSeoData = {
     {
       q: "Can your flowmeters withstand Srikakulam’s industrial environments?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the high-demand pharmaceutical and chemical sectors of the Srikakulam region.",
+    },
+    {
+      q: "Which flow meters do pharma plants in Srikakulam need?",
+      a: "Typically electromagnetic meters for purified and process water, vortex meters for steam, thermal mass sensors for nitrogen and compressed air, and BTU meters for chilled water. All can be supplied with calibration certificates for validation.",
+    },
+    {
+      q: "How can a cashew unit in Palasa save boiler fuel?",
+      a: "Measure the steam used per batch with a vortex flow meter. Once you know steam per kilogram of cashew, you can compare boilers and operators and check the effect of fixing leaks or insulating pipes.",
     },
   ],
 };

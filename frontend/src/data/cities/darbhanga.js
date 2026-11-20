@@ -100,6 +100,27 @@ export const darbhangaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Darbhanga, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Darbhanga region.",
           ],
+        },
+        {
+          title: "Makhana and Agro Processing in Darbhanga",
+          paragraphs: [
+            "Darbhanga is at the heart of Mithila's makhana country. Makhana processing involves cleaning, drying and roasting, and growing units now use boilers, dryers and water treatment where they once relied on manual work.",
+            "Small vortex meters measure steam use, electromagnetic meters measure wash water, and Contoil meters measure diesel for dryers and gensets. Measuring these costs helps processors price their product and plan expansion."
+          ],
+        },
+        {
+          title: "Hospitals and Healthcare Infrastructure",
+          paragraphs: [
+            "Darbhanga is a major healthcare centre for north Bihar, with a large medical college hospital and new healthcare projects under development. Hospitals need reliable water, hot water, steam and medical gas systems.",
+            "Ultrasonic and electromagnetic meters measure water supply, vortex meters measure steam for laundries and sterilisation, and thermal mass sensors measure oxygen and medical gases. BTU meters measure air conditioning energy."
+          ],
+        },
+        {
+          title: "Ponds, Drainage and Town Water Supply",
+          paragraphs: [
+            "Darbhanga is known for its many ponds and frequent waterlogging. Drainage and water supply systems need dependable flow data to manage pumping and treatment.",
+            "The AV5500 open channel meter measures drain and channel flow, and IP68-rated electromagnetic meters work in pits that flood. We supply to Darbhanga with calibration certificates and technical support."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const darbhangaSeoData = {
     {
       q: "Can your flowmeters withstand Darbhanga’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Darbhanga region.",
+    },
+    {
+      q: "Can thermal mass meters measure oxygen in a hospital?",
+      a: "Yes. Thermal mass flow sensors measure gas flow directly and are used for oxygen and other medical gas lines. The right sensor model and materials depend on the gas, so tell us the application when you enquire.",
+    },
+    {
+      q: "Which meter suits a drain that is only partly full?",
+      a: "The AV5500 area-velocity flow meter. It measures both water level and velocity, so it works in partly filled pipes and open channels without needing a weir.",
     },
   ],
 };

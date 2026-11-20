@@ -100,6 +100,27 @@ export const prakasamSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Prakasam, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Prakasam region.",
           ],
+        },
+        {
+          title: "Flow Meters for Prakasam's Granite Industry",
+          paragraphs: [
+            "Prakasam district, especially around Chimakurthy, is famous for black galaxy granite. Quarries and cutting units use large amounts of water for wire saws, gang saws and polishing, and that water is often recycled through settling tanks.",
+            "Slurry-laden water quickly wears out mechanical meters, so we recommend lined electromagnetic flow meters for these lines. Contoil oil flow meters help quarries control diesel used by excavators and gensets, which is one of their biggest running costs."
+          ],
+        },
+        {
+          title: "Aquaculture and Coastal Water Management",
+          paragraphs: [
+            "The coastal belt of Prakasam has large shrimp and fish farms. Pumping seawater and freshwater into ponds costs a lot in power, and measuring the water moved by each pump helps farmers spot worn pumps and avoid wasting electricity.",
+            "Electromagnetic meters work well with brackish water when the right liner and electrode materials are chosen, and clamp-on ultrasonic meters can be fitted to existing pipes without cutting. We help farm owners choose corrosion-resistant options for the coastal environment."
+          ],
+        },
+        {
+          title: "Tobacco Processing, Irrigation and Water Supply",
+          paragraphs: [
+            "Ongole and the surrounding areas are a major centre for FCV tobacco, and processing units use steam for conditioning leaf. A vortex steam flow meter gives an accurate picture of steam use for every line and shift.",
+            "Projects such as the Veligonda irrigation scheme and town water supply need bulk water metering. Our electromagnetic and area-velocity meters measure flow in pipelines and canals, and are supplied with calibration certificates from our New Delhi factory."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const prakasamSeoData = {
     {
       q: "Can your flowmeters withstand Prakasam’s industrial conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the high-demand environments of the Prakasam industrial region.",
+    },
+    {
+      q: "Which flow meter is suitable for granite cutting water with slurry?",
+      a: "A lined electromagnetic flow meter is the best option. It has a clear bore with no moving parts, so granite slurry does not block or wear it. Choose a rubber or similar abrasion-resistant liner for long life.",
+    },
+    {
+      q: "Can your meters handle brackish water in Prakasam shrimp farms?",
+      a: "Yes. Electromagnetic flow meters work with brackish and seawater when supplied with suitable liner and electrode materials. Tell us the water type and pipe size and we will recommend the right combination.",
     },
   ],
 };

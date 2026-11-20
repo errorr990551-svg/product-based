@@ -94,6 +94,27 @@ export const tezuSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Tezu, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Tezu region.",
           ],
+        },
+        {
+          title: "Water Supply for Tezu and the Lohit Plains",
+          paragraphs: [
+            "Tezu, the headquarters of Lohit district, lies on the plains near the Lohit river. Its water supply schemes draw from rivers and groundwater, and growing demand from the town means accurate metering is increasingly important.",
+            "Electromagnetic meters on treatment plant outlets and zonal lines show water produced and lost. For borewells, our MF-PRO meter provides a tamper-proof totaliser and optional telemetry."
+          ],
+        },
+        {
+          title: "Agriculture, Rice Mills and Orange Processing",
+          paragraphs: [
+            "Lohit district grows rice and oranges, and small rice mills and fruit processing units are operating around Tezu. These units use steam, water and diesel, often without measuring them.",
+            "Vortex meters measure steam, sanitary electromagnetic meters measure juice and pulp, and Contoil meters track diesel. Simple metering helps units understand and reduce their costs."
+          ],
+        },
+        {
+          title: "Parshuram Kund Pilgrimage and Institutions",
+          paragraphs: [
+            "Lakhs of pilgrims visit Parshuram Kund near Tezu for the Makar Sankranti mela. Temporary water supply for such crowds needs flow measurement to plan tanker and pipeline supply.",
+            "Clamp-on ultrasonic meters can be fitted quickly on temporary lines, and hospitals and institutions in Tezu can meter water and diesel year round. We deliver to Tezu with calibration certificates."
+          ],
         }
       ],
     },
@@ -142,6 +163,14 @@ export const tezuSeoData = {
     {
       q: "Can your flowmeters withstand Tezu’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied climate of the Tezu region.",
+    },
+    {
+      q: "Which meter is best for temporary water lines at a mela?",
+      a: "A clamp-on ultrasonic flow meter. It fits on the outside of the pipe, needs no cutting and can be moved from one line to another, which suits temporary supply.",
+    },
+    {
+      q: "Do you supply CGWA-compliant borewell meters in Lohit district?",
+      a: "Yes. The MF-PRO electromagnetic meter is designed for CGWA groundwater rules, with a tamper-proof totaliser, data logging and optional telemetry.",
     },
   ],
 };

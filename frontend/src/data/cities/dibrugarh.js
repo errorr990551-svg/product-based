@@ -100,6 +100,27 @@ export const dibrugarhSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Dibrugarh, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Dibrugarh region.",
           ],
+        },
+        {
+          title: "Tea Capital: Flow Meters for Tea Factories",
+          paragraphs: [
+            "Dibrugarh is known as the tea city of India, surrounded by hundreds of tea estates and factories. Tea manufacturing uses hot air and steam for withering and drying, fired by coal, gas or diesel, and fuel is often the largest cost after labour.",
+            "RPD and turbine gas meters measure natural gas, Contoil meters measure diesel, and vortex meters measure steam. Measuring fuel per kilogram of made tea lets factories compare dryers and cut costs."
+          ],
+        },
+        {
+          title: "Oil, Gas and Petrochemicals around Dibrugarh",
+          paragraphs: [
+            "Dibrugarh district includes major oil and gas fields around Duliajan, a gas cracker complex at Lepetkata and fertilizer production at Namrup. These plants need flow measurement for gas, crude, steam, water and effluent.",
+            "Ultra-NXT ultrasonic and EQZ turbine gas meters measure natural gas, flameproof MF-TER meters suit hazardous areas, and vortex meters measure steam. Contoil and oval gear meters handle fuels and lubricants."
+          ],
+        },
+        {
+          title: "Water Supply, Hospitals and Institutions",
+          paragraphs: [
+            "Dibrugarh is a major medical and education centre for Upper Assam. Hospitals and universities use water, hot water, steam and air conditioning that benefit from metering.",
+            "Electromagnetic meters measure town water supply, BTU meters measure chilled water energy, and IP68 sensors work in flood-prone chambers. We deliver to Dibrugarh with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const dibrugarhSeoData = {
     {
       q: "Can your flowmeters withstand Dibrugarh’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and heavy-rainfall climate of the Dibrugarh region.",
+    },
+    {
+      q: "Which gas meter suits a tea factory dryer?",
+      a: "An RPD rotary gas meter or EQZ turbine gas meter, depending on gas flow and pressure. Both give accurate totals for billing and fuel monitoring.",
+    },
+    {
+      q: "Do you supply flow meters for oil and gas fields?",
+      a: "Yes. We supply gas meters, flameproof electromagnetic meters, oil flow meters and vortex steam meters for oil and gas applications. Tell us the fluid, pressure and line size and we will recommend a model.",
     },
   ],
 };

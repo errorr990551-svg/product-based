@@ -100,6 +100,27 @@ export const gunturSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Guntur, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Guntur region.",
           ],
+        },
+        {
+          title: "Flow Meters for Guntur's Chilli, Cotton and Tobacco Industry",
+          paragraphs: [
+            "Guntur is home to one of Asia's largest chilli markets and is a major centre for cotton and tobacco. Chilli processing, cold storage, cotton ginning and tobacco threshing units all use water, steam and refrigeration, often without measuring what they consume.",
+            "Vortex flow meters measure steam used for conditioning tobacco and processing spices, while ultrasonic BTU meters show the cooling energy used in chilli cold storages. Electromagnetic meters measure water drawn from borewells and municipal supply."
+          ],
+        },
+        {
+          title: "Spinning Mills and Textile Processing",
+          paragraphs: [
+            "The Guntur region has many spinning and textile mills that use compressed air for spinning machines and humidification water to control conditions in the mill. Compressed air is one of the largest electricity costs in a spinning mill.",
+            "Thermal mass and ultrasonic air flow meters measure compressed air in each section so mills can find leaks and set targets. Electromagnetic meters measure humidification and process water, helping mills reduce both water and power costs."
+          ],
+        },
+        {
+          title: "Capital Region Infrastructure and Town Water",
+          paragraphs: [
+            "Development around the Amaravati capital region and growing towns across Guntur district need bulk water supply, sewage treatment and building utility metering. Electromagnetic meters on trunk mains and ultrasonic meters for buildings help utilities track water from plant to consumer.",
+            "For sewage and drains, the AV5500 open channel meter measures flow in partly filled pipes. We deliver to Guntur with calibration certificates traceable to national standards."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const gunturSeoData = {
     {
       q: "Can your flowmeters withstand Guntur’s industrial conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the high-demand environments of the Guntur industrial region.",
+    },
+    {
+      q: "How can a chilli cold storage in Guntur reduce power costs?",
+      a: "Measure the cooling energy with an ultrasonic BTU meter on the chilled water or brine circuit. It shows how much cooling each chamber uses, so you can spot poorly sealed chambers, compare compressors and plan loading better.",
+    },
+    {
+      q: "Which meter is best for compressed air in a spinning mill?",
+      a: "A thermal mass flow sensor or ultrasonic air flow meter. Both measure compressed air directly with almost no pressure loss and are sensitive enough to show leaks during shift changes and holidays.",
     },
   ],
 };

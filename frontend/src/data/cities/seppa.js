@@ -94,6 +94,27 @@ export const seppaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Seppa, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Seppa region.",
           ],
+        },
+        {
+          title: "Water Supply Schemes on the Kameng",
+          paragraphs: [
+            "Seppa, the headquarters of East Kameng district, lies on the Kameng river. Its water supply depends on intakes from the river and hill streams, with treatment and storage before distribution to the town and surrounding villages.",
+            "An electromagnetic meter on the treatment plant outlet and smaller meters on each zone show where water is lost. This helps the PHE department plan repairs and report accurately on Jal Jeevan Mission connections."
+          ],
+        },
+        {
+          title: "Small Hydro and Power Station Metering",
+          paragraphs: [
+            "The Kameng basin has significant hydropower potential, and small and large hydro stations in the region need flow data for cooling water, drainage and auxiliary systems. Clamp-on ultrasonic meters are useful here because they fit on existing pipes without any cutting or shutdown.",
+            "Diesel generators that back up power stations and camps can be monitored with Contoil oil meters, giving a clear record of fuel used during outages."
+          ],
+        },
+        {
+          title: "Tourism, Rafting Camps and Institutions",
+          paragraphs: [
+            "The Kameng is becoming known for river rafting and eco-tourism, and new homestays, camps and lodges are opening around Seppa. Simple water meters help these businesses manage limited supply and plan storage for the dry season.",
+            "Schools, the district hospital and government offices can cut costs by metering water and diesel. We deliver to Seppa with calibration certificates and support installation by phone or video."
+          ],
         }
       ],
     },
@@ -142,6 +163,14 @@ export const seppaSeoData = {
     {
       q: "Can your flowmeters withstand Seppa’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied mountainous climate of the Seppa region.",
+    },
+    {
+      q: "Which meter can measure water on an existing pipe without cutting it?",
+      a: "A clamp-on ultrasonic flow meter. Its sensors fit on the outside of the pipe, so it can be installed on a running line without shutdown. It suits checks at power stations and water schemes.",
+    },
+    {
+      q: "How can a hospital or camp track generator diesel use?",
+      a: "Fit a Contoil oil flow meter on the generator fuel supply. It records every litre used, so you can compare running hours with fuel consumed and spot leaks or theft.",
     },
   ],
 };

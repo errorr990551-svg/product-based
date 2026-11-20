@@ -100,6 +100,27 @@ export const kurnoolSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Kurnool, providing local refineries and labs with a robust verification service designed for single-unit accuracy or plant-wide audits. Each calibration is performed by expert engineers to ensure uncompromised hygiene and precision in measurement, making our services a perfect addition to any high-standard industrial facility in the Kurnool region.",
           ],
+        },
+        {
+          title: "Cement Plants in the Kurnool–Nandyal Belt",
+          paragraphs: [
+            "The limestone deposits of Kurnool and Nandyal make the region one of Andhra Pradesh's major cement clusters. Cement plants use compressed air in huge quantities, along with cooling water, fuel oil and fuel gas for kilns and captive power.",
+            "Our TRX ultrasonic air flow meters and SCHMIDT thermal mass sensors measure compressed air accurately, which helps plants find leaks and cut power bills. Contoil meters track fuel oil, and vortex meters measure steam in waste heat recovery systems."
+          ],
+        },
+        {
+          title: "Canal Irrigation and Water Supply from the Tungabhadra",
+          paragraphs: [
+            "Kurnool depends on the Tungabhadra and Krishna river systems, with the K-C canal and lift schemes such as Handri-Neeva carrying water across the district. Measuring water at each offtake helps share it fairly among farmers and towns.",
+            "The AV5500 area-velocity meter measures open canal flow without civil work, while electromagnetic meters on lift scheme pumping mains record exactly how much water each pump station delivers."
+          ],
+        },
+        {
+          title: "Solar Parks, Orvakal and New Industry",
+          paragraphs: [
+            "The Kurnool region has some of India's largest solar parks, and module cleaning uses a lot of water in a dry district. Simple ultrasonic or electromagnetic meters on the cleaning water supply help operators keep consumption under control.",
+            "New industrial units in the Orvakal node need water, effluent and gas metering from day one. We supply meters to Kurnool with calibration certificates and help with selection and installation."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const kurnoolSeoData = {
     {
       q: "Can your flowmeters withstand Kurnool’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the varied industrial and climatic conditions of the Kurnool region.",
+    },
+    {
+      q: "How can a Kurnool cement plant find compressed air leaks?",
+      a: "Measure compressed air at the compressor outlet and at each section with a thermal mass or ultrasonic air flow meter. Readings during idle hours show leak flow directly, so you can see where air is lost and confirm savings after repairs.",
+    },
+    {
+      q: "Can you measure water in the K-C canal or other open channels?",
+      a: "Yes. The AV5500 area-velocity flow meter measures both water level and velocity, so it gives flow in open canals without needing a weir or flume. It can store data for reporting to the irrigation department.",
     },
   ],
 };

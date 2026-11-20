@@ -100,6 +100,27 @@ export const champaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Champa, providing local manufacturing units and quality control labs with a robust verification service designed for high-standard accuracy. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the region.",
           ],
+        },
+        {
+          title: "Power Plant Water and Steam Metering in Janjgir-Champa",
+          paragraphs: [
+            "Janjgir-Champa district hosts several large thermal power stations that draw water from the Hasdeo and Mahanadi river systems. Power plants need accurate flow measurement on raw water intake, cooling water make-up, boiler feed water and effluent, both for efficiency and for environmental reporting.",
+            "Our insertion and clamp-on ultrasonic meters measure large-diameter water lines without cutting the pipe, which is often the only practical option on running plant. Electromagnetic meters suit DM water and effluent lines, and vortex meters handle auxiliary steam."
+          ],
+        },
+        {
+          title: "Hasdeo Canal Irrigation and Water Distribution",
+          paragraphs: [
+            "The Hasdeo Bango canal network irrigates large parts of the district, and measuring the water released into each branch is key to fair distribution. The AV5500 area-velocity meter measures flow in open canals without building a weir and can log readings for later analysis.",
+            "For drinking water schemes and town supply in Champa, full-bore electromagnetic meters on pumping mains record water delivered, while Ultrimis and Robust ultrasonic meters suit bulk and building connections."
+          ],
+        },
+        {
+          title: "Kosa Silk, Cement and Local Industry",
+          paragraphs: [
+            "Champa is famous for kosa silk, and dyeing and processing units use hot water and steam in small batches. A compact vortex meter or a Woltmann hot water meter lets these units see how much water and steam each lot takes.",
+            "Cement works in the district need compressed air and fuel metering, for which we offer TRX air flow meters, thermal mass sensors and Contoil oil meters. All meters are dispatched from our New Delhi factory with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const champaSeoData = {
     {
       q: "Can your flowmeters withstand Champa’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid subtropical climate of the region.",
+    },
+    {
+      q: "Can you measure flow on a large cooling water line without shutting it down?",
+      a: "Yes. Clamp-on ultrasonic meters are fixed to the outside of the pipe, and insertion ultrasonic meters need only a small hot-tap. Both can be installed on running lines, which makes them practical for power plant cooling water and raw water lines.",
+    },
+    {
+      q: "What meter suits hot water in a kosa silk dyeing unit?",
+      a: "A Woltmann turbine hot water meter or an electromagnetic flow meter rated for the temperature works well. For steam used to heat dye baths, a small vortex flow meter shows exactly how much steam each batch uses.",
     },
   ],
 };

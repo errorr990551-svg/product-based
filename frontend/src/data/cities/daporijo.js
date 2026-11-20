@@ -94,6 +94,27 @@ export const daporijoSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Daporijo, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Daporijo region.",
           ],
+        },
+        {
+          title: "Gravity Water Supply Metering in Upper Subansiri",
+          paragraphs: [
+            "Daporijo, on the banks of the Subansiri, is the headquarters of Upper Subansiri district. Most homes in the district get water from gravity-fed schemes that tap hill streams, and new Jal Jeevan Mission connections are being added to remote villages every year.",
+            "A flow meter at the outlet of each storage tank shows how much water the scheme really supplies. Battery-operated electromagnetic meters are a good fit here because they need no grid power and keep logging data between site visits."
+          ],
+        },
+        {
+          title: "Rugged Meters for Heavy Rain and Steep Terrain",
+          paragraphs: [
+            "Upper Subansiri receives very heavy rainfall, and meter chambers often fill with water. IP68-rated sensors can work fully submerged, with the display mounted above flood level where staff can read it safely.",
+            "Landslides and long travel times mean a meter must work for years without attention. Electromagnetic meters have no moving parts to wear or jam with silt, which makes them more reliable than mechanical meters on stream-fed lines."
+          ],
+        },
+        {
+          title: "Hospitals, Government Offices and Construction",
+          paragraphs: [
+            "The district hospital, schools, government offices and security camps in Daporijo use water, diesel and sometimes hot water every day. Contoil meters on generator supply lines show how much diesel is used, and help control costs in places where fuel arrives by road from far away.",
+            "Construction of roads, bridges and power infrastructure also needs water and fuel metering. We dispatch to Daporijo via the Assam road network with calibration certificates and remote technical support."
+          ],
         }
       ],
     },
@@ -142,6 +163,14 @@ export const daporijoSeoData = {
     {
       q: "Can your flowmeters withstand Daporijo’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied mountainous climate of the Daporijo region.",
+    },
+    {
+      q: "Can a flow meter work without electricity in a remote village?",
+      a: "Yes. Battery-operated electromagnetic flow meters run for years on an internal battery and store readings in a data logger. Engineers download the data during routine visits.",
+    },
+    {
+      q: "What happens if the meter chamber floods during monsoon?",
+      a: "Choose a meter with an IP68-rated sensor. It is built to work under water, and the converter can be mounted separately above flood level so it stays dry and easy to read.",
     },
   ],
 };

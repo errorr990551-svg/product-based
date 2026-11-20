@@ -94,6 +94,27 @@ export const roingSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Roing, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Roing region.",
           ],
+        },
+        {
+          title: "Flow Meters for the Dibang Hydro Project Region",
+          paragraphs: [
+            "Roing, the headquarters of Lower Dibang Valley, is close to the large Dibang multipurpose hydropower project under construction. Big construction sites like this need flow measurement for concrete batching water, dewatering pumps, fuel and site water supply.",
+            "Lined electromagnetic meters handle silty dewatering water, Contoil and oval gear meters measure diesel for heavy machinery, and clamp-on ultrasonic meters give quick checks on temporary pipelines."
+          ],
+        },
+        {
+          title: "Water Supply for Roing and the Dibang Valley",
+          paragraphs: [
+            "Roing's water comes from hill streams and the Dibang river system. As the town grows with project staff and visitors, the PHE department needs accurate data on water produced and supplied.",
+            "Battery-operated electromagnetic meters suit remote tanks with no reliable power, and IP68 sensors work in flooded chambers during the long monsoon. Readings can be logged and downloaded during site visits."
+          ],
+        },
+        {
+          title: "Tourism, Mehao and Local Institutions",
+          paragraphs: [
+            "Visitors come to Roing for Mayudia Pass, Sally Lake and the Mehao Wildlife Sanctuary. Hotels, homestays and institutions can control water and energy costs with simple meters on main supply lines.",
+            "Hospitals and colleges in Roing can also meter hot water and diesel. We deliver to Roing with calibration certificates and provide remote installation support."
+          ],
         }
       ],
     },
@@ -142,6 +163,14 @@ export const roingSeoData = {
     {
       q: "Can your flowmeters withstand Roing’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied climate of the Roing region.",
+    },
+    {
+      q: "Which flow meters are needed at a hydro project construction site?",
+      a: "Usually electromagnetic meters for dewatering and batching water, oil flow meters for diesel, and clamp-on ultrasonic meters for temporary lines. Tell us the pipe sizes and we will prepare a list.",
+    },
+    {
+      q: "Can meters be supplied to Roing with calibration certificates?",
+      a: "Yes. Every meter is calibrated at our facility and dispatched with a calibration certificate traceable to national standards.",
     },
   ],
 };

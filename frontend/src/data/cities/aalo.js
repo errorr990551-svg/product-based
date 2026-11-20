@@ -94,6 +94,27 @@ export const aaloSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Aalo, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Aalo region.",
           ],
+        },
+        {
+          title: "Water Supply at the Siyom–Sipu Confluence",
+          paragraphs: [
+            "Aalo, the headquarters of West Siang district, sits where the Siyom and Sipu rivers meet. The town and nearby villages draw water from these rivers and hill streams, and supply schemes need reliable metering to track water produced and delivered.",
+            "Electromagnetic meters on treatment plant outlets and zonal mains help the PHE department find leaks and plan expansion. Battery-powered models suit outlying tanks where grid power is unreliable."
+          ],
+        },
+        {
+          title: "Horticulture and Food Processing",
+          paragraphs: [
+            "West Siang grows oranges, pineapples, kiwis and other fruit, and small processing and juice units are growing around Aalo. These units use water for washing, steam or hot water for processing and cooling for storage.",
+            "Small electromagnetic meters measure process water and juice, Woltmann hot water meters measure heating water, and BTU meters measure cooling energy in cold storages."
+          ],
+        },
+        {
+          title: "Hospitals, Schools and Security Establishments",
+          paragraphs: [
+            "Aalo is an important administrative and education centre with a general hospital, schools and security establishments. These sites use water and diesel daily, and fuel often arrives over long mountain roads.",
+            "Contoil meters on generator lines record diesel use, and ultrasonic meters measure building water supply. We dispatch to Aalo with calibration certificates and remote support."
+          ],
         }
       ],
     },
@@ -142,6 +163,14 @@ export const aaloSeoData = {
     {
       q: "Can your flowmeters withstand Aalo’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied mountainous climate of the Aalo region.",
+    },
+    {
+      q: "Which meter suits fruit juice processing?",
+      a: "A sanitary electromagnetic flow meter works well for juices and pulps because they are conductive. It has a clear bore with no moving parts and is easy to clean.",
+    },
+    {
+      q: "Do you deliver flow meters to Aalo?",
+      a: "Yes. We dispatch meters from New Delhi with calibration certificates and help your team with installation by phone or video call.",
     },
   ],
 };

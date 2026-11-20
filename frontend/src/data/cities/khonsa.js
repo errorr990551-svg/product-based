@@ -94,6 +94,27 @@ export const khonsaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Khonsa, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Khonsa region.",
           ],
+        },
+        {
+          title: "Water Supply Metering in Tirap District",
+          paragraphs: [
+            "Khonsa, the headquarters of Tirap district, depends on hill streams and gravity-fed water schemes. Expanding household connections under Jal Jeevan Mission means each scheme needs reliable data on water produced and supplied.",
+            "Electromagnetic meters at tank outlets give accurate readings with no moving parts, and battery-operated versions suit sites without reliable power. Data loggers store readings until staff visit."
+          ],
+        },
+        {
+          title: "Tea Gardens and Agro Processing",
+          paragraphs: [
+            "Tirap has tea gardens and small processing units that use diesel, steam and water. Fuel arrives over long hill roads, so knowing exactly how much is used is important.",
+            "Contoil meters record diesel for dryers and generators, and small vortex meters measure steam. Electromagnetic meters measure process and wash water."
+          ],
+        },
+        {
+          title: "Security Camps, Hospitals and Institutions",
+          paragraphs: [
+            "Khonsa has hospitals, schools and security establishments that rely on generators and stored water. Metering diesel and water helps these sites plan supplies and control costs.",
+            "Oval gear and Contoil meters provide accurate fuel records, and ultrasonic meters measure building water supply. We deliver to Khonsa with calibration certificates and remote support."
+          ],
         }
       ],
     },
@@ -142,6 +163,14 @@ export const khonsaSeoData = {
     {
       q: "Can your flowmeters withstand Khonsa’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied mountainous climate of the Khonsa region.",
+    },
+    {
+      q: "Which meter is best for a gravity-fed water scheme?",
+      a: "An electromagnetic flow meter is a good choice because it has no moving parts and works at low pressure. A battery-operated version suits remote tanks without grid power.",
+    },
+    {
+      q: "How can a security camp track diesel use?",
+      a: "Fit a Contoil or oval gear oil flow meter on the generator fuel line. It records every litre used, so fuel use can be checked against running hours.",
     },
   ],
 };

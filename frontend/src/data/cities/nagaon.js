@@ -100,6 +100,27 @@ export const nagaonSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Nagaon, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Nagaon region.",
           ],
+        },
+        {
+          title: "Agriculture and Food Processing in Nagaon",
+          paragraphs: [
+            "Nagaon is one of Assam's largest districts and a major producer of rice, vegetables and jute. Food processing units, rice mills and cold storages use steam, water and cooling every day.",
+            "Vortex meters measure steam, electromagnetic meters measure water, and BTU meters measure cooling energy in cold storages. Metering helps processors control seasonal costs."
+          ],
+        },
+        {
+          title: "Tea, Jute and Small Industry",
+          paragraphs: [
+            "Tea gardens and jute processing units in Nagaon use fuel, steam and water. Contoil meters measure diesel, gas meters measure natural gas and vortex meters measure steam.",
+            "Our MF-PRO meter meets CGWA rules for industries using borewells, with a tamper-proof totaliser and optional telemetry."
+          ],
+        },
+        {
+          title: "Water Supply and Institutions",
+          paragraphs: [
+            "Nagaon town has hospitals, colleges and growing residential areas that need reliable water supply. Bulk meters on treatment plants and zonal meters help reduce losses.",
+            "BTU meters measure air conditioning energy in hospitals, and ultrasonic meters measure building water supply. We deliver to Nagaon with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const nagaonSeoData = {
     {
       q: "Can your flowmeters withstand Nagaon’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied riverine climate of the Nagaon region.",
+    },
+    {
+      q: "How can a cold storage in Nagaon measure cooling energy?",
+      a: "An ultrasonic BTU meter on the chilled water or brine circuit measures cooling energy delivered, helping compare chambers and compressors.",
+    },
+    {
+      q: "Do you supply CGWA meters in Nagaon?",
+      a: "Yes. Our MF-PRO electromagnetic meter is designed for CGWA groundwater rules with a tamper-proof totaliser and optional telemetry.",
     },
   ],
 };

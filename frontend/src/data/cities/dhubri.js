@@ -100,6 +100,27 @@ export const dhubriSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Dhubri, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Dhubri region.",
           ],
+        },
+        {
+          title: "Inland Waterways and River Port at Dhubri",
+          paragraphs: [
+            "Dhubri is an important river port on the Brahmaputra, linking Assam with Bangladesh by inland waterway. Vessels, terminals and fuel depots need accurate diesel and lubricant measurement.",
+            "Contoil and oval gear meters measure fuel and lubricants for vessels and depots, and electromagnetic meters measure terminal water supply."
+          ],
+        },
+        {
+          title: "Match, Jute and Agro Industry",
+          paragraphs: [
+            "Dhubri has a history of match making and jute processing, along with rice mills and agro units. These units use steam, water and diesel.",
+            "Vortex meters measure steam, electromagnetic meters measure process water, and Contoil meters measure diesel. Metering helps units reduce fuel costs."
+          ],
+        },
+        {
+          title: "Flood-Resilient Water Supply",
+          paragraphs: [
+            "Dhubri faces frequent floods and river erosion. Water supply schemes need meters that keep working in difficult conditions.",
+            "IP68 electromagnetic sensors work underwater, and battery-operated models suit sites with unreliable power. We deliver to Dhubri with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const dhubriSeoData = {
     {
       q: "Can your flowmeters withstand Dhubri’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the riverine and humid climate of the Dhubri region.",
+    },
+    {
+      q: "Which meter measures diesel for river vessels?",
+      a: "A Contoil or oval gear oil flow meter. Both measure diesel accurately and give a clear total for each refuelling.",
+    },
+    {
+      q: "Can meters work without power during floods?",
+      a: "Yes. Battery-operated electromagnetic meters run without grid power and log readings for later download.",
     },
   ],
 };

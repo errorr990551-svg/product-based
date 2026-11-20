@@ -100,6 +100,27 @@ export const diphuSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Diphu, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Diphu region.",
           ],
+        },
+        {
+          title: "Ginger and Agro Processing in Karbi Anglong",
+          paragraphs: [
+            "Diphu is the headquarters of Karbi Anglong, known for its ginger, turmeric and other spices. Processing units wash, dry and sometimes extract oil from these crops, using water, steam and fuel.",
+            "Electromagnetic meters measure wash water, vortex meters measure steam, and Contoil meters measure diesel for dryers. Metering helps processors control costs."
+          ],
+        },
+        {
+          title: "Rubber, Plantations and Small Industry",
+          paragraphs: [
+            "Rubber and other plantations are growing in Karbi Anglong. Rubber processing uses water and sometimes steam, and small industries need water and diesel metering.",
+            "Small electromagnetic meters measure process water, and oil meters measure diesel. Our MF-PRO meter meets CGWA rules for industries using borewells."
+          ],
+        },
+        {
+          title: "Hill Water Supply and Institutions",
+          paragraphs: [
+            "Diphu and surrounding villages depend on hill streams and groundwater. Gravity-fed and pumped schemes need reliable meters to track supply.",
+            "Battery-operated electromagnetic meters suit remote tanks, and IP68 sensors work in flooded chambers. We deliver to Diphu with calibration certificates and remote support."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const diphuSeoData = {
     {
       q: "Can your flowmeters withstand Diphu’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the humid and varied hilly climate of the Diphu region.",
+    },
+    {
+      q: "Which meter suits ginger washing water?",
+      a: "An electromagnetic meter. Wash water is conductive and may contain soil, and the meter has no moving parts to block.",
+    },
+    {
+      q: "Can you supply meters for remote hill water schemes?",
+      a: "Yes. Battery-operated electromagnetic meters with data logging suit remote schemes without grid power.",
     },
   ],
 };

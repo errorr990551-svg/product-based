@@ -100,6 +100,27 @@ export const bongaigaonSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Bongaigaon, providing local laboratories and utility departments with a robust verification service designed for single-unit accuracy or network-wide audits. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Bongaigaon region.",
           ],
+        },
+        {
+          title: "Refinery and Petrochemicals at Bongaigaon",
+          paragraphs: [
+            "Bongaigaon is known for its oil refinery and petrochemical complex at Dhaligaon. Refineries need accurate measurement of hydrocarbons, steam, cooling water, nitrogen and effluent across the plant.",
+            "Flameproof MF-TER electromagnetic meters suit hazardous areas, Contoil and oval gear meters measure fuels, vortex meters measure steam, and thermal mass sensors measure nitrogen and compressed air."
+          ],
+        },
+        {
+          title: "Thermal Power at Salakati",
+          paragraphs: [
+            "A large thermal power station operates at Salakati near Bongaigaon. Power plants need flow measurement on raw water intake, cooling make-up, boiler feed and ash handling water.",
+            "Clamp-on and insertion ultrasonic meters measure large lines without shutdown, lined electromagnetic meters handle ash slurry water, and vortex meters measure auxiliary steam."
+          ],
+        },
+        {
+          title: "Railways, Logistics and Town Water",
+          paragraphs: [
+            "Bongaigaon is an important railway and logistics hub for lower Assam. Railway sheds and depots use diesel, compressed air and water every day.",
+            "Contoil meters record diesel, TRX meters measure compressed air, and electromagnetic meters measure town water supply. We deliver to Bongaigaon with calibration certificates."
+          ],
         }
       ],
     },
@@ -148,6 +169,14 @@ export const bongaigaonSeoData = {
     {
       q: "Can your flowmeters withstand Bongaigaon’s environmental conditions?",
       a: "Absolutely. Our meters are engineered with high-grade materials specifically designed to maintain accuracy and durability in the industrial and humid climate of the Bongaigaon region.",
+    },
+    {
+      q: "Which meter suits ash slurry water in a power plant?",
+      a: "A lined electromagnetic meter with an abrasion-resistant liner. It has a clear bore and no moving parts, so ash particles do not block or wear it quickly.",
+    },
+    {
+      q: "Do you supply flameproof meters for refineries?",
+      a: "Yes. The MF-TER flameproof electromagnetic flow meter is designed for hazardous areas in refineries and petrochemical plants.",
     },
   ],
 };
