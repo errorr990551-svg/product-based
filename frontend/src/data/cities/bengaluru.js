@@ -101,6 +101,34 @@ export const bengaluruSeoData = {
           closingParagraph:
             "With extensive experience in industrial instrumentation, we understand the precision requirements of Bengaluru’s technology-driven industries. Our goal is to provide safe, compliant, and performance-oriented flow measurement systems that enhance productivity and maintain regulatory standards.",
         },
+        {
+          title: "Bulk Water and STP Flow Metering in Bengaluru",
+          paragraphs: [
+            "Bengaluru's piped water comes mainly from the Cauvery, pumped about 100 km from T.K. Halli and lifted more than 300 metres to reach the city. Because every litre is expensive to deliver, measuring it accurately matters for BWSSB's bulk supply, for district metered areas aimed at reducing non-revenue water, and for large consumers who want to check their bills.",
+            "Apartment complexes, tech parks and hospitals in Bengaluru also run their own sewage treatment plants and reuse treated water for flushing and gardening. We supply electromagnetic flow meters for STP inlets and outlets, treated-water reuse lines and borewell and tanker water inputs. Clamp-on ultrasonic meters let existing buildings add metering without cutting into pipelines."
+          ],
+        },
+        {
+          title: "Pharma, Biotech and Electronics Plants: Electronic City, Bommasandra and Jigani",
+          paragraphs: [
+            "South Bengaluru, from Electronic City and Hebbagodi to Bommasandra and Jigani, has one of India's densest clusters of biotech, pharmaceutical and electronics manufacturing. These plants depend on purified water and WFI loops, chilled water for cleanrooms, and gases such as nitrogen and compressed dry air.",
+            "For these sites we supply sanitary electromagnetic meters for purified water lines, thermal mass flow meters for nitrogen, CDA and process gases, and electromagnetic meters for effluent discharge, where pollution control board consent conditions require reliable flow records."
+          ],
+        },
+        {
+          title: "Flow Measurement for Peenya and Bengaluru's Engineering Industry",
+          paragraphs: [
+            "Peenya Industrial Area is one of the largest industrial estates in Asia, with thousands of machine shops, foundries, fabrication units, electroplating shops and component makers serving the automotive, aerospace and defence sectors. Together with the belts around Bidadi, Hoskote and Doddaballapura, it makes Bengaluru a major engineering hub.",
+            "In these plants compressed air is often the largest utility cost after power for machines. Thermal mass flow meters show exactly how much air each line uses and where leaks are. Vortex meters measure steam and gas for heat treatment and washing, and electromagnetic meters record plating rinse water and effluent volumes."
+          ],
+        },
+        {
+          title: "BTU and Chilled Water Metering for Tech Parks and Data Centres",
+          paragraphs: [
+            "Whitefield, Outer Ring Road, Manyata and the city's many commercial towers rely on central chilled water plants for air conditioning, and Bengaluru is also one of India's fastest-growing data centre markets. Measuring chilled water energy per tenant or per data hall is the fairest way to share cooling costs and to track plant efficiency.",
+            "Our BTU energy meters combine an electromagnetic or ultrasonic flow sensor with paired temperature sensors to measure cooling energy accurately. Clamp-on ultrasonic BTU meters suit buildings that are already running, since they can be installed without draining the chilled water system."
+          ],
+        }
       ],
     },
   ],
@@ -148,6 +176,18 @@ export const bengaluruSeoData = {
     {
       q: "Are your flowmeters suitable for cleanroom and pharmaceutical environments?",
       a: "Yes. Our electromagnetic and thermal mass flowmeters are widely used in pharmaceutical and biotech facilities, ensuring high precision and compliance with industry standards.",
+    },
+    {
+      q: "Which flow meter should I use for an apartment STP in Bengaluru?",
+      a: "Treated and raw sewage are conductive, so an electromagnetic flow meter is the most reliable choice for STP inlet, outlet and treated-water reuse lines. It has no moving parts to clog and keeps a clear record of treated volumes.",
+    },
+    {
+      q: "Do you supply BTU meters for tech parks and data centres in Bengaluru?",
+      a: "Yes. We supply BTU energy meters for chilled water and hot water systems, including clamp-on ultrasonic versions that can be installed on running lines in Whitefield, Outer Ring Road, Electronic City and other commercial areas.",
+    },
+    {
+      q: "Can you help reduce compressed air costs in Peenya factories?",
+      a: "Yes. Our thermal mass flow meters measure compressed air directly in normal cubic metres, so you can see consumption per line, spot leaks and check compressor performance.",
     },
   ],
 };

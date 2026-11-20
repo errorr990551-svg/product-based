@@ -100,6 +100,34 @@ export const mehsanaSeoData = {
           paragraphs: [
             "Precision and regulatory compliance are at the core of our operations. We offer NABL Traceable Calibration in Mehsana, providing local industrial laboratories and utility departments with a robust verification service designed for heavy-duty accuracy. Each calibration is performed by expert engineers to ensure uncompromised precision in measurement, making our services a perfect addition to any high-standard facility in the Mehsana region.",
           ],
+        },
+        {
+          title: "Flow Meters for Mehsana's Dairy Cooperatives",
+          paragraphs: [
+            "Mehsana district is one of India's biggest milk belts. Its district cooperative union, Dudhsagar Dairy, is among the largest dairies in Asia. Milk travels from thousands of village societies to bulk chilling centres and then to processing plants making pasteurised milk, butter, ghee and milk powder. At every stage, accurate volume measurement decides what the farmer is paid and how much product the plant accounts for.",
+            "Milk is a conductive liquid, so electromagnetic flow meters are the standard choice for milk reception, tanker unloading and transfer between silos. For Mehsana dairies we supply sanitary electromagnetic meters with PFA/PTFE lining, SS316 electrodes and tri-clover connections. They have no moving parts in the milk path and survive daily CIP cleaning with hot caustic and acid. The same plants use our vortex meters to measure steam to pasteurisers, evaporators and spray dryers, and electromagnetic meters on ETP inlet and outlet lines."
+          ],
+        },
+        {
+          title: "Oil Field and Steam Injection Measurement around Mehsana",
+          paragraphs: [
+            "Mehsana is also one of the oldest onshore oil-producing regions in Gujarat. ONGC's Mehsana Asset operates fields such as Balol, Santhal, Lanwa, Jotana and Sobhasan, several of which produce heavy, viscous crude that needs steam or thermal methods to recover. Operators and their contractors in this region need dependable meters for injection water, produced water, steam and associated gas.",
+            "We supply electromagnetic flow meters for injection and produced water, vortex flow meters for saturated and superheated steam, and gas flow meters for associated and fuel gas. Flameproof versions are available for classified areas, and clamp-on ultrasonic meters let you check flow on running lines without a shutdown or pipe cutting."
+          ],
+        },
+        {
+          title: "Serving Kadi, Unjha and the Becharaji Automotive Belt",
+          paragraphs: [
+            "Beyond the city, the Mehsana region has distinct industrial pockets with very different measurement needs. Kadi is known for cotton ginning and edible oil mills, where steam and boiler feed water metering directly affect fuel cost. Unjha, home to one of the largest cumin (jeera) and spice markets in the country, has processing and cleaning units that need water and compressed air measurement.",
+            "Around Becharaji and the Mandal–Becharaji Special Investment Region, the automobile plants and their component suppliers use large volumes of compressed air, process water and coolant. Thermal mass flow meters help these units find compressed air leakage, one of the biggest hidden electricity costs in a machine shop. Electromagnetic meters cover paint shop pre-treatment water and ETP discharge."
+          ],
+        },
+        {
+          title: "Borewell and Groundwater Metering for North Gujarat",
+          paragraphs: [
+            "North Gujarat has some of the most heavily used groundwater in the state, and industries in Mehsana that draw water from borewells must follow Central Ground Water Authority (CGWA) NOC conditions. These include fitting a tamper-proof digital flow meter on each borewell and, for many users, sending readings by telemetry.",
+            "Our CGWA-compliant electromagnetic borewell flow meters come with data logging and can be connected to the IOT Sense platform for remote readings. Industries supplied through the Narmada pipeline network can use the same meters to reconcile bulk water bills and spot leaks inside the plant boundary."
+          ],
         }
       ],
     },
@@ -148,6 +176,18 @@ export const mehsanaSeoData = {
     {
       q: "Can your flowmeters handle the high-sanitation requirements of dairy manufacturing?",
       a: "Absolutely. We provide specialized flowmeters with food-grade linings and hygienic connections specifically designed to maintain accuracy and compliance in Mehsana’s rigorous dairy processing conditions.",
+    },
+    {
+      q: "Which flow meter is best for measuring milk in a Mehsana dairy?",
+      a: "Milk is conductive, so a sanitary electromagnetic flow meter is the best fit. It has no moving parts, gives accurate volume for milk reception and transfers, and withstands daily CIP cleaning. Non-conductive products such as ghee or edible oil need a different meter type, and we can advise on that for your line.",
+    },
+    {
+      q: "Do you supply CGWA-compliant borewell flow meters in Mehsana?",
+      a: "Yes. We supply digital electromagnetic borewell flow meters that meet CGWA NOC requirements, with data logging and optional telemetry through IOT Sense, for industries across Mehsana, Kadi and the surrounding GIDC estates.",
+    },
+    {
+      q: "Can you supply flameproof flow meters for oil field sites near Mehsana?",
+      a: "Yes. Flameproof versions of our electromagnetic and vortex flow meters are available for hazardous areas such as well sites, gathering stations and steam injection facilities around Mehsana.",
     },
   ],
 };
