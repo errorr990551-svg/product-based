@@ -84,7 +84,7 @@ const Contact = () => {
       <section className="contact-banner">
         <img
           src={require("../../images/Contact us page.webp")}
-          alt="Contact Banner"
+          alt="Contact IOTAFLOW Systems, Mayapuri, New Delhi"
           className="contact-banner-img"
         />
       </section>
@@ -94,7 +94,7 @@ const Contact = () => {
         <Row>
           {/* Left Info Section */}
           <Col md={6} className="contact-info">
-            <h1 className="mb-3">Get In Touch</h1>
+            <h1 className="mb-3">Contact IOTAFLOW Systems</h1>
             <p>Here’s how you can reach us,</p>
             <p className="mt-3">
               IOTAFLOW Systems Pvt. Ltd. manufactures electromagnetic, ultrasonic, vortex, turbine and other industrial flow meters in New Delhi and supplies them across India and overseas. Contact us for product selection, price quotations, calibration, installation support or after-sales service.

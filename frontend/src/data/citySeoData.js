@@ -171,6 +171,8 @@ export const mumbaiSeoData = {
 
 export const delhiSeoData = {
   city: "Delhi",
+  metaTitle: "Flow Meter Manufacturer in Delhi, Mayapuri | IOTAFLOW",
+  metaDescription: "Flow meters made at our Mayapuri factory in New Delhi: electromagnetic, ultrasonic and vortex meters with NABL calibration and fast delivery across Delhi NCR.",
 
   // 🔹 SLIDES
   slides: [

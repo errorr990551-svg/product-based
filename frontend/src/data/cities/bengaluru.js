@@ -6,9 +6,9 @@ import ultrasonicProductImg from "../../images/d1a.webp";
 
 export const bengaluruSeoData = {
   city: "Bengaluru",
-  metaTitle: "Flow Meter Manufacturer & Suppliers in Bengaluru | IOTAFLOW",
+  metaTitle: "Flow Meter Manufacturers & Suppliers in Bengaluru | IOTAFLOW",
   metaKeywords: "flow meter manufacturer in Bengaluru, flow meter supplier Bengaluru, electromagnetic flow meter Bengaluru, ultrasonic flow meter Bengaluru, flow meter Karnataka, NABL flow meter calibration Bengaluru",
-  metaDescription: "Flow meter manufacturer in Bengaluru, Karnataka: electromagnetic, ultrasonic & vortex meters for Pharma, Biotech and manufacturing units across Bengaluru.",
+  metaDescription: "Electromagnetic, ultrasonic and vortex flow meters for Bengaluru pharma plants, STPs and tech parks. NABL calibrated, ±0.5% accuracy, 7-day delivery.",
 
   // 🔹 HERO SLIDER
   slides: [

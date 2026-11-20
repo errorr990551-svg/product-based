@@ -15,6 +15,11 @@ ErrorDocument 410 /404.html
 
   # Old WordPress-era URLs. Products with a current equivalent are 301-redirected;
   # everything else from the old site is 410 Gone so Google drops it quickly.
+  # Dead URLs still shown in Google (Search Console, Nov 2026) -> closest live page
+  RewriteRule ^company-overview/?$ /about-us [NC,R=301,L]
+  RewriteRule ^contact-us/?$ /contact [NC,R=301,L]
+  RewriteRule ^product/therma[l]?-mass-flow-meter/?$ /product-detail/detail15 [NC,R=301,L]
+  RewriteRule ^(downloads|products|shop|resources)/?$ /product [NC,R=301,L]
   RewriteRule ^product/robust-ultrasonic-water-meter/?$ /product-detail/detail2 [NC,R=301,L]
   RewriteRule ^product/(automatic-meter-reading|prepaid-water-meter-system)/?$ /iotsense [NC,R=301,L]
   RewriteRule ^product/turbine[^/]*/?$ /product-detail/detail10 [NC,R=301,L]
