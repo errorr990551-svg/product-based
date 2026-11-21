@@ -214,7 +214,14 @@ const HomePopupForm = ({ isOpen, onClose, purpose }) => {
   if (!isOpen) return null;
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    let { name, value } = e.target;
+    // Accept autofilled or pasted numbers like "+91 99106 93866" or "099106 93866"
+    if (name === "phone") {
+      value = value.replace(/\D/g, "");
+      if (value.length > 10 && /^(91|0)/.test(value)) value = value.slice(-10);
+      value = value.slice(0, 10);
+    }
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = async (e) => {
@@ -339,7 +346,8 @@ const HomePopupForm = ({ isOpen, onClose, purpose }) => {
               placeholder="Phone Number"
               required
               minLength="10"
-              maxLength="10"
+              inputMode="numeric"
+              autoComplete="tel-national"
               pattern="[0-9]{10}"
               title="Please enter a 10-digit phone number"
               className="tw-w-full tw-rounded-lg tw-border tw-px-4 tw-py-3"

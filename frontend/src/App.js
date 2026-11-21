@@ -144,11 +144,14 @@ function App() {
     <>
       <ScrollHandler />
       {/* GLOBAL POPUP (PORTAL SAFE) */}
-      <HomePopupForm
-        isOpen={isPopupOpen}
-        onClose={closePopup}
-        purpose={popupPurpose}
-      />
+      {/* Own boundary: if the popup code is still downloading, the page must not blank out */}
+      <Suspense fallback={null}>
+        <HomePopupForm
+          isOpen={isPopupOpen}
+          onClose={closePopup}
+          purpose={popupPurpose}
+        />
+      </Suspense>
       <Suspense fallback={<LoadingFallback />}>
         <Routes>
           <Route element={<Layout />}>

@@ -9,7 +9,7 @@ const EnquiryButton = ({
   return (
     <button
       className={`my-2 btn-enquiry ${className}`}
-      onClick={openPopup}
+      onClick={() => openPopup()}
     >
       <span>{children}</span>
     </button>

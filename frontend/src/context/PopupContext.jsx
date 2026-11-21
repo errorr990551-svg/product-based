@@ -2,21 +2,26 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 
 const PopupContext = createContext();
 
+// localStorage throws when site data is blocked; the popup must still work then
+const readRevealed = () => {
+  try {
+    return localStorage.getItem("contactDetailsRevealed") === "true";
+  } catch {
+    return false;
+  }
+};
+
 export const PopupProvider = ({ children }) => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [popupPurpose, setPopupPurpose] = useState("default");
-  const [contactDetailsRevealed, setContactDetailsRevealed] = useState(() => {
-    return localStorage.getItem("contactDetailsRevealed") === "true";
-  });
+  const [contactDetailsRevealed, setContactDetailsRevealed] = useState(readRevealed);
 
   // Auto open after reload (your existing behavior)
   useEffect(() => {
     const timer = setTimeout(() => {
       // Only auto-open if contact details haven't been revealed yet
-      const revealed = localStorage.getItem("contactDetailsRevealed") === "true";
-      // Don't cover interactive tool pages with the enquiry popup
-      const toolPage = window.location.pathname.startsWith("/flow-calculator");
-      if (!revealed && !toolPage && !window.__PRERENDER__) {
+      // The enquiry popup is the main lead source: it opens on every page
+      if (!readRevealed() && !window.__PRERENDER__) {
         setPopupPurpose("default");
         setIsPopupOpen(true);
       }
@@ -35,7 +40,11 @@ export const PopupProvider = ({ children }) => {
   };
 
   const revealContactDetails = () => {
-    localStorage.setItem("contactDetailsRevealed", "true");
+    try {
+      localStorage.setItem("contactDetailsRevealed", "true");
+    } catch {
+      // storage blocked: the details stay revealed for this visit only
+    }
     setContactDetailsRevealed(true);
   };
 
