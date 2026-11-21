@@ -1,9 +1,10 @@
 import { sendMail } from "../services/emailService.js";
+import { escapeFields } from "../services/escape.js";
 
 export const submitApplication = async (c) => {
   try {
     const body = await c.req.parseBody();
-    const { fullName, email, mobile, location, role } = body || {};
+    const { fullName, email, mobile, location, role } = escapeFields(body);
 
     const file = body["resume"];
     if (!file || typeof file.arrayBuffer !== "function" || !file.name) {

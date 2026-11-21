@@ -143,7 +143,7 @@ export default function ComplaintForm() {
             </div>
             <div>
               <label className={labelStyle}>Flow Meter Size</label>
-              <select {...register("flowMeterSize")} className={inputStyle} onChange={(e) => setShowOtherSize(e.target.value === "Other")}>
+              <select {...register("flowMeterSize", { onChange: (e) => setShowOtherSize(e.target.value === "Other") })} className={inputStyle}>
                 <option value="">Select...</option>
                 <option value="25 mm">25 mm</option>
                 <option value="50 mm">50 mm</option>
@@ -175,7 +175,7 @@ export default function ComplaintForm() {
           <h3 className="tw-text-lg tw-font-semibold tw-text-white">Complaint Details</h3>
           <div>
             <label className={labelStyle}>Nature of Complaint*</label>
-            <select {...register("complaintNature", { required: true })} className={inputStyle} onChange={(e) => setShowOtherComplaint(e.target.value === "Other")}>
+            <select {...register("complaintNature", { required: true, onChange: (e) => setShowOtherComplaint(e.target.value === "Other") })} className={inputStyle}>
               <option value="">Select...</option>
               <option value="Not showing accurate reading">Not showing accurate reading</option>
               <option value="Not functioning">Not functioning</option>
@@ -189,7 +189,7 @@ export default function ComplaintForm() {
           </div>
           <div>
             <label className={labelStyle}>Frequency of Occurrence</label>
-            <select {...register("frequency")} className={inputStyle} onChange={(e) => setShowOtherFrequency(e.target.value === "Other")}>
+            <select {...register("frequency", { onChange: (e) => setShowOtherFrequency(e.target.value === "Other") })} className={inputStyle}>
               <option value="">Select...</option>
               <option value="Once">Once</option>
               <option value="Intermittent">Intermittent</option>
@@ -254,6 +254,10 @@ export default function ComplaintForm() {
         >
           {loading ? "Submitting..." : "Submit Complaint"}
         </button>
+
+        {Object.keys(errors).length > 0 && (
+          <p className="tw-mt-4 tw-text-center tw-font-medium tw-text-red-400">Please fill in all fields marked *</p>
+        )}
 
         {message.text && (
           <p className={`tw-mt-4 tw-text-center tw-font-medium ${message.type === "success" ? "tw-text-green-400" : "tw-text-red-400"}`}>

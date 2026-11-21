@@ -63,13 +63,8 @@ function ProductDetail() {
   const [downloadFiles, setDownloadFiles] = useState({
     catalogue: [
       {
-        title: '117_GLASS TUBE  ROTAMETER- Catalogue',
+        title: 'Glass Tube Rotameter - Catalogue',
         path: '/documents/117_GLASS TUBE  ROTAMETER.pdf',
-        size: 'Loading...' // Initial state for size
-      },
-      {
-        title: '117_GLASS TUBE ROTAMETER- Catalogue',
-        path: '/documents/117_GLASS TUBE ROTAMETER.pdf',
         size: 'Loading...' // Initial state for size
       }
     ],

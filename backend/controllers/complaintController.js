@@ -1,8 +1,13 @@
 import { sendMail } from "../services/emailService.js";
+import { escapeFields } from "../services/escape.js";
 
 export const submitComplaintForm = async (c) => {
   try {
-    const data = await c.req.parseBody();
+    const data = escapeFields(await c.req.parseBody());
+
+    if (!data.customerName || !data.email || !data.issueDescription) {
+      return c.json({ success: false, message: "Please fill in all required fields" }, 400);
+    }
 
     // Prepare attachment (image / file)
     const attachments = [];

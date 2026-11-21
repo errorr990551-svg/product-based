@@ -1,4 +1,5 @@
 import { sendMail } from "../services/emailService.js";
+import { escapeFields } from "../services/escape.js";
 
 export const submitContactForm = async (c) => {
   try {
@@ -10,7 +11,7 @@ export const submitContactForm = async (c) => {
       body = await c.req.parseBody();
     }
 
-    const { name, email, phone, location, company, message } = body || {};
+    const { name, email, phone, location, company, message } = escapeFields(body);
 
     // Validate required fields
     if (!name || !email || !phone || !message) {
