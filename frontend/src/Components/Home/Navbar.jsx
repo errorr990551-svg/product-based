@@ -144,7 +144,7 @@ function CustomNavbar() {
           {/* Logo */}
           <div className="nav-logo">
             <Link to="/">
-              <img src={Logo} alt="Logo" />
+              <img src={Logo} alt="IOTAFLOW Systems logo" />
             </Link>
           </div>
 
