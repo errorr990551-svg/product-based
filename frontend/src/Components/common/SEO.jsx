@@ -34,10 +34,11 @@ const upsertCanonical = (href) => {
 
 // Sets title, description, keywords, canonical, Open Graph and robots tags.
 // Props override the entry for the current path in src/data/routeMeta.json.
-const SEO = ({ title, description, keywords, canonicalPath, noindex = false }) => {
+const SEO = ({ title, description, keywords, canonicalPath, noindex: noindexProp }) => {
   const { pathname } = useLocation();
   const path = normalizePath(pathname);
   const meta = routeMeta[path] || {};
+  const noindex = noindexProp ?? Boolean(meta.noindex);
 
   const finalTitle = title || meta.title;
   const finalDescription = description || meta.description;

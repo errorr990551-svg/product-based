@@ -77,6 +77,7 @@
     "changefreq": "monthly"
   },
   "/complaint": {
+    "noindex": true,
     "title": "Lodge a Product Complaint | Customer Support | IOTAFLOW",
     "description": "Facing an issue with your IOTAFLOW flow meter? Lodge a complaint with your product and site details and our service team will get back to you quickly.",
     "keywords": "IOTAFLOW complaint, flow meter service request, flow meter customer support, IOTAFLOW support",
@@ -84,6 +85,7 @@
     "changefreq": "yearly"
   },
   "/application-form": {
+    "noindex": true,
     "title": "Job Application Form | Apply to IOTAFLOW Careers",
     "description": "Apply for open positions at IOTAFLOW Systems. Submit your details and resume for engineering, sales, IoT and manufacturing roles.",
     "keywords": "IOTAFLOW job application, apply IOTAFLOW careers, engineering job application India",

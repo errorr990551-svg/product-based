@@ -5,7 +5,7 @@ const path = require('path');
 
 const BASE_URL = 'https://iotaflow.com';
 const SRC_DIR = path.join(__dirname, '../src');
-const SEO_PAGE_PATH = path.join(SRC_DIR, 'pages/SeoPage.jsx');
+const CITY_LOADERS_PATH = path.join(SRC_DIR, 'data/cityLoaders.js');
 const routeMeta = require('../src/data/routeMeta.json');
 
 // Reads a string property (e.g. metaTitle: "...") from a JS object literal source
@@ -26,24 +26,18 @@ const readExportBlock = (filePath, exportName) => {
 const titleCase = (slug) =>
   slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 
-// Mirrors the meta fallbacks in src/pages/SeoPage.jsx
+// City pages come from src/data/cityLoaders.js; meta fallbacks mirror src/pages/SeoPage.jsx
 const getCityRoutes = () => {
-  const seoPage = fs.readFileSync(SEO_PAGE_PATH, 'utf8');
+  const loaders = fs.readFileSync(CITY_LOADERS_PATH, 'utf8');
 
   const importFiles = {};
-  for (const [, names, file] of seoPage.matchAll(/import\s*\{([^}]+)\}\s*from\s*"(\.\.\/data\/[^"]+)"/g)) {
-    names.split(',').map((n) => n.trim()).filter(Boolean).forEach((name) => {
-      importFiles[name] = path.join(SRC_DIR, 'pages', `${file}.js`);
-    });
-  }
-
-  const mapMatch = seoPage.match(/const cityDataMap\s*=\s*\{([\s\S]*?)\};/);
-  if (!mapMatch) throw new Error('Could not find cityDataMap in SeoPage.jsx');
+  const entries = [...loaders.matchAll(/^\s*"([a-z0-9-]+)":\s*\(\)\s*=>\s*import\("(\.\/[^"]+)"\)\.then\(\(m\)\s*=>\s*m\.([A-Za-z0-9_]+)\)/gm)];
+  if (!entries.length) throw new Error('Could not find city loaders in src/data/cityLoaders.js');
 
   const seenExports = new Set();
   const routes = [];
-  for (const [, quoted, bare, exportName] of mapMatch[1].matchAll(/^\s*(?:"([^"]+)"|([a-zA-Z0-9_-]+))\s*:\s*([A-Za-z0-9_]+)/gm)) {
-    const slug = quoted || bare;
+  for (const [, slug, file, exportName] of entries) {
+    importFiles[exportName] = path.join(SRC_DIR, 'data', `${file}.js`);
     // Aliases (a second key for the same data) canonicalise to the first key
     if (seenExports.has(exportName)) continue;
     seenExports.add(exportName);
@@ -52,6 +46,7 @@ const getCityRoutes = () => {
     const cityName = readStringProp(block, 'city') || titleCase(slug);
     routes.push({
       path: `/${slug}`,
+      name: cityName,
       title: readStringProp(block, 'metaTitle') || `Flow Meter Manufacturer & Suppliers in ${cityName} | IOTAFLOW`,
       description: readStringProp(block, 'metaDescription') || `Leading industrial flow meter manufacturer and supplier in ${cityName}. Expert in electromagnetic, ultrasonic, and thermal mass flow measurement.`,
       keywords: readStringProp(block, 'metaKeywords') || `flow meter manufacturer ${cityName}, industrial flow meter supplier ${cityName}, ultrasonic flow meter ${cityName}, electromagnetic flow meter ${cityName}, industrial automation ${cityName}`,
@@ -69,6 +64,6 @@ const getAllRoutes = () => {
 };
 
 // Routes that belong in the sitemap: canonical, indexable URLs only
-const getSitemapRoutes = () => getAllRoutes().filter((r) => r.sitemap !== false && !r.canonical);
+const getSitemapRoutes = () => getAllRoutes().filter((r) => r.sitemap !== false && !r.canonical && !r.noindex);
 
 module.exports = { BASE_URL, getAllRoutes, getSitemapRoutes };

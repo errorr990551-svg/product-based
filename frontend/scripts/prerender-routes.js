@@ -159,6 +159,26 @@ const renderBodies = async (routes) => {
   return results;
 };
 
+// BreadcrumbList structured data: Home > [section >] page
+const SECTIONS = [
+  [/^\/case-studies\//, 'Case Studies', '/casestudies'],
+  [/^\/about-us\//, 'About Us', '/about-us'],
+];
+const breadcrumbJsonLd = (route) => {
+  if (route.path === '/' || route.noindex || route.canonical) return '';
+  const crumbs = [['Home', '/']];
+  const section = SECTIONS.find(([re]) => re.test(route.path));
+  if (section) crumbs.push([section[1], section[2]]);
+  else if (route.name) crumbs.push(['Market Area', '/market-area']);
+  crumbs.push([route.name || route.title.split(' | ')[0].trim(), route.path]);
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map(([name, p], i) => ({ '@type': 'ListItem', position: i + 1, name, item: BASE_URL + p })),
+  };
+  return `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`;
+};
+
 (async () => {
   const routes = getAllRoutes();
   const bodies = await renderBodies(routes);
@@ -169,7 +189,9 @@ const renderBodies = async (routes) => {
       description: route.description,
       keywords: route.keywords,
       canonicalUrl: BASE_URL + (route.canonical || route.path),
+      noindex: route.noindex,
     });
+    html = html.replace('</head>', `${breadcrumbJsonLd(route)}</head>`);
     if (bodies[route.path]) html = injectBody(html, bodies[route.path]);
     const outFile = outFileFor(route.path);
     fs.mkdirSync(path.dirname(outFile), { recursive: true });

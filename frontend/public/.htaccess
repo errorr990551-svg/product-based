@@ -44,6 +44,7 @@ ErrorDocument 410 /404.html
   RewriteRule ^(calculator|velocity-calculator)$ /flow-calculator [NC,R=301,L]
   RewriteRule ^anantpur$ /anantapur [NC,R=301,L]
   RewriteRule ^seo$ /market-area [NC,R=301,L]
+  RewriteRule ^product2/?$ /product [NC,R=301,L]
 
   # 5. Existing files (JS, CSS, images, sitemap, PHP) are served directly
   RewriteCond %{REQUEST_FILENAME} -f
@@ -71,5 +72,9 @@ ErrorDocument 410 /404.html
     Header set Cache-Control "no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"
     Header set Expires 0
+  </FilesMatch>
+  # Build files with a content hash in the name (main.6f932389.js) never change: cache 1 year
+  <FilesMatch "\.[0-9a-f]{8,}\.(chunk\.)?(js|css|webp|png|jpe?g|gif|svg|avif|mp4|woff2?|ttf)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
 </IfModule>

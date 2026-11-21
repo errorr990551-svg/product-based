@@ -41,6 +41,43 @@ const FOOTER_PRODUCTS = [
   ["IoTSense Platform", "/iotsense"],
 ];
 
+const FOOTER_CITIES = [
+  ["Delhi", "/delhi"],
+  ["Mumbai", "/mumbai"],
+  ["Bengaluru", "/bengaluru"],
+  ["Chennai", "/chennai"],
+  ["Hyderabad", "/hyderabad"],
+  ["Ahmedabad", "/ahmedabad"],
+  ["All Locations", "/market-area"],
+];
+
+const FOOTER_CASE_STUDIES = [
+  ["Steel Plant Cooling Water", "/case-studies/1"],
+  ["Metro Rail Water Management", "/case-studies/2"],
+  ["Municipal Water (4-Track Ultrasonic)", "/case-studies/3"],
+  ["Mining Area Velocity Meters", "/case-studies/4"],
+  ["Hotel Water & BTU Metering", "/case-studies/5"],
+  ["Aluminium Plant Combustion Control", "/case-studies/6"],
+];
+
+const FooterLinkList = ({ title, links }) => (
+  <nav aria-label={title} className="footer-products mt-4">
+    <h5 className="fw-bold mb-2 footer-col-title">
+      {title}
+      <span className="footer-col-underline" />
+    </h5>
+    <ul className="footer-products-list list-unstyled mb-0">
+      {links.map(([label, href]) => (
+        <li key={href}>
+          <Link to={href} className="text-decoration-none text-light-50">
+            {label}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </nav>
+);
+
 function Footer() {
   const { contactDetailsRevealed, openPopup } = usePopup();
   return (
@@ -211,22 +248,10 @@ function Footer() {
           </Col>
         </Row>
 
-        {/* All products – plain links so every product page is reachable from every page */}
-        <nav aria-label="All products" className="footer-products mt-4">
-          <h5 className="fw-bold mb-2 footer-col-title">
-            Our Products
-            <span className="footer-col-underline" />
-          </h5>
-          <ul className="footer-products-list list-unstyled mb-0">
-            {FOOTER_PRODUCTS.map(([label, href]) => (
-              <li key={href}>
-                <Link to={href} className="text-decoration-none text-light-50">
-                  {label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        {/* Plain links so every product, main city and case study is reachable from every page */}
+        <FooterLinkList title="Our Products" links={FOOTER_PRODUCTS} />
+        <FooterLinkList title="Areas We Serve" links={FOOTER_CITIES} />
+        <FooterLinkList title="Case Studies" links={FOOTER_CASE_STUDIES} />
       </Container>
 
       {/* Yellow Divider */}

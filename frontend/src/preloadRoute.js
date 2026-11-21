@@ -1,3 +1,5 @@
+import { loadCity } from "./data/cityLoaders";
+
 // Downloads the code for the page being opened BEFORE React starts, so the
 // pre-rendered HTML stays on screen instead of being replaced by a
 // "Loading..." placeholder (that swap caused big layout shifts / bad CLS).
@@ -150,7 +152,7 @@ export default function preloadRoute(pathname) {
   if (!loader) {
     // Any other single-segment URL is a city page (/:city); everything else is 404.
     loader = /^\/[^/]+$/.test(path)
-      ? () => [load["./pages/SeoPage"]()]
+      ? () => [load["./pages/SeoPage"](), loadCity(path.slice(1))]
       : () => [load["./pages/NotFound"]()];
   }
   const timeout = new Promise((resolve) => setTimeout(resolve, 4000));
