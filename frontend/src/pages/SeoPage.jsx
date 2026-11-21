@@ -16,6 +16,8 @@ import { findRegion } from '../data/marketAreas';
 // 🟢 IMAGE PLACEHOLDERS (Replace these with your real imports)
 // ====================================================================
 import slide1 from "../images/banner 25.webp";
+import slide1Small from "../images/banner 25-1024.webp";
+import slide1Medium from "../images/banner 25-1600.webp";
 import slide2 from "../images/bg2.webp";
 import slide3 from "../images/Flow web banner  (1600 x 833 px).webp";
 
@@ -70,6 +72,8 @@ import thermalmassimg from "../images/p15a.webp";
 import gasflowmeterimg from "../images/p19a.webp";
 import vorteximg from "../images/p16a.webp";
 import LiteYouTube from "../Components/LiteYouTube";
+// Smaller copies so phones don't download the 2816px banner (encodeURI: file name has a space)
+const slide1SrcSet = `${encodeURI(slide1Small)} 1024w, ${encodeURI(slide1Medium)} 1600w, ${encodeURI(slide1)} 2816w`;
 
 
 // ================= CITY DATA MAP =================
@@ -152,7 +156,8 @@ function BannerSliderSeo({ slides }) {
       onMouseLeave={() => setPaused(false)}
     >
       {/* Slides */}
-      <AnimatePresence mode="wait">
+      {/* initial={false}: first slide shows straight away instead of fading in from opacity 0 */}
+      <AnimatePresence mode="wait" initial={false}>
         <motion.div
           key={index}
           initial={{ opacity: 0 }}
@@ -164,6 +169,9 @@ function BannerSliderSeo({ slides }) {
           {/* Image with zoom effect */}
           <motion.img
             src={slides[index].img}
+            srcSet={slides[index].img === slide1 ? slide1SrcSet : undefined}
+            sizes="(min-width: 768px) max(100vw, 1388px), (min-width: 640px) 879px, max(100vw, 579px)"
+            fetchPriority={index === 0 ? "high" : "auto"}
             alt={slides[index].heading}
             initial={{ scale: 1 }}
             animate={{ scale: 1.05 }}
