@@ -13,7 +13,6 @@ import { useLocation } from "react-router-dom";
 
 import { Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./Layout";
-import '@fortawesome/fontawesome-free/css/all.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { usePopup } from "./context/PopupContext";
 import { load } from "./preloadRoute";

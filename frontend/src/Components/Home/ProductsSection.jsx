@@ -15,11 +15,11 @@ import chemicalIcon from '../../images/icon6.webp';
 function ProductsSection() {
   return (
     <Container className="py-5">
-      <h5 className="fw-bold mb-4 text-start">
+      <h3 className="h5 fw-bold mb-4 text-start">
         <span style={{ borderLeft: '3px solid #ffcc00', paddingLeft: '10px' }}>
           Leave your UTILITIES for us to Measure.
         </span>
-      </h5>
+      </h3>
 
       {/* First row */}
       <Row>

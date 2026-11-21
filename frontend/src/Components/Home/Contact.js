@@ -1,3 +1,4 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap";
 import "./Contact.css";
@@ -103,7 +104,7 @@ const Contact = () => {
               For a faster quote, tell us the fluid, pipe size, flow range, operating pressure and temperature, and the output or communication you need. Our application engineers will recommend the right meter for your process.
             </p>
 
-            <h5 className="mt-4">Talk to sales</h5>
+            <h2 className="h5 mt-4">Talk to sales</h2>
             {contactDetailsRevealed ? (
               <p>
                 📞 +91-9910693866 <br />
@@ -120,7 +121,7 @@ const Contact = () => {
               </button>
             )}
 
-            <h5 className="mt-4">Contact Service Support</h5>
+            <h2 className="h5 mt-4">Contact Service Support</h2>
             {contactDetailsRevealed ? (
               <p>
                 📞 +91-9779085987 <br />
@@ -137,9 +138,9 @@ const Contact = () => {
             )}
 
             <div className="social-icons mt-3">
-              <a href="#!"><i className="fab fa-facebook-f"></i></a>
-              <a href="#!"><i className="fab fa-twitter"></i></a>
-              <a href="#!"><i className="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/iota-flow-systems-private-limited/" target="_blank" rel="noopener noreferrer" aria-label="IOTAFLOW on LinkedIn"><i className="bi bi-linkedin"></i></a>
+              <a href="https://www.instagram.com/iotaflow_systems/" target="_blank" rel="noopener noreferrer" aria-label="IOTAFLOW on Instagram"><i className="bi bi-instagram"></i></a>
+              <a href="https://x.com/iotaflowsystem" target="_blank" rel="noopener noreferrer" aria-label="IOTAFLOW on X (Twitter)"><i className="bi bi-twitter-x"></i></a>
             </div>
           </Col>
 
@@ -241,11 +242,11 @@ const Contact = () => {
         <Container>
           <Row>
             <Col md={4} className="text-center mb-3">
-              <h6 className="text-uppercase">Our Location</h6>
+              <h3 className="h6 text-uppercase">Our Location</h3>
               <p>A 2/13, Phase-II, Mayapuri Industrial Area, New Delhi – 110064 India</p>
             </Col>
             <Col md={4} className="text-center mb-3">
-              <h6 className="text-uppercase">Mailing Address</h6>
+              <h3 className="h6 text-uppercase">Mailing Address</h3>
               {contactDetailsRevealed ? (
                 <p>contact@iotaflow.com</p>
               ) : (
@@ -259,7 +260,7 @@ const Contact = () => {
               )}
             </Col>
             <Col md={4} className="text-center mb-3">
-              <h6 className="text-uppercase">Call Us Anytime</h6>
+              <h3 className="h6 text-uppercase">Call Us Anytime</h3>
               {contactDetailsRevealed ? (
                 <p>+91-9910693866 <br /> 011-46254603</p>
               ) : (

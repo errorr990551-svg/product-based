@@ -227,18 +227,20 @@ function BannerSlider() {
       </AnimatePresence>
 
       {/* Dot Indicators */}
-      <div className="tw-absolute tw-bottom-3 tw-left-1/2 -tw-translate-x-1/2 tw-flex tw-gap-2 tw-z-10">
+      <div className="tw-absolute tw-bottom-1 tw-left-1/2 -tw-translate-x-1/2 tw-flex tw-z-10">
         {slides.map((_, i) => (
           <button
             key={i}
             onClick={() => setIndex(i)}
-            className={`tw-w-2.5 tw-h-2.5 tw-rounded-full tw-border-none tw-cursor-pointer tw-transition-all tw-duration-300 ${
-              i === index
-                ? "tw-bg-yellow-400 tw-scale-125"
-                : "tw-bg-white/60"
-            }`}
+            className="tw-w-6 tw-h-6 tw-flex tw-items-center tw-justify-center tw-bg-transparent tw-border-none tw-p-0 tw-cursor-pointer"
             aria-label={`Go to slide ${i + 1}`}
-          />
+          >
+            <span
+              className={`tw-block tw-w-2.5 tw-h-2.5 tw-rounded-full tw-transition-all tw-duration-300 ${
+                i === index ? "tw-bg-yellow-400 tw-scale-125" : "tw-bg-white/60"
+              }`}
+            />
+          </button>
         ))}
       </div>
 

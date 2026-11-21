@@ -194,18 +194,20 @@ function BannerSliderSeo({ slides }) {
       </AnimatePresence>
 
       {/* Dot Indicators */}
-      <div className="tw-absolute tw-bottom-3 tw-left-1/2 -tw-translate-x-1/2 tw-flex tw-gap-2 tw-z-10">
+      <div className="tw-absolute tw-bottom-1 tw-left-1/2 -tw-translate-x-1/2 tw-flex tw-z-10">
         {slides.map((_, i) => (
           <button
             key={i}
             onClick={() => setIndex(i)}
-            className={`tw-w-2.5 tw-h-2.5 tw-rounded-full tw-border-none tw-cursor-pointer tw-transition-all tw-duration-300 ${
-              i === index
-                ? "tw-bg-yellow-400 tw-scale-125"
-                : "tw-bg-white/60"
-            }`}
+            className="tw-w-6 tw-h-6 tw-flex tw-items-center tw-justify-center tw-bg-transparent tw-border-none tw-p-0 tw-cursor-pointer"
             aria-label={`Go to slide ${i + 1}`}
-          />
+          >
+            <span
+              className={`tw-block tw-w-2.5 tw-h-2.5 tw-rounded-full tw-transition-all tw-duration-300 ${
+                i === index ? "tw-bg-yellow-400 tw-scale-125" : "tw-bg-white/60"
+              }`}
+            />
+          </button>
         ))}
       </div>
 
@@ -257,7 +259,7 @@ function RightChoiceSeo({ featuresData }) {
                       <IconComponent className="tw-w-12 tw-h-12 tw-text-yellow-500 group-hover:tw-text-black tw-transition-colors tw-duration-300" strokeWidth={1.5} />
                     </div>
                     <div className="tw-text-left">
-                      <h5 className="tw-text-yellow-400 tw-font-semibold tw-text-xl tw-mb-2 group-hover:tw-text-black tw-transition-colors tw-duration-300">{feature.title}</h5>
+                      <h3 className="tw-text-yellow-400 tw-font-semibold tw-text-xl tw-mb-2 group-hover:tw-text-black tw-transition-colors tw-duration-300">{feature.title}</h3>
                       <p className="tw-text-[#1f1e1d] tw-text-base tw-mb-0">{feature.description}</p>
                     </div>
                   </div>
@@ -393,7 +395,7 @@ function ProductsSeo() {
                   <img src={product.image} alt={product.name} loading="lazy" className="tw-w-full tw-h-full tw-object-cover tw-transition-transform tw-duration-500 tw-ease-in-out group-hover:tw-scale-110 tw-will-change-transform" />
                   <div className="tw-absolute tw-inset-0 tw-bg-black/50 tw-transition-all tw-duration-300 group-hover:tw-bg-black/70"></div>
                   <div className="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-center tw-p-4">
-                    <h5 className="tw-text-white tw-font-bold tw-text-xl tw-text-center tw-transition-transform tw-duration-300 group-hover:tw-scale-105">{product.name}</h5>
+                    <h3 className="tw-text-white tw-font-bold tw-text-xl tw-text-center tw-transition-transform tw-duration-300 group-hover:tw-scale-105">{product.name}</h3>
                   </div>
                 </div>
               </Link>

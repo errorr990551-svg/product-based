@@ -177,7 +177,7 @@ function ProductDetail() {
               onMouseLeave={() => setIsPaused(false)}
             >
               <div ref={imgWrapperRef} className="img-canvas img-fade-in">
-                <img src={mainImage} alt="Main Meter" className="main-image mt-2" />
+                <img src={mainImage} alt="Ultrimis™ Domestic Ultrasonic Water Meter" className="main-image mt-2" />
               </div>
             </div>
 
@@ -186,7 +186,7 @@ function ProductDetail() {
                 <div key={i} className="d-flex flex-column align-items-center mb-2">
                   <img
                     src={img}
-                    alt={`thumb-${i}`}
+                    alt={`Ultrimis™ Domestic Ultrasonic Water Meter – view ${i + 1}`}
                     onClick={() => handleThumbClick(img, i)}
                     className="img-thumbnail"
                     style={{
@@ -225,7 +225,7 @@ function ProductDetail() {
                 <span> 
                   <img 
                     src={arrowIcon} 
-                    alt="arrow icon" 
+                    alt="" 
                     className="Icon" // Your original class name
                   /> 
                 </span>
@@ -234,7 +234,7 @@ Ultrimis ultrasonic water meter (DN15–DN50) for domestic use.               </
                 <span> 
                   <img 
                     src={arrowIcon} 
-                    alt="arrow icon" 
+                    alt="" 
                     className="Icon" // Your original class name
                   /> 
                 </span>
@@ -432,7 +432,7 @@ IP68, battery-powered, R800 accuracy, NFC/LoRaWAN/WM-Bus, CE & WRAS certified.  
           <div hidden={activeTab !== "Downloads"}><div className="row">
               {/* Catalogue Column */}
               <div className="col-md-6">
-                <h4 className="download-heading">Catalogue</h4>
+                <h2 className="download-heading h4">Catalogue</h2>
                 {downloadFiles.catalogue.map((file, index) => (
                   <a key={`catalogue-${index}`} href={file.path} download className="download-item">
                     <FaRegFilePdf className="pdf-icon-fa" />
@@ -446,7 +446,7 @@ IP68, battery-powered, R800 accuracy, NFC/LoRaWAN/WM-Bus, CE & WRAS certified.  
 
               {/* Manual Column */}
               <div className="col-md-6">
-                <h4 className="download-heading">Manual</h4>
+                <h2 className="download-heading h4">Manual</h2>
                 {downloadFiles.manual.map((file, index) => (
                   <a key={`manual-${index}`} href={file.path} download className="download-item">
                     <FaRegFilePdf className="pdf-icon-fa" />
@@ -464,7 +464,7 @@ IP68, battery-powered, R800 accuracy, NFC/LoRaWAN/WM-Bus, CE & WRAS certified.  
       {/* Related Products */}
       <div style={{ backgroundColor: "#f6f8fc" }} className="py-5">
         <div className="container">
-          <h5 className="fw-semibold text-center mb-4">YOU MAY ALSO BE INTERESTED IN</h5>
+          <h2 className="h5 fw-semibold text-center mb-4">YOU MAY ALSO BE INTERESTED IN</h2>
           <div className="row justify-content-center">
             {relatedProducts.map((product, idx) => (
               <div className="col-6 col-sm-6 col-md-4 col-lg-3 mb-4 text-center" key={idx}>
@@ -483,6 +483,8 @@ IP68, battery-powered, R800 accuracy, NFC/LoRaWAN/WM-Bus, CE & WRAS certified.  
                     <img
                       src={product.img}
                       alt={product.title}
+                      loading="lazy"
+                      decoding="async"
                       style={{
                         maxHeight: "100%",
                         maxWidth: "100%",

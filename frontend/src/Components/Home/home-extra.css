@@ -314,6 +314,14 @@
   color: #333;
 }
 
+/* Description under each bullet: looks like a normal paragraph */
+.modern-bullets li.modern-bullets-desc {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--bs-body-color);
+}
+
 .modern-bullets i {
   color: var(--brand-yellow);
   font-size: 1.2rem;

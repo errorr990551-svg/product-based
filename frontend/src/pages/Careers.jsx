@@ -314,7 +314,7 @@ const Careers = () => {
                   View our latest openings, company updates, and apply directly through our official LinkedIn page.
                 </p>
                 <a 
-                  href=" https://www.linkedin.com/company/iota-flow-systems-private-limited/?viewAsMember=true" 
+                  href="https://www.linkedin.com/company/iota-flow-systems-private-limited/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="tw-inline-block tw-w-full tw-text-center tw-bg-[#0077b5] tw-text-white tw-font-bold tw-py-4 tw-px-8 tw-rounded-xl hover:tw-bg-[#005582] tw-transition-all tw-transform active:tw-scale-95 tw-no-underline tw-shadow-lg"

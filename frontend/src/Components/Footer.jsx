@@ -62,10 +62,10 @@ const FOOTER_CASE_STUDIES = [
 
 const FooterLinkList = ({ title, links }) => (
   <nav aria-label={title} className="footer-products mt-4">
-    <h5 className="fw-bold mb-2 footer-col-title">
+    <h2 className="h5 fw-bold mb-2 footer-col-title">
       {title}
       <span className="footer-col-underline" />
-    </h5>
+    </h2>
     <ul className="footer-products-list list-unstyled mb-0">
       {links.map(([label, href]) => (
         <li key={href}>
@@ -115,7 +115,7 @@ function Footer() {
                 />
               </div>
               <div>
-                <h4 className="fw-bold mb-0">IOTAFLOW</h4>
+                <p className="h4 fw-bold mb-0">IOTAFLOW</p>
                 <small className="d-block fw-2">
                   <span>SYSTEMS PVT. LTD</span>
                 </small>
@@ -133,20 +133,20 @@ function Footer() {
             <div className="mt-3">
   <p className="mb-1">Follow us</p>
   <div className="social-icons">
-    <a href="https://www.youtube.com/@iotaflow7013" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.youtube.com/@iotaflow7013" target="_blank" rel="noopener noreferrer" aria-label="IOTAFLOW on YouTube">
       <i className="bi bi-youtube"></i>
     </a>
 
-    <a href=" https://www.linkedin.com/company/iota-flow-systems-private-limited/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/company/iota-flow-systems-private-limited/" target="_blank" rel="noopener noreferrer" aria-label="IOTAFLOW on LinkedIn">
       <i className="bi bi-linkedin"></i>
     </a>
 
-    <a href="https://www.instagram.com/iotaflow_systems/?hl=en" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/iotaflow_systems/" target="_blank" rel="noopener noreferrer" aria-label="IOTAFLOW on Instagram">
       <i className="bi bi-instagram"></i>
     </a>
 
-    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-      <i className="bi bi-twitter"></i>
+    <a href="https://x.com/iotaflowsystem" target="_blank" rel="noopener noreferrer" aria-label="IOTAFLOW on X (Twitter)">
+      <i className="bi bi-twitter-x"></i>
     </a>
   </div>
 </div>
@@ -194,10 +194,10 @@ function Footer() {
           {/* Contact Us */}
           <Col lg={2} md={6}>
             <div className="footer-col">
-              <h5 className="fw-bold mb-3 footer-col-title">
+              <h2 className="h5 fw-bold mb-3 footer-col-title">
                 Contact Us
                 <span className="footer-col-underline" />
-              </h5>
+              </h2>
               {contactDetailsRevealed ? (
                 <>
                   <p className="mb-1">
@@ -299,10 +299,10 @@ function FooterCol({ title, items }) {
 
   return (
     <div className="footer-col">
-      <h5 className="fw-bold mb-3 footer-col-title">
+      <h2 className="h5 fw-bold mb-3 footer-col-title">
         {title}
         <span className="footer-col-underline" />
-      </h5>
+      </h2>
 
       <ul className="list-unstyled d-grid gap-2 mb-0">
         {items.map((item) => (

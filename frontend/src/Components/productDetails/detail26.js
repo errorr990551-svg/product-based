@@ -212,19 +212,19 @@ function ProductDetail() {
             <ul className="list-unstyled mt-3">
               <li className="mb-2 list-item-with-icon">
                 <span>
-                  <img src={arrowIcon} alt="arrow icon" className="Icon" />
+                  <img src={arrowIcon} alt="" className="Icon" />
                 </span>
                 UL certified fire pump test meter for accurate, repeatable flow testing.
               </li>
               <li className="mb-2 list-item-with-icon">
                 <span>
-                  <img src={arrowIcon} alt="arrow icon" className="Icon" />
+                  <img src={arrowIcon} alt="" className="Icon" />
                 </span>
                 Carbon steel body, ±2% FS accuracy, grooved/ANSI/butt weld ends, rated up to 34.5 bar (500 psi).
               </li>
               <li className="mb-2 list-item-with-icon">
                 <span>
-                  <img src={arrowIcon} alt="arrow icon" className="Icon" />
+                  <img src={arrowIcon} alt="" className="Icon" />
                 </span>
                 Direct-reading dual-scale dial (LPM/GPM &amp; ΔP) with no external power required.
               </li>
@@ -661,7 +661,7 @@ function ProductDetail() {
 
           <div hidden={activeTab !== "Downloads"}><div className="row">
               <div className="col-md-6">
-                <h4 className="download-heading">Catalogue</h4>
+                <h2 className="download-heading h4">Catalogue</h2>
                 {downloadFiles.catalogue.map((file, index) => (
                   <a
                     key={`catalogue-${index}`}
@@ -694,7 +694,7 @@ function ProductDetail() {
       {/* Related Products */}
       <div style={{ backgroundColor: "#f6f8fc" }} className="py-5">
         <div className="container">
-          <h5 className="fw-semibold text-center mb-4">YOU MAY ALSO BE INTERESTED IN</h5>
+          <h2 className="h5 fw-semibold text-center mb-4">YOU MAY ALSO BE INTERESTED IN</h2>
           <div className="row justify-content-center">
             {relatedProducts.map((product, idx) => (
               <div className="col-6 col-sm-6 col-md-4 col-lg-3 mb-4 text-center" key={idx}>
@@ -713,6 +713,8 @@ function ProductDetail() {
                     <img
                       src={product.img}
                       alt={product.title}
+                      loading="lazy"
+                      decoding="async"
                       style={{
                         maxHeight: "100%",
                         maxWidth: "100%",

@@ -132,19 +132,19 @@ export function StatsModern() {
               <li>
                 <i className="bi bi-check-circle-fill"></i><b>ZED Gold Certified for Quality</b>
               </li>
-              <p>Recognition for excellence in manufacturing and process quality.</p>
+              <li className="modern-bullets-desc">Recognition for excellence in manufacturing and process quality.</li>
               <li>
                 <i className="bi bi-check-circle-fill"></i><b>European Technology, Built in India</b>
               </li>
-              <p>Through our technology transfer with Aflowt Germany, we deliver world-class flow solutions with local reliability.</p>
+              <li className="modern-bullets-desc">Through our technology transfer with Aflowt Germany, we deliver world-class flow solutions with local reliability.</li>
               <li>
                 <i className="bi bi-check-circle-fill"></i> <b>25+ Years of Engineering Expertise</b>
               </li>
-              <p> Over two decades of proven experience in flow measurement and utility management.</p>
+              <li className="modern-bullets-desc"> Over two decades of proven experience in flow measurement and utility management.</li>
               <li>
                 <i className="bi bi-check-circle-fill"></i> <b>Government-Approved Solutions</b>
               </li>
-              <p> Trusted and approved by leading government departments and authorities.</p>
+              <li className="modern-bullets-desc"> Trusted and approved by leading government departments and authorities.</li>
 
             </ul>
           </Col>

@@ -41,9 +41,9 @@ const logos = [
 function ClientsSection() {
   return (
     <section className="clients-section py-5">
-      <h5 className="section-title">
+      <h3 className="h5 section-title">
         <span></span> OUR CLIENTS
-      </h5>
+      </h3>
 
       {/* IMPORTANT: Do NOT use Bootstrap container here */}
       <div className="w-100">

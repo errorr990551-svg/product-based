@@ -42,10 +42,10 @@ function Realworld() {
               {/* Learn More Button - slightly smaller padding/margin */}
               <div className="tw-mt-6">
                 <a 
-                  href="/" 
+                  href="/product-detail/detail14" 
                   className="tw-inline-flex tw-items-center tw-justify-center tw-px-6 tw-py-2 tw-text-sm sm:tw-text-base tw-font-bold tw-text-black tw-bg-[#ffd700] tw-rounded-lg tw-shadow-md tw-transition-all tw-duration-300 hover:tw-bg-yellow-400 hover:tw-shadow-lg hover:-tw-translate-y-1 tw-no-underline"
                 >
-                  Learn More
+                  Explore the TRX Air Flow Meter
                 </a>
               </div>
 

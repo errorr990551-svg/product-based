@@ -284,7 +284,7 @@ function ProductDetail() {
       {/* Related Products */}
       <div style={{ backgroundColor: "#f6f8fc" }} className="py-5">
         <div className="container">
-          <h5 className="fw-semibold text-center mb-4">YOU MAY ALSO BE INTERESTED IN</h5>
+          <h2 className="h5 fw-semibold text-center mb-4">YOU MAY ALSO BE INTERESTED IN</h2>
           <div className="row justify-content-center">
             {relatedProducts.map((product, idx) => (
               <div className="col-6 col-sm-6 col-md-4 col-lg-3 mb-4 text-center" key={idx}>

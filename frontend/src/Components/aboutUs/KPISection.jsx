@@ -12,9 +12,9 @@ function KPISection() {
   return (
     <section className="kpi-section py-5">
       <div className="container">
-        <h6 className="fw-bold text-dark mb-4">
+        <h2 className="h6 fw-bold text-dark mb-4">
           <span className="kpi-line me-2"></span> OUR KPI's
-        </h6>
+        </h2>
         <div className="d-flex flex-wrap justify-content-center gap-4">
           {kpis.map((item, idx) => (
             <div key={idx} className="kpi-item text-center">

@@ -1,3 +1,4 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
 import React, { useEffect } from 'react';
 
 // --- Actual Images for "On-site service support" section ---
@@ -280,7 +281,7 @@ const ServicesPage = () => {
                 {/* Quote */}
                 <div className="tw-mb-6">
                    <div className="tw-text-[#ffd700] tw-text-2xl tw-mb-2">
-                     <i className="fas fa-quote-left"></i> {/* Assuming font-awesome is available, or use SVG */}
+                     <i className="bi bi-quote" aria-hidden="true"></i>
                      <span className="tw-sr-only">Quote</span>
                    </div>
                    <p className="tw-text-gray-800 tw-italic tw-font-medium">

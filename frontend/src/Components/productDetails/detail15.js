@@ -64,6 +64,8 @@ const ModelRow = ({ title, description, imagePlaceholder, link }) => (
           <img 
             src={imagePlaceholder || "https://placehold.co/600x400/f3f4f6/1a202c?text=View+Product"} 
             alt={`View ${title}`} 
+            loading="lazy"
+            decoding="async"
             className="tw-w-full tw-h-full tw-object-contain tw-transition-transform tw-duration-700 group-hover:tw-scale-110" 
           />
         </div>
