@@ -1,0 +1,75 @@
+# IOTAFLOW Systems Pvt. Ltd.
+
+> Flow meter manufacturer and supplier based in Mayapuri Industrial Area, New Delhi, India, making precision flow meters since 1999. Products include electromagnetic, ultrasonic, vortex, turbine, positive displacement and gas flow meters, plus IoT flow monitoring (IOT Sense), NABL calibration and on-site services. ZED Gold certified, with German technical collaboration and 7-day delivery. Supplies customers across India and overseas.
+
+For quotes and product selection, send an enquiry through the contact page: https://iotaflow.com/contact
+
+## Company
+
+- [About IOTAFLOW](https://iotaflow.com/about-us): Precision flow meters made in New Delhi since 1999, German technical collaboration, NABL calibration and IoT monitoring.
+- [Certifications](https://iotaflow.com/about-us/certification): ZED Gold and ISO certificates.
+- [Vendor approvals](https://iotaflow.com/about-us/approval): Approved and enlisted flow meter vendor for PSUs and industries, including NTPC.
+- [Lean manufacturing](https://iotaflow.com/lean-manufacturing): How 2 Second Lean, Kanban and Gemba walks support 7-day delivery.
+- [Cities served](https://iotaflow.com/market-area): Regions and cities across India.
+
+## Electromagnetic flow meters
+
+- [MF-PRO Electromagnetic Flow Meter](https://iotaflow.com/product-detail/detail7): Full-bore meter for liquids, slurries and wastewater; CGWA compliant, with data transfer to CPCB, SPCB and NIC.
+- [MF-TER Flameproof Electromagnetic Flow Meter](https://iotaflow.com/product-detail/detail7b): Remote-mount, Ex d IIC T6 flameproof transmitter, ±0.2% accuracy, for hazardous areas.
+- [CX/VN/VNS Compact Electromagnetic Flow Meter](https://iotaflow.com/product-detail/detail8): Compact and micro meters for chemical dosing, water treatment and food processing.
+
+## Ultrasonic flow meters
+
+- [Robust Inline Ultrasonic Water Flow Meter](https://iotaflow.com/product-detail/detail2): No moving parts, 10-year battery; water supply, irrigation and industrial metering.
+- [UF-1500 Insertion Ultrasonic Flow Meter](https://iotaflow.com/product-detail/detail3): 1–4 channel, bidirectional transit-time measurement in large pipelines.
+- [UF-1500 Non-Intrusive Clamp-On Ultrasonic Flow Meter](https://iotaflow.com/product-detail/detail4): Fits outside the pipe, no cutting or shutdown.
+- [Micronics PF222/PF333 Portable Clamp-On Flow Meter](https://iotaflow.com/product-detail/detail5): For flow surveys, audits and verification.
+- [AV5500 Area Velocity Open Channel Flow Meter](https://iotaflow.com/product-detail/detail6): Doppler meter for open channels, drains and partially filled pipes.
+- [Ultrimis Ultrasonic Water Meter](https://iotaflow.com/product): Domestic meter, DN15–DN50, IP68, NFC/LoRaWAN, for apartments and smart cities.
+- [Ultrasonic BTU Energy Meter](https://iotaflow.com/product-detail/detail17): Thermal energy metering for HVAC, chilled water and district heating.
+
+## Gas, air and steam flow meters
+
+- [TRX Ultrasonic Air Flow Meter](https://iotaflow.com/product-detail/detail14): Compressed air monitoring, leak detection and energy audits.
+- [Thermal Mass Gas Flow Sensor (SCHMIDT)](https://iotaflow.com/product-detail/detail15): Direct mass flow of compressed air, nitrogen and process gases.
+- [VFM Inline Vortex Flow Meter](https://iotaflow.com/product-detail/detail16): Saturated and superheated steam, gases and liquids, with temperature and pressure compensation.
+- [IVF Insertion Vortex Flow Meter](https://iotaflow.com/product-detail/detail18): Steam, gas and liquid in large-diameter pipelines.
+- [EQZ Series Turbine Gas Meter](https://iotaflow.com/product-detail/detail19): Natural gas, PNG, LPG and industrial gases.
+- [Ultra-NXT Ultrasonic Gas Flow Meter](https://iotaflow.com/product-detail/detail20): Natural gas, compressed air and process gases, low pressure loss.
+- [GasPro RPD Gas Meter (Rotary Positive Displacement)](https://iotaflow.com/product-detail/detail21): PNG, natural gas, LPG and biogas, DN25–DN200, MID certified.
+- [UF-BioSonic Ultrasonic Biogas Flow Meter](https://iotaflow.com/product-detail/detail22): Landfills, wastewater plants, digesters and bio-methane facilities.
+
+## Water meters
+
+- [Smart D+ Single-Jet Water Meter (Apator Powogaz)](https://iotaflow.com/product-detail/detail9): For homes, businesses and municipalities.
+- [Woltmann Turbine Hot & Cold Water Meter](https://iotaflow.com/product-detail/detail10): Bulk water measurement in industry and waterworks.
+- [Fire Pump Test Meter](https://iotaflow.com/product-detail/detail26): UL certified, NFPA 20/25 flow tests, DN100–DN250.
+
+## Oil and liquid flow meters
+
+- [Contoil RPD Oil Flow Meter](https://iotaflow.com/product-detail/detail11): Diesel, furnace oil and lubrication oil.
+- [Oval Gear Oil Flow Meter (OGM)](https://iotaflow.com/product-detail/detail12): Viscous, non-conductive and flammable liquids.
+- [OF-Z Micro Stream Oval Gear Flow Sensor](https://iotaflow.com/product-detail/detail13): Low-flow measurement of AdBlue, kerosene, heavy oil and lubricants.
+
+## Differential pressure and variable area
+
+- [CSF Conical Shaped Flow Meter](https://iotaflow.com/product-detail/detail23): Cone DP meter for liquids, gases and steam with short straight runs.
+- [Metal Tube Rotameter](https://iotaflow.com/product-detail/detail24): High-pressure and high-temperature liquids, gases and steam.
+- [Acrylic & Glass Tube Rotameter](https://iotaflow.com/product-detail/detail25): Cost-effective variable area measurement.
+
+## IoT, services and tools
+
+- [IOT Sense flow monitoring](https://iotaflow.com/iotsense): Real-time dashboards, telemetry, alerts and CGWA compliance reporting.
+- [Calibration and on-site services](https://iotaflow.com/services): NABL/ISO 17025 calibration, installation, AMC and telemetry for CGWA and CPCB compliance.
+- [Accessories](https://iotaflow.com/accessories): Data loggers, telemetry modules, remote displays, flow straighteners and fittings.
+- [Flow velocity and pipe size calculator](https://iotaflow.com/flow-calculator): Free calculator for air, gas, steam and water.
+
+## Case studies
+
+- [All case studies](https://iotaflow.com/casestudies): Steel, metro rail, municipal water, mining, hospitality and aluminium.
+- [Steel plant cooling flow monitoring](https://iotaflow.com/case-studies/1)
+- [Metro rail water management](https://iotaflow.com/case-studies/2)
+- [4-track ultrasonic meter for municipal water](https://iotaflow.com/case-studies/3)
+- [Area velocity meters in mining](https://iotaflow.com/case-studies/4)
+- [Hotel water and BTU metering](https://iotaflow.com/case-studies/5)
+- [Aluminium plant PLC combustion control](https://iotaflow.com/case-studies/6)
